@@ -14,3 +14,12 @@ yarn-error.log
 .phpunit.result.cache
 .DS_Store
 **/.DS_Store
+/public/storage
+/public/media/**/*
+/public/sitemap.xml
+/public/js/**/*
+/public/css/**/*
+/public/build
+/public/mix-manifest.json
+/public/portfolio/**/*
+/public/fonts/**/*
