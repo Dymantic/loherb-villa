@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa576f78cb9422c783a261b6f8c5d3e7",
+    "content-hash": "2b84ab703733c05834821cac41019e93",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -306,6 +306,53 @@
             ],
             "description": "Provide a place to store static info that does not require a db",
             "time": "2018-09-21T02:54:50+00:00"
+        },
+        {
+            "name": "dymantic/secretary",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dymantic/secretary.git",
+                "reference": "b8bc7efae75af05878d362bc6b23ab4a980d9bdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dymantic/secretary/zipball/b8bc7efae75af05878d362bc6b23ab4a980d9bdc",
+                "reference": "b8bc7efae75af05878d362bc6b23ab4a980d9bdc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.5",
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Dymantic\\Secretary\\SecretaryServiceProvider"
+                    ],
+                    "aliases": {
+                        "Secretary": "Dymantic\\Secretary\\Facades\\Secretary"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dymantic\\Secretary\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Joyner",
+                    "email": "joyner.michael@gmail.com"
+                }
+            ],
+            "description": "Message and notification system for basic admin sections. It handles contact forms.",
+            "time": "2018-01-12T02:52:28+00:00"
         },
         {
             "name": "egulias/email-validator",

@@ -17,10 +17,11 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
     Route::get('/contact', 'PagesController@contact');
 
-
     Route::get('rooms', 'RoomsController@index');
     Route::get('rooms/luxury', 'RoomsController@luxury');
     Route::get('rooms/economy', 'RoomsController@economy');
     Route::get('rooms/vip', 'RoomsController@vip');
     Route::get('rooms/villa', 'RoomsController@villa');
+
 });
+Route::post('contact', 'ContactController@store');
