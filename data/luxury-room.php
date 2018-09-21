@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'price' => 'free'
+    'room_name' => 'rooms.luxury.name'
 ];

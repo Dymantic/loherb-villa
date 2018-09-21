@@ -269,7 +269,7 @@
             "source": {
                 "type": "git",
                 "url": "/Users/mooz/work/laravel-static",
-                "reference": "6e64f18d4bab9e7de3c4444c0efbca1b3956ee09"
+                "reference": "73501a65c3a0154e028c1b083f2be8cb2258c54d"
             },
             "require": {
                 "orchestra/testbench": "^3.7"
@@ -305,7 +305,7 @@
                 }
             ],
             "description": "Provide a place to store static info that does not require a db",
-            "time": "2018-09-21T02:34:27+00:00"
+            "time": "2018-09-21T02:54:50+00:00"
         },
         {
             "name": "egulias/email-validator",
