@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Dymantic\MultilingualPosts\Category;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +24,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('blog', function() {
+            $category = Category::find(config('blog.category_id'));
+            if(!$category) {
+                return new Category();
+            }
+            return $category;
+        });
     }
 }

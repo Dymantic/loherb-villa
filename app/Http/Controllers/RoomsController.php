@@ -11,23 +11,9 @@ class RoomsController extends Controller
         return view('front.rooms.index');
     }
 
-    public function luxury()
+    public function show($room)
     {
-        return view('front.rooms.show', ['room' => data('luxury-room')] );
+        return view('front.rooms.show', ['room' => data("rooms.{$room}")] );
     }
 
-    public function economy()
-    {
-        return view('front.rooms.show', ['room' => data('economy-room')] );
-    }
-
-    public function vip()
-    {
-        return view('front.rooms.show', ['room' => data('vip-room')] );
-    }
-
-    public function villa()
-    {
-        return view('front.rooms.show', ['room' => data('island-villa')] );
-    }
 }

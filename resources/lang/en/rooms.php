@@ -1,19 +1,31 @@
 <?php
 
 return [
-    'luxury' => [
-        'name' => 'luxury Room'
-    ],
-
-    'economy' => [
-        'name' => 'economy Room'
-    ],
-
-    'vip' => [
-        'name' => 'vip Room'
-    ],
-
     'villa' => [
-        'name' => 'villa Room'
+        'name' => 'Island Villa'
+    ],
+
+    'lily' => [
+        'name' => 'Lily Room'
+    ],
+
+    'rose' => [
+        'name' => 'Rose Room'
+    ],
+
+    'orchid'     => [
+        'name' => 'Orchid Room'
+    ],
+
+    'frangipani' => [
+        'name' => 'Frangipani Room'
+    ],
+
+    'sunflower' => [
+        'name' => 'Sunflower Room'
+    ],
+
+    'plum' => [
+        'name' => 'Plum Room'
     ],
 ];
