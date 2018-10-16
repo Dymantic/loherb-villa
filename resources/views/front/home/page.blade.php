@@ -1,13 +1,16 @@
 @extends('front.base')
 
 @section('content')
-    {{ trans('homepage.title') }}
-    <h3>Testimonials</h3>
-    @foreach(data('testimonials') as $testimonial)
-    <div>
-        <p>{{ $testimonial['content'] }}</p>
-        <p>{{ $testimonial['name'] }}</p>
-        <p>{{ $testimonial['source'] }}</p>
-    </div>
-    @endforeach
+    @include('front.home.banner')
+    @include('front.partials.booking-form')
+    @include('front.home.comfort-elegance')
+    @include('front.home.review-banner', ['review' => $review])
+    @include('front.home.getaway')
+    @include('front.home.night-view')
+    @include('front.home.eco-friendly')
+    @include('front.home.journal')
+    @include('front.home.reviews', ['reviews' => $reviews])
+    @include('front.home.weather', ['weather' => $weather])
+    @include('front.home.cuisine')
+    @include('front.home.instagram', ['instagrams' => $instagrams])
 @endsection

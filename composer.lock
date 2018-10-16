@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb27e65c60f9b543c796dcf73b2fefee",
+    "content-hash": "ca2a2608e03892950a42345586755f8e",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -392,6 +392,52 @@
             "time": "2018-06-06T03:12:17+00:00"
         },
         {
+            "name": "dymantic/laravel-instagram-feed",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dymantic/laravel-instagram-feed.git",
+                "reference": "191193ed05c0acf0247e4cf8971ba4e3e27e48a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dymantic/laravel-instagram-feed/zipball/191193ed05c0acf0247e4cf8971ba4e3e27e48a9",
+                "reference": "191193ed05c0acf0247e4cf8971ba4e3e27e48a9",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.6"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Dymantic\\InstagramFeed\\InstagramFeedServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dymantic\\InstagramFeed\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Joyner",
+                    "email": "joyner.michael@gmail.com"
+                }
+            ],
+            "description": "Fetches the instagram feed for given authenticated profiles",
+            "time": "2018-10-09T00:59:04+00:00"
+        },
+        {
             "name": "dymantic/laravel-static",
             "version": "dev-master",
             "source": {
@@ -441,7 +487,7 @@
             "source": {
                 "type": "git",
                 "url": "/Users/mooz/work/multilingual-posts",
-                "reference": "273d695fa5561760c4946bb545ad7e5f96f9e151"
+                "reference": "d8cb7a237941e926cbefb06e89efa197a2295a25"
             },
             "require": {
                 "cviebrock/eloquent-sluggable": "^4.5",
@@ -479,7 +525,7 @@
                 }
             ],
             "description": "Laravel Model and helpers for multilingual posts",
-            "time": "2018-09-27T02:32:57+00:00"
+            "time": "2018-10-11T02:00:44+00:00"
         },
         {
             "name": "dymantic/secretary",
@@ -527,6 +573,50 @@
             ],
             "description": "Message and notification system for basic admin sections. It handles contact forms.",
             "time": "2018-01-12T02:52:28+00:00"
+        },
+        {
+            "name": "dymantic/simple-weather",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "/Users/mooz/work/simple-weather",
+                "reference": "1b75e3defcc5ecaf95465bd3dc0133d077a521e0"
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Dymantic\\SimpleWeather\\SimpleWeatherServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dymantic\\SimpleWeather\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Dymantic\\SimpleWeather\\Tests\\": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Joyner",
+                    "email": "joyner.michael@gmail.com"
+                }
+            ],
+            "description": "A simple weather summary using apixu api",
+            "time": "2018-10-10T04:20:28+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -734,6 +824,122 @@
                 "fixtures"
             ],
             "time": "2018-07-12T10:23:15+00:00"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2018-04-22T15:46:56+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -5155,7 +5361,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "dymantic/laravel-static": 20,
-        "dymantic/multilingual-posts": 20
+        "dymantic/multilingual-posts": 20,
+        "dymantic/simple-weather": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

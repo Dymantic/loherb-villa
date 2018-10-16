@@ -5,9 +5,12 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+import throttle from "lodash.throttle";
 
+require('./bootstrap');
+import "flickity";
 window.Vue = require('vue');
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15,8 +18,27 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('booking-form', require('./components/BookingForm.vue'));
 
 const app = new Vue({
     el: '#app'
 });
+
+const nav_trigger = document.querySelector('#nav-trigger');
+const main_nav = document.querySelector('.main-nav');
+
+nav_trigger.addEventListener('click', () => {
+    if(main_nav.classList.contains('expose')) {
+        document.body.classList.remove('nav-open');
+        return main_nav.classList.remove('expose');
+    }
+    document.body.classList.add('nav-open');
+    main_nav.classList.add('expose')
+}, false);
+
+window.addEventListener('scroll', throttle(() => {
+    if(window.scrollY > 25) {
+        return main_nav.classList.add("scrolled");
+    }
+    main_nav.classList.remove("scrolled");
+}, 150));

@@ -22,6 +22,9 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "tailwindcss": "^0.6.5"
+        "flickity": "^2.1.2",
+        "lodash.throttle": "^4.1.1",
+        "tailwindcss": "^0.6.5",
+        "vue-hotel-datepicker": "^2.2.10"
     }
 }
