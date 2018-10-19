@@ -44,6 +44,9 @@
             <a class="flex items-center nav-link text-gold" tabindex="4" href="{{ localUrl('/book') }}">{{ trans('navbar.bookings') }}</a>
         </div>
         <div class="flex items-center my-2 md:my-0">
+            <a class="flex items-center nav-link text-white" tabindex="5" href="{{ localUrl('/journal') }}">{{ trans('navbar.journal') }}</a>
+        </div>
+        <div class="flex items-center my-2 md:my-0">
             <a class="flex items-center nav-link text-white" tabindex="5" href="{{ localUrl('/contact') }}">{{ trans('navbar.contact') }}</a>
         </div>
         <div class="flex items-center my-2 md:my-0">

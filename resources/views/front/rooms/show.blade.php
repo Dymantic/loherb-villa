@@ -1,5 +1,17 @@
 @extends('front.base', ['bodyClass' => $room['body_class']])
 
+@section('title')
+    {{ trans($room['name']) }}
+@endsection
+
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogImage' => url('/images/room-banners/' . $room_key . '.jpg'),
+        'ogTitle' => trans(trans($room['name'])),
+        'ogDescription' => trans('rooms.' . $room_key . '.preview.description')
+    ])
+@endsection
+
 @section('content')
     <div class="banner-height room-banner flex justify-center items-center">
         <p class="font-sans text-3xl bg-opaque p-4 text-green-main">{{ trans($room['name']) }}</p>

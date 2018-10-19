@@ -39,6 +39,7 @@ class PagesController extends Controller
 
     public function contact()
     {
-        return view('front.contact.page');
+        $form_text = trans('contact.form');
+        return view('front.contact.page', ['form_text' => $form_text]);
     }
 }

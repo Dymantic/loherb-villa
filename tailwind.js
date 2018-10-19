@@ -56,6 +56,8 @@ let colors = {
     'gold': '#e49e2a',
     'opaque': 'rgba(255,255,255,.8)',
 
+    'warning': '#cc1f1a',
+
     'black': '#22292f',
     'grey-darkest': '#3d4852',
     'grey-darker': '#606f7b',

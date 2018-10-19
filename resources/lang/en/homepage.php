@@ -1,7 +1,8 @@
 <?php
 
 return [
-    'title' => 'The home page',
+    'title' => 'Loherb Villa',
+    'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
 
     'comfort-elegance' => [
         'heading' => 'Comfort & Elegance',

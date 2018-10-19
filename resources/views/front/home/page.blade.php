@@ -1,5 +1,17 @@
 @extends('front.base')
 
+@section('title')
+    {{ trans('homepage.title') }}
+@endsection
+
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogImage' => '',
+        'ogTitle' => trans('homepage.title'),
+        'ogDescription' => trans('homepage.description')
+    ])
+@endsection
+
 @section('content')
     @include('front.home.banner')
     @include('front.partials.booking-form')

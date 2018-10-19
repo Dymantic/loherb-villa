@@ -10,6 +10,6 @@ class ContactController extends Controller
 {
     public function store(Secretary $secretary, ContactForm $form)
     {
-        $secretary->receive($form->contactMessage());
+        $secretary->receive($form->contactMessage(['phone']));
     }
 }

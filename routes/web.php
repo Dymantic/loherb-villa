@@ -22,8 +22,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('rooms', 'RoomsController@index');
     Route::get('rooms/{room}', 'RoomsController@show');
     
-    Route::get('blog', 'BlogController@index');
-    Route::get('blog/{slug}', 'BlogController@show');
+    Route::get('journal', 'BlogController@index');
+    Route::get('journal/{slug}', 'BlogController@show');
 
 });
 Route::post('contact', 'ContactController@store');

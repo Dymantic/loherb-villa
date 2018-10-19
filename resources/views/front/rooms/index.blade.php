@@ -1,5 +1,17 @@
 @extends('front.base')
 
+@section('title')
+    {{ trans('rooms.title') }}
+@endsection
+
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogImage' => '',
+        'ogTitle' => trans('rooms.title'),
+        'ogDescription' => trans('rooms.description')
+    ])
+@endsection
+
 @section('content')
     <div class="px-4 pb-12 pt-24 bg-green-soft">
         <div class="max-w-md mx-auto flex flex-col items-center">

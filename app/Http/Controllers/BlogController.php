@@ -9,7 +9,7 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $posts = app('blog')->posts()->live()->paginate();
+        $posts = app('blog')->posts()->live()->latest()->take(15)->get()->map->asDataArrayFor(app()->getLocale());
 
         return view('front.posts.index', ['posts' => $posts]);
     }
@@ -18,6 +18,6 @@ class BlogController extends Controller
     {
         $post = Post::findBySlug($slug);
 
-        return view('front.posts.show', ['post' => $post]);
+        return view('front.posts.show', ['post' => $post->asDataArrayFor(app()->getLocale())]);
     }
 }

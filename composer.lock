@@ -487,7 +487,7 @@
             "source": {
                 "type": "git",
                 "url": "/Users/mooz/work/multilingual-posts",
-                "reference": "d8cb7a237941e926cbefb06e89efa197a2295a25"
+                "reference": "e12e18f1acc785207fbd8e95e0fd32904119bf03"
             },
             "require": {
                 "cviebrock/eloquent-sluggable": "^4.5",
@@ -525,7 +525,7 @@
                 }
             ],
             "description": "Laravel Model and helpers for multilingual posts",
-            "time": "2018-10-11T02:00:44+00:00"
+            "time": "2018-10-17T01:25:33+00:00"
         },
         {
             "name": "dymantic/secretary",
@@ -580,7 +580,7 @@
             "source": {
                 "type": "git",
                 "url": "/Users/mooz/work/simple-weather",
-                "reference": "1b75e3defcc5ecaf95465bd3dc0133d077a521e0"
+                "reference": "4865a6e301411182e175692c397520c0973f1b43"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3"
@@ -616,7 +616,7 @@
                 }
             ],
             "description": "A simple weather summary using apixu api",
-            "time": "2018-10-10T04:20:28+00:00"
+            "time": "2018-10-18T02:04:00+00:00"
         },
         {
             "name": "egulias/email-validator",

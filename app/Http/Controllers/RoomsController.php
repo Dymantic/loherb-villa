@@ -13,7 +13,7 @@ class RoomsController extends Controller
 
     public function show($room)
     {
-        return view('front.rooms.show', ['room' => data("rooms.{$room}")] );
+        return view('front.rooms.show', ['room' => data("rooms.{$room}"), 'room_key' => $room] );
     }
 
 }

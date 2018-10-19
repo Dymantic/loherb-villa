@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'title' => 'Rooms - Loherb Villa',
+    'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
+
     'index' => [
         'heading'    => 'Our Room Selection',
         'subheading' => 'Something for everyone',

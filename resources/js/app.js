@@ -18,7 +18,8 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('booking-form', require('./components/BookingForm.vue'));
+Vue.component('booking-form', require('./components/BookingForm'));
+Vue.component('contact-form', require('./components/ContactForm'));
 
 const app = new Vue({
     el: '#app'
