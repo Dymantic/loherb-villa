@@ -51,7 +51,7 @@ return [
         'media' => [
             'driver' => 'local',
             'root' => public_path('media'),
-            'url' => 'https://loherb-admin.test/media'
+            'url' => env('APP_URL') . '/media'
         ],
 
         'public' => [
