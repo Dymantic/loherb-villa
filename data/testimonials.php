@@ -3,6 +3,13 @@
 return [
         'en' => [
             [
+                'title' => 'A wonderful stay',
+                'content' => 'Really enjoyed our 2 nights here at this lovely property. Waking up to beautiful views in the morning with nice healthy breakfast. Staff is very friendly and attentive. Will definitely recommend this villa.',
+                'name' => 'Gabriel',
+                'rating' => 4.6,
+                'source' => 'agoda.com'
+            ],
+            [
                 'title' => 'Excellent visit!',
                 'content' => 'New, clean, beautifully decorated, and more importantly a very friendly host. Good and healthy food, fresh! Very nice breakfast and cookies! Very nice rice field view. Maybe one of the very best at Yilan. We are even offered to take their bicycle for a ride, but we did not have enough time. Will be an excellent relaxing trip. Kudoos!! Please keep it up!! We will visit again',
                 'name' => 'How',
@@ -10,7 +17,7 @@ return [
                 'source' => 'agoda.com'
             ],
             [
-                'title' => '',
+                'title' => 'Would totally visit again in the future!',
                 'content' => 'They offered complimentary breakfast and afternoon-tea, which tasted great alongside the beautiful landscape. Would totally visit again in the future!',
                 'name' => 'Vicky',
                 'rating' => 5,
@@ -31,7 +38,7 @@ return [
                 'source' => 'agoda.com'
             ],
             [
-                'title' => '',
+                'title' => 'Rooms and staff are perfect.',
                 'content' => 'Rooms and staff are perfect. They are very humble, polite and friendly in Asian way. The breakfast was great good taste and nice decoration.',
                 'name' => 'Faiyi',
                 'rating' => 5,
@@ -79,15 +86,9 @@ return [
 //                'rating' => 4.6,
 //                'source' => 'agoda.com'
 //            ],
+
             [
-                'title' => 'A wonderful stay',
-                'content' => 'Really enjoyed our 2 nights here at this lovely property. Waking up to beautiful views in the morning with nice healthy breakfast. Staff is very friendly and attentive. Will definitely recommend this villa.',
-                'name' => 'Gabriel',
-                'rating' => 4.6,
-                'source' => 'agoda.com'
-            ],
-            [
-                'title' => 'one of the nice homestay/hotel i will be visit again',
+                'title' => 'One of the nice homestay/hotel I will be visit again',
                 'content' => 'nice place to stay with relax environment, like the room with the bathtub, friendly and helpful staff help to set up the birthday dinner on the rooftop. nice and healthy food, they provide the complimentary high tea which pulling heart so much as it is really delicious.',
                 'name' => 'Angie',
                 'rating' => 4.4,

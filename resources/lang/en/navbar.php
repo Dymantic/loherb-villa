@@ -7,5 +7,5 @@ return [
     'bookings' => 'bookings',
     'journal' => 'journal',
     'contact' => 'contact',
-    'lang' => 'zh'
+    'lang' => '中文'
 ];

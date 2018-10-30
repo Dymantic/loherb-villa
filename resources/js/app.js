@@ -43,3 +43,7 @@ window.addEventListener('scroll', throttle(() => {
     }
     main_nav.classList.remove("scrolled");
 }, 150));
+
+window.addEventListener('DOMContentLoaded', () => {
+   [...document.querySelectorAll('a')].filter(a => a.href == window.location.toString()).forEach(a => a.classList.add('active'));
+});

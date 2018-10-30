@@ -1,4 +1,4 @@
-@extends('front.base')
+@extends('front.base', ['bodyClass' => 'home-page'])
 
 @section('title')
     {{ trans('homepage.title') }}

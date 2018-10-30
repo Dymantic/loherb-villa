@@ -10290,7 +10290,7 @@ var render = function() {
     "div",
     {
       staticClass:
-        "flex flex-col md:flex-row px-4 justify-center items-center font-sans"
+        "flex flex-col md:flex-row px-4 justify-center items-center font-heading text-dark-cream"
     },
     [
       _c("HotelDatePicker", { staticClass: "max-w-sm" }),
@@ -21641,6 +21641,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_throttle___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash_throttle__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_flickity__ = __webpack_require__("./node_modules/flickity/js/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_flickity___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_flickity__);
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -21685,6 +21686,14 @@ window.addEventListener('scroll', __WEBPACK_IMPORTED_MODULE_0_lodash_throttle___
     }
     main_nav.classList.remove("scrolled");
 }, 150));
+
+window.addEventListener('DOMContentLoaded', function () {
+    [].concat(_toConsumableArray(document.querySelectorAll('a'))).filter(function (a) {
+        return a.href == window.location.toString();
+    }).forEach(function (a) {
+        return a.classList.add('active');
+    });
+});
 
 /***/ }),
 

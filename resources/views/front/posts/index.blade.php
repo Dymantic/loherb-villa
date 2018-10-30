@@ -1,4 +1,4 @@
-@extends('front.base')
+@extends('front.base', ['bodyClass' => 'md:pt-12'])
 
 @section('title')
     {{ trans('journal.title') }}
@@ -13,15 +13,10 @@
 @endsection
 
 @section('content')
-    <div class="px-4 pb-12 pt-24 bg-green-soft">
-        <div class="max-w-md mx-auto flex flex-col items-center">
-            <p class="heading-text mb-4 text-green-main">{{ trans('journal.index.heading') }}</p>
-            <span>
-                @include('svgs.logos.leaf')
-            </span>
-            <p class="my-8 body-text text-green-main">{{ trans('journal.index.subheading') }}</p>
-        </div>
-    </div>
+    @component('front.components.info-section', ['title' => trans('journal.index.heading')])
+        <p class="mt-8 body-text text-green-main">{{ trans('journal.index.subheading') }}</p>
+    @endcomponent
+
     <div class="px-4 py-12">
         <div class="flex flex-col md:flex-row flex-wrap justify-around max-w-xl mx-auto">
             @foreach($posts as $post)
@@ -29,5 +24,4 @@
             @endforeach
         </div>
     </div>
-
 @endsection

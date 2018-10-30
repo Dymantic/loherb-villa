@@ -54,7 +54,7 @@ let colors = {
     'brown-dark': '#917661',
     'brown-light': '#eac49f',
     'gold': '#e49e2a',
-    'opaque': 'rgba(255,255,255,.8)',
+    'opaque': 'rgba(254,244,242,.9)',
 
     'warning': '#cc1f1a',
 
@@ -335,6 +335,7 @@ module.exports = {
         'none': 1,
         'tight': 1.25,
         'normal': 1.5,
+        'relaxed': 1.65,
         'loose': 2,
     },
 
@@ -352,9 +353,9 @@ module.exports = {
     */
 
     tracking: {
-        'tight': '-0.05em',
+        'tight': '-0.025em',
         'normal': '0',
-        'wide': '0.05em',
+        'wide': '0.025em',
     },
 
 

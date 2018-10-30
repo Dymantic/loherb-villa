@@ -10,8 +10,35 @@
 @apply .no-underline .uppercase .tracking-wide .mx-4;
 }
 
-.nav-link:hover {
-@apply .underline;
+
+
+.nav-link-box > a {
+  position: relative;
+}
+
+.nav-link-box > a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  bottom: -4px;
+  left: 0;
+  transition: .3s;
+  transform-origin: center;
+  transform: rotateY(-90deg);
+}
+
+.main-nav a:focus, .nav-link-box:focus {
+  outline: none;
+}
+
+.nav-link-box:hover > a::after, .nav-link-box > a:focus::after, .nav-link-box:focus > a::after {
+  transform: rotateY(0deg);
+}
+
+.main-nav:not(:hover) .nav-link-box a.active::after {
+  transform: rotateY(0deg);
 }
 
 .room-nav-sub {

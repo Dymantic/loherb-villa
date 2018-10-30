@@ -792,11 +792,13 @@ https://flickity.metafizzy.co
 .heading-text {
   font-family: transat-bold, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1.125rem;
+  letter-spacing: .025em;
 }
 
 .body-text {
   font-family: adobe-caslon-pro, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   font-size: 1.125rem;
+  line-height: 1.65;
 }
 
 .reviews-text {
@@ -823,21 +825,21 @@ https://flickity.metafizzy.co
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-left: .75rem;
-  padding-right: .75rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
   font-family: atrament-web, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  letter-spacing: .05em;
+  letter-spacing: .025em;
 }
 
 .inline-button {
-  padding-left: .75rem;
-  padding-right: .75rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
   font-family: atrament-web, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  letter-spacing: .05em;
+  letter-spacing: .025em;
 }
 
 .btn-brown {
@@ -865,6 +867,7 @@ https://flickity.metafizzy.co
 .text-link {
   font-family: atrament-web, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-decoration: none;
+  letter-spacing: .025em;
 }
 
 .banner-height {
@@ -887,6 +890,13 @@ https://flickity.metafizzy.co
   }
 }
 
+.reg-section-space {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .main-nav {
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
@@ -899,13 +909,46 @@ https://flickity.metafizzy.co
 .nav-link {
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: .05em;
+  letter-spacing: .025em;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
+.nav-link-box > a {
+  position: relative;
+}
+
+.nav-link-box > a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  bottom: -4px;
+  left: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: rotateY(-90deg);
+          transform: rotateY(-90deg);
+}
+
+.main-nav a:focus,
+.nav-link-box:focus {
+  outline: none;
+}
+
+.nav-link-box:hover > a::after,
+.nav-link-box > a:focus::after,
+.nav-link-box:focus > a::after {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.main-nav:not(:hover) .nav-link-box a.active::after {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
 }
 
 .room-nav-sub {
@@ -972,6 +1015,16 @@ https://flickity.metafizzy.co
     -webkit-transform: none;
             transform: none;
   }
+}
+
+@media screen and (min-width: 576px) {
+  .home-page .main-nav:not(.scrolled) {
+    background-color: transparent;
+  }
+}
+
+.home-page .main-nav:hover {
+  background-color: #084137;
 }
 
 .home-banner {
@@ -1111,7 +1164,7 @@ https://flickity.metafizzy.co
 }
 
 .bg-opaque {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(254, 244, 242, .9);
 }
 
 .bg-warning {
@@ -1443,7 +1496,7 @@ https://flickity.metafizzy.co
 }
 
 .hover\:bg-opaque:hover {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(254, 244, 242, .9);
 }
 
 .hover\:bg-warning:hover {
@@ -1775,7 +1828,7 @@ https://flickity.metafizzy.co
 }
 
 .focus\:bg-opaque:focus {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(254, 244, 242, .9);
 }
 
 .focus\:bg-warning:focus {
@@ -2179,7 +2232,7 @@ https://flickity.metafizzy.co
 }
 
 .border-opaque {
-  border-color: rgba(255, 255, 255, .8);
+  border-color: rgba(254, 244, 242, .9);
 }
 
 .border-warning {
@@ -2511,7 +2564,7 @@ https://flickity.metafizzy.co
 }
 
 .hover\:border-opaque:hover {
-  border-color: rgba(255, 255, 255, .8);
+  border-color: rgba(254, 244, 242, .9);
 }
 
 .hover\:border-warning:hover {
@@ -2843,7 +2896,7 @@ https://flickity.metafizzy.co
 }
 
 .focus\:border-opaque:focus {
-  border-color: rgba(255, 255, 255, .8);
+  border-color: rgba(254, 244, 242, .9);
 }
 
 .focus\:border-warning:focus {
@@ -3948,6 +4001,10 @@ https://flickity.metafizzy.co
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-relaxed {
+  line-height: 1.65;
 }
 
 .leading-loose {
@@ -5730,7 +5787,7 @@ https://flickity.metafizzy.co
 }
 
 .text-opaque {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(254, 244, 242, .9);
 }
 
 .text-warning {
@@ -6062,7 +6119,7 @@ https://flickity.metafizzy.co
 }
 
 .hover\:text-opaque:hover {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(254, 244, 242, .9);
 }
 
 .hover\:text-warning:hover {
@@ -6394,7 +6451,7 @@ https://flickity.metafizzy.co
 }
 
 .focus\:text-opaque:focus {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(254, 244, 242, .9);
 }
 
 .focus\:text-warning:focus {
@@ -6864,7 +6921,7 @@ https://flickity.metafizzy.co
 }
 
 .tracking-tight {
-  letter-spacing: -0.05em;
+  letter-spacing: -0.025em;
 }
 
 .tracking-normal {
@@ -6872,7 +6929,7 @@ https://flickity.metafizzy.co
 }
 
 .tracking-wide {
-  letter-spacing: .05em;
+  letter-spacing: .025em;
 }
 
 .select-none {
@@ -7179,7 +7236,7 @@ svg {
   }
 
   .sm\:bg-opaque {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .sm\:bg-warning {
@@ -7511,7 +7568,7 @@ svg {
   }
 
   .sm\:hover\:bg-opaque:hover {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .sm\:hover\:bg-warning:hover {
@@ -7843,7 +7900,7 @@ svg {
   }
 
   .sm\:focus\:bg-opaque:focus {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .sm\:focus\:bg-warning:focus {
@@ -8239,7 +8296,7 @@ svg {
   }
 
   .sm\:border-opaque {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .sm\:border-warning {
@@ -8571,7 +8628,7 @@ svg {
   }
 
   .sm\:hover\:border-opaque:hover {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .sm\:hover\:border-warning:hover {
@@ -8903,7 +8960,7 @@ svg {
   }
 
   .sm\:focus\:border-opaque:focus {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .sm\:focus\:border-warning:focus {
@@ -10008,6 +10065,10 @@ svg {
 
   .sm\:leading-normal {
     line-height: 1.5;
+  }
+
+  .sm\:leading-relaxed {
+    line-height: 1.65;
   }
 
   .sm\:leading-loose {
@@ -11774,7 +11835,7 @@ svg {
   }
 
   .sm\:text-opaque {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .sm\:text-warning {
@@ -12106,7 +12167,7 @@ svg {
   }
 
   .sm\:hover\:text-opaque:hover {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .sm\:hover\:text-warning:hover {
@@ -12438,7 +12499,7 @@ svg {
   }
 
   .sm\:focus\:text-opaque:focus {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .sm\:focus\:text-warning:focus {
@@ -12908,7 +12969,7 @@ svg {
   }
 
   .sm\:tracking-tight {
-    letter-spacing: -0.05em;
+    letter-spacing: -0.025em;
   }
 
   .sm\:tracking-normal {
@@ -12916,7 +12977,7 @@ svg {
   }
 
   .sm\:tracking-wide {
-    letter-spacing: .05em;
+    letter-spacing: .025em;
   }
 
   .sm\:select-none {
@@ -13209,7 +13270,7 @@ svg {
   }
 
   .md\:bg-opaque {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .md\:bg-warning {
@@ -13541,7 +13602,7 @@ svg {
   }
 
   .md\:hover\:bg-opaque:hover {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .md\:hover\:bg-warning:hover {
@@ -13873,7 +13934,7 @@ svg {
   }
 
   .md\:focus\:bg-opaque:focus {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .md\:focus\:bg-warning:focus {
@@ -14269,7 +14330,7 @@ svg {
   }
 
   .md\:border-opaque {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .md\:border-warning {
@@ -14601,7 +14662,7 @@ svg {
   }
 
   .md\:hover\:border-opaque:hover {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .md\:hover\:border-warning:hover {
@@ -14933,7 +14994,7 @@ svg {
   }
 
   .md\:focus\:border-opaque:focus {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .md\:focus\:border-warning:focus {
@@ -16038,6 +16099,10 @@ svg {
 
   .md\:leading-normal {
     line-height: 1.5;
+  }
+
+  .md\:leading-relaxed {
+    line-height: 1.65;
   }
 
   .md\:leading-loose {
@@ -17804,7 +17869,7 @@ svg {
   }
 
   .md\:text-opaque {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .md\:text-warning {
@@ -18136,7 +18201,7 @@ svg {
   }
 
   .md\:hover\:text-opaque:hover {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .md\:hover\:text-warning:hover {
@@ -18468,7 +18533,7 @@ svg {
   }
 
   .md\:focus\:text-opaque:focus {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .md\:focus\:text-warning:focus {
@@ -18938,7 +19003,7 @@ svg {
   }
 
   .md\:tracking-tight {
-    letter-spacing: -0.05em;
+    letter-spacing: -0.025em;
   }
 
   .md\:tracking-normal {
@@ -18946,7 +19011,7 @@ svg {
   }
 
   .md\:tracking-wide {
-    letter-spacing: .05em;
+    letter-spacing: .025em;
   }
 
   .md\:select-none {
@@ -19239,7 +19304,7 @@ svg {
   }
 
   .lg\:bg-opaque {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .lg\:bg-warning {
@@ -19571,7 +19636,7 @@ svg {
   }
 
   .lg\:hover\:bg-opaque:hover {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .lg\:hover\:bg-warning:hover {
@@ -19903,7 +19968,7 @@ svg {
   }
 
   .lg\:focus\:bg-opaque:focus {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .lg\:focus\:bg-warning:focus {
@@ -20299,7 +20364,7 @@ svg {
   }
 
   .lg\:border-opaque {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .lg\:border-warning {
@@ -20631,7 +20696,7 @@ svg {
   }
 
   .lg\:hover\:border-opaque:hover {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .lg\:hover\:border-warning:hover {
@@ -20963,7 +21028,7 @@ svg {
   }
 
   .lg\:focus\:border-opaque:focus {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .lg\:focus\:border-warning:focus {
@@ -22068,6 +22133,10 @@ svg {
 
   .lg\:leading-normal {
     line-height: 1.5;
+  }
+
+  .lg\:leading-relaxed {
+    line-height: 1.65;
   }
 
   .lg\:leading-loose {
@@ -23834,7 +23903,7 @@ svg {
   }
 
   .lg\:text-opaque {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .lg\:text-warning {
@@ -24166,7 +24235,7 @@ svg {
   }
 
   .lg\:hover\:text-opaque:hover {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .lg\:hover\:text-warning:hover {
@@ -24498,7 +24567,7 @@ svg {
   }
 
   .lg\:focus\:text-opaque:focus {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .lg\:focus\:text-warning:focus {
@@ -24968,7 +25037,7 @@ svg {
   }
 
   .lg\:tracking-tight {
-    letter-spacing: -0.05em;
+    letter-spacing: -0.025em;
   }
 
   .lg\:tracking-normal {
@@ -24976,7 +25045,7 @@ svg {
   }
 
   .lg\:tracking-wide {
-    letter-spacing: .05em;
+    letter-spacing: .025em;
   }
 
   .lg\:select-none {
@@ -25269,7 +25338,7 @@ svg {
   }
 
   .xl\:bg-opaque {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .xl\:bg-warning {
@@ -25601,7 +25670,7 @@ svg {
   }
 
   .xl\:hover\:bg-opaque:hover {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .xl\:hover\:bg-warning:hover {
@@ -25933,7 +26002,7 @@ svg {
   }
 
   .xl\:focus\:bg-opaque:focus {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(254, 244, 242, .9);
   }
 
   .xl\:focus\:bg-warning:focus {
@@ -26329,7 +26398,7 @@ svg {
   }
 
   .xl\:border-opaque {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .xl\:border-warning {
@@ -26661,7 +26730,7 @@ svg {
   }
 
   .xl\:hover\:border-opaque:hover {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .xl\:hover\:border-warning:hover {
@@ -26993,7 +27062,7 @@ svg {
   }
 
   .xl\:focus\:border-opaque:focus {
-    border-color: rgba(255, 255, 255, .8);
+    border-color: rgba(254, 244, 242, .9);
   }
 
   .xl\:focus\:border-warning:focus {
@@ -28098,6 +28167,10 @@ svg {
 
   .xl\:leading-normal {
     line-height: 1.5;
+  }
+
+  .xl\:leading-relaxed {
+    line-height: 1.65;
   }
 
   .xl\:leading-loose {
@@ -29864,7 +29937,7 @@ svg {
   }
 
   .xl\:text-opaque {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .xl\:text-warning {
@@ -30196,7 +30269,7 @@ svg {
   }
 
   .xl\:hover\:text-opaque:hover {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .xl\:hover\:text-warning:hover {
@@ -30528,7 +30601,7 @@ svg {
   }
 
   .xl\:focus\:text-opaque:focus {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(254, 244, 242, .9);
   }
 
   .xl\:focus\:text-warning:focus {
@@ -30998,7 +31071,7 @@ svg {
   }
 
   .xl\:tracking-tight {
-    letter-spacing: -0.05em;
+    letter-spacing: -0.025em;
   }
 
   .xl\:tracking-normal {
@@ -31006,7 +31079,7 @@ svg {
   }
 
   .xl\:tracking-wide {
-    letter-spacing: .05em;
+    letter-spacing: .025em;
   }
 
   .xl\:select-none {
