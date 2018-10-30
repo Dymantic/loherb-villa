@@ -18,7 +18,7 @@ yarn-error.log
 /public/media/**/*
 /public/sitemap.xml
 /public/js/**/*
-/public/js/*
+public/js/*
 /public/css/**/*
 /public/build
 /public/mix-manifest.json
