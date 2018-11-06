@@ -20,7 +20,7 @@
         <p class="my-8 body-text text-green-main">{{ trans($room['text_content']) }}</p>
     @endcomponent
     <div class="reg-section-space room-gallery">
-        <div data-flickity class="w-4/5 mx-auto">
+        <div data-flickity class="w-full md:w-4/5 mx-auto">
             @foreach($room['gallery_images'] as $image)
                 <picture class="w-full block mx-auto">
                     <source srcset="{{ $image['small'] }}" media="(max-width: 576px)">
