@@ -1,4 +1,4 @@
-<div class="px-4 py-12">
+<div class="reg-section-space">
     <p class="heading-text mb-12 text-green-main text-center">{{ trans('homepage.instagram.heading') }}</p>
     @foreach($instagrams->take(8)->chunk(4) as $row)
         <div class="max-w-md mx-auto flex-wrap md:flex-no-wrap w-full flex md:mb-6">

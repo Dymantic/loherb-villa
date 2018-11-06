@@ -1,6 +1,6 @@
 <div class="bg-green-soft reg-section-space">
     <p class="heading-text mb-16 text-green-main text-center">{{ trans('homepage.reviews.heading') }}</p>
-    <div data-flickity>
+    <div data-flickity='{"pageDots": false}' >
         @foreach($reviews as $review)
             <div class="w-full">
                 <div class="w-full max-w-md mx-auto overflow-auto text-green-main">
@@ -12,16 +12,7 @@
                     </p>
                     <p class="text-right italic"> - {{ $review['name'] }}</p>
                     <p class="text-right italic pb-16">({{ $review['source'] }})</p>
-                    <div class="flex justify-center">
-                        @foreach(range(1, floor($review['rating'])) as $index)
-                            @include('svgs.icons.star_full')
-                        @endforeach
-                        @if(($review['rating']*10) % 10 !== 0 )
-                            @include('svgs.icons.star_half')
-                        @elseif($review['rating'] < 5)
-                            @include('svgs.icons.star_blank')
-                        @endif
-                    </div>
+                    @include('front.partials.star-rating', ['rating' => $review['rating']])
                 </div>
             </div>
         @endforeach

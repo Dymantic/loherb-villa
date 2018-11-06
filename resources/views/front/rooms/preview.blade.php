@@ -7,7 +7,7 @@
     <div class="w-full md:w-1/2 static md:absolute pin-t pin-b {{ $left_side ? 'pin-l' : 'pin-r' }} bg-green-soft md:bg-opaque flex flex-col justify-between p-4 leading-normal">
         <div>
             <p class="heading-text text-green-main mb-4">{{ $room['name'] }}</p>
-            <p>{{ $room['description'] }}</p>
+            <p class="text-green-main">{{ $room['description'] }}</p>
             <p class="reviews-text">{{ $room['starting_price'] }}</p>
         </div>
         <div class="mt-8 md:mt-0 flex justify-around md:justify-start">

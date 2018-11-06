@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'body_class' => 'rose-room',
-    'name' => 'rooms.rose.name',
-    'text_heading' => 'rooms.rose.text_heading',
-    'text_content' => 'rooms.rose.text_content',
-    'services' => [
+    'body_class'     => 'rose-room',
+    'name'           => 'rooms.rose.name',
+    'text_heading'   => 'rooms.rose.text_heading',
+    'text_content'   => 'rooms.rose.text_content',
+    'services'       => [
         'accepts_credit_card',
         'home_cinema',
         'pets_allowed',
@@ -28,19 +28,31 @@ return [
         'outdoor_patio',
         'taxi',
     ],
-    'prices' => [
-        'weekday' => 100,
-        'weekends' => 1000,
-        'holidays' => 2000,
+    'prices'         => [
+        'weekday'          => 100,
+        'weekends'         => 1000,
+        'holidays'         => 2000,
         'chinese_new_year' => 5000,
-        'add_person' => 111
+        'add_person'       => 111
     ],
     'gallery_images' => [
-        ['full' => '/images/room-galleries/rose/rose_gallery_1.jpg'],
-        ['full' => '/images/room-galleries/rose/rose_gallery_2.jpg'],
-        ['full' => '/images/room-galleries/rose/rose_gallery_3.jpg'],
-        ['full' => '/images/room-galleries/rose/rose_gallery_4.jpg'],
-        ['full' => '/images/room-galleries/rose/rose_gallery_5.jpg'],
-        ['full' => '/images/room-galleries/rose/rose_gallery_6.jpg'],
+        ['full'  => '/images/room-galleries/rose/rose_gallery_1.jpg',
+         'small' => '/images/room-galleries/rose/mobile/rose_gallery_1.jpg'
+        ],
+        ['full'  => '/images/room-galleries/rose/rose_gallery_2.jpg',
+         'small' => '/images/room-galleries/rose/mobile/rose_gallery_2.jpg'
+        ],
+        ['full'  => '/images/room-galleries/rose/rose_gallery_3.jpg',
+         'small' => '/images/room-galleries/rose/mobile/rose_gallery_3.jpg'
+        ],
+        ['full'  => '/images/room-galleries/rose/rose_gallery_4.jpg',
+         'small' => '/images/room-galleries/rose/mobile/rose_gallery_4.jpg'
+        ],
+        ['full'  => '/images/room-galleries/rose/rose_gallery_5.jpg',
+         'small' => '/images/room-galleries/rose/mobile/rose_gallery_5.jpg'
+        ],
+        ['full'  => '/images/room-galleries/rose/rose_gallery_6.jpg',
+         'small' => '/images/room-galleries/rose/mobile/rose_gallery_6.jpg'
+        ],
     ]
 ];

@@ -14,17 +14,25 @@
 
 @section('content')
     <div class="banner-height room-banner flex justify-center items-center">
-        <p class="font-sans text-3xl bg-opaque p-4 text-green-main">{{ trans($room['name']) }}</p>
+        <p class="font-sans text-3xl bg-opaque py-4 px-8 text-green-main">{{ trans($room['name']) }}</p>
     </div>
     @component('front.components.info-section', ['title' => trans($room['text_heading'])])
         <p class="my-8 body-text text-green-main">{{ trans($room['text_content']) }}</p>
     @endcomponent
-    <div data-flickity>
-        @foreach($room['gallery_images'] as $image)
-            <img src="{{ $image['full'] }}" class="banner-image"
-                 alt="a view of the {{ trans($room['name']) }}">
-        @endforeach
+    <div class="reg-section-space room-gallery">
+        <div data-flickity class="w-4/5 mx-auto">
+            @foreach($room['gallery_images'] as $image)
+                <picture class="w-full block mx-auto">
+                    <source srcset="{{ $image['small'] }}" media="(max-width: 576px)">
+                    <source srcset="{{ $image['full'] }}" media="(min-width: 577px)">
+                    <img srcset="{{ $image['full'] }}" alt="The {{ trans($room['name']) }} room">
+                </picture>
+                {{--<img src="{{ $image['full'] }}" class="w-full block"--}}
+                     {{--alt="a view of the {{ trans($room['name']) }}">--}}
+            @endforeach
+        </div>
     </div>
+
     <div class="px-4 py-12">
         <p class="heading-text text-center text-green-main mb-12">{{ trans('rooms.show.info_heading') }}</p>
         <p class="mb-12 text-green-main text-center">{{ trans('rooms.show.check_times') }}</p>
