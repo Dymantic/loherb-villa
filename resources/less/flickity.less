@@ -1,0 +1,43 @@
+.slide-show {
+  .flickity-button {
+    background: none;
+  }
+  .flickity-prev-next-button {
+    height: 100px;
+    width: 50px;
+    background-size: contain;
+
+    .flickity-button-icon {
+      display: none;
+    }
+  }
+  .flickity-prev-next-button.next {
+    background-image: url(./../images/utils/right_arrow.svg);
+  }
+
+  .flickity-prev-next-button.previous {
+    background-image: url(./../images/utils/left_arrow.svg);
+  }
+
+  &.dark {
+    .flickity-prev-next-button.next {
+      background-image: url(./../images/utils/dark_right_arrow.svg);
+    }
+
+    .flickity-prev-next-button.previous {
+      background-image: url(./../images/utils/dark_left_arrow.svg);
+    }
+
+    .flickity-page-dots {
+      .dot {
+      @apply .bg-green-main;
+      }
+    }
+  }
+
+  .flickity-page-dots {
+    .dot {
+    @apply .bg-white .rounded-none;
+    }
+  }
+}

@@ -851,6 +851,7 @@ module.exports = {
 
     svgFill: {
         'current': 'currentColor',
+        'main': colors['green-main'],
     },
 
 

@@ -20,15 +20,19 @@
         <p class="my-8 body-text text-green-main">{{ trans($room['text_content']) }}</p>
     @endcomponent
     <div class="reg-section-space room-gallery">
-        <div data-flickity class="w-full md:w-4/5 mx-auto">
+        <div data-flickity
+             class="w-full md:w-4/5 mx-auto slide-show">
             @foreach($room['gallery_images'] as $image)
                 <picture class="w-full block mx-auto">
-                    <source srcset="{{ $image['small'] }}" media="(max-width: 576px)">
-                    <source srcset="{{ $image['full'] }}" media="(min-width: 577px)">
-                    <img srcset="{{ $image['full'] }}" alt="The {{ trans($room['name']) }} room">
+                    <source srcset="{{ $image['small'] }}"
+                            media="(max-width: 576px)">
+                    <source srcset="{{ $image['full'] }}"
+                            media="(min-width: 577px)">
+                    <img srcset="{{ $image['full'] }}"
+                         alt="The {{ trans($room['name']) }} room">
                 </picture>
                 {{--<img src="{{ $image['full'] }}" class="w-full block"--}}
-                     {{--alt="a view of the {{ trans($room['name']) }}">--}}
+                {{--alt="a view of the {{ trans($room['name']) }}">--}}
             @endforeach
         </div>
     </div>
@@ -38,39 +42,39 @@
         <p class="mb-12 text-green-main text-center">{{ trans('rooms.show.check_times') }}</p>
         <div class="max-w-xl mx-auto flex flex-wrap">
             @foreach($room['services'] as $service)
-            <div class="w-full md:w-1/2">
-                <div class="w-48 max-w-full mx-auto flex items-center text-green-main">
+                <div class="w-full md:w-1/2">
+                    <div class="w-48 max-w-full mx-auto flex items-center text-green-main my-1">
                     <span>
                     @include("svgs.services.{$service}")
-                </span>
-                    <span class="ml-2">{{ trans("services.{$service}") }}</span>
+                    </span>
+                        <span class="ml-4">{{ trans("services.{$service}") }}</span>
+                    </div>
                 </div>
-            </div>
             @endforeach
         </div>
     </div>
     @component('front.components.info-section', ['title' => trans('rooms.show.price_heading')])
         <p class="text-center font-serif italic text-green-main my-8">{{ trans('rooms.show.price_disclaimer') }}</p>
-        <div class="w-full">
+        <div class="w-full py-12">
             <ul class="list-reset font-heading text-green-main max-w-sm mx-auto w-full border border-green-mid">
                 <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
+                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['weekday'] }}</span>
                 </li>
                 <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r border-green-mid">{{ trans('rooms.show.price_times.weekends') }}</span>
+                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekends') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['weekends'] }}</span>
                 </li>
                 <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r border-green-mid">{{ trans('rooms.show.price_times.holidays') }}</span>
+                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.holidays') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['holidays'] }}</span>
                 </li>
                 <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r border-green-mid">{{ trans('rooms.show.price_times.chinese_new_year') }}</span>
+                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.chinese_new_year') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['chinese_new_year'] }}</span>
                 </li>
                 <li class="flex justify-between items-center">
-                    <span class="w-1/2 text-center border-r border-green-mid">{{ trans('rooms.show.price_times.add_person') }}</span>
+                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.add_person') }}</span>
                     <span class="w-1/2 text-center">+{{ $room['prices']['add_person'] }}</span>
                 </li>
             </ul>

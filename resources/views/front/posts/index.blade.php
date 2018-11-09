@@ -18,7 +18,7 @@
     @endcomponent
 
     <div class="px-4 py-12">
-        <div class="flex flex-col md:flex-row flex-wrap justify-around max-w-xl mx-auto">
+        <div class="journal-grid max-w-xl mx-auto">
             @foreach($posts as $post)
                 @include('front.posts.index-card', ['post' => $post])
             @endforeach
