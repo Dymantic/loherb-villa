@@ -9,15 +9,15 @@
         <div class="nav-link-box flex items-center my-2 md:my-0">
             <a tabindex="2" class="flex items-center nav-link text-white" href="{{ localUrl('/about') }}">{{ trans('navbar.about') }}</a>
         </div>
-        <div class="nav-link-box flex items-start md:items-center rooms-nav" tabindex="3">
-            <a class="nav-link text-white" href="{{ localUrl('/rooms') }}">
-                {{ trans('navbar.rooms') }}
+        <div class="flex items-start md:items-center rooms-nav" tabindex="3">
+            <span  class="text-white">
+                <span class="nav-link-box"><a href="{{ localUrl('/rooms') }}" class="nav-link text-white mr-0">{{ trans('navbar.rooms') }}</a></span>
                 <svg class="fill-current align-middle hidden md:inline"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 24 24" width="20" height="20">
                     <path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/>
                 </svg>
-            </a>
+            </span>
             <div class="room-nav-sub mt-4 md:mt-0 bg-cream-light absolute w-screen flex flex-col md:flex-row justify-center">
                 <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
                     <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">Economy</p>

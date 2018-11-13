@@ -21,7 +21,7 @@
     @endcomponent
     <div class="reg-section-space room-gallery">
         <div data-flickity
-             class="w-full md:w-4/5 mx-auto slide-show">
+             class="w-full max-w-2xl md:w-4/5 mx-auto slide-show">
             @foreach($room['gallery_images'] as $image)
                 <picture class="w-full block mx-auto">
                     <source srcset="{{ $image['small'] }}"
