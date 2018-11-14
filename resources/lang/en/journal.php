@@ -6,7 +6,7 @@ return [
 
     'index' => [
         'heading' => 'The Journal',
-        'subheading' => 'Insights and reflections from the Loherb team',
+        'subheading' => 'Insights and reflections from the Loherb team.',
         'more' => 'More'
     ],
 

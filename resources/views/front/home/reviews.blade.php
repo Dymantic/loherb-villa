@@ -1,6 +1,6 @@
 <div class="bg-green-soft reg-section-space reviews">
     <p class="heading-text mb-16 text-green-main text-center">{{ trans('homepage.reviews.heading') }}</p>
-    <div data-flickity class="slide-show dark">
+    <div data-flickity class="slide-show low-dots">
         @foreach($reviews as $review)
             <div class="w-full">
                 <div class="w-full max-w-md mx-auto overflow-auto text-green-main">

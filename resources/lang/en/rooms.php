@@ -16,7 +16,12 @@ return [
     ],
     'show'  => [
         'info_heading'      => 'Room Information',
-        'check_times'       => 'Check in 3pm / Check out 11am',
+        'check_times'       => [
+            'in' => 'Check In: 15:00 to 20:00',
+            'out' => 'Check Out: 08:00 - 11:00',
+        ],
+        'breakfast_time' => 'Breakfast: 08:00 - 10:00',
+        'tea_time' => 'Teatime: 12:00 - 17:00',
         'price_heading'    => 'Prices',
         'price_disclaimer' => 'All prices are in New Taiwan Dollars (NTD)',
         'price_times'      => [
@@ -25,7 +30,18 @@ return [
             'holidays'         => 'Holidays',
             'chinese_new_year' => 'Chinese New Year',
             'add_person'       => 'Additional Person'
-        ]
+        ],
+        'pricing_notes' => [
+            'person' => 'Extra person in room (over 2 years old) $1,000/person (incl. bed, breakfast & tea)',
+            'beds' => '$500/extra bed, $300/crib, $100/quilt',
+            'pickup' => 'Pick up fee from Luodong Train Station - $200 (by appointment)'
+        ],
+        'warnings' => [
+            'drugs' => 'No indoor smoking, no illegal drugs, reduce volume after 22:00.',
+            'pets' => 'No pets allowed - there is a pet hotel in Luodong.',
+            'identity' => 'Please provide identity documents for check in.'
+        ],
+        'additional_header' => 'Additional Information'
     ],
     'villa' => [
         'name'         => 'Island Villa',

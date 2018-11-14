@@ -31,16 +31,14 @@
                     <img srcset="{{ $image['full'] }}"
                          alt="The {{ trans($room['name']) }} room">
                 </picture>
-                {{--<img src="{{ $image['full'] }}" class="w-full block"--}}
-                {{--alt="a view of the {{ trans($room['name']) }}">--}}
             @endforeach
         </div>
     </div>
 
-    <div class="px-4 py-12">
+    <div class="reg-section-space">
         <p class="heading-text text-center text-green-main mb-12">{{ trans('rooms.show.info_heading') }}</p>
-        <p class="mb-12 text-green-main text-center">{{ trans('rooms.show.check_times') }}</p>
-        <div class="max-w-xl mx-auto flex flex-wrap">
+
+        <div class="max-w-xl mx-auto mb-20 flex flex-wrap">
             @foreach($room['services'] as $service)
                 <div class="w-full md:w-1/2">
                     <div class="w-48 max-w-full mx-auto flex items-center text-green-main my-1">
@@ -52,10 +50,19 @@
                 </div>
             @endforeach
         </div>
+
+        <p class="mb-4 text-green-main text-center font-heading">{{ trans('rooms.show.additional_header') }}</p>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.check_times.in') }}</p>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.check_times.out') }}</p>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.breakfast_time') }}</p>
+        <p class="mb-8 text-green-main text-center">{{ trans('rooms.show.tea_time') }}</p>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.warnings.drugs') }}</p>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.warnings.pets') }}</p>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.warnings.identity') }}</p>
     </div>
     @component('front.components.info-section', ['title' => trans('rooms.show.price_heading')])
-        <p class="text-center font-serif italic text-green-main my-8">{{ trans('rooms.show.price_disclaimer') }}</p>
-        <div class="w-full py-12">
+        <p class="text-center font-serif italic text-green-main mt-8">{{ trans('rooms.show.price_disclaimer') }}</p>
+        <div class="w-full my-20">
             <ul class="list-reset font-heading text-green-main max-w-sm mx-auto w-full border border-green-mid">
                 <li class="flex justify-between items-center border-b border-green-mid">
                     <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
@@ -69,18 +76,17 @@
                     <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.holidays') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['holidays'] }}</span>
                 </li>
-                <li class="flex justify-between items-center border-b border-green-mid">
+                <li class="flex justify-between items-center">
                     <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.chinese_new_year') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['chinese_new_year'] }}</span>
                 </li>
-                <li class="flex justify-between items-center">
-                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.add_person') }}</span>
-                    <span class="w-1/2 text-center">+{{ $room['prices']['add_person'] }}</span>
-                </li>
             </ul>
         </div>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.person') }}</p>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.beds') }}</p>
+        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.pickup') }}</p>
         <a href=""
-           class="btn btn-green no-underline mt-12">Book Now</a>
+           class="btn btn-green no-underline mt-20">Book Now</a>
     @endcomponent
 
 @endsection

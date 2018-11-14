@@ -6,27 +6,28 @@ return [
     'text_heading'   => 'rooms.lily.text_heading',
     'text_content'   => 'rooms.lily.text_content',
     'services'       => [
-        'accepts_credit_card',
-        'home_cinema',
-        'pets_allowed',
-        'towels',
-        'afternoon_tea_included',
-        'kingsize_bed',
-        'private_skygarden',
         'wifi',
-        'bicycle',
-        'laundry',
-        'restaurant',
-        'wind',
+        'home_cinema',
+        'kingsize_bed',
+        'air_con_heat',
+//        'luxury_bathtub',
         'breakfast_included',
-        'luxury_bathtub',
-        'room_service',
-        'copy_print_service',
-        'no_smoking_room',
-        'secure_parking',
-        'disabled_accessibility',
+        'afternoon_tea_included',
+//        'private_skygarden',
         'outdoor_patio',
+        'restaurant',
+        'secure_parking',
+        'bicycle',
+        'towels',
+        'laundry',
+        'room_service',
+        'no_smoking_room',
+        'accepts_credit_card',
+        'disabled_accessibility',
+        'copy_print_service',
         'taxi',
+//        'pets_allowed',
+
     ],
     'prices'         => [
         'weekday'          => 100,
@@ -36,23 +37,29 @@ return [
         'add_person'       => 111
     ],
     'gallery_images' => [
-        ['full'  => '/images/room-galleries/lily/lily_gallery_1.jpg',
-         'small' => '/images/room-galleries/lily/mobile/lily_gallery_1.jpg'
+        [
+            'full'  => '/images/room-galleries/lily/lily_gallery_1.jpg',
+            'small' => '/images/room-galleries/lily/mobile/lily_gallery_1.jpg'
         ],
-        ['full'  => '/images/room-galleries/lily/lily_gallery_2.jpg',
-         'small' => '/images/room-galleries/lily/mobile/lily_gallery_2.jpg'
+        [
+            'full'  => '/images/room-galleries/lily/lily_gallery_2.jpg',
+            'small' => '/images/room-galleries/lily/mobile/lily_gallery_2.jpg'
         ],
-        ['full'  => '/images/room-galleries/lily/lily_gallery_3.jpg',
-         'small' => '/images/room-galleries/lily/mobile/lily_gallery_3.jpg'
+        [
+            'full'  => '/images/room-galleries/lily/lily_gallery_3.jpg',
+            'small' => '/images/room-galleries/lily/mobile/lily_gallery_3.jpg'
         ],
-        ['full'  => '/images/room-galleries/lily/lily_gallery_4.jpg',
-         'small' => '/images/room-galleries/lily/mobile/lily_gallery_4.jpg'
+        [
+            'full'  => '/images/room-galleries/lily/lily_gallery_4.jpg',
+            'small' => '/images/room-galleries/lily/mobile/lily_gallery_4.jpg'
         ],
-        ['full'  => '/images/room-galleries/lily/lily_gallery_5.jpg',
-         'small' => '/images/room-galleries/lily/mobile/lily_gallery_5.jpg'
+        [
+            'full'  => '/images/room-galleries/lily/lily_gallery_5.jpg',
+            'small' => '/images/room-galleries/lily/mobile/lily_gallery_5.jpg'
         ],
-        ['full'  => '/images/room-galleries/lily/lily_gallery_6.jpg',
-         'small' => '/images/room-galleries/lily/mobile/lily_gallery_6.jpg'
+        [
+            'full'  => '/images/room-galleries/lily/lily_gallery_6.jpg',
+            'small' => '/images/room-galleries/lily/mobile/lily_gallery_6.jpg'
         ],
     ]
 ];

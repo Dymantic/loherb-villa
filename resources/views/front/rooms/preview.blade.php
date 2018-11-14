@@ -8,7 +8,7 @@
         <div>
             <p class="heading-text text-green-main mb-4">{{ $room['name'] }}</p>
             <p class="text-green-main">{{ $room['description'] }}</p>
-            <p class="reviews-text">{{ $room['starting_price'] }}</p>
+            <p class="reviews-text text-green-main">{{ $room['starting_price'] }}</p>
         </div>
         <div class="mt-8 md:mt-0 flex justify-around md:justify-start">
             <a href="{{ $links_to }}" class="inline-button btn-green-ghost no-underline">View Room</a>

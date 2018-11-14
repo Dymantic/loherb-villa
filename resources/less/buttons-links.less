@@ -7,7 +7,11 @@
 }
 
 .btn-brown {
-  @apply .bg-brown-dark .text-white;
+  @apply .bg-chocolate .text-white;
+}
+
+.btn-brown:hover {
+@apply .bg-brown-dark;
 }
 
 .btn-warning {
@@ -18,10 +22,25 @@
 @apply .bg-green-main .text-white;
 }
 
+.btn-green:hover {
+  @apply .bg-hover-green;
+}
+
 .btn-green-ghost {
 @apply .bg-transparent .text-green-main border-2 border-green-main;
 }
 
+.btn-green-ghost:hover {
+@apply .bg-green-main .text-cream-light border-2 border-green-main;
+}
+
 .text-link {
   @apply .font-sans .no-underline .tracking-wide;
+}
+.text-link .arrow {
+  transition: .3s;
+  transform: translate3d(0,0,0);
+}
+.text-link:hover .arrow {
+  transform: translate3d(4px,0,0);
 }

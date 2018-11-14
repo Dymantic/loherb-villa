@@ -14,7 +14,7 @@
 
 @section('content')
 <div class="px-4 pt-24 pb-12">
-    <p class="heading-text mb-4 text-brown-dark text-center">{{ $post['title'] }}</p>
+    <p class="heading-text mb-4 text-chocolate text-center">{{ $post['title'] }}</p>
     <p class="font-serif text-brown-light text-center italic">Posted on {{ $post['publish_date_string'] }}</p>
 </div>
 <div class="max-w-lg mx-auto px-4 py-12">

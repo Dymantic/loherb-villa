@@ -47,11 +47,13 @@ let colors = {
     'transparent': 'transparent',
 
     'green-main': '#084137',
+    'hover-green': '#346c62',
     'green-soft': '#daede7',
     'green-mid': '#abd5c7',
     'cream-dark': '#d7c7ba',
     'cream-light': '#fef4f2',
     'brown-dark': '#917661',
+    'chocolate': '#554539',
     'brown-light': '#eac49f',
     'gold': '#e49e2a',
     'opaque': 'rgba(254,244,242,.9)',
