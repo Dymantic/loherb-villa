@@ -11,7 +11,6 @@
 |
 */
 
-Route::view('test', 'testimagesize');
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect']], function() {
     Route::get('/', 'PagesController@home');
 
@@ -24,6 +23,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     
     Route::get('journal', 'BlogController@index');
     Route::get('journal/{slug}', 'BlogController@show');
+
+    Route::get('book', 'PagesController@book');
 
 });
 Route::post('contact', 'ContactController@store');

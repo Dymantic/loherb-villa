@@ -20,7 +20,7 @@
         <p class="my-8 body-text text-green-main">{{ trans($room['text_content']) }}</p>
     @endcomponent
     <div class="reg-section-space room-gallery">
-        <div data-flickity
+        <div data-flickity='{"imagesLoaded": true}'
              class="w-full max-w-2xl md:w-4/5 mx-auto slide-show">
             @foreach($room['gallery_images'] as $image)
                 <picture class="w-full block mx-auto">

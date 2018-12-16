@@ -5,7 +5,7 @@
                  alt="" class="w-full">
         </a>
         <p class="heading-text text-chocolate">{{ $post['title'] }}</p>
-        <p class="reviews-text text-brown-light">Posted on {{ $post['publish_date_string'] }}</p>
+        <p class="reviews-text text-brown-light">{{ $post['publish_date_string'] }}</p>
         <p class="text-chocolate">{{ $post['intro'] }}</p>
     </div>
 

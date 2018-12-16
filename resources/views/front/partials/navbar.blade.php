@@ -21,26 +21,26 @@
             <div class="room-nav-sub mt-4 md:mt-0 bg-cream-light absolute w-screen flex flex-col md:flex-row justify-center">
                 <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
                     <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">Economy</p>
-                    <a class="nav-link text-green-main  my-1" href="{{ localUrl("/rooms/rose") }}">Rose Room</a>
-                    <a class="nav-link text-green-main  my-1" href="{{ localUrl("/rooms/lily") }}">Lily Room</a>
+                    <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1" href="{{ localUrl("/rooms/rose") }}">Rose Room</a>
+                    <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1" href="{{ localUrl("/rooms/lily") }}">Lily Room</a>
                 </div>
                 <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
                     <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">Luxury</p>
-                    <a class="nav-link text-green-main  my-1" href="{{ localUrl("/rooms/sunflower") }}">Sunflower</a>
-                    <a class="nav-link text-green-main  my-1" href="{{ localUrl("/rooms/orchid") }}">Orchid</a>
+                    <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1" href="{{ localUrl("/rooms/sunflower") }}">Sunflower</a>
+                    <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1" href="{{ localUrl("/rooms/orchid") }}">Orchid</a>
                 </div>
                 <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
                     <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">VIP</p>
-                    <a class="nav-link text-green-main  my-1" href="{{ localUrl("/rooms/plum") }}">Plum</a>
-                    <a class="nav-link text-green-main  my-1" href="{{ localUrl("/rooms/frangipani") }}">Frangipani</a>
+                    <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1" href="{{ localUrl("/rooms/plum") }}">Plum</a>
+                    <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1" href="{{ localUrl("/rooms/frangipani") }}">Frangipani</a>
                 </div>
                 <div class="md:w-48 pl-4 md:pl-0 mx-0 my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
                     <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">Villa</p>
-                    <a class="nav-link text-green-main  my-1" href="{{ localUrl("/rooms/villa") }}">Island Villa</a>
+                    <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1" href="{{ localUrl("/rooms/villa") }}">Island Villa</a>
                 </div>
             </div>
         </div>
-        <div class="nav-link-box flex items-center my-2 md:my-0">
+        <div class="nav-link-box bookings-link-box flex items-center my-2 md:my-0">
             <a class="flex items-center nav-link text-gold" tabindex="4" href="{{ localUrl('/book') }}">{{ trans('navbar.bookings') }}</a>
         </div>
         <div class="nav-link-box flex items-center my-2 md:my-0">

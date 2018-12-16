@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\HomePageViewData;
+use Illuminate\Support\Carbon;
 
 class PagesController extends Controller
 {
@@ -14,6 +15,14 @@ class PagesController extends Controller
     public function about()
     {
         return view('front.about.page');
+    }
+
+    public function book()
+    {
+        $checkin = request('checkin', Carbon::today()->format('Y-m-d'));
+        $checkout = request('checkout', Carbon::today()->addDay()->format('Y-m-d'));
+
+        return view('front.bookings.page', ['checkIn' => $checkin, 'checkOut' => $checkout]);
     }
 
     public function contact()

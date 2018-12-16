@@ -78,7 +78,7 @@ return [
 
     'orchid' => [
         'name'         => 'Orchid Room',
-        'text_heading' => 'Orgies in the Orchid Room',
+        'text_heading' => 'Onwards to the Orchid Room',
         'text_content' => 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
         'preview'      => [
             'name'           => 'Orchid',
