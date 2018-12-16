@@ -32,7 +32,7 @@ return [
     ],
     'cuisine' => [
         'heading' => 'Loherb Cuisine',
-        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi expedita illum iste laboriosam nesciunt reiciendis reprehenderit sunt, veritatis voluptates! Autem deleniti ea nam repudiandae? Laudantium quo sed sunt temporibus!',
+        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi expedita illum iste laboriosam nesciunt reiciendis reprehenderit sunt, veritatis voluptates!',
         'link' => 'Cuisine Website'
     ],
     'instagram' => [
