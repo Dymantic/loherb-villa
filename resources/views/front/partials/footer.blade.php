@@ -1,4 +1,4 @@
-<footer class="p-8 pt-12 bg-green-main">
+<footer class="p-8 pt-12 footer">
     <div class="text-center">
         <img src="/images/logos/villa_logo.svg"
              alt="Loherb Villa logo"

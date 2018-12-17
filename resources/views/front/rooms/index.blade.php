@@ -15,9 +15,6 @@
 @section('content')
     @component('front.components.info-section', ['title' => trans('rooms.index.heading')])
         <p class="my-8 body-text text-green-main">{{ trans('rooms.index.subheading') }}</p>
-        <span class="mt-8 text-green-main">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="fill-current"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>
-            </span>
     @endcomponent
     <div class="px-4 pt-12">
         <p class="heading-text mb-4 text-green-main text-center">{{ trans('rooms.index.types.economy') }}</p>

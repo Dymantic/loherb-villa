@@ -6,18 +6,18 @@ return [
 
     'comfort-elegance' => [
         'heading' => 'Comfort & Elegance',
-        'content' => 'Loherb Villa is nestled in the heart of Yilan, consectetur adipisicing elit. Architecto blanditiis consectetur culpa cum, dicta dolor dolorem earum illum ipsum itaque natus, necessitatibus nemo non odit praesentium repellat repudiandae similique voluptatum'
+        'content' => 'The Loherb Villa is nestled in the heart of Yilan, Taiwan, surrounded by a beautiful landscape of rice paddies and wetlands. Each room is stylised in in a unique way to make your stay exclusive and memorable from beginning to end. You will be enchanted by the comfort, luxurious decor and relaxed atmosphere.'
     ],
     'getaway' => [
         'heading' => 'Everything you need for the perfect getaway',
-        'content' => 'Loherb Villa has al your needs thought out. We have an on-site Cuisine restaurant that will serve you breakfast every morning, or feel free to dine with us anytime. We also provide all standard amemnities, including wifi, laundry, bicycle hire and local tours. Each room is equipped with an en-suite bathroom, personal movie theater, king-sized beds and breezy, luxurious decor.'
+        'content' => 'We have all your needs thought out to make your stay pleasant and hassle-free. At Loherb Villa you will find adequate parking, our famous on-site restaurant, free bicycle rental to explore the surroundings, as well as hot tubs, wifi and home entertainment systems in all of the rooms.'
     ],
     'night-view' => [
         'quote' => '“How far away the stars seem, and how far is our first kiss, and ah, how old my heart”'
     ],
     'eco-friendly' => [
         'heading' => 'Eco-friendly paradise',
-        'content' => 'In the heart of Yilan County - Taiwan, the Loherb Villa prides itself on being at ne with the natural surroundings. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cumque dolorum est fuga hic inventore, laudantium modi mollitia officiis ullam? Ab animi, dolore doloribus fugiat molestiae rem sint vel voluptatum!'
+        'content' => 'The environment we surround ourselves in is an integral part of the Loherb Villa and its philosophy. We take great pride in our biodiverse location and eco-friendly practices. Immersing oneself in a natural setting can do wonders for the soul. Look out across Central Range Mountains Dongshan River Park Wetlands during the day or stargaze the clear skies at night.'
     ],
     'journal' => [
         'heading' => 'Journal',
@@ -32,7 +32,7 @@ return [
     ],
     'cuisine' => [
         'heading' => 'Loherb Cuisine',
-        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi expedita illum iste laboriosam nesciunt reiciendis reprehenderit sunt, veritatis voluptates!',
+        'content' => 'Situated in the Villa, the Loherb Cuisine restaurant offers exceptional food prepared daily. The elegant settings will make your trip that much more memorable and sumptuous.',
         'link' => 'Cuisine Website'
     ],
     'instagram' => [

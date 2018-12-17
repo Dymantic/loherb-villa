@@ -6,7 +6,7 @@ return [
 
     'index' => [
         'heading'    => 'Our Room Selection',
-        'subheading' => 'Something for everyone',
+        'subheading' => 'Each room has been carefully decorated and furnished to give a unique experience that will invoke feelings of splendour and satisfaction.',
         'types'      => [
             'economy' => 'Economy',
             'luxury'  => 'Luxury',
@@ -45,8 +45,8 @@ return [
     ],
     'villa' => [
         'name'         => 'Island Villa',
-        'text_heading' => 'Valhala Villa',
-        'text_content' => 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
+        'text_heading' => 'Your own piece of paradise',
+        'text_content' => 'The Villa Island is its own unique experience. Separated from the main building you will feel as though you are in your own little paradise. This room is perfect for families or large parties, including its very own sky roof, home theater system, KTV equipment and a large hot tub. This is your true private getaway solution.',
         'preview'      => [
             'name'           => 'Island Villa',
             'description'    => 'This private escape is a must for those looking for their own unique stay with exquisite details',
@@ -56,66 +56,66 @@ return [
 
     'lily' => [
         'name'         => 'Lily Room',
-        'text_heading' => 'Languish in the Lily Room',
-        'text_content' => 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
+        'text_heading' => 'Comfort and coziness',
+        'text_content' => 'As soon as you walk into the the Lily Room you will never want to leave. It has modern-rustic decor and comforting tones. This room has its own balcony, hot tub, home movie theater and a king size bed looking out to exquisite views.',
         'preview'      => [
             'name'           => 'Lily Room',
-            'description'    => 'Enchanting lily aromas and decor will make you feel relaxed and comfortable.',
+            'description'    => 'A room of elegance and gracefulness, perfect for couples.',
             'starting_price' => 'Starting from NT$3,800'
         ]
     ],
 
     'rose' => [
         'name'         => 'Rose Room',
-        'text_heading' => 'Rumble in the Rose Room',
-        'text_content' => 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
+        'text_heading' => 'Love is in the air',
+        'text_content' => 'The Rose Room features light delicate decor to ignite a feeling of romance and whimsy. This comfortable room has its own balcony, hot tub, home movie theater and a king size bed facing magnificent views.',
         'preview'      => [
-            'name'           => 'Angel Rose',
-            'description'    => 'Enchanting rose aromas and decor will make you feel relaxed and comfortable.',
+            'name'           => 'Rose Room',
+            'description'    => 'Perfect for couples looking for that romantic getaway.',
             'starting_price' => 'Starting from NT$3,800'
         ]
     ],
 
     'orchid' => [
         'name'         => 'Orchid Room',
-        'text_heading' => 'Onwards to the Orchid Room',
-        'text_content' => 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
+        'text_heading' => 'A view to relax to',
+        'text_content' => 'This spacious room overlooks the Dongshan River Park Wetlands through wall-to-wall windows or from your balcony giving you a relaxing, tranquil stay. This room comes with a separated shower and hot tub, home movie theater and king size bed with more than enough room to add another bed.',
         'preview'      => [
-            'name'           => 'Orchid',
-            'description'    => 'This bright, friendly room will make you wake up feeling refreshed and relaxed',
+            'name'           => 'Orchid Room',
+            'description'    => 'Couples and families will love the peacefulness of this room.',
             'starting_price' => 'Starting from NT$4,600'
         ]
     ],
 
     'frangipani' => [
         'name'         => 'Frangipani Room',
-        'text_heading' => 'Frolic in the Frangipani Room',
-        'text_content' => 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
+        'text_heading' => 'The Jewel in the Crown',
+        'text_content' => 'This double-storey room towers above the rest, offering fantastic views and an unforgettable experience. With a stylish lounge area on the first floor and a  luxurious bedroom and hot tub combo on the top floor which is the pinnacle of the Loherb Villa. Private access to the Skyroof is included.',
         'preview'      => [
-            'name'           => 'Frangipani',
-            'description'    => 'Waking up in the Frangipani room is the closest to heaven you\'ll ever get',
+            'name'           => 'Frangipani Room',
+            'description'    => 'The ultimate couples getaway room - private, luxurious and spacious.',
             'starting_price' => 'Starting from NT$5,200'
         ]
     ],
 
     'sunflower' => [
         'name'         => 'Sunflower Room',
-        'text_heading' => 'Sunshine in the Sunflower Room',
-        'text_content' => 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
+        'text_heading' => 'Feel closer to nature',
+        'text_content' => 'This bright, friendly room will let you wake up feeling refreshed and relaxed. It has light yellow decor and mountain view will evaporate all your troubles. This room comes with  a separated shower and hot tub, home movie theater and king size bed facing the mountains in the near distance.',
         'preview'      => [
-            'name'           => 'Sunflower',
-            'description'    => 'This bright, friendly room will make you wake up feeling refreshed and relaxed',
+            'name'           => 'Sunflower Room',
+            'description'    => 'Whether a couple or a family you will love the warmth and comfort of this room.',
             'starting_price' => 'Starting from NT$4,600'
         ]
     ],
 
     'plum' => [
         'name'         => 'Plum Room',
-        'text_heading' => 'Mr Plum in the Conservatory',
-        'text_content' => 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.',
+        'text_heading' => 'Reach for the stars',
+        'text_content' => 'The Plum Room has its own unique energy. With more than enough space for a family, it’s the couples that will really appreciate this room. With subtle romantic undertones, like the touches of red decor or the elegant bathtub that looks out wall-to-wall windows, as well private access to the skyroof, this room will ignite an enchanting stay.',
         'preview'      => [
-            'name'           => 'Plum Blossom',
-            'description'    => 'Elegance and comfort combine to make the Plum Blossom room luxurious and dreamlike.',
+            'name'           => 'Plum Room',
+            'description'    => 'Couples and families will find this a home away from home.',
             'starting_price' => 'Starting from NT$5,200'
         ]
     ],

@@ -11,7 +11,7 @@
         </div>
         <div class="flex items-start md:items-center rooms-nav" tabindex="3">
             <span  class="text-white">
-                <span class="nav-link-box"><a href="{{ localUrl('/rooms') }}" class="nav-link text-white mr-0">{{ trans('navbar.rooms') }}</a></span>
+                <span class="nav-link-box"><a href="{{ localUrl('/rooms') }}" class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</a></span>
                 <svg class="fill-current align-middle hidden md:inline"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 24 24" width="20" height="20">
