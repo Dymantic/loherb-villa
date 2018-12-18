@@ -17,7 +17,7 @@
         <p class="font-sans text-3xl bg-opaque py-4 px-8 text-green-main">{{ trans($room['name']) }}</p>
     </div>
     @component('front.components.info-section', ['title' => trans($room['text_heading'])])
-        <p class="my-8 body-text text-green-main">{{ trans($room['text_content']) }}</p>
+        <p class="my-8 body-text text-green-main text-center">{{ trans($room['text_content']) }}</p>
     @endcomponent
     <div class="reg-section-space room-gallery">
         <div data-flickity='{"imagesLoaded": true}'

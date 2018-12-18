@@ -6,6 +6,7 @@
  */
 
 import throttle from "lodash.throttle";
+import jump from "jump.js"
 
 require('./bootstrap');
 import "flickity";
@@ -48,3 +49,10 @@ window.addEventListener('scroll', throttle(() => {
 window.addEventListener('DOMContentLoaded', () => {
    [...document.querySelectorAll('a')].filter(a => a.href == window.location.toString()).forEach(a => a.classList.add('active'));
 });
+
+if(document.querySelector('[data-banner-jump]')) {
+    document.querySelector('[data-banner-jump]').addEventListener('click',e => {
+        e.preventDefault();
+        jump('.post-banner', {offset: -48});
+    })
+}

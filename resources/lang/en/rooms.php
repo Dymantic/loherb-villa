@@ -5,7 +5,7 @@ return [
     'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
 
     'index' => [
-        'heading'    => 'Our Room Selection',
+        'heading'    => 'Something for Everyone',
         'subheading' => 'Each room has been carefully decorated and furnished to give a unique experience that will invoke feelings of splendour and satisfaction.',
         'types'      => [
             'economy' => 'Economy',

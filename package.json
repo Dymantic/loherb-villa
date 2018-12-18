@@ -27,6 +27,7 @@
         "flickity": "^2.1.2",
         "flickity-imagesloaded": "^2.0.0",
         "imagemin-pngquant": "5.0.1",
+        "jump.js": "^1.0.2",
         "lodash.throttle": "^4.1.1",
         "tailwindcss": "^0.6.5",
         "vue-hotel-datepicker": "^2.2.10"
