@@ -36,7 +36,8 @@
                 <a class="font-sans tracking-wide uppercase no-underline text-white"
                    href="">+886-3-959-5685</a>
             </p>
-            <p class="text-center font-sans tracking-wide uppercase text-white">{{ trans('footer.address') }}</p>
+            <p class="text-center font-sans tracking-wide uppercase text-white">{{ trans('footer.address_line_one') }}</p>
+            <p class="text-center font-sans tracking-wide uppercase text-white">{{ trans('footer.address_line_two') }}</p>
             <div>
                 <p class="text-center font-sans tracking-wide text-white mt-12 md:mt-4 mb-2">{{ trans('footer.social.heading') }}</p>
                 <div class="flex justify-center">
