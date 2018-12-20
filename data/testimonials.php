@@ -4,6 +4,7 @@ return [
         'en' => [
             [
                 'title' => 'A wonderful stay',
+                'brief' => 'Really enjoyed our 2 nights here at this lovely property. Waking up to beautiful views in the morning with nice healthy breakfast.',
                 'content' => 'Really enjoyed our 2 nights here at this lovely property. Waking up to beautiful views in the morning with nice healthy breakfast. Staff is very friendly and attentive. Will definitely recommend this villa.',
                 'name' => 'Gabriel',
                 'rating' => 4.6,
@@ -11,6 +12,7 @@ return [
             ],
             [
                 'title' => 'Excellent visit!',
+                'brief' => 'Maybe one of the very best in Yilan',
                 'content' => 'New, clean, beautifully decorated, and more importantly a very friendly host. Good and healthy food, fresh! Very nice breakfast and cookies! Very nice rice field view. Maybe one of the very best at Yilan. We are even offered to take their bicycle for a ride, but we did not have enough time. Will be an excellent relaxing trip. Kudoos!! Please keep it up!! We will visit again',
                 'name' => 'How',
                 'rating' => 5,
@@ -18,6 +20,7 @@ return [
             ],
             [
                 'title' => 'Would totally visit again in the future!',
+                'brief' => 'Would totally visit again in the future!',
                 'content' => 'They offered complimentary breakfast and afternoon-tea, which tasted great alongside the beautiful landscape. Would totally visit again in the future!',
                 'name' => 'Vicky',
                 'rating' => 5,
@@ -25,6 +28,7 @@ return [
             ],
             [
                 'title' => 'Exceptional',
+                'brief' => 'Would totally visit again in the future!',
                 'content' => 'Superb place. Nice environment, but you need to have own transportation to travel around. Room is clean & beautiful environment.',
                 'name' => 'Lia',
                 'rating' => 5,
@@ -32,6 +36,7 @@ return [
             ],
             [
                 'title' => 'Beautiful inside and out',
+                'brief' => 'The rooftop lounge area is amazing too!',
                 'content' => 'I came to Yilan with my mom for the night really just to stay at this minsu. I happened across it online and wanted to check it out. It did not disappoint. From the moment you step into the lobby, the openness and design of the building puts you into a relaxed state. The owners really did not sacrifice space in the overall design. They only have 6 rooms to rent in the main building, and yet the public areas are spacious and airy. The grounds are beautiful too, with much thought put into the landscaping. It is a family-run business and we were greeted mostly by the son. You can tell they are proud of the business and really want to ensure you have a great stay. Everything is as pictured. The free bicycles they provide for you to ride around the rice paddies is a major plus. Oh, and the rooftop lounge area is amazing too! Would definitely come back!',
                 'name' => 'Wen-Ting',
                 'rating' => 5,
@@ -39,6 +44,7 @@ return [
             ],
             [
                 'title' => 'Rooms and staff are perfect.',
+                'brief' => 'Rooms and staff are perfect.',
                 'content' => 'Rooms and staff are perfect. They are very humble, polite and friendly in Asian way. The breakfast was great good taste and nice decoration.',
                 'name' => 'Faiyi',
                 'rating' => 5,
@@ -46,6 +52,7 @@ return [
             ],
             [
                 'title' => 'Most helpful staff',
+                'brief' => 'Very impressive service!',
                 'content' => 'When we wanted to stay for an extra night, though there was no vacancy, the host zealous offered recommendation of other similar hotels and made contact for us. Very impressive service!',
                 'name' => 'Ching-Shan',
                 'rating' => 5,
@@ -53,6 +60,7 @@ return [
             ],
             [
                 'title' => 'Bright and tidy hostel',
+                'brief' => 'I love the welcoming tea set and breakfast.',
                 'content' => 'The hostel is very beautiful and tidy. I love the welcoming tea set and breakfast. The environment is green and fresh, really a good place to relax. But better come during spring or summer to have a yellow field view. It is very sweet that they took an instant photo for us when doing check out',
                 'name' => 'Nam',
                 'rating' => 4.8,
@@ -60,6 +68,7 @@ return [
             ],
             [
                 'title' => 'Love this place albeit it\'s a bit further from the main town.',
+                'brief' => 'They provided us free bicycles and we had a great time exploring the surroundings',
                 'content' => 'This place is love! Took cab from luodong train station, cost us about 200 NTD. Had a great stay there with lovely breakfast provided plus teabreak is also included. They provided us free bicycles and we had a great time exploring the surrounding. Owner has a black dog which followed us while we were cycling. The dog brought us around the park and even led us back to the villa. Overall, I would highly recommend this place for chill and relax and not forgetting the room has a projector screen! Total enjoyment.',
                 'name' => 'Peizi',
                 'rating' => 4.8,
@@ -67,6 +76,7 @@ return [
             ],
             [
                 'title' => 'Wonderful homestay! We love this place!',
+                'brief' => 'The breakfast was so delicious and came in huge serving. Even the presentation of food was classy.',
                 'content' => 'It was so nice to wake up to nature, large plot of grasslands. Serenity and peace. The staffs were polite and attentive to my mother who was not too mobile. The rooms were modern and comfortable with balcony. Beds were big. Rooms were so clean that I felt like it is my house. The breakfast was so delicious and came in huge serving. Even the presentation of food was classy. There is an outdoor garden which will be great to hangout during nice weather. This location is about 10 to 15mins away from the main city but it was worth it. We all love it so much. Definitely worth every bit!',
                 'name' => 'Jennifer',
                 'rating' => 4.8,
@@ -74,21 +84,24 @@ return [
             ],
             [
                 'title' => 'Stay with 2 kids',
+                'brief' => 'Excellent service with accommodating hosts.',
                 'content' => 'Loherb opened in Aug 2015. We spent 2 nights there with two kids -9 & 14. Excellent service with accommodating hosts. Portion for Breakfast and tea was generous. Very clean and bright rooms. Convenient location to reach the cycling track by the river. Would definitely stay there again.',
                 'name' => 'Patricia',
                 'rating' => 4.8,
                 'source' => 'agoda.com'
             ],
-//            [
-//                'title' => 'Relaxing stay with hospitable hosts who prepares delicious healthy meals',
-//                'content' => 'My husband and I enjoyed our one night stay at LOHERB away from the bustling city. It was very peaceful and our room (Lily room) had a great view of the padi fields. The bedroom is very clean with comfortable beds. The hosts also provided harder pillows upon request. We like the huge bathtub where two person can sit in comfortably. The toiletries included a bottle of essential oil for a fragrant relaxing bath. The TV has a wide selection of channels but the connection is not very stable. LOHERB served us the most delicious meals in Yilan, and we were delighted to know that these healthy meals were thoughtfully planned by the dietitian host. The hosts provide complimentary breakfast and afternoon tea. While there is nothing much to do in the nighttime (unless you have a car to drive to Luodong Night Market), you can enjoy a sumptuous dinner in LOHERB\'s cafe at very reasonable prices.',
-//                'name' => 'Hui',
-//                'rating' => 4.6,
-//                'source' => 'agoda.com'
-//            ],
+            [
+                'title' => 'Relaxing stay with hospitable hosts who prepares delicious healthy meals',
+                'brief' => 'We liked the huge bathtub where two people can sit in comfortably.',
+                'content' => 'My husband and I enjoyed our one night stay at LOHERB away from the bustling city. It was very peaceful and our room (Lily room) had a great view of the padi fields. The bedroom is very clean with comfortable beds. The hosts also provided harder pillows upon request. We like the huge bathtub where two person can sit in comfortably. The toiletries included a bottle of essential oil for a fragrant relaxing bath. The TV has a wide selection of channels but the connection is not very stable. LOHERB served us the most delicious meals in Yilan, and we were delighted to know that these healthy meals were thoughtfully planned by the dietitian host. The hosts provide complimentary breakfast and afternoon tea. While there is nothing much to do in the nighttime (unless you have a car to drive to Luodong Night Market), you can enjoy a sumptuous dinner in LOHERB\'s cafe at very reasonable prices.',
+                'name' => 'Hui',
+                'rating' => 4.6,
+                'source' => 'agoda.com'
+            ],
 
             [
                 'title' => 'One of the nice homestay/hotel I will be visit again',
+                'brief' => 'The friendly and helpful staff helped to set up a birthday dinner on the rooftop.',
                 'content' => 'nice place to stay with relax environment, like the room with the bathtub, friendly and helpful staff help to set up the birthday dinner on the rooftop. nice and healthy food, they provide the complimentary high tea which pulling heart so much as it is really delicious.',
                 'name' => 'Angie',
                 'rating' => 4.4,
@@ -96,6 +109,7 @@ return [
             ],
             [
                 'title' => 'Fantastic retreat',
+                'brief' => 'The owners and staff couldn’t be more welcoming and were always on hand to answer any questions we had.',
                 'content' => 'A hotel with stunning modernist architecture and design in a secluded part of Yilan (but only 10 minutes drive from the main town). The spacious layout really makes the most of the surrounding vistas. The owners and staff couldn\'t be more welcoming and were always on hand to answer any questions we had.  Food was also fantastic and you can tell the kitchen pays a great deal of attention to the quality of ingredients.  I would recommend a stay even if you have no specific plans in Yilan - it\'s an ideal retreat from Taipei life.',
                 'name' => 'Manchester',
                 'rating' => 5,
@@ -103,6 +117,7 @@ return [
             ],
             [
                 'title' => 'Cozy stay',
+                'brief' => 'The whole room has floor to ceiling glass which allows us to take in the country side scenery',
                 'content' => 'We arrived in the afternoon and after swift check in, we had the complimentary afternoon tea which consisted of cookies and cakes and a choice of drink. Afterwards we went for a ride with the villa\'s bikes in the vicinity. The villa\'s friendly dog came along with us which made our ride between paddy fields extra special. There is a cycling track next to the river around 5 minutes ride from the villa. The room comes with a big bathtub and bath salt is also provided. The whole room has floor to ceiling glass which allows us to take in the country side scenery. There is no public transportation to the villa so it would be much more convenient if you are driving. The villa will help to call a taxi whenever you need one.',
                 'name' => 'Han L',
                 'rating' => 5,

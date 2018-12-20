@@ -5,13 +5,14 @@
             {{--<div class="w-full m">--}}
                 <div class="w-full text-green-main">
                     @if($review['title'])
-                        <p class="font-heading mb-4">{{ $review['title'] }}</p>
+                        <p class="font-heading mb-4 hidden md:block">{{ $review['title'] }}</p>
                     @endif
-                    <p class="mb-4">
+                        <p class="font-heading mb-4 md:hidden text-center">{{ $review['brief'] ?? '' }}</p>
+                    <p class="mb-4 hidden md:block">
                         {{ $review['content'] }}
                     </p>
-                    <p class="text-right italic"> - {{ $review['name'] }}</p>
-                    <p class="text-right italic pb-16">({{ $review['source'] }})</p>
+                    <p class="text-center md:text-right italic"> - {{ $review['name'] }}</p>
+                    <p class="text-center md:text-right italic pb-16">({{ $review['source'] }})</p>
                     @include('front.partials.star-rating', ['rating' => $review['rating']])
                 </div>
             {{--</div>--}}
