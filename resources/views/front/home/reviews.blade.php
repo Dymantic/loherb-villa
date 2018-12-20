@@ -8,7 +8,7 @@
                         <p class="font-heading mb-4">{{ $review['title'] }}</p>
                     @endif
                     <p class="mb-4">
-{{--                        {{ $review['content'] }}--}}
+                        {{ $review['content'] }}
                     </p>
                     <p class="text-right italic"> - {{ $review['name'] }}</p>
                     <p class="text-right italic pb-16">({{ $review['source'] }})</p>
