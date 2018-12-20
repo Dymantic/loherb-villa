@@ -2,7 +2,7 @@
     <p class="heading-text mb-16 text-green-main text-center">{{ trans('homepage.reviews.heading') }}</p>
     <div data-flickity class="slide-show low-dots">
         @foreach($reviews as $review)
-            <div class="w-full">
+            <div class="w-full mx-4">
                 <div class="w-full max-w-md mx-auto overflow-auto text-green-main">
                     @if($review['title'])
                         <p class="font-heading mb-4">{{ $review['title'] }}</p>
