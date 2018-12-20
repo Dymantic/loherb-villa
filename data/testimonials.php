@@ -28,7 +28,7 @@ return [
             ],
             [
                 'title' => 'Exceptional',
-                'brief' => 'Would totally visit again in the future!',
+                'brief' => 'Superb place',
                 'content' => 'Superb place. Nice environment, but you need to have own transportation to travel around. Room is clean & beautiful environment.',
                 'name' => 'Lia',
                 'rating' => 5,
