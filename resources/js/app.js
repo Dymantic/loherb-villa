@@ -9,7 +9,7 @@ import throttle from "lodash.throttle";
 import jump from "jump.js"
 
 require('./bootstrap');
-import "flickity";
+// import "flickity";
 import "flickity-imagesloaded";
 window.Vue = require('vue');
 
