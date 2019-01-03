@@ -49,5 +49,11 @@ return [
         ['full'  => '/images/room-galleries/plum/plum_gallery_4.jpg',
          'small' => '/images/room-galleries/plum/mobile/plum_gallery_4.jpg'
         ],
+        ['full'  => '/images/room-galleries/plum/plum_gallery_5.jpg',
+         'small' => '/images/room-galleries/plum/mobile/plum_gallery_5.jpg'
+        ],
+        ['full'  => '/images/room-galleries/plum/plum_gallery_6.jpg',
+         'small' => '/images/room-galleries/plum/mobile/plum_gallery_6.jpg'
+        ],
     ]
 ];

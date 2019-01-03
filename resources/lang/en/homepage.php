@@ -6,7 +6,7 @@ return [
 
     'comfort-elegance' => [
         'heading' => 'Comfort & Elegance',
-        'content' => 'The Loherb Villa is nestled in the heart of Yilan, Taiwan, surrounded by a beautiful landscape of rice paddies and wetlands. Each room is stylised in in a unique way to make your stay exclusive and memorable from beginning to end. You will be enchanted by the comfort, luxurious decor and relaxed atmosphere.'
+        'content' => 'The Loherb Villa is nestled in the heart of Yilan, Taiwan, surrounded by a beautiful landscape of rice paddies and wetlands. Each room is stylised in a unique way to make your stay exclusive and memorable from beginning to end. You will be enchanted by the comfort, luxurious decor and relaxed atmosphere.'
     ],
     'getaway' => [
         'heading' => 'Everything you need for the perfect getaway',

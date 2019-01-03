@@ -49,9 +49,6 @@ return [
         ['full'  => '/images/room-galleries/frangipani/frangipani_gallery_4.jpg',
          'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_4.jpg'
         ],
-        ['full'  => '/images/room-galleries/frangipani/frangipani_gallery_5.jpg',
-         'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_5.jpg'
-        ],
         ['full'  => '/images/room-galleries/frangipani/frangipani_gallery_6.jpg',
          'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_6.jpg'
         ],
@@ -63,6 +60,9 @@ return [
         ],
         ['full'  => '/images/room-galleries/frangipani/frangipani_gallery_9.jpg',
          'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_9.jpg'
+        ],
+        ['full'  => '/images/room-galleries/frangipani/frangipani_gallery_10.jpg',
+         'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_10.jpg'
         ],
     ]
 ];
