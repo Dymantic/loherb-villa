@@ -75,3 +75,13 @@
 
   }
 }
+
+.large-slider {
+  .flickity-viewport {
+    min-height: calc(70rem * .55);
+
+    @media screen and (max-width: 87.5rem) {
+      min-height: calc((100vw - 2rem) * .8 * .55);
+    }
+  }
+}
