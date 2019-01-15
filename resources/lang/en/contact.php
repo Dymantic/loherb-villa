@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title' => 'Contact Us - Loherb Villa',
-    'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
+    'title' => 'Contact Villa Loherb',
+    'description' => 'Have questions? Please feel free to ask us so that we can make your stay at Loherb Villa an exceptional one.',
 
     'intro' => [
         'heading' => 'Get in Touch',

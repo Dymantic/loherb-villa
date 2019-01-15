@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title' => 'Journal - Loherb Villa',
-    'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
+    'title' => 'The latest news from Loherb Villa',
+    'description' => 'Read our news and stories featuring travel, environment, cuisine and healthy living.',
 
     'index' => [
         'heading' => 'The Journal',

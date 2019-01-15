@@ -1,12 +1,17 @@
 <?php
 
 return [
-    'title' => 'Loherb Villa',
-    'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
+    'title' => 'Loherb Villa - Luxury Accommodation - Yilan, Taiwan',
+    'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of the beautiful Yilan countryside, Taiwan.',
+
+    'booking_form' => [
+        'button' => "Book a Room"
+    ],
 
     'comfort-elegance' => [
         'heading' => 'Comfort & Elegance',
-        'content' => 'The Loherb Villa is nestled in the heart of Yilan, Taiwan, surrounded by a beautiful landscape of rice paddies and wetlands. Each room is stylised in a unique way to make your stay exclusive and memorable from beginning to end. You will be enchanted by the comfort, luxurious decor and relaxed atmosphere.'
+        'content' => 'The Loherb Villa is nestled in the heart of Yilan, Taiwan, surrounded by a beautiful landscape of rice paddies and wetlands. Each room is stylised in a unique way to make your stay exclusive and memorable from beginning to end. You will be enchanted by the comfort, luxurious decor and relaxed atmosphere.',
+        'read_more' => 'Read More'
     ],
     'getaway' => [
         'heading' => 'Everything you need for the perfect getaway',

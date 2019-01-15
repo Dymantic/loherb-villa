@@ -11,8 +11,8 @@
             <p class="reviews-text text-green-main">{{ $room['starting_price'] }}</p>
         </div>
         <div class="mt-8 md:mt-0 flex justify-around md:justify-start">
-            <a href="{{ $links_to }}" class="inline-button btn-green-ghost no-underline">View Room</a>
-            <a href="" class="inline-button btn-green-ghost no-underline ml-8">Book Now</a>
+            <a href="{{ $links_to }}" class="inline-button btn-green-ghost no-underline">{{ trans('rooms.index.buttons.show') }}</a>
+            <a href="" class="inline-button btn-green-ghost no-underline ml-8">{{ trans('rooms.index.buttons.book') }}</a>
         </div>
     </div>
 </div>

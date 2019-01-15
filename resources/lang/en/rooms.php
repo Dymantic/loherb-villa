@@ -1,16 +1,20 @@
 <?php
 
 return [
-    'title' => 'Rooms - Loherb Villa',
-    'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of beautiful Yilan',
+    'title' => 'Rooms at Villa Loherb',
+    'description' => 'A selection of quality, luxurious double and duplex rooms suited to couples and families. Each room with their own distinct decor and magnificent view.',
 
     'index' => [
         'heading'    => 'Something for Everyone',
         'subheading' => 'Each room has been carefully decorated and furnished to give a unique experience that will invoke feelings of splendour and satisfaction.',
+        'buttons' => [
+            'show' => 'View Room',
+            'book' => 'Book now'
+        ],
         'types'      => [
-            'economy' => 'Economy',
-            'luxury'  => 'Luxury',
-            'vip'     => 'VIP',
+            'economy' => 'Economy Double',
+            'luxury'  => 'Luxury Double',
+            'vip'     => 'Premium Rooms',
             'villa'   => 'Villa'
         ]
     ],
@@ -44,12 +48,12 @@ return [
         'additional_header' => 'Additional Information'
     ],
     'villa' => [
-        'name'         => 'Island Villa',
+        'name'         => 'Lotus Villa',
         'text_heading' => 'Your own piece of paradise',
         'text_content' => 'The Villa Island is its own unique experience. Separated from the main building you will feel as though you are in your own little paradise. This room is perfect for families or large parties, including its very own sky roof, home theater system, KTV equipment and a large hot tub. This is your true private getaway solution.',
         'preview'      => [
-            'name'           => 'Island Villa',
-            'description'    => 'This private escape is a must for those looking for their own unique stay with exquisite details',
+            'name'           => 'Lotus Villa',
+            'description'    => 'This detached cottage is a must for those looking for more space and privacy for their stay.',
             'starting_price' => 'Starting from NT$6,800'
         ]
     ],

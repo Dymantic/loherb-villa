@@ -1,26 +1,32 @@
 <?php
 
 return [
-    'title' => 'Contact page',
+    'title' => '聯絡日光綠築',
+    'description' => '如果有任何問題, 歡迎隨時與日光綠築聯繫, 我們可以幫您預訂房間, 竭誠為您服務.',
+
+    'intro' => [
+        'heading' => '聯繫日光',
+        'content' => '如有任何疑問歡迎隨時聯繫，我們會竭誠為您服務。'
+    ],
 
     'form' => [
-        'name' => 'Minzu',
-        'phone' => 'Diamhau',
-        'email' => 'Shemail',
-        'message_body' => 'Words',
-        'submit' => 'Send that Message',
-        'waiting' => 'Working...',
+        'name' => '您的大名',
+        'phone' => '電話',
+        'email' => 'Email',
+        'message_body' => '留言',
+        'submit' => '送出',
+        'waiting' => '正在送出',
 
         'modal' => [
             'ok' => [
-                'heading' => 'Hau la',
-                'content' => 'Baai danke. We have received your message, thank you very much!',
-                'button' => 'Hau'
+                'heading' => '已送出',
+                'content' => '我們已收到您的留言，謝謝',
+                'button' => '確認'
             ],
             'fail' => [
-                'heading' => 'Bu hau yisi',
-                'content' => 'Shit. There was a problem sending your message. Please try again later.',
-                'button' => 'Hau now'
+                'heading' => '錯誤',
+                'content' => '請重新更新網頁後，再次傳送您的留言',
+                'button' => '確認'
             ]
         ]
     ]

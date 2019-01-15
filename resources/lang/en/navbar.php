@@ -11,10 +11,10 @@ return [
     'lang' => '中文',
 
     'room' => [
-        'economy' => 'Economy Rooms',
-        'luxury' => 'Luxury Rooms',
-        'vip' => 'VIP Rooms',
-        'villa' => 'Villa',
+        'economy' => 'Economy Double',
+        'luxury' => 'Luxury Double',
+        'vip' => 'Premium Rooms',
+        'villa' => 'Island Villa',
 
         'rose' => 'Rose',
         'lily' => 'Lily',
@@ -22,7 +22,7 @@ return [
         'orchid' => 'Orchid',
         'plum' => 'Plum',
         'frangipani' => 'Frangipani',
-        'island' => 'Island Villa',
+        'island' => 'Lotus Room',
 
     ]
 

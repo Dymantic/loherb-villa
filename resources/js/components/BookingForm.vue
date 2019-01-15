@@ -2,10 +2,12 @@
     <div class="flex flex-col md:flex-row px-4 justify-center items-center font-heading text-dark-cream">
         <HotelDatePicker @checkInChanged="onCheckInChange"
                          @checkOutChanged="onCheckOutChange"
+                         :i18n='localized'
                          class="max-w-sm"></HotelDatePicker>
         <a @click.prevent="goToBookings"
            href=""
-           class="no-underline inline-button mt-8 md:mt-0 mr-auto ml-auto md:ml-12 md:mr-0 btn-green">Book a Room</a>
+           class="no-underline inline-button mt-8 md:mt-0 mr-auto ml-auto md:ml-12 md:mr-0 btn-green">{{ button_text
+                                                                                                      }}</a>
     </div>
 </template>
 
@@ -15,6 +17,17 @@
     export default {
         components: {
             HotelDatePicker
+        },
+
+        props: {
+            button_text: {
+                type: String,
+                default: "Boom a Room"
+            },
+            lang: {
+                type: String,
+                default: 'en'
+            }
         },
 
         data() {
@@ -38,6 +51,28 @@
                 const fmtOut = `${this.checkOut.getFullYear()}-${pad(this.checkOut.getMonth() + 1)}-${pad(this.checkOut.getDate())}`;
 
                 return `?checkin=${fmtIn}&checkout=${fmtOut}`
+            },
+
+            localized() {
+                if (this.lang === 'zh') {
+                    return {
+                        night: '晚',
+                        nights: '晚',
+                        'day-names': ['日', '一', '二', '三', '四', '五', '六'],
+                        'check-in': '入住',
+                        'check-out': '退房',
+                        'month-names': ['１月', '２月', '３月', '４月', '５月', '６月', '７月', '８月', '９月', '１０月', '１１月', '１２月'],
+                    }
+                }
+
+                return {
+                    night: 'Night',
+                    nights: 'Nights',
+                    'day-names': ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'],
+                    'check-in': 'Check-In',
+                    'check-out': 'Check-Out',
+                    'month-names': ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                }
             }
         },
 
