@@ -57,5 +57,12 @@ return [
             'full'  => '/images/room-galleries/lily/lily_gallery_6.jpg',
             'small' => '/images/room-galleries/lily/mobile/lily_gallery_6.jpg'
         ],
-    ]
+    ],
+    'occupancy' => [
+        'min' => 1,
+        'max' => 4,
+        'beds' => 1,
+        'bed_type' => 'King size'
+    ],
+    'main_image' => '/images/room-banners/lily.jpg',
 ];

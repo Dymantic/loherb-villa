@@ -89,4 +89,9 @@
            class="btn btn-green no-underline mt-20">Book Now</a>
     @endcomponent
 
+
+@endsection
+
+@section('bodyscripts')
+    @include('front.partials.room-jsonld', ['occupancy' => $room['occupancy'], 'image' => $room['main_image']])
 @endsection

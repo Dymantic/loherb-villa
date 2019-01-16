@@ -58,5 +58,12 @@ return [
         ['full'  => '/images/room-galleries/orchid/orchid_gallery_7.jpg',
          'small' => '/images/room-galleries/orchid/mobile/orchid_gallery_7.jpg'
         ],
-    ]
+    ],
+    'occupancy' => [
+        'min' => 1,
+        'max' => 4,
+        'beds' => 1,
+        'bed_type' => 'King size'
+    ],
+    'main_image' => '/images/room-banners/orchid.jpg',
 ];

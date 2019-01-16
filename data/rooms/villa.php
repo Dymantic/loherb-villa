@@ -73,5 +73,12 @@ return [
         ['full'  => '/images/room-galleries/villa/villa_gallery_12.jpg',
          'small' => '/images/room-galleries/villa/mobile/villa_gallery_12.jpg'
         ],
-    ]
+    ],
+    'occupancy' => [
+        'min' => 1,
+        'max' => 6,
+        'beds' => 2,
+        'bed_type' => 'King size'
+    ],
+    'main_image' => '/images/room-banners/villa.jpg',
 ];

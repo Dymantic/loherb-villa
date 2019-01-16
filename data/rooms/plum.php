@@ -55,5 +55,12 @@ return [
         ['full'  => '/images/room-galleries/plum/plum_gallery_6.jpg',
          'small' => '/images/room-galleries/plum/mobile/plum_gallery_6.jpg'
         ],
-    ]
+    ],
+    'occupancy' => [
+        'min' => 1,
+        'max' => 4,
+        'beds' => 1,
+        'bed_type' => 'King size'
+    ],
+    'main_image' => '/images/room-banners/plum.jpg',
 ];

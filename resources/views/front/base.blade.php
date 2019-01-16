@@ -38,6 +38,7 @@
     @include('front.partials.footer')
     @include('front.partials.navbar')
 </div>
+@yield('bodyscripts')
 <script src="{{ mix("js/app.js") }}"></script>
 <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

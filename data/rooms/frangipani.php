@@ -64,5 +64,12 @@ return [
         ['full'  => '/images/room-galleries/frangipani/frangipani_gallery_10.jpg',
          'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_10.jpg'
         ],
-    ]
+    ],
+    'occupancy' => [
+        'min' => 1,
+        'max' => 4,
+        'beds' => 1,
+        'bed_type' => 'King size'
+    ],
+    'main_image' => '/images/room-banners/frangipani.jpg',
 ];

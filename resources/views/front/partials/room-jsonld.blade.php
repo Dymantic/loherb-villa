@@ -4,13 +4,13 @@
 	"@type": "HotelRoom",
 	"bed": {
 		"@type": "BedDetails",
-		"numberOfBeds": "1",
-		"typeOfBed": "King Size"
+		"numberOfBeds": "{{ $occupancy['beds'] }}",
+		"typeOfBed": "{{ $occupancy['bed_type'] }}"
 	},
 	"occupancy": {
 		"@type": "QuantitativeValue",
-		"maxValue": "4",
-		"minValue": "1"
+		"maxValue": "{{ $occupancy['max'] }}",
+		"minValue": "{{ $occupancy['min'] }}"
 	},
 	"permittedUsage": "No smoking",
 	"petsAllowed": "false",
@@ -18,6 +18,7 @@
 	"smokingAllowed": "false",
 	"telephone": "+886-3-959-5685",
 	"description": "King size bed hotel room",
-	"name": "Rose Room"
+	"name": "Rose Room",
+	"image": "{{ url($image) }}"
 }
 </script>

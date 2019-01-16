@@ -58,5 +58,12 @@ return [
         ['full'  => '/images/room-galleries/sunflower/sunflower_gallery_7.jpg',
          'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_7.jpg'
         ],
-    ]
+    ],
+    'occupancy' => [
+        'min' => 1,
+        'max' => 4,
+        'beds' => 1,
+        'bed_type' => 'King size'
+    ],
+    'main_image' => '/images/room-banners/sunflower.jpg',
 ];
