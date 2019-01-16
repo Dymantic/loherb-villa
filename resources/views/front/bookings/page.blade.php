@@ -7,8 +7,8 @@
 @section('head')
     @include('front.partials.ogmeta', [
         'ogImage' => '',
-        'ogTitle' => trans('about.title'),
-        'ogDescription' => trans('about.description')
+        'ogTitle' => trans('bookings.title'),
+        'ogDescription' => trans('bookings.description')
     ])
 @endsection
 
