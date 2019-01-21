@@ -57,7 +57,7 @@
                 </div>
                 <div class="py-8 flex justify-center items-center">
                     <a href="{{ localUrl('/rooms') }}"
-                       class="text-link text-green-main no-underline">{{ trans('navbar.view-rooms') }} &rarr;</a>
+                       class="text-link text-green-main no-underline hover:text-hover-green">{{ trans('navbar.view-rooms') }} &rarr;</a>
                 </div>
             </div>
 

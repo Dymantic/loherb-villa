@@ -6,6 +6,6 @@
         @endforeach
     </div>
     <div class="text-center mt-12">
-        <a class="text-link text-green-main" href="">{{ trans('homepage.journal.link') }} &rarr;</a>
+        <a class="text-link text-green-main hover:text-hover-green" href="">{{ trans('homepage.journal.link') }} &rarr;</a>
     </div>
 </div>

@@ -59,7 +59,7 @@
 
                 <button :disabled="waiting"
                         type="submit"
-                        class="btn btn-green my-12 w-48">
+                        class="btn btn-green my-12 w-48 px-6 py-1">
                     <span v-if="!waiting">{{ trans.submit }}</span>
                     <span v-else>{{ trans.waiting }}</span>
                 </button>

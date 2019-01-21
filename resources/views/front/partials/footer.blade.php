@@ -25,7 +25,7 @@
         </div>
         <div>
             <p class="text-center">
-                <a class="font-sans tracking-wide uppercase no-underline text-gold"
+                <a class="font-sans tracking-wide uppercase no-underline text-gold hover:underline"
                    href="">{{ trans('footer.links.book') }}</a>
             </p>
             <p class="text-center">

@@ -85,8 +85,8 @@
         <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.person') }}</p>
         <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.beds') }}</p>
         <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.pickup') }}</p>
-        <a href=""
-           class="btn btn-green no-underline mt-20">Book Now</a>
+        <a href="{{ localUrl('/book') }}"
+           class="btn btn-green no-underline mt-20">{{ trans('rooms.index.buttons.book') }}</a>
     @endcomponent
 
 

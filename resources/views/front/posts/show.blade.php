@@ -38,7 +38,7 @@
         </a>
     </div>
     <div class="text-center mt-12">
-        <a href="{{ localUrl('/journal') }}" class="text-link text-green-main">&larr; {{ trans('journal.show.back_button') }}</a>
+        <a href="{{ localUrl('/journal') }}" class="text-link text-green-main hover:text-hover-green">&larr; {{ trans('journal.show.back_button') }}</a>
     </div>
 </div>
 @endsection
