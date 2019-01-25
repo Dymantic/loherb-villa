@@ -19,7 +19,7 @@ return [
         'content' => '日光綠築為您準備旅程所需物品。有軟硬枕頭、沐浴備品、家庭劇院、冷暖氣機以及寶寶所需澡盆、奶瓶消毒鍋、嬰兒床都一應俱全。園區裡還有免費腳踏車、停車位與行程規劃。只要一顆期待的心，輕鬆無負擔，拎起行囊即刻成行。'
     ],
     'night-view' => [
-        'quote' => '“How far away the stars seem, and how far is our first kiss, and ah, how old my heart”'
+        'quote' => '“繁星似遠, 遠若初吻, 心不老足矣.”'
     ],
     'eco-friendly' => [
         'heading' => '親身經歷有生命的綠建築',
@@ -27,7 +27,7 @@ return [
     ],
     'journal' => [
         'heading' => '日光札記',
-        'link' => '日光札記',
+        'link' => '更多札記',
         'read-button' => '閱讀'
     ],
     'reviews' => [
@@ -42,7 +42,7 @@ return [
         'link' => '日光私廚'
     ],
     'instagram' => [
-        'heading' => '日光IG',
-        'link' => '看看更多'
+        'heading' => 'Instagram的最新消息',
+        'link' => '追蹤我們'
     ]
 ];

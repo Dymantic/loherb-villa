@@ -1,6 +1,6 @@
-<div class="px-4 py-12">
-    <p class="text-center heading-text text-green-main mb-12">{{ trans('homepage.journal.heading') }}</p>
-    <div class="journal-grid max-w-xl mx-auto">
+<div class="reg-section-space">
+    @include('front.partials.heading-green', ['text' => trans('homepage.journal.heading')])
+    <div class="journal-grid max-w-xl mx-auto mt-8">
         @foreach($posts as $post)
             @include('front.posts.index-card', ['post' => $post])
         @endforeach

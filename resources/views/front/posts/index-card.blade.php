@@ -1,13 +1,16 @@
-<div class="flex flex-col justify-between mb-20 w-64 max-w-full p-4 bg-cream-light mx-auto">
+<div class="flex flex-col justify-between mb-8 w-64 max-w-full bg-green-softest mx-auto">
     <div>
         <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="hidden md:block">
             <img src="{{ $post['title_image_thumb'] }}"
-                 alt="" class="w-full">
+                 alt="{{ $post['title'] }}" class="w-full">
         </a>
-        <p class="heading-text text-chocolate">{{ $post['title'] }}</p>
-        <p class="reviews-text text-brown-light">{{ $post['publish_date_string'] }}</p>
-        <p class="text-chocolate">{{ $post['intro'] }}</p>
+        <div class="p-4">
+            <p class="heading-text text-green-main">{{ $post['title'] }}</p>
+            <p class="reviews-text text-brown-dark">{{ $post['publish_date_string'] }}</p>
+            <p class="text-green-main">{{ $post['intro'] }}</p>
+        </div>
+
     </div>
 
-    <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="no-underline btn btn-brown mb-4 mt-8">{{ trans('homepage.journal.read-button') }}</a>
+    <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="no-underline btn btn-green mb-4 mt-4">{{ trans('homepage.journal.read-button') }}</a>
 </div>

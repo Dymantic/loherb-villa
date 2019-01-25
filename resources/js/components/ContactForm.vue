@@ -15,6 +15,7 @@
                         <span class="text-xs text-red"
                               v-show="formErrors.name">{{ formErrors.name }}</span>
                         <input type="text"
+                               required
                                name="name"
                                v-model="formData.name"
                                class="w-full h-8 pl-2 mt-1 border border-green-main"
@@ -27,6 +28,7 @@
                         <span class="text-xs text-red"
                               v-show="formErrors.phone">{{ formErrors.phone }}</span>
                         <input type="text"
+                               required
                                name="phone"
                                v-model="formData.phone"
                                class="w-full h-8 pl-2 mt-1 border border-green-main"
@@ -39,6 +41,7 @@
                         <span class="text-xs text-red"
                               v-show="formErrors.email">{{ formErrors.email }}</span>
                         <input type="text"
+                               required
                                name="email"
                                v-model="formData.email"
                                class="w-full h-8 pl-2 mt-1 border border-green-main"
@@ -51,6 +54,7 @@
                         <span class="text-xs text-red"
                               v-show="formErrors.message_body">{{ formErrors.message_body }}</span>
                         <textarea name="message_body"
+                                  required
                                   id="message_body"
                                   class="w-full h-32 p-2 mt-1 border border-green-main"
                                   v-model="formData.message_body"></textarea>

@@ -61,6 +61,11 @@
             'room_image_lg' => '/images/room-previews/plum_room_desktop.jpg',
             'room_image_sm' => '/images/room-previews/plum_room_mobile.jpg'
         ])
+
+        <div class="max-w-md mx-auto border-b border-green-mid mt-16"></div>
+    </div>
+    <div class="px-4 pt-12">
+        <p class="heading-text mb-4 text-green-main text-center">{{ trans('rooms.index.types.duplex') }}</p>
         @include('front.rooms.preview', [
             'room' => trans('rooms.frangipani.preview'),
             'links_to' => localUrl('/rooms/frangipani'),

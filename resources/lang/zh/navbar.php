@@ -14,6 +14,7 @@ return [
         'economy' => '精緻雙人',
         'luxury' => '豪華雙人',
         'vip' => '尊爵雙人',
+        'duplex' => '精緻雙人',
         'villa' => '小島四人',
 
         'rose' => '天使薔薇',

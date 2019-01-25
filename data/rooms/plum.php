@@ -30,10 +30,10 @@ return [
 
     ],
     'prices'         => [
-        'weekday'          => 100,
-        'weekends'         => 1000,
-        'holidays'         => 2000,
-        'chinese_new_year' => 5000,
+        'weekday'          => 5200,
+        'weekends'         => 5800,
+        'holidays'         => 6600,
+        'chinese_new_year' => 9000,
         'add_person'       => 111
     ],
     'gallery_images' => [

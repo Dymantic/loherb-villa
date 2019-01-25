@@ -46,6 +46,9 @@
                         <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.vip') }}</p>
                         <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
                            href="{{ localUrl("/rooms/plum") }}">{{ trans('navbar.room.plum') }}</a>
+                    </div>
+                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
+                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.duplex') }}</p>
                         <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
                            href="{{ localUrl("/rooms/frangipani") }}">{{ trans('navbar.room.frangipani') }}</a>
                     </div>

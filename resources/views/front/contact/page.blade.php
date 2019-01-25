@@ -1,4 +1,4 @@
-@extends('front.base')
+@extends('front.base', ['bodyClass' => 'md:pt-12'])
 
 @section('title')
     {{ trans('contact.title') }}
@@ -13,7 +13,7 @@
 @endsection
 
 @section('content')
-    <div class="bg-green-soft px-4 pt-24 pb-12">
+    <div class="bg-green-soft reg-section-space">
         <div class="max-w-md mx-auto flex flex-col items-center">
             <p class="heading-text mb-4 text-green-main">{{ trans('contact.intro.heading') }}</p>
             <span>

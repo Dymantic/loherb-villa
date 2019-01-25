@@ -1,5 +1,5 @@
 .heading-text {
-  @apply .font-heading .text-lg .tracking-wide;
+  @apply .font-heading .text-lg .tracking-wide .font-bold;
 }
 
 .body-text {
@@ -14,8 +14,28 @@
   @apply .font-serif .italic .text-5xl;
 }
 
+.quotes-text:lang(zh) {
+@apply .text-4xl;
+}
+
+
+
 @media screen and (max-width: 576px) {
   .quotes-text {
   @apply .font-serif .italic .text-2xl;
+  }
+
+  .quotes-text:lang(zh) {
+  @apply .text-xl;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 950px) {
+  .quotes-text {
+  @apply .font-serif .italic .text-3xl;
+  }
+
+  .quotes-text:lang(zh) {
+  @apply .text-2xl;
   }
 }

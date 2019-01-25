@@ -25,8 +25,8 @@ return [
         'content' => 'The environment we surround ourselves in is an integral part of the Loherb Villa and its philosophy. We take great pride in our biodiverse location and eco-friendly practices. Immersing oneself in a natural setting can do wonders for the soul. Look out across Central Range Mountains Dongshan River Park Wetlands during the day or stargaze the clear skies at night.'
     ],
     'journal' => [
-        'heading' => 'Journal',
-        'link' => 'To the Journal',
+        'heading' => 'The Journal',
+        'link' => 'Read more',
         'read-button' => 'Read Now'
     ],
     'reviews' => [
@@ -41,7 +41,7 @@ return [
         'link' => 'Cuisine Website'
     ],
     'instagram' => [
-        'heading' => 'Follow us on Instagram',
+        'heading' => 'Our latest on Instagram',
         'link' => 'Follow Us'
     ]
 ];

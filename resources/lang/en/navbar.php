@@ -14,6 +14,7 @@ return [
         'economy' => 'Economy Double',
         'luxury' => 'Luxury Double',
         'vip' => 'Premium Rooms',
+        'duplex' => 'Duplex Rooms',
         'villa' => 'Island Villa',
 
         'rose' => 'Rose',
