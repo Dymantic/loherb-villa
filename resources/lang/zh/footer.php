@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'contact_heading' => '聯絡日光',
     'address_full' => '(269)宜蘭縣冬山鄉寶福路372號',
     'address_line_one' => '(269)宜蘭縣冬山鄉寶福路372號',
     'address_line_two' => '',

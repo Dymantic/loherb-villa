@@ -37,7 +37,7 @@
             </p>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
-            <p class="font-sans text-white tracking-wide uppercase mb-2">Contact</p>
+            <p class="font-sans text-white tracking-wide uppercase mb-2">{{ trans('footer.contact_heading') }}</p>
                 <a class="font-sans tracking-wide no-underline text-white text-base mb-2"
                    href="">service@loherb.com.tw</a>
                 <a class="font-sans tracking-wide uppercase no-underline text-white text-base mb-2"
