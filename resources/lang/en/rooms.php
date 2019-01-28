@@ -22,8 +22,8 @@ return [
     'show'  => [
         'info_heading'      => 'Room Information',
         'check_times'       => [
-            'in' => 'Check In: 15:00 to 20:00',
-            'out' => 'Check Out: 08:00 - 11:00',
+            'in' => 'Check In: 15:00 ~ 20:00',
+            'out' => 'Check Out: 08:00 ~ 11:00',
         ],
         'breakfast_time' => 'Breakfast: 08:00 - 10:00',
         'tea_time' => 'Teatime: 12:00 - 17:00',
@@ -36,15 +36,16 @@ return [
             'chinese_new_year' => 'Chinese New Year',
             'add_person'       => 'Additional Person'
         ],
-        'pricing_notes' => [
-            'person' => 'Extra person in room (over 2 years old) $1,000/person (incl. bed, breakfast & tea)',
-            'beds' => '$500/extra bed, $300/crib, $100/quilt',
-            'pickup' => 'Pick up fee from Luodong Train Station - $200 (by appointment)'
+        'pricing' => [
+            'line_one' => ['label' => 'Extra person (over 2 years old)', 'value' => '$1,000 (incl. bed, breakfast & tea)'],
+            'line_two' => ['label' => 'Extra Bed', 'value' => '$500'],
+            'line_three' => ['label' => 'Crib', 'value' => '$300'],
+            'line_four' => ['label' => 'Quilts', 'value' => '$100'],
         ],
         'warnings' => [
-            'drugs' => 'No indoor smoking, no illegal drugs, reduce volume after 22:00.',
-            'pets' => 'No pets allowed - there is a pet hotel in Luodong.',
-            'identity' => 'Please provide identity documents for check in.'
+            'line_one' => 'No indoor smoking, no illegal drugs, no pets.',
+            'line_two' => 'Reduce noise after 22:00',
+            'line_three' => 'Please provide identity documents for check in.'
         ],
         'additional_header' => 'Additional Information'
     ],

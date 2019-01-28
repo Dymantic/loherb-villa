@@ -9,6 +9,7 @@ return [
     ],
     'close-line' => 'Part of the Loherb Group',
     'sites' => [
+        'heading' => '日光集團',
         'estate' => 'Estate',
         'biotech' => 'Biotech',
         'villa' => 'Villa',

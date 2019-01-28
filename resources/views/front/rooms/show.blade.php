@@ -35,7 +35,7 @@
         </div>
     </div>
 
-    <div class="reg-section-space">
+    <section class="reg-section-space">
         <p class="heading-text text-center text-green-main mb-12">{{ trans('rooms.show.info_heading') }}</p>
 
         <div class="max-w-xl mx-auto mb-20 flex flex-wrap">
@@ -51,18 +51,25 @@
             @endforeach
         </div>
 
-        <p class="mb-4 text-green-main text-center font-heading">{{ trans('rooms.show.additional_header') }}</p>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.check_times.in') }}</p>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.check_times.out') }}</p>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.breakfast_time') }}</p>
-        <p class="mb-8 text-green-main text-center">{{ trans('rooms.show.tea_time') }}</p>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.warnings.drugs') }}</p>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.warnings.pets') }}</p>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.warnings.identity') }}</p>
-    </div>
+        <div class="flex flex-col items-center">
+                <p class="mb-4 text-green-main text-center font-heading">{{ trans('rooms.show.additional_header') }}</p>
+                <p class="mb-0 text-green-main w-48">{{ trans('rooms.show.check_times.in') }}</p>
+                <p class="mb-0 text-green-main w-48">{{ trans('rooms.show.check_times.out') }}</p>
+                <p class="mb-0 text-green-main w-48">{{ trans('rooms.show.breakfast_time') }}</p>
+                <p class="mb-8 text-green-main w-48">{{ trans('rooms.show.tea_time') }}</p>
+
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-0 text-center px-8 text-green-main">{{ trans('rooms.show.warnings.line_one') }}</p>
+            <p class="mb-0 text-center px-8 text-green-main">{{ trans('rooms.show.warnings.line_two') }}</p>
+            <p class="mb-0 text-center px-8 text-green-main">{{ trans('rooms.show.warnings.line_three') }}</p>
+        </div>
+
+
+    </section>
     @component('front.components.info-section', ['title' => trans('rooms.show.price_heading')])
         <p class="text-center font-serif italic text-green-main mt-8">{{ trans('rooms.show.price_disclaimer') }}</p>
-        <div class="w-full my-20">
+        <div class="w-full mt-20">
             <ul class="list-reset font-heading text-green-main max-w-sm mx-auto w-full border border-green-mid">
                 <li class="flex justify-between items-center border-b border-green-mid">
                     <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
@@ -82,12 +89,33 @@
                 </li>
             </ul>
         </div>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.person') }}</p>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.beds') }}</p>
-        <p class="mb-0 text-green-main text-center">{{ trans('rooms.show.pricing_notes.pickup') }}</p>
-        <a href="{{ localUrl('/book') }}"
-           class="btn btn-green no-underline mt-20">{{ trans('rooms.index.buttons.book') }}</a>
+
     @endcomponent
+
+    <section class="bg-green-soft px-8 pb-20">
+        <div>
+            <div class="flex w-full">
+                <p class="w-1/2 text-right mr-2">{{ trans('rooms.show.pricing.line_one.label') }}</p>
+                <p class="w-1/2 ml-2">{{ trans('rooms.show.pricing.line_one.value') }}</p>
+            </div>
+            <div class="flex w-full">
+                <p class="w-1/2 text-right mr-2">{{ trans('rooms.show.pricing.line_two.label') }}</p>
+                <p class="w-1/2 ml-2">{{ trans('rooms.show.pricing.line_two.value') }}</p>
+            </div>
+            <div class="flex w-full">
+                <p class="w-1/2 text-right mr-2">{{ trans('rooms.show.pricing.line_three.label') }}</p>
+                <p class="w-1/2 ml-2">{{ trans('rooms.show.pricing.line_three.value') }}</p>
+            </div>
+            <div class="flex w-full">
+                <p class="w-1/2 text-right mr-2">{{ trans('rooms.show.pricing.line_four.label') }}</p>
+                <p class="w-1/2 ml-2">{{ trans('rooms.show.pricing.line_four.value') }}</p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <a href="{{ localUrl('/book') }}"
+               class="btn btn-green no-underline mt-20">{{ trans('rooms.index.buttons.book') }}</a>
+        </div>
+    </section>
 
 
 @endsection

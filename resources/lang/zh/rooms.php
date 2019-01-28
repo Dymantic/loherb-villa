@@ -22,11 +22,11 @@ return [
     'show'  => [
         'info_heading'      => '房間設施',
         'check_times'       => [
-            'in' => '入住時間：15:00 - 20:00',
-            'out' => '退房時間：08:00 - 11:00',
+            'in' => '入住時間 15:00 ~ 20:00',
+            'out' => '退房時間 08:00 ~ 11:00',
         ],
-        'breakfast_time' => '早餐: 08:00 - 10:00',
-        'tea_time' => '下午茶: 12:00 - 17:00',
+        'breakfast_time' => '早餐時間 08:00 ~ 10:00',
+        'tea_time' => '午茶時間 14:00 ~ 17:00',
         'price_heading'    => '價格',
         'price_disclaimer' => '均以台幣計價',
         'price_times'      => [
@@ -36,17 +36,18 @@ return [
             'chinese_new_year' => '過年',
             'add_person'       => '增加１人入住'
         ],
-        'pricing_notes' => [
-            'person' => '增加１人入住 (２歲以上) $1,000/１人 (包含床，早餐及下午茶)',
-            'beds' => '$500/加１床, $300/嬰兒床, $100/棉被',
-            'pickup' => '羅東火車站到飯店的接送費用 - $200 (需登記預約)'
+        'pricing' => [
+            'line_one' => ['label' => '增加１人入住 (２歲以上)', 'value' => '$1,000 (包含床，早餐及下午茶)'],
+            'line_two' => ['label' => '加１床', 'value' => '$500'],
+            'line_three' => ['label' => '嬰兒床', 'value' => '$300'],
+            'line_four' => ['label' => '棉被', 'value' => '$100'],
         ],
         'warnings' => [
-            'drugs' => '室內禁菸, 禁止使用毒品, 晚上１０點後音量請降低',
-            'pets' => '禁止寵物 - 羅東有寵物旅館',
-            'identity' => '請提供您的資料以便入住登記'
+            'line_one' => '室內禁菸 & 非法藥品 & 寵物入內',
+            'line_two' => '22:00後請降低音量',
+            'line_three' => '入住時請出示身分證件'
         ],
-        'additional_header' => '其他'
+        'additional_header' => '注意事項'
     ],
     'villa' => [
         'name'         => '水芙蓉',
