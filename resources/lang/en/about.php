@@ -4,6 +4,10 @@ return [
     'title' => 'The Villa Loherb Story',
     'description' => 'The story of how Loherb Villa became such a special place.',
 
+    'banner' => [
+        'text' => 'Loherb is all about healthy living.'
+    ],
+
     'section_one' => [
         'heading' => 'The Loherb Story',
         'content' => 'Loherb is all about healthy living. From the air we breath, to the environment we live in, to the things we eat - it all matters and we have a strong belief that it should be embraced regularly. The Loherb Group aspires to this philosophy in all of the products and services we offer. 
