@@ -1,4 +1,4 @@
-<div class="fixed pin-t w-full flex justify-between items-center h-12 px-4 main-nav bg-green-main hover:bg-green-main main-nav">
+<div class="fixed pin-t w-full flex justify-between items-center h-12 px-4 main-nav bg-green-main hover:bg-green-main main-nav font-medium">
     <div>
         <a href="{{ localUrl("/") }}"
            tabindex="1"

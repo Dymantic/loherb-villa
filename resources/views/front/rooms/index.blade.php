@@ -14,7 +14,7 @@
 
 @section('content')
     @component('front.components.info-section', ['title' => trans('rooms.index.heading')])
-        <p class="my-8 body-text text-green-main">{{ trans('rooms.index.subheading') }}</p>
+        <p class="my-8 body-text text-green-main text-center">{{ trans('rooms.index.subheading') }}</p>
     @endcomponent
     <div class="px-4 pt-12">
         <p class="heading-text mb-4 text-green-main text-center">{{ trans('rooms.index.types.economy') }}</p>

@@ -25,8 +25,13 @@
     @include('front.home.weather', ['weather' => $weather])
     @include('front.home.cuisine')
     @include('front.home.instagram', ['instagrams' => $instagrams])
+    {{--<div class="fb-customerchat"--}}
+         {{--page_id="{{ config('facebook.page_id') }}">--}}
+    {{--</div>--}}
 @endsection
 
 @section('bodyscripts')
     @include('front.partials.hotel-jsonld')
+
+{{--    @include('front.partials.facebook-sdk')--}}
 @endsection

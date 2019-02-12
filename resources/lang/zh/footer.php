@@ -11,10 +11,10 @@ return [
     'close-line' => 'Part of the Loherb Group',
     'sites' => [
         'heading' => '日光集團',
-        'estate' => 'Estate',
+        'estate' => '日光物業',
         'biotech' => 'Biotech',
-        'villa' => 'Villa',
-        'cuisine' => 'Cuisine'
+        'villa' => '日光綠築',
+        'cuisine' => '日光私廚'
     ],
     'links' => [
         'about' => '關於日光',
