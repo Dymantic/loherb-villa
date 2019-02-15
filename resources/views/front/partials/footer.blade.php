@@ -6,7 +6,7 @@
     </div>
     <div class="max-w-xl mx-auto flex flex-col md:flex-row justify-between">
         <div class="flex flex-col items-center w-full md:w-48 loherb-group mt-12 md:mt-0">
-            <p class="text-xl font-sans text-white uppercase mb-2 tracking-wide">{{ trans('footer.sites.heading') }}</p>
+            <p class="text-xl font-medium font-sans text-white uppercase mb-2 tracking-wide">{{ trans('footer.sites.heading') }}</p>
 
             <a href=""
                class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.estate') }}</a>
@@ -17,7 +17,7 @@
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
             <div>
-                <p class="text-xl text-center font-sans uppercase tracking-wide text-white mb-4">{{ trans('footer.social.heading') }}</p>
+                <p class="text-xl font-medium text-center font-sans uppercase tracking-wide text-white mb-4">{{ trans('footer.social.heading') }}</p>
                 <div class="flex justify-center">
                     <a class="text-white hover:text-gold mx-4"
                        href="">@include('svgs.social.twitter')</a>
@@ -36,7 +36,7 @@
             </p>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
-            <p class="text-xl font-sans text-white tracking-wide uppercase mb-2">{{ trans('footer.contact_heading') }}</p>
+            <p class="text-xl font-medium font-sans text-white tracking-wide uppercase mb-2">{{ trans('footer.contact_heading') }}</p>
                 <a class="font-sans tracking-wide no-underline text-white text-base mb-2"
                    href="">service@loherb.com.tw</a>
                 <a class="font-sans tracking-wide uppercase no-underline text-white text-base mb-2"

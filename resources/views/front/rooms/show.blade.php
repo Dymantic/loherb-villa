@@ -84,7 +84,7 @@
 
     </section>
     @component('front.components.info-section', ['title' => trans('rooms.show.price_heading')])
-        <p class="text-center font-serif italic text-green-main mt-8">{{ trans('rooms.show.price_disclaimer') }}</p>
+        <p class="text-center reviews-text italic text-green-main mt-8">{{ trans('rooms.show.price_disclaimer') }}</p>
         <div class="w-full mt-20">
             <ul class="list-reset font-heading text-green-main max-w-sm mx-auto w-full border border-green-mid">
                 <li class="flex justify-between items-center border-b border-green-mid">
@@ -126,7 +126,7 @@
                 <p class="w-1/2 text-right mr-2">{{ trans('rooms.show.pricing.line_four.label') }}</p>
                 <p class="w-1/2 ml-2">{{ trans('rooms.show.pricing.line_four.value') }}</p>
             </div>
-            <p class="text-center body-text text-sm mt-4">{{ trans('rooms.show.pricing.condition') }}</p>
+            <p class="text-center body-text mt-4">{{ trans('rooms.show.pricing.condition') }}</p>
         </div>
         <div class="flex justify-center">
             <a href="{{ localUrl('/book') }}"

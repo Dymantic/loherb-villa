@@ -43,11 +43,11 @@ return [
             'add_person'       => '增加１人入住'
         ],
         'pricing' => [
-            'line_one' => ['label' => '增加１人入住*', 'value' => '$1,000'],
+            'line_one' => ['label' => '加１人*', 'value' => '$1,000'],
             'line_two' => ['label' => '加１床', 'value' => '$500'],
             'line_three' => ['label' => '嬰兒床', 'value' => '$300'],
             'line_four' => ['label' => '棉被', 'value' => '$100'],
-            'condition' => '*２歲以上/包含床，早餐及下午茶'
+            'condition' => '*2歲以上需加人/含床及早餐下午茶'
         ],
         'warnings' => [
             'line_one' => '室內禁菸 & 非法藥品 & 寵物入內',
@@ -101,11 +101,11 @@ return [
     ],
 
     'frangipani' => [
-        'name'         => '雞蛋花(樓中樓雙人)',
+        'name'         => '雞蛋花',
         'text_heading' => '領略自然的至高美地',
         'text_content' => '雞蛋花樓中樓雙人房，下層有小型吧台可以簡單烹飪聚會，樓上有起居室。房間位於至高點，雙面採光玻璃帷幕，最能感受遼闊視野。',
         'preview'      => [
-            'name'           => '雞蛋花(樓中樓雙人)',
+            'name'           => '雞蛋花',
             'description'    => '閣樓設計雙面採光，帶領你我以寬廣視野感受自然之美。',
             'starting_price' => '房價 NT$5,200'
         ]
@@ -123,11 +123,11 @@ return [
     ],
 
     'plum' => [
-        'name'         => '一剪梅(頂級雙人)',
+        'name'         => '一剪梅',
         'text_heading' => '專屬靈魂伴侶的紀念地',
         'text_content' => '一剪梅頂級雙人房有私人空中花園，以星辰為鑑留下彼此的精心時刻。房間中還有搖籃椅、沙發、超大型雙人床，別富優美深層意境。',
         'preview'      => [
-            'name'           => '一剪梅(頂級雙人)',
+            'name'           => '一剪梅',
             'description'    => '私人空中花園，由星辰為鑑的紀念日。',
             'starting_price' => '房價 NT$5,200'
         ]
