@@ -4,16 +4,10 @@
         @foreach($instagrams->take(8)->chunk(4) as $row)
             <div class="max-w-xl mx-auto flex-wrap md:flex-no-wrap justify-center w-full flex">
                 @foreach($row as $instagram)
-                    <picture class="sm:flex-1  w-1/2 sm:m-1">
-                        <source srcset="{{ $instagram['standard'] }}"
-                                media="(max-width: 576px)">
-                        <source srcset="{{ $instagram['standard'] }}"
-                                media="(min-width: 577px)">
-                        <img srcset="{{ $instagram['standard'] }}"
-                             alt="from instagram">
-                    </picture>
-{{--                    <img src="{{ $instagram['standard'] }}"--}}
-                         {{--alt="" class="w-1/2 h-auto md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-64 xl:h-64">--}}
+                    <div class="instagram-image-box">
+                        <img src="{{ $instagram['standard'] }}"
+                             alt="">
+                    </div>
                 @endforeach
             </div>
         @endforeach

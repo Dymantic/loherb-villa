@@ -10,8 +10,8 @@
                     <p class="mb-4 hidden md:block">
                         {{ $review['content'] }}
                     </p>
-                    <p class="text-sm md:text-base text-center md:text-right italic"> - {{ $review['name'] }}</p>
-                    <p class="text-sm md:text-base text-center md:text-right italic pb-16">({{ $review['source'] }})</p>
+                    <p class="text-sm md:text-base text-center md:text-right italic pr-2"> - {{ $review['name'] }}</p>
+                    <p class="text-sm md:text-base text-center md:text-right italic pb-16 pr-2">({{ $review['source'] }})</p>
                     @include('front.partials.star-rating', ['rating' => $review['rating']])
                 </div>
         @endforeach

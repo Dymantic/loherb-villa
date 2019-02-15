@@ -51,12 +51,28 @@
             @endforeach
         </div>
 
-        <div class="flex flex-col items-center">
-                <p class="mb-4 text-green-main text-center font-heading">{{ trans('rooms.show.additional_header') }}</p>
-                <p class="mb-0 text-green-main w-48">{{ trans('rooms.show.check_times.in') }}</p>
-                <p class="mb-0 text-green-main w-48">{{ trans('rooms.show.check_times.out') }}</p>
-                <p class="mb-0 text-green-main w-48">{{ trans('rooms.show.breakfast_time') }}</p>
-                <p class="mb-8 text-green-main w-48">{{ trans('rooms.show.tea_time') }}</p>
+        <div class="text-green-main my-8">
+            <p class="mb-8 text-green-main text-center font-heading">{{ trans('rooms.show.additional_header') }}</p>
+            <div class="flex justify-between max-w-xxs mx-auto w-full">
+                <p>{{ trans('rooms.show.times.check_in.label') }}</p>
+                <p>{{ trans('rooms.show.times.check_in.value') }}</p>
+            </div>
+            <div class="flex justify-between max-w-xxs mx-auto w-full">
+                <p>{{ trans('rooms.show.times.check_out.label') }}</p>
+                <p>{{ trans('rooms.show.times.check_out.value') }}</p>
+            </div>
+            <div class="flex justify-between max-w-xxs mx-auto w-full">
+                <p>{{ trans('rooms.show.times.breakfast.label') }}</p>
+                <p>{{ trans('rooms.show.times.breakfast.value') }}</p>
+            </div>
+            <div class="flex justify-between max-w-xxs mx-auto w-full">
+                <p>{{ trans('rooms.show.times.tea.label') }}</p>
+                <p>{{ trans('rooms.show.times.tea.value') }}</p>
+            </div>
+            {{--<p class="mb-0 text-green-main w-48">{{ trans('rooms.show.check_times.in') }}</p>--}}
+            {{--<p class="mb-0 text-green-main w-48">{{ trans('rooms.show.check_times.out') }}</p>--}}
+            {{--<p class="mb-0 text-green-main w-48">{{ trans('rooms.show.breakfast_time') }}</p>--}}
+            {{--<p class="mb-8 text-green-main w-48">{{ trans('rooms.show.tea_time') }}</p>--}}
 
         </div>
         <div class="flex flex-col items-center">
@@ -72,19 +88,19 @@
         <div class="w-full mt-20">
             <ul class="list-reset font-heading text-green-main max-w-sm mx-auto w-full border border-green-mid">
                 <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
+                    <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['weekday'] }}</span>
                 </li>
                 <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekends') }}</span>
+                    <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekends') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['weekends'] }}</span>
                 </li>
                 <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.holidays') }}</span>
+                    <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.holidays') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['holidays'] }}</span>
                 </li>
                 <li class="flex justify-between items-center">
-                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.chinese_new_year') }}</span>
+                    <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.chinese_new_year') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['chinese_new_year'] }}</span>
                 </li>
             </ul>
@@ -93,7 +109,7 @@
     @endcomponent
 
     <section class="bg-green-soft px-8 pb-20">
-        <div>
+        <div class="text-green-main">
             <div class="flex w-full">
                 <p class="w-1/2 text-right mr-2">{{ trans('rooms.show.pricing.line_one.label') }}</p>
                 <p class="w-1/2 ml-2">{{ trans('rooms.show.pricing.line_one.value') }}</p>
@@ -110,6 +126,7 @@
                 <p class="w-1/2 text-right mr-2">{{ trans('rooms.show.pricing.line_four.label') }}</p>
                 <p class="w-1/2 ml-2">{{ trans('rooms.show.pricing.line_four.value') }}</p>
             </div>
+            <p class="text-center body-text text-sm mt-4">{{ trans('rooms.show.pricing.condition') }}</p>
         </div>
         <div class="flex justify-center">
             <a href="{{ localUrl('/book') }}"

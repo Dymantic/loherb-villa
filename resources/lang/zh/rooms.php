@@ -21,6 +21,12 @@ return [
     ],
     'show'  => [
         'info_heading'      => '房間設施',
+        'times' => [
+            'check_in' => ['label' => '入住時間', 'value' => '15:00 ~ 20:00'],
+            'check_out' => ['label' => '退房時間', 'value' => '08:00 ~ 11:00'],
+            'breakfast' => ['label' => '早餐時間', 'value' => '08:00 ~ 10:00'],
+            'tea' => ['label' => '午茶時間', 'value' => '12:00 ~ 17:00']
+        ],
         'check_times'       => [
             'in' => '入住時間 15:00 ~ 20:00',
             'out' => '退房時間 08:00 ~ 11:00',
@@ -37,10 +43,11 @@ return [
             'add_person'       => '增加１人入住'
         ],
         'pricing' => [
-            'line_one' => ['label' => '增加１人入住 (２歲以上)', 'value' => '$1,000 (包含床，早餐及下午茶)'],
+            'line_one' => ['label' => '增加１人入住*', 'value' => '$1,000'],
             'line_two' => ['label' => '加１床', 'value' => '$500'],
             'line_three' => ['label' => '嬰兒床', 'value' => '$300'],
             'line_four' => ['label' => '棉被', 'value' => '$100'],
+            'condition' => '*２歲以上/包含床，早餐及下午茶'
         ],
         'warnings' => [
             'line_one' => '室內禁菸 & 非法藥品 & 寵物入內',

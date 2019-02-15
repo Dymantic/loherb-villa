@@ -12,7 +12,7 @@ return [
     'form' => [
         'name' => '您的大名',
         'phone' => '電話',
-        'email' => 'Email',
+        'email' => '電子郵件',
         'message_body' => '留言',
         'submit' => '送出',
         'waiting' => '正在送出',

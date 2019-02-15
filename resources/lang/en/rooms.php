@@ -21,6 +21,12 @@ return [
     ],
     'show'  => [
         'info_heading'      => 'Room Information',
+        'times' => [
+            'check_in' => ['label' => 'Check In', 'value' => '15:00 ~ 20:00'],
+            'check_out' => ['label' => 'Check Out', 'value' => '08:00 ~ 11:00'],
+            'breakfast' => ['label' => 'Breakfast', 'value' => '08:00 ~ 10:00'],
+            'tea' => ['label' => 'Tea time', 'value' => '12:00 ~ 17:00']
+        ],
         'check_times'       => [
             'in' => 'Check In: 15:00 ~ 20:00',
             'out' => 'Check Out: 08:00 ~ 11:00',
@@ -37,10 +43,11 @@ return [
             'add_person'       => 'Additional Person'
         ],
         'pricing' => [
-            'line_one' => ['label' => 'Extra person (over 2 years old)', 'value' => '$1,000 (incl. bed, breakfast & tea)'],
+            'line_one' => ['label' => 'Extra person*', 'value' => '$1,000'],
             'line_two' => ['label' => 'Extra Bed', 'value' => '$500'],
             'line_three' => ['label' => 'Crib', 'value' => '$300'],
             'line_four' => ['label' => 'Quilts', 'value' => '$100'],
+            'condition' => '*over 2 years old/includes bed, breakfast & tea'
         ],
         'warnings' => [
             'line_one' => 'No indoor smoking, no illegal drugs, no pets.',

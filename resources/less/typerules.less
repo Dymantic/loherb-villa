@@ -14,12 +14,16 @@ html:lang(zh) .body-text {
   @apply .font-serif .italic .text-lg;
 }
 
+.reviews-text:lang(zh) {
+@apply .font-sans;
+}
+
 .quotes-text {
   @apply .font-serif .italic .text-5xl;
 }
 
 .quotes-text:lang(zh) {
-@apply .text-4xl;
+@apply .text-4xl .font-sans;
 }
 
 .banner-text {
@@ -50,4 +54,12 @@ html:lang(zh) .body-text {
   .quotes-text:lang(zh) {
   @apply .text-2xl;
   }
+}
+
+.slanted-text {
+@apply .font-serif .italic .text-lg;
+}
+
+html:lang(zh) .slanted-text {
+@apply .font-heading .roman .text-base;
 }
