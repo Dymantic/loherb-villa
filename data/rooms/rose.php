@@ -37,30 +37,42 @@ return [
         'add_person'       => 111
     ],
     'gallery_images' => [
-        ['full'  => '/images/room-galleries/rose/rose_gallery_1.jpg',
-         'small' => '/images/room-galleries/rose/mobile/rose_gallery_1.jpg'
+        [
+            'full'  => '/images/room-galleries/rose/rose_gallery_1.jpg',
+            'small' => '/images/room-galleries/rose/mobile/rose_gallery_1.jpg',
+            'wide'  => '/images/room-galleries/rose/wide/rose_gallery_1.jpg',
         ],
-        ['full'  => '/images/room-galleries/rose/rose_gallery_2.jpg',
-         'small' => '/images/room-galleries/rose/mobile/rose_gallery_2.jpg'
+        [
+            'full'  => '/images/room-galleries/rose/rose_gallery_2.jpg',
+            'small' => '/images/room-galleries/rose/mobile/rose_gallery_2.jpg',
+            'wide'  => '/images/room-galleries/rose/wide/rose_gallery_2.jpg',
         ],
-        ['full'  => '/images/room-galleries/rose/rose_gallery_3.jpg',
-         'small' => '/images/room-galleries/rose/mobile/rose_gallery_3.jpg'
+        [
+            'full'  => '/images/room-galleries/rose/rose_gallery_3.jpg',
+            'small' => '/images/room-galleries/rose/mobile/rose_gallery_3.jpg',
+            'wide'  => '/images/room-galleries/rose/wide/rose_gallery_3.jpg',
         ],
-        ['full'  => '/images/room-galleries/rose/rose_gallery_4.jpg',
-         'small' => '/images/room-galleries/rose/mobile/rose_gallery_4.jpg'
+        [
+            'full'  => '/images/room-galleries/rose/rose_gallery_4.jpg',
+            'small' => '/images/room-galleries/rose/mobile/rose_gallery_4.jpg',
+            'wide'  => '/images/room-galleries/rose/wide/rose_gallery_4.jpg',
         ],
-        ['full'  => '/images/room-galleries/rose/rose_gallery_5.jpg',
-         'small' => '/images/room-galleries/rose/mobile/rose_gallery_5.jpg'
+        [
+            'full'  => '/images/room-galleries/rose/rose_gallery_5.jpg',
+            'small' => '/images/room-galleries/rose/mobile/rose_gallery_5.jpg',
+            'wide'  => '/images/room-galleries/rose/wide/rose_gallery_5.jpg',
         ],
-        ['full'  => '/images/room-galleries/rose/rose_gallery_6.jpg',
-         'small' => '/images/room-galleries/rose/mobile/rose_gallery_6.jpg'
+        [
+            'full'  => '/images/room-galleries/rose/rose_gallery_6.jpg',
+            'small' => '/images/room-galleries/rose/mobile/rose_gallery_6.jpg',
+            'wide'  => '/images/room-galleries/rose/wide/rose_gallery_6.jpg',
         ],
     ],
-    'occupancy' => [
-        'min' => 1,
-        'max' => 4,
-        'beds' => 1,
+    'occupancy'      => [
+        'min'      => 1,
+        'max'      => 4,
+        'beds'     => 1,
         'bed_type' => 'King size'
     ],
-    'main_image' => '/images/room-banners/rose.jpg',
+    'main_image'     => '/images/room-banners/rose.jpg',
 ];

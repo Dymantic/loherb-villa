@@ -37,30 +37,42 @@ return [
         'add_person'       => 111
     ],
     'gallery_images' => [
-        ['full'  => '/images/room-galleries/plum/plum_gallery_1.jpg',
-         'small' => '/images/room-galleries/plum/mobile/plum_gallery_1.jpg'
+        [
+            'full'  => '/images/room-galleries/plum/plum_gallery_1.jpg',
+            'small' => '/images/room-galleries/plum/mobile/plum_gallery_1.jpg',
+            'wide'  => '/images/room-galleries/plum/wide/plum_gallery_1.jpg',
         ],
-        ['full'  => '/images/room-galleries/plum/plum_gallery_2.jpg',
-         'small' => '/images/room-galleries/plum/mobile/plum_gallery_2.jpg'
+        [
+            'full'  => '/images/room-galleries/plum/plum_gallery_2.jpg',
+            'small' => '/images/room-galleries/plum/mobile/plum_gallery_2.jpg',
+            'wide'  => '/images/room-galleries/plum/wide/plum_gallery_2.jpg',
         ],
-        ['full'  => '/images/room-galleries/plum/plum_gallery_3.jpg',
-         'small' => '/images/room-galleries/plum/mobile/plum_gallery_3.jpg'
+        [
+            'full'  => '/images/room-galleries/plum/plum_gallery_3.jpg',
+            'small' => '/images/room-galleries/plum/mobile/plum_gallery_3.jpg',
+            'wide'  => '/images/room-galleries/plum/wide/plum_gallery_3.jpg',
         ],
-        ['full'  => '/images/room-galleries/plum/plum_gallery_4.jpg',
-         'small' => '/images/room-galleries/plum/mobile/plum_gallery_4.jpg'
+        [
+            'full'  => '/images/room-galleries/plum/plum_gallery_4.jpg',
+            'small' => '/images/room-galleries/plum/mobile/plum_gallery_4.jpg',
+            'wide'  => '/images/room-galleries/plum/wide/plum_gallery_4.jpg',
         ],
-        ['full'  => '/images/room-galleries/plum/plum_gallery_5.jpg',
-         'small' => '/images/room-galleries/plum/mobile/plum_gallery_5.jpg'
+        [
+            'full'  => '/images/room-galleries/plum/plum_gallery_5.jpg',
+            'small' => '/images/room-galleries/plum/mobile/plum_gallery_5.jpg',
+            'wide'  => '/images/room-galleries/plum/wide/plum_gallery_5.jpg',
         ],
-        ['full'  => '/images/room-galleries/plum/plum_gallery_6.jpg',
-         'small' => '/images/room-galleries/plum/mobile/plum_gallery_6.jpg'
+        [
+            'full'  => '/images/room-galleries/plum/plum_gallery_6.jpg',
+            'small' => '/images/room-galleries/plum/mobile/plum_gallery_6.jpg',
+            'wide'  => '/images/room-galleries/plum/wide/plum_gallery_6.jpg',
         ],
     ],
-    'occupancy' => [
-        'min' => 1,
-        'max' => 4,
-        'beds' => 1,
+    'occupancy'      => [
+        'min'      => 1,
+        'max'      => 4,
+        'beds'     => 1,
         'bed_type' => 'King size'
     ],
-    'main_image' => '/images/room-banners/plum.jpg',
+    'main_image'     => '/images/room-banners/plum.jpg',
 ];
