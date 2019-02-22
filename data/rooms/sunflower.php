@@ -38,39 +38,44 @@ return [
     ],
     'gallery_images' => [
         [
-            'full'  => '/images/room-galleries/sunflower/sunflower_gallery_1.jpg',
+            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_1.jpg',
             'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_1.jpg',
             'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_1.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/sunflower/sunflower_gallery_2.jpg',
+            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_2.jpg',
             'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_2.jpg',
             'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_2.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/sunflower/sunflower_gallery_3.jpg',
+            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_3.jpg',
             'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_3.jpg',
             'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_3.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/sunflower/sunflower_gallery_4.jpg',
+            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_4.jpg',
             'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_4.jpg',
             'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_4.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/sunflower/sunflower_gallery_5.jpg',
+            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_5.jpg',
             'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_5.jpg',
             'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_5.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/sunflower/sunflower_gallery_6.jpg',
+            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_6.jpg',
             'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_6.jpg',
             'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_6.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/sunflower/sunflower_gallery_7.jpg',
+            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_7.jpg',
             'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_7.jpg',
             'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_7.jpg',
+        ],
+        [
+            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_8.jpg',
+            'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_8.jpg',
+            'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_8.jpg',
         ],
     ],
     'occupancy'      => [

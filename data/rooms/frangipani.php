@@ -38,49 +38,64 @@ return [
     ],
     'gallery_images' => [
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_1.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_1.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_1.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_1.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_2.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_2.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_2.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_2.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_3.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_3.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_3.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_3.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_4.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_4.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_4.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_4.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_6.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_5.jpg',
+            'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_5.jpg',
+            'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_5.jpg',
+        ],
+        [
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_6.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_6.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_6.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_7.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_7.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_7.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_7.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_8.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_8.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_8.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_8.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_9.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_9.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_9.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_9.jpg',
         ],
         [
-            'full'  => '/images/room-galleries/frangipani/frangipani_gallery_10.jpg',
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_10.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_10.jpg',
             'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_10.jpg',
+        ],
+        [
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_11.jpg',
+            'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_11.jpg',
+            'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_11.jpg',
+        ],
+        [
+            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_12.jpg',
+            'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_12.jpg',
+            'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_12.jpg',
         ],
     ],
     'occupancy'      => [
