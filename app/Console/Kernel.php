@@ -26,6 +26,9 @@ class Kernel extends ConsoleKernel
     {
          $schedule->command('simple-weather:forecast')
                   ->cron('0 */4 * * *');
+
+        $schedule->command('instagram-feed:refresh')
+                 ->dailyAt('00:00');
     }
 
     /**

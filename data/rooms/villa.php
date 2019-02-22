@@ -82,7 +82,7 @@ return [
             'small' => '/images/room-galleries/villa/mobile/villa_gallery_11.jpg',
             'wide'  => '/images/room-galleries/villa/wide/villa_gallery_11.jpg',
         ],
-        
+
     ],
     'occupancy'      => [
         'min'      => 1,
