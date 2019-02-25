@@ -37,11 +37,11 @@ return [
         'add_person'       => 111
     ],
     'gallery_images' => [
-        [
-            'full'  => '/images/room-galleries/plum/reg/plum_gallery_1.jpg',
-            'small' => '/images/room-galleries/plum/mobile/plum_gallery_1.jpg',
-            'wide'  => '/images/room-galleries/plum/wide/plum_gallery_1.jpg',
-        ],
+//        [
+//            'full'  => '/images/room-galleries/plum/reg/plum_gallery_1.jpg',
+//            'small' => '/images/room-galleries/plum/mobile/plum_gallery_1.jpg',
+//            'wide'  => '/images/room-galleries/plum/wide/plum_gallery_1.jpg',
+//        ],
         [
             'full'  => '/images/room-galleries/plum/reg/plum_gallery_2.jpg',
             'small' => '/images/room-galleries/plum/mobile/plum_gallery_2.jpg',

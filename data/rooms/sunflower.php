@@ -37,11 +37,11 @@ return [
         'add_person'       => 111
     ],
     'gallery_images' => [
-        [
-            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_1.jpg',
-            'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_1.jpg',
-            'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_1.jpg',
-        ],
+//        [
+//            'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_1.jpg',
+//            'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_1.jpg',
+//            'wide'  => '/images/room-galleries/sunflower/wide/sunflower_gallery_1.jpg',
+//        ],
         [
             'full'  => '/images/room-galleries/sunflower/reg/sunflower_gallery_2.jpg',
             'small' => '/images/room-galleries/sunflower/mobile/sunflower_gallery_2.jpg',

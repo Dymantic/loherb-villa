@@ -37,11 +37,11 @@ return [
         'add_person'       => 111
     ],
     'gallery_images' => [
-        [
-            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_1.jpg',
-            'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_1.jpg',
-            'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_1.jpg',
-        ],
+//        [
+//            'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_1.jpg',
+//            'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_1.jpg',
+//            'wide'  => '/images/room-galleries/frangipani/wide/frangipani_gallery_1.jpg',
+//        ],
         [
             'full'  => '/images/room-galleries/frangipani/reg/frangipani_gallery_2.jpg',
             'small' => '/images/room-galleries/frangipani/mobile/frangipani_gallery_2.jpg',
