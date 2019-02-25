@@ -83,10 +83,14 @@
 
 .large-slider {
   .flickity-viewport {
-    min-height: calc(70rem * .55);
+    min-height: calc(100vw * .75);
 
-    @media screen and (max-width: 87.5rem) {
-      min-height: calc((100vw - 2rem) * .8 * .55);
+    @media screen and (min-width: 577px) and (max-width: 991px) {
+      min-height: calc(100vw * .57);
+    }
+
+    @media screen and (min-width: 992px) {
+      min-height: calc((100vw - 10rem) * .57);
     }
   }
 }
