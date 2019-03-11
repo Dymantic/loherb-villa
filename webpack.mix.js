@@ -1,5 +1,7 @@
 const mix = require('laravel-mix');
 const tailwindcss = require('tailwindcss');
+require('laravel-mix-purgecss');
+
 
 /*
  |--------------------------------------------------------------------------
@@ -18,4 +20,18 @@ mix.js('resources/js/app.js', 'public/js')
        postCss: [
            tailwindcss('./tailwind.js'),
        ]
-   }).version();
+   })
+   .purgeCss(
+       {
+           globs: [
+               path.join(__dirname, 'node_modules/flickity/**/*.js'),
+           ],
+
+           extensions: ['html', 'js', 'php', 'vue'],
+
+           whitelistPatterns: [/room-banner$/],
+
+           whitelistPatternsChildren: [/-room$/],
+       }
+   )
+   .version();
