@@ -14,9 +14,9 @@
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect']], function() {
     Route::get('/', 'PagesController@home');
 
-    Route::get('/about', 'PagesController@about');
+    Route::get('about', 'PagesController@about');
 
-    Route::get('/contact', 'PagesController@contact');
+    Route::get('contact', 'PagesController@contact');
 
     Route::get('rooms', 'RoomsController@index');
     Route::get('rooms/{room}', 'RoomsController@show');
@@ -24,7 +24,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('journal', 'BlogController@index');
     Route::get('journal/{slug}', 'BlogController@show');
 
-    Route::get('book', 'PagesController@book');
+    Route::redirect('book', 'contact');
 
 });
 Route::post('contact', 'ContactController@store');

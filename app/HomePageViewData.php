@@ -55,7 +55,7 @@ class HomePageViewData
         return app('blog')
             ->posts()
             ->live()
-            ->latest()
+            ->latest('publish_date')
             ->take(3)
             ->get()
             ->map

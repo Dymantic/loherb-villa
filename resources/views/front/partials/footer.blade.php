@@ -8,31 +8,31 @@
         <div class="flex flex-col items-center w-full md:w-48 loherb-group mt-12 md:mt-0">
             <p class="text-xl font-medium font-sans text-white uppercase mb-2 tracking-wide">{{ trans('footer.sites.heading') }}</p>
 
-            <a href=""
+            <a href="https://estate.loherb.com.tw"
                class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.estate') }}</a>
-            <a href=""
+            <a href="https://villa.loherb.com.tw"
                class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.villa') }}</a>
-            <a href=""
+            <a href="https://cuisine.loherb.com.tw"
                class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.cuisine') }}</a>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
             <div>
                 <p class="text-xl font-medium text-center font-sans uppercase tracking-wide text-white mb-4">{{ trans('footer.social.heading') }}</p>
                 <div class="flex justify-center">
+                    {{--<a class="text-white hover:text-gold mx-4"--}}
+                       {{--href="">@include('svgs.social.twitter')</a>--}}
+                    {{--<a class="text-white hover:text-gold mx-4"--}}
+                       {{--href="">@include('svgs.social.linkedin')</a>--}}
                     <a class="text-white hover:text-gold mx-4"
-                       href="">@include('svgs.social.twitter')</a>
+                       href="https://www.facebook.com/LOHERB.TW/">@include('svgs.social.facebook')</a>
                     <a class="text-white hover:text-gold mx-4"
-                       href="">@include('svgs.social.linkedin')</a>
-                    <a class="text-white hover:text-gold mx-4"
-                       href="">@include('svgs.social.facebook')</a>
-                    <a class="text-white hover:text-gold mx-4"
-                       href="">@include('svgs.social.instagram')</a>
+                       href="https://www.instagram.com/loherb0301">@include('svgs.social.instagram')</a>
                 </div>
             </div>
 
             <p class="text-center mt-12 mb-12 md:mb-0">
                 <a class="font-sans tracking-wide uppercase no-underline text-gold hover:underline"
-                   href="">{{ trans('footer.links.book') }}</a>
+                   href="{{ localUrl('/book') }}">{{ trans('footer.links.book') }}</a>
             </p>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">

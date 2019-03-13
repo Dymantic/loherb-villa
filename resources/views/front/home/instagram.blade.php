@@ -14,6 +14,6 @@
     </div>
 
     <div class="text-center mt-8">
-        <a class="text-link tracking-wide mt-8 text-green-main hover:text-hover-green" href="">{{ trans('homepage.instagram.link') }} &rarr;</a>
+        <a class="text-link tracking-wide mt-8 text-green-main hover:text-hover-green" href="https://www.instagram.com/loherb0301">{{ trans('homepage.instagram.link') }} &rarr;</a>
     </div>
 </div>
