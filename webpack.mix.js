@@ -29,9 +29,9 @@ mix.js('resources/js/app.js', 'public/js')
 
            extensions: ['html', 'js', 'php', 'vue'],
 
-           whitelistPatterns: [/room-banner$/],
+           whitelistPatterns: [/room-banner$/, /iframe/, /img/],
 
-           whitelistPatternsChildren: [/-room$/],
+           whitelistPatternsChildren: [/-room$/, /^journal-entry/],
        }
    )
    .version();
