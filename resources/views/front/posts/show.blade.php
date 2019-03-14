@@ -6,7 +6,7 @@
 
 @section('head')
     @include('front.partials.ogmeta', [
-        'ogImage' => $post['title_image_banner'],
+        'ogImage' => $post['title_image_banner'] ?? '',
         'ogTitle' => $post['title'],
         'ogDescription' => $post['description']
     ])
@@ -27,7 +27,7 @@
 <div class="px-4 py-12">
     <p class="heading-text mb-4 text-green-main text-center">{{ trans('journal.show.share_prompt') }}</p>
     <div class="flex justify-center items-center">
-        <a href="https://twitter.com/home?status={{ urlencode($article->title . ' ' . Request::url()) }}" class="no-underline text-green-main hover:text-green-mid mx-4">
+        <a href="https://twitter.com/home?status={{ urlencode($post['title'] . ' ' . Request::url()) }}" class="no-underline text-green-main hover:text-green-mid mx-4">
             @include('svgs.social.twitter')
         </a>
         <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(Request::url()) }}" class="no-underline text-green-main hover:text-green-mid mx-4">
