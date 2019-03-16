@@ -29,7 +29,7 @@ mix.js('resources/js/app.js', 'public/js')
 
            extensions: ['html', 'js', 'php', 'vue'],
 
-           whitelistPatterns: [/room-banner$/, /iframe/, /img/],
+           whitelistPatterns: [/room-banner$/, /iframe/, /img/, /figure/],
 
            whitelistPatternsChildren: [/-room$/, /^journal-entry/],
        }
