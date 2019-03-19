@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Loherb Villa - Natural Accommodation - Yilan, Taiwan',
+    'title' => 'Loherb Villa - Eco-Friendly Accommodation - Yilan, Taiwan',
     'description' => 'Loherb Villa offers a unique and luxurious stay in the heart of the beautiful Yilan countryside, Taiwan.',
 
     'booking_form' => [
