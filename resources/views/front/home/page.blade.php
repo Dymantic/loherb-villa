@@ -26,7 +26,7 @@
     @include('front.home.cuisine')
     @include('front.home.instagram', ['instagrams' => $instagrams])
     <div class="fb-customerchat"
-         page_id="{{ config('facebook.page_id') }}">
+         page_id="{{ config('facebook.page_id') }}" theme_color="#084137">
     </div>
 @endsection
 
