@@ -1,29 +1,44 @@
 .journal-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
-  @media screen and (max-width: 576px) {
-    grid-template-columns: 1fr;
-  }
+    @media screen and (max-width: 576px) {
+        grid-template-columns: 1fr;
+    }
 
-  @media screen and (min-width: 577px) and (max-width: 900px) {
-    grid-template-columns: 1fr 1fr;
-  }
+    @media screen and (min-width: 577px) and (max-width: 900px) {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-.journal-entry img, .journal-entry iframe {
-  display: block;
-  margin: 2rem auto;
+.journal-entry img {
+    display: block;
+    margin: 2rem auto;
 }
 
 .journal-entry figcaption {
-@apply .text-center .text-sm;
+    @apply .text-center .text-sm;
 }
 
 .journal-entry figure {
-@apply .m-0;
+    @apply .m-0;
 }
 
 .journal-entry iframe {
-@apply .max-w-full .h-auto;
+    @apply .max-w-full;
+}
+
+.aspect-16-9 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 2rem auto;
+}
+
+.aspect-16-9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
