@@ -28,7 +28,14 @@ class Kernel extends ConsoleKernel
                   ->cron('0 */4 * * *');
 
         $schedule->command('instagram-feed:refresh')
-                 ->dailyAt('00:00');
+                 ->dailyAt('02:00');
+
+        $schedule->command('backup:clean')
+                 ->dailyAt('02:30');
+        $schedule->command('backup:run')
+                 ->dailyAt('03:00');
+        $schedule->command('sitemap:generate')
+                 ->dailyAt('03:30');
     }
 
     /**
