@@ -5,7 +5,7 @@ return [
      *  What address should the mail be sent to.
      *  The from address is made from the the address of the sender and their name
      */
-    'sends_email_to'        => 'test@test.com',
+    'sends_email_to'        => 'service@loherb.com.tw',
 
     /*
      * The url for you Slack incoming webhook
