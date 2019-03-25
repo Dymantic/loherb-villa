@@ -26,5 +26,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
     Route::redirect('book', 'contact');
 
+    Route::get('doiXmPz0fwUFunH8CidP', 'PagesController@book');
+
 });
 Route::post('contact', 'ContactController@store');
