@@ -1,7 +1,7 @@
 @extends('front.base', ['bodyClass' => 'md:pt-12'])
 
 @section('title')
-    {{ trans('about.title') }}
+    {{ trans('bookings.title') }}
 @endsection
 
 @section('head')
