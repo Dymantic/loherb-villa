@@ -10,7 +10,7 @@ return [
         'home_cinema',
         'kingsize_bed',
         'air_con_heat',
-//        'luxury_bathtub',
+        'luxury_bathtub',
         'breakfast_included',
         'afternoon_tea_included',
         //        'private_skygarden',
