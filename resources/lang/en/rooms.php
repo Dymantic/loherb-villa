@@ -37,8 +37,8 @@ return [
         'price_disclaimer' => 'All prices are in New Taiwan Dollars (NTD)',
         'price_times'      => [
             'weekdays'         => 'Weekdays',
-            'weekends'         => 'Weekends',
-            'holidays'         => 'Holidays',
+            'weekends'         => 'Summer Vacation',
+            'holidays'         => 'Holidays & Weekends',
             'chinese_new_year' => 'Chinese New Year',
             'add_person'       => 'Additional Person'
         ],
@@ -47,7 +47,9 @@ return [
             'line_two' => ['label' => 'Extra Bed', 'value' => '$500'],
             'line_three' => ['label' => 'Crib', 'value' => '$300'],
             'line_four' => ['label' => 'Quilts', 'value' => '$100'],
-            'condition' => '*over 2 years old/includes bed, breakfast & tea'
+            'condition' => '*over 2 years old/includes bed, breakfast & tea',
+            'condition_two' => '',
+            'condition_three' => ''
         ],
         'warnings' => [
             'line_one' => 'No indoor smoking, no illegal drugs, no pets.',

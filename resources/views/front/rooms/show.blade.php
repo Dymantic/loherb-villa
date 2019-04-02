@@ -129,6 +129,8 @@
                 <p class="w-1/2 ml-2">{{ trans('rooms.show.pricing.line_four.value') }}</p>
             </div>
             <p class="text-center body-text mt-4">{{ trans('rooms.show.pricing.condition') }}</p>
+            <p class="text-center body-text">{{ trans('rooms.show.pricing.condition_two') }}</p>
+            <p class="text-center body-text">{{ trans('rooms.show.pricing.condition_three') }}</p>
         </div>
         <div class="flex justify-center">
             <a href="{{ localUrl('/book') }}"

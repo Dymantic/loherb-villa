@@ -37,7 +37,7 @@ return [
         'price_disclaimer' => '均以台幣計價',
         'price_times'      => [
             'weekdays'         => '平日',
-            'weekends'         => '週末',
+            'weekends'         => '暑期',
             'holidays'         => '假日',
             'chinese_new_year' => '過年',
             'add_person'       => '增加１人入住'
@@ -47,7 +47,9 @@ return [
             'line_two' => ['label' => '加１床', 'value' => '$500'],
             'line_three' => ['label' => '嬰兒床', 'value' => '$300'],
             'line_four' => ['label' => '棉被', 'value' => '$100'],
-            'condition' => '*2歲以上需加人/含床及早餐下午茶'
+            'condition' => '*2歲以上需加人/含床及早餐下午茶',
+            'condition_two' => '暑期指7月8月平日期間',
+            'condition_three' => '假日包含週末星期六'
         ],
         'warnings' => [
             'line_one' => '室內禁菸 & 非法藥品 & 寵物入內',
