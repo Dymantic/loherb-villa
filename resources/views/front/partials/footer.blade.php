@@ -29,7 +29,7 @@
                        href="https://www.instagram.com/loherb0301">@include('svgs.social.instagram')</a>
                     <a class="text-white hover:text-gold mx-4"
                        href="https://www.youtube.com/channel/UCACSw7tK8uMz8j-CFGa2NfQ">@include('svgs.social.youtube')</a>
-                    <a class="text-white hover:text-gold mx-4" target="_blank"
+                    <a class="text-white hover:text-gold mx-4" target="_blank" rel="noopener"
                        href="https://line.me/R/ti/p/%40xye4557v">@include('svgs.social.line')</a>
                 </div>
             </div>
