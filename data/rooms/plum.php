@@ -19,7 +19,7 @@ return [
         'secure_parking',
         'bicycle',
         'towels',
-        'laundry',
+//        'laundry',
         'room_service',
         'no_smoking_room',
         'accepts_credit_card',
