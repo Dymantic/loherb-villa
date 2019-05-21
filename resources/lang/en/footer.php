@@ -14,7 +14,8 @@ return [
         'estate' => 'Estate',
         'biotech' => 'Biotech',
         'villa' => 'Villa',
-        'cuisine' => 'Cuisine'
+        'cuisine' => 'Cuisine',
+        'patisserie' => 'Patisserie',
     ],
     'discover' => 'Discover More',
     'links' => [

@@ -14,6 +14,8 @@
                class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.villa') }}</a>
             <a href="https://cuisine.loherb.com.tw"
                class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.cuisine') }}</a>
+            <a href="https://patisserie.loherb.com.tw"
+               class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.patisserie') }}</a>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
             <div>
@@ -24,7 +26,7 @@
                     {{--<a class="text-white hover:text-gold mx-4"--}}
                        {{--href="">@include('svgs.social.linkedin')</a>--}}
                     <a class="text-white hover:text-gold mx-4"
-                       href="https://www.facebook.com/LOHERB.TW/">@include('svgs.social.facebook')</a>
+                       href="https://www.facebook.com/LOHERB.TW/">@include('svgs.social.facebook_block')</a>
                     <a class="text-white hover:text-gold mx-4"
                        href="https://www.instagram.com/loherb0301">@include('svgs.social.instagram')</a>
                     <a class="text-white hover:text-gold mx-4"

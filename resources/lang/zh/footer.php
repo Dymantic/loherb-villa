@@ -14,7 +14,8 @@ return [
         'estate' => '日光物業',
         'biotech' => 'Biotech',
         'villa' => '日光綠築',
-        'cuisine' => '日光私廚'
+        'cuisine' => '日光私廚',
+        'patisserie' => '日光寶盒'
     ],
     'links' => [
         'about' => '關於日光',
