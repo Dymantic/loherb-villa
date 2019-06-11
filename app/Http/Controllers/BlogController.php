@@ -9,7 +9,7 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $posts = app('blog')->posts()->live()->latest('publish_date')->take(15)->get()->map->asDataArrayFor(app()->getLocale());
+        $posts = app('blog')->posts()->live()->latest('publish_date')->take(30)->get()->map->asDataArrayFor(app()->getLocale());
 
         return view('front.posts.index', ['posts' => $posts]);
     }
