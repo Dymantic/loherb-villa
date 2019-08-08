@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
     @yield('head')
+    <meta name="format-detection" content="telephone=no">
 </head>
 
 <body class="body-text leading-normal {{ $bodyClass ?? '' }}">
