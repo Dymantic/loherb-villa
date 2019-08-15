@@ -8,7 +8,9 @@ return [
         'heading' => '日光札記',
         'subheading' => '一同來看看日光的故事吧。',
         'more' => '探索更多',
-        'archives-link' => '探索更多'
+        'archives-link' => '探索更多',
+        'previous-page' => '上一頁',
+        'next-page' => '下一頁',
 
     ],
 
