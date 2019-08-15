@@ -9,9 +9,18 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $posts = app('blog')->posts()->live()->latest('publish_date')->take(30)->get()->map->asDataArrayFor(app()->getLocale());
+        $page = app('blog')
+            ->posts()
+            ->live()
+            ->latest('publish_date')
+            ->simplePaginate(18);
 
-        return view('front.posts.index', ['posts' => $posts]);
+
+        return view('front.posts.index', [
+            'posts' => collect($page->items())->map->asDataArrayFor(app()->getLocale()),
+            'next_page' => $page->nextPageUrl(),
+            'prev_page' => $page->previousPageUrl(),
+        ]);
     }
 
     public function show($slug)
