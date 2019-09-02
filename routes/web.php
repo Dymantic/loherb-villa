@@ -25,9 +25,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('archives', 'BlogArchivesController@index');
     Route::get('journal/{slug}', 'BlogController@show');
 
-    Route::redirect('book', 'contact');
+//    Route::redirect('book', 'contact');
 
-    Route::get('doiXmPz0fwUFunH8CidP', 'PagesController@book');
+    Route::get('book', 'PagesController@book');
 
 });
 Route::post('contact', 'ContactController@store');
