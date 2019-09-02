@@ -22,7 +22,13 @@ class PagesController extends Controller
         $checkin = request('checkin', Carbon::today()->format('Y-m-d'));
         $checkout = request('checkout', Carbon::today()->addDay()->format('Y-m-d'));
 
-        return view('front.bookings.page', ['checkIn' => $checkin, 'checkOut' => $checkout]);
+        $iframe_lang = app()->getLocale() === 'zh' ? 'cn' : 'en';
+
+        return view('front.bookings.page', [
+            'checkIn' => $checkin,
+            'checkOut' => $checkout,
+            'iframe_lang' => $iframe_lang,
+        ]);
     }
 
     public function contact()
