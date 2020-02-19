@@ -1,8 +1,8 @@
 <footer class="px-8 pt-12 footer">
     <div class="text-center mb-8">
-        <img src="/images/logos/villa_logo.svg"
+        <img src="/images/logos/loherb_logo_simple.svg"
              alt="Loherb Villa logo"
-             width="60px">
+             width="40px">
     </div>
     <div class="max-w-xl mx-auto flex flex-col md:flex-row justify-between">
         <div class="flex flex-col items-center w-full md:w-48 loherb-group mt-12 md:mt-0">
