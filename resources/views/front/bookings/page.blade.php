@@ -13,6 +13,6 @@
 @endsection
 
 @section('content')
-    <iframe src="https://hotels.cloudbeds.com/{{ $iframe_lang ?? 'en' }}/reservation/T247pq#checkin={{ $checkIn }}&checkout={{ $checkOut }}" class="w-screen min-h-screen"
+    <iframe src="https://hotels.cloudbeds.com/{{ $iframe_lang ?? 'en' }}/reservation/T247pq#checkin={{ $checkIn }}&checkout={{ $checkOut }}" class="w-screen min-h-screen mt-12 md:mt-0"
             frameborder="0"></iframe>
 @endsection
