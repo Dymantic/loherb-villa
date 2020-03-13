@@ -71,16 +71,11 @@
                 <p>{{ trans('rooms.show.times.tea.label') }}</p>
                 <p>{{ trans('rooms.show.times.tea.value') }}</p>
             </div>
-            {{--<p class="mb-0 text-green-main w-48">{{ trans('rooms.show.check_times.in') }}</p>--}}
-            {{--<p class="mb-0 text-green-main w-48">{{ trans('rooms.show.check_times.out') }}</p>--}}
-            {{--<p class="mb-0 text-green-main w-48">{{ trans('rooms.show.breakfast_time') }}</p>--}}
-            {{--<p class="mb-8 text-green-main w-48">{{ trans('rooms.show.tea_time') }}</p>--}}
-
         </div>
         <div class="flex flex-col items-center">
-            <p class="mb-0 text-center px-8 text-green-main">{{ trans('rooms.show.warnings.line_one') }}</p>
-            <p class="mb-0 text-center px-8 text-green-main">{{ trans('rooms.show.warnings.line_two') }}</p>
-            <p class="mb-0 text-center px-8 text-green-main">{{ trans('rooms.show.warnings.line_three') }}</p>
+            @foreach(trans('rooms.show.warnings') as $warning)
+            <p class="mb-0 text-center px-8 text-green-main">{{ $warning }}</p>
+            @endforeach
         </div>
 
 

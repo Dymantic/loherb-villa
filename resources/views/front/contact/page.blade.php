@@ -19,7 +19,8 @@
             <span>
                 @include('svgs.logos.leaf')
             </span>
-            <p class="my-8 body-text text-green-main text-center">{{ trans('contact.intro.content') }}</p>
+            <p class="mt-8 body-text text-green-main text-center">{{ trans('contact.intro.content') }}</p>
+            <p class="my-8 body-text text-green-main text-center">{{ trans('contact.intro.service_times') }}</p>
         </div>
     </div>
     <contact-form class="mt-20" :trans='@json($form_text)'></contact-form>

@@ -52,9 +52,11 @@ return [
             'condition_three' => ''
         ],
         'warnings' => [
-            'line_one' => 'No indoor smoking, no illegal drugs, no pets.',
-            'line_two' => 'Reduce noise after 22:00',
-            'line_three' => 'Please provide identity documents for check in.'
+            'Contact us in advance for check-in after 22:00',
+            'No indoor smoking, no illegal drugs, no pets.',
+            'Reduce noise after 22:00',
+            'Please provide identity documents for check in.',
+            'We are not responsible for possessions left behind after check-out.',
         ],
         'additional_header' => 'Additional Information'
     ],

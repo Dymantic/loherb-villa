@@ -6,7 +6,8 @@ return [
 
     'intro' => [
         'heading' => 'Get in Touch',
-        'content' => 'Have questions? Please feel free to ask us so that we can make your stay at Loherb Villa an exceptional one.'
+        'content' => 'Have questions? Please feel free to ask us so that we can make your stay at Loherb Villa an exceptional one.',
+        'service_times' => 'Customer service is available from 08:00 to 20:00.',
     ],
 
     'form' => [
