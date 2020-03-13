@@ -52,7 +52,7 @@ return [
             'condition_three' => ''
         ],
         'warnings' => [
-            'Contact us in advance for check-in after 22:00',
+            'Contact us in advance for check-in after 20:00',
             'No indoor smoking, no illegal drugs, no pets.',
             'Reduce noise after 22:00',
             'Please provide identity documents for check in.',
