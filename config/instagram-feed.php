@@ -37,5 +37,5 @@ return [
      * will become the first image in the carousel, and if there are no images, then
      * the entire carousel will be ignored.
      */
-    'ignore_video' => false,
+    'ignore_video' => true,
 ];
