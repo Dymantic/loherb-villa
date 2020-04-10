@@ -45,12 +45,12 @@
     @include('front.partials.footer')
     @include('front.partials.navbar')
 </div>
-{{--<div class="fb-customerchat"--}}
-{{--     page_id="{{ config('facebook.page_id') }}" theme_color="#084137">--}}
-{{--</div>--}}
+<div class="fb-customerchat"
+     page_id="{{ config('facebook.page_id') }}" theme_color="#084137">
+</div>
 @yield('bodyscripts')
 <script src="{{ mix("js/app.js") }}"></script>
-{{--@include('front.partials.facebook-sdk')--}}
+@include('front.partials.facebook-sdk')
 <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', '{{ config('services.google.analytics') }}', 'auto'); ga('send', 'pageview')
