@@ -31,7 +31,7 @@
         </script>
     @endif
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-
+    <link rel="preload" href="https://villa.loherb.com.tw/fonts/transat_bold-webfont.woff" as="font">
     @yield('head')
     <meta name="format-detection" content="telephone=no">
 </head>
