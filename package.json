@@ -29,6 +29,7 @@
         "imagemin-pngquant": "5.0.1",
         "jump.js": "^1.0.2",
         "laravel-mix-purgecss": "^4.1.0",
+        "lazysizes": "^5.2.0",
         "lodash.throttle": "^4.1.1",
         "tailwindcss": "^0.6.5",
         "vue-hotel-datepicker": "^2.2.10"

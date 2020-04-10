@@ -10,6 +10,7 @@ import jump from "jump.js"
 
 require('./bootstrap');
 import "flickity-imagesloaded";
+import 'lazysizes';
 window.Vue = require('vue');
 
 
