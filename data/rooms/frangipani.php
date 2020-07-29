@@ -13,7 +13,7 @@ return [
         'luxury_bathtub',
         'breakfast_included',
         'afternoon_tea_included',
-        'private_skygarden',
+        'skygarden',
 //        'outdoor_patio',
         'restaurant',
         'secure_parking',
