@@ -7,7 +7,7 @@ return [
     'towels'                 => 'towels',
     'afternoon_tea_included' => 'afternoon tea incl.',
     'kingsize_bed'           => 'kingsize bed',
-    'private_skygarden'      => 'private skygarden',
+    'private_skygarden'      => 'skygarden',
     'wifi'                   => 'free wifi',
     'bicycle'                => 'bicycle rental',
     'laundry'                => 'laundry',
