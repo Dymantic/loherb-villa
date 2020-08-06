@@ -20,7 +20,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
     Route::get('rooms', 'RoomsController@index');
     Route::get('rooms/{room}', 'RoomsController@show');
-    
+
     Route::get('journal', 'BlogController@index');
     Route::get('archives', 'BlogArchivesController@index');
     Route::get('journal/{slug}', 'BlogController@show');
@@ -31,3 +31,5 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
 });
 Route::post('contact', 'ContactController@store');
+
+Route::get('api/posts/{post}/next', 'NextPostController@show');

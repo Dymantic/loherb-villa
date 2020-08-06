@@ -6,7 +6,9 @@
  */
 
 import throttle from "lodash.throttle";
-import jump from "jump.js"
+import jump from "jump.js";
+import HolyScroller from "./HolyScroller";
+window.HolyScroller = HolyScroller;
 
 require('./bootstrap');
 import "flickity-imagesloaded";
