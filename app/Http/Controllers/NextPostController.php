@@ -10,7 +10,21 @@ class NextPostController extends Controller
 {
     public function show(Post $post)
     {
-        $next = $post->prev()->asDataArrayFor(app()->getLocale());
+        $main_categories = [1,2,3,4];
+        $categories = $post
+            ->categories
+            ->pluck('id')
+            ->reject(fn($cat) => in_array($cat, $main_categories))
+            ->all();
+
+        $next = Post::live()
+            ->whereHas('categories', function($query) use ($categories) {
+                $query->whereIn('multilingual_categories.id', $categories);
+            })
+            ->where('publish_date', '<', $post->publish_date)
+            ->latest('publish_date')
+            ->first();
+
         return [
             'has_next' => !!$next,
             'next_id' => $next['id'],

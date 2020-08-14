@@ -22,7 +22,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('rooms/{room}', 'RoomsController@show');
 
     Route::get('journal', 'BlogController@index');
+
     Route::get('archives', 'BlogArchivesController@index');
+
+    Route::get('journal/category/{category:slug}', 'BlogCategoryController@show');
     Route::get('journal/{slug}', 'BlogController@show');
 
 //    Route::redirect('book', 'contact');

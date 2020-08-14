@@ -20,13 +20,13 @@
     </div>
 @endsection
 
-{{--@section('bodyscripts')--}}
-{{--    <script>--}}
-{{--        window.addEventListener('DOMContentLoaded', () => {--}}
-{{--            new window.HolyScroller({{ $post['id'] }});--}}
-{{--            window.addEventListener('popstate', ({state}) => {--}}
-{{--                    window.location = window.location.href;--}}
-{{--            });--}}
-{{--        });--}}
-{{--    </script>--}}
-{{--@endsection--}}
+@section('bodyscripts')
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            new window.HolyScroller({{ $post['id'] }});
+            window.addEventListener('popstate', ({state}) => {
+                    window.location = window.location.href;
+            });
+        });
+    </script>
+@endsection
