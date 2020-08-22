@@ -15,6 +15,7 @@ export default class HolyScroller
                 this.updateToCurrentPage();
                 this.fetchNextArticle()
                     .then(() => this.insertNextArticle())
+                    .catch(() => {});
                 this.startScrollObserver.unobserve(this.current.querySelector('.article-title'));
             } else {
                 this.been_seen = true;
@@ -29,11 +30,15 @@ export default class HolyScroller
         return new Promise((resolve, reject) => {
            axios.get(`/api/posts/${this.article_id}/next`)
                .then(({data}) => {
-                   this.next_id = data.next_id;
-                   this.next_html = data.html;
-                   this.next_title = data.next_title;
-                   this.next_url = data.next_url;
-                   resolve();
+                   if(data.next_id) {
+                       this.next_id = data.next_id;
+                       this.next_html = data.html;
+                       this.next_title = data.next_title;
+                       this.next_url = data.next_url;
+                       resolve();
+                   }
+
+                   reject();
                })
                .catch(reject)
         });
@@ -68,7 +73,7 @@ export default class HolyScroller
         if(this.page_info) {
             document.title = this.page_info.title;
             history.pushState({
-                'page_url': window.location.href,
+                'page_url': this.page_info.url,
             }, this.page_info.title, this.page_info.url);
         } else {
             history.pushState({

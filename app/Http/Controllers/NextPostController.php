@@ -17,20 +17,36 @@ class NextPostController extends Controller
             ->reject(fn($cat) => in_array($cat, $main_categories))
             ->all();
 
-        $next = Post::live()
-            ->whereHas('categories', function($query) use ($categories) {
-                $query->whereIn('multilingual_categories.id', $categories);
-            })
-            ->where('publish_date', '<', $post->publish_date)
-            ->latest('publish_date')
-            ->first();
+        if(count($categories) === 0) {
+            $next = $post->prev();
+        } else {
+            $next = Post::live()
+                        ->whereHas('categories', function($query) use ($categories) {
+                            $query->whereIn('multilingual_categories.id', $categories);
+                        })
+                        ->where('publish_date', '<', $post->publish_date)
+                        ->latest('publish_date')
+                        ->first();
+        }
+
+
+
+        if($next) {
+            return [
+                'has_next' => !!$next,
+                'next_id' => $next['id'],
+                'next_url' => "/en/journal/{$next['slug']}",
+                'next_title' => $next['title'],
+                'html' => View::make('front.posts.article', ['post' => $next])->render(),
+            ];
+        }
 
         return [
-            'has_next' => !!$next,
-            'next_id' => $next['id'],
-            'next_url' => "/en/journal/{$next['slug']}",
-            'next_title' => $next['title'],
-            'html' => View::make('front.posts.article', ['post' => $next])->render(),
+            'has_next' => false,
+            'next_id' => null,
+            'next_url' => "",
+            'next_title' => '',
+            'html' => '',
         ];
     }
 }

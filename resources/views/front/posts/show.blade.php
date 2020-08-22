@@ -25,7 +25,10 @@
         window.addEventListener('DOMContentLoaded', () => {
             new window.HolyScroller({{ $post['id'] }});
             window.addEventListener('popstate', ({state}) => {
-                    window.location = window.location.href;
+                if(state && state.page_url) {
+                    console.log({state});
+                    window.location = state.page_url;
+                }
             });
         });
     </script>

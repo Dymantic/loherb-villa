@@ -19,7 +19,7 @@ class BlogCategoryController extends Controller
                     ->live()
                     ->latest('publish_date')
                     ->simplePaginate(18);
-        
+
 
         return view('front.posts.index', [
             'posts'     => collect($page->items())->map->asDataArrayFor(app()->getLocale()),
