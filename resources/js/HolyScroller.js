@@ -75,10 +75,6 @@ export default class HolyScroller
             history.pushState({
                 'page_url': this.page_info.url,
             }, this.page_info.title, this.page_info.url);
-        } else {
-            history.pushState({
-                'page_url': window.location.href,
-            }, document.title, window.location.href);
         }
 
     }
