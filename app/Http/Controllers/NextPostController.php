@@ -32,7 +32,10 @@ class NextPostController extends Controller
 
 
 
+
+
         if($next) {
+            $next = $next->asDataArrayFor($lang);
             return [
                 'has_next' => !!$next,
                 'next_id' => $next['id'],
