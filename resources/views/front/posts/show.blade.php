@@ -23,10 +23,9 @@
 @section('bodyscripts')
     <script>
         window.addEventListener('DOMContentLoaded', () => {
-            new window.HolyScroller({{ $post['id'] }});
+            new window.HolyScroller({{ $post['id'] }}, null, null, '{{ app()->getLocale() }}');
             window.addEventListener('popstate', ({state}) => {
                 if(state && state.page_url) {
-
                     return window.location = state.page_url;
                 }
                 history.back();

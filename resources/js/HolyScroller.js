@@ -1,6 +1,6 @@
 export default class HolyScroller
 {
-    constructor(article_id, previous, page_info) {
+    constructor(article_id, previous, page_info, lang) {
         this.previous = previous;
         this.page_info = page_info;
         this.article_id = article_id;
@@ -9,6 +9,7 @@ export default class HolyScroller
         this.next_url = null;
         this.next_title = null;
         this.been_seen = false;
+        this.lang = ['en', 'zh'].includes(lang) ? lang : 'en';
         this.current = document.querySelector(`.article-${article_id}-shell`);
         this.startScrollObserver = makeStartScrollObserver(e => {
             if(!e[0].isIntersecting && this.been_seen) {
@@ -26,9 +27,9 @@ export default class HolyScroller
     }
 
     fetchNextArticle() {
-
+        console.log('lang: ', this.lang);
         return new Promise((resolve, reject) => {
-           axios.get(`/api/posts/${this.article_id}/next`)
+           axios.get(`/api/posts/${this.article_id}/next/${this.lang}`)
                .then(({data}) => {
                    if(data.next_id) {
                        this.next_id = data.next_id;

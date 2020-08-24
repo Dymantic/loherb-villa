@@ -1,8 +1,8 @@
 <div class="flex flex-col justify-between mb-8 w-64 max-w-full bg-green-softest mx-auto">
     <div>
-        <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="hidden md:block">
+        <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="hidden md:block w-64 h-48">
             <img data-src="{{ $post['title_image_thumb'] }}"
-                 alt="{{ $post['title'] }}" class="w-full lazyload">
+                 alt="{{ $post['title'] }}" class="w-full h-full object-cover lazyload">
         </a>
         <div class="p-4">
             <p class="heading-text text-green-main">{{ $post['title'] }}</p>

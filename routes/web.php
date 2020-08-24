@@ -35,4 +35,4 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 });
 Route::post('contact', 'ContactController@store');
 
-Route::get('api/posts/{post}/next', 'NextPostController@show');
+Route::get('api/posts/{post}/next/{lang}', 'NextPostController@show');

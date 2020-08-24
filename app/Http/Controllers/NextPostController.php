@@ -8,8 +8,9 @@ use Illuminate\Support\Facades\View;
 
 class NextPostController extends Controller
 {
-    public function show(Post $post)
+    public function show(Post $post, $lang)
     {
+        app()->setLocale($lang);
         $main_categories = [1,2,3,4];
         $categories = $post
             ->categories
