@@ -14,7 +14,7 @@
 
 @section('content')
     @component('front.components.info-section', ['title' => $page_title ?? trans('journal.index.heading')])
-        <p class="mt-8 body-text text-green-main">{{ $page_intro ?? trans('journal.index.subheading') }}</p>
+        <p class="mt-8 body-text text-center text-green-main">{{ $page_intro ?? trans('journal.index.subheading') }}</p>
     @endcomponent
 
     <x-blog-subnav current=""></x-blog-subnav>
