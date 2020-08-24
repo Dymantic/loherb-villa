@@ -17,7 +17,7 @@
         <p class="mt-8 body-text text-center text-green-main">{{ $page_intro ?? trans('journal.index.subheading') }}</p>
     @endcomponent
 
-    <x-blog-subnav current=""></x-blog-subnav>
+    <x-blog-subnav :current="Request::path()"></x-blog-subnav>
 
     <div class="px-4 pt-12">
         <div class="journal-grid max-w-xl mx-auto">
