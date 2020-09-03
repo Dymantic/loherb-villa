@@ -10,7 +10,6 @@ class NextPostController extends Controller
 {
     public function show(Post $post, $lang)
     {
-        app()->setLocale($lang);
         $main_categories = [1,2,3,4];
         $categories = $post
             ->categories
@@ -39,7 +38,7 @@ class NextPostController extends Controller
             return [
                 'has_next' => !!$next,
                 'next_id' => $next['id'],
-                'next_url' => "/en/journal/{$next['slug']}",
+                'next_url' => "/{{ $lang }}/journal/{$next['slug']}",
                 'next_title' => $next['title'],
                 'html' => View::make('front.posts.article', ['post' => $next])->render(),
             ];

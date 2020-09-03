@@ -64,7 +64,7 @@ export default class HolyScroller
         new window.HolyScroller(this.next_id, this.current, {
             url: this.next_url,
             title: this.next_title,
-        });
+        }, this.lang);
     }
 
     updateToCurrentPage() {
