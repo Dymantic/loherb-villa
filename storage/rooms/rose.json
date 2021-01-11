@@ -1,0 +1,31 @@
+{
+    "name": {
+        "en": "",
+        "zh": ""
+    },
+    "building": 1,
+    "type": 1,
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 10,
+    "sleeps": 5,
+    "view": {
+        "en": "",
+        "zh": ""
+    },
+    "heading": {
+        "en": "",
+        "zh": ""
+    },
+    "intro": {
+        "en": "",
+        "zh": ""
+    },
+    "services": [],
+    "images": [],
+    "banner_image": ""
+}
