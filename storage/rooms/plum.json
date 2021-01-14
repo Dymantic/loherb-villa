@@ -1,0 +1,69 @@
+{
+    "slug": "plum",
+    "name": {
+        "en": "Plum Room",
+        "zh": "一剪梅"
+    },
+    "building": "flower",
+    "type": 2,
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 10,
+    "sleeps": 5,
+    "view": {
+        "en": "",
+        "zh": ""
+    },
+    "heading": {
+        "en": "Reach for the stars",
+        "zh": "專屬靈魂伴侶的紀念地"
+    },
+    "intro": {
+        "en": "Couples and families will find this a home away from home.",
+        "zh": "私人空中花園，由星辰為鑑的紀念日。"
+    },
+    "description": {
+        "en": "The Plum Room has its own unique energy. With more than enough space for a family, it’s the couples that will really appreciate this room. With subtle romantic undertones, like the touches of red decor or the elegant bathtub that looks out wall-to-wall windows, as well private access to the skyroof, this room will ignite an enchanting stay.",
+        "zh": "一剪梅頂級雙人房有私人空中花園，以星辰為鑑留下彼此的精心時刻。房間中還有搖籃椅、沙發、超大型雙人床，別富優美深層意境。"
+    },
+    "services": [],
+    "images": [
+        [
+            {
+                "full": "\/images\/room-galleries\/plum\/reg\/plum_gallery_2.jpg",
+                "small": "\/images\/room-galleries\/plum\/mobile\/plum_gallery_2.jpg",
+                "wide": "\/images\/room-galleries\/plum\/wide\/plum_gallery_2.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/plum\/reg\/plum_gallery_3.jpg",
+                "small": "\/images\/room-galleries\/plum\/mobile\/plum_gallery_3.jpg",
+                "wide": "\/images\/room-galleries\/plum\/wide\/plum_gallery_3.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/plum\/reg\/plum_gallery_4.jpg",
+                "small": "\/images\/room-galleries\/plum\/mobile\/plum_gallery_4.jpg",
+                "wide": "\/images\/room-galleries\/plum\/wide\/plum_gallery_4.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/plum\/reg\/plum_gallery_5.jpg",
+                "small": "\/images\/room-galleries\/plum\/mobile\/plum_gallery_5.jpg",
+                "wide": "\/images\/room-galleries\/plum\/wide\/plum_gallery_5.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/plum\/reg\/plum_gallery_6.jpg",
+                "small": "\/images\/room-galleries\/plum\/mobile\/plum_gallery_6.jpg",
+                "wide": "\/images\/room-galleries\/plum\/wide\/plum_gallery_6.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/plum\/reg\/plum_gallery_7.jpg",
+                "small": "\/images\/room-galleries\/plum\/mobile\/plum_gallery_7.jpg",
+                "wide": "\/images\/room-galleries\/plum\/wide\/plum_gallery_7.jpg"
+            }
+        ]
+    ],
+    "banner_image": "/images/room-banners/plum.jpg"
+}

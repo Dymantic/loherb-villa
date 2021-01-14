@@ -4,6 +4,24 @@ return [
     'title' => 'Rooms at Villa Loherb',
     'description' => 'A selection of quality, luxurious double and duplex rooms suited to couples and families. Each room with their own distinct decor and magnificent view.',
 
+    'types'      => [
+        'economy-double' => 'Economy Double',
+        'luxury-double' => 'Luxury Double',
+        'duplex-double' => 'Duplex Double',
+        'island-quad' => 'Island Quad',
+        'double' => 'Double',
+        'premium-double' => 'Premium Double',
+        'economy-quad' => 'Economy Quad',
+        'luxury-quad' => 'Luxury Quad',
+        'stargazing-quad' => 'Stargazing Quad',
+    ],
+    'buildings' => [
+        'flower' => 'Flower',
+        'tree' => 'Tree',
+        'aqua' => 'Aqua',
+    ],
+    'starting-price' => "Starting from NT$:price",
+
     'index' => [
         'heading'    => 'Something for Everyone',
         'subheading' => 'Each room has been carefully decorated and furnished to give a unique experience that will invoke feelings of splendour and satisfaction.',
@@ -11,13 +29,7 @@ return [
             'show' => 'View Room',
             'book' => 'Book now'
         ],
-        'types'      => [
-            'economy' => 'Economy Double',
-            'luxury'  => 'Luxury Double',
-            'vip'     => 'Premium Rooms',
-            'duplex'     => 'Duplex Rooms',
-            'villa'   => 'Villa'
-        ]
+
     ],
     'show'  => [
         'info_heading'      => 'Room Information',

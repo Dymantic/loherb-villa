@@ -1,0 +1,94 @@
+{
+    "slug": "frangipani",
+    "name": {
+        "en": "Frangipani Room",
+        "zh": "雞蛋花"
+    },
+    "building": "flower",
+    "type": 3,
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 10,
+    "sleeps": 5,
+    "view": {
+        "en": "",
+        "zh": ""
+    },
+    "heading": {
+        "en": "The Jewel in the Crown",
+        "zh": "領略自然的至高美地"
+    },
+    "intro": {
+        "en": "The ultimate couples getaway room - private, luxurious and spacious.",
+        "zh": "閣樓設計雙面採光，帶領你我以寬廣視野感受自然之美。"
+    },
+    "description": {
+        "en": "This double-storey room towers above the rest, offering fantastic views and an unforgettable experience. With a stylish lounge area on the first floor and a  luxurious bedroom and hot tub combo on the top floor which is the pinnacle of the Loherb Villa. Private access to the Skyroof is included.",
+        "zh": "雞蛋花樓中樓雙人房，下層有小型吧台可以簡單烹飪聚會，樓上有起居室。房間位於至高點，雙面採光玻璃帷幕，最能感受遼闊視野。"
+    },
+    "services": [],
+    "images": [
+        [
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_2.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_2.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_2.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_3.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_3.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_3.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_4.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_4.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_4.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_5.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_5.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_5.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_6.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_6.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_6.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_7.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_7.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_7.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_8.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_8.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_8.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_9.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_9.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_9.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_10.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_10.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_10.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_11.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_11.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_11.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_12.jpg",
+                "small": "\/images\/room-galleries\/frangipani\/mobile\/frangipani_gallery_12.jpg",
+                "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_12.jpg"
+            }
+        ]
+    ],
+    "banner_image": "/images/room-banners/frangipani.jpg"
+}

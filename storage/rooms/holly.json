@@ -1,0 +1,36 @@
+{
+    "slug": "holly",
+    "name": {
+        "en": "",
+        "zh": ""
+    },
+    "building": "tree",
+    "type": 7,
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 10,
+    "sleeps": 5,
+    "view": {
+        "en": "",
+        "zh": ""
+    },
+    "heading": {
+        "en": "",
+        "zh": ""
+    },
+    "intro": {
+        "en": "",
+        "zh": ""
+    },
+    "description": {
+        "en": "",
+        "zh": ""
+    },
+    "services": [],
+    "images": [],
+    "banner_image": ""
+}
