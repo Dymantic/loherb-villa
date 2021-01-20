@@ -5,8 +5,8 @@
                  alt="{{ $post['title'] }}" class="w-full h-full object-cover absolute pin lazyload">
         </a>
         <div class="p-4">
-            <p class="heading-text text-green-main">{{ $post['title'] }}</p>
-            <p class="slanted-text text-brown-dark">{{ $post['publish_date_string'] }}</p>
+            <p class="type-h1 text-green-main">{{ $post['title'] }}</p>
+            <p class="type-b2 text-brown-dark">{{ $post['publish_date_string'] }}</p>
             <p class="text-green-main">{{ $post['intro'] }}</p>
         </div>
 

@@ -16,9 +16,9 @@ return [
         'stargazing-quad' => 'Stargazing Quad',
     ],
     'buildings' => [
-        'flower' => 'Flower',
-        'tree' => 'Tree',
-        'aqua' => 'Aqua',
+        'flower' => 'Flower Building',
+        'tree' => 'Tree Building',
+        'aqua' => 'Aqua Building',
     ],
     'starting-price' => "Starting from NT$:price",
 

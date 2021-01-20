@@ -1,8 +1,8 @@
 <div class="px-4 pt-24 pb-12">
-    <p class="article-title heading-text mb-4 text-chocolate text-center">{{ $post['title'] }}</p>
-    <p class="font-serif text-brown-light text-center italic">Posted on {{ $post['publish_date_string'] }}</p>
+    <p class="article-title type-h1 mb-4 text-chocolate text-center">{{ $post['title'] }}</p>
+    <p class="type-b2 text-brown-light text-center">Posted on {{ $post['publish_date_string'] }}</p>
 </div>
-<div class="max-w-lg mx-auto px-4 py-12">
+<div class="max-w-3xl mx-auto px-4 py-12">
     <img src="{{ $post['title_image_web'] }}"
          alt="" class="w-full block mx-auto mb-8">
     <div class="journal-entry">

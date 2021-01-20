@@ -11,6 +11,11 @@ class Room
     {
     }
 
+    public function name($locale = 'en'): string
+    {
+        return $this->attributes['name'][$locale] ?? '';
+    }
+
     public function slug(): string
     {
         return $this->attributes['slug'] ?? '';
@@ -32,6 +37,11 @@ class Room
         return $this->attributes['type'] ?? 0;
     }
 
+    public function typeName($locale = 'en'): string
+    {
+        return RoomType::nameFor($this->getAttribute('type', 99), $locale);
+    }
+
     public function startingPrice($locale = 'en'): string
     {
         $lowest = $this->getAttribute('prices', ["weekdays" => 0])['weekdays'];
@@ -44,7 +54,7 @@ class Room
         return [
             'name' => $this->attributes['name'][$locale] ?? '',
             'slug' => $this->slug(),
-            'type' => RoomType::nameFor($this->getAttribute('type', 99)),
+            'type' => $this->typeName($locale),
             'building' => $this->buildingName($locale),
             'heading' => $this->getTranslation('heading', $locale),
             'intro' => $this->getTranslation('intro', $locale),

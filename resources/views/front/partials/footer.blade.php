@@ -4,22 +4,22 @@
              alt="Loherb Villa logo"
              width="40px">
     </div>
-    <div class="max-w-xl mx-auto flex flex-col md:flex-row justify-between">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between">
         <div class="flex flex-col items-center w-full md:w-48 loherb-group mt-12 md:mt-0">
-            <p class="text-xl font-medium font-sans text-white uppercase mb-2 tracking-wide">{{ trans('footer.sites.heading') }}</p>
+            <p class="text-xl font-medium type-h1 text-white uppercase mb-2 tracking-wide">{{ trans('footer.sites.heading') }}</p>
 
             <a href="https://estate.loherb.com.tw"
-               class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.estate') }}</a>
+               class="text-white hover:text-gold type-a1 tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.estate') }}</a>
             <a href="https://villa.loherb.com.tw"
-               class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.villa') }}</a>
+               class="text-white hover:text-gold type-a1 tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.villa') }}</a>
             <a href="https://cuisine.loherb.com.tw"
-               class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.cuisine') }}</a>
+               class="text-white hover:text-gold type-a1 tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.cuisine') }}</a>
             <a href="https://patisserie.loherb.com.tw"
-               class="text-white hover:text-gold font-sans tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.patisserie') }}</a>
+               class="text-white hover:text-gold type-a1 tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.patisserie') }}</a>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
             <div>
-                <p class="text-xl font-medium text-center font-sans uppercase tracking-wide text-white mb-4">{{ trans('footer.social.heading') }}</p>
+                <p class="text-xl font-medium text-center type-h1 uppercase tracking-wide text-white mb-4">{{ trans('footer.social.heading') }}</p>
                 <div class="flex justify-center">
                     {{--<a class="text-white hover:text-gold mx-4"--}}
                        {{--href="">@include('svgs.social.twitter')</a>--}}
@@ -42,22 +42,22 @@
             </p>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
-            <p class="text-xl font-medium font-sans text-white tracking-wide uppercase mb-2">{{ trans('footer.contact_heading') }}</p>
-                <a class="font-sans tracking-wide no-underline text-white text-base mb-2"
+            <p class="text-xl font-medium type-h1 text-white tracking-wide uppercase mb-2">{{ trans('footer.contact_heading') }}</p>
+                <a class="type-a1 tracking-wide no-underline text-white text-base mb-2"
                    href="mailto:service@loherb.com.tw">service@loherb.com.tw</a>
-                <a class="font-sans tracking-wide uppercase no-underline text-white text-base mb-2"
+                <a class="type-a1 tracking-wide uppercase no-underline text-white text-base mb-2"
                    href="tel:+886-3-959-5685">+886-3-959-5685</a>
-            <p class="text-center font-sans tracking-wide text-white text-base">
+            <p class="text-center type-a1 tracking-wide text-white text-base">
                 <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/hruVS5xHAXjfkwqy6" class="no-underline text-white text-base">
                     {{ trans('footer.address_line_one') }}
                 </a>
 
             </p>
-            <p class="text-center font-sans tracking-wide text-white text-base">{{ trans('footer.address_line_two') }}</p>
+            <p class="text-center type-a1 tracking-wide text-white text-base">{{ trans('footer.address_line_two') }}</p>
 
         </div>
     </div>
-    <p class="px-4 text-center mt-20 font-heading text-sm text-white pb-2">
+    <p class="px-4 text-center mt-20 font-sans text-sm text-white pb-2">
         &copy;All rights reserved {{ \Illuminate\Support\Carbon::now()->year }}. Brilliantly built by <a href="https://dymanticdesign.com" target="_blank" rel="nofollow noopener" class="hover:text-gold text-white no-underline">Dymantic Design</a>
     </p>
 </footer>

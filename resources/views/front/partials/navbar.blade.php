@@ -1,4 +1,4 @@
-<div class="fixed pin-t w-full flex justify-between items-center h-12 px-4 main-nav bg-green-main hover:bg-green-main main-nav font-medium">
+<div class="fixed top-0 left-0 w-full flex justify-between items-center h-12 px-4 main-nav bg-green-main hover:bg-green-main main-nav">
     <div>
         <a href="{{ localUrl("/") }}"
            tabindex="1"
@@ -6,19 +6,18 @@
             @include('svgs.logos.simple')
         </a>
     </div>
-    <nav class="flex justify-end items-stretch font-sans h-12 nav-list bg-green-main md:bg-transparent">
+    <nav class="flex justify-end items-stretch type-a1 h-12 nav-list bg-green-main md:bg-transparent">
 
         <div class="nav-link-box flex items-center my-2 md:my-0">
             <a tabindex="2"
                class="flex items-center nav-link text-white"
                href="{{ localUrl('/about') }}">{{ trans('navbar.about') }}</a>
         </div>
-        <div class="flex items-start md:items-center rooms-nav"
+        <div class="flex items-start md:items-center rooms-nav focus:outline-none"
              tabindex="3">
-            <span class="text-white">
-                <span class="nav-link-box"><a href="{{ localUrl('/rooms') }}"
-                                              class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</a></span>
-                <svg class="fill-current align-middle hidden md:inline"
+            <span class="text-white rooms-panel-trigger">
+                <span class="nav-link-box"><span class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</span></span>
+                <svg class="fill-current align-middle inline"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 24 24"
                      width="20"
@@ -26,45 +25,27 @@
                     <path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/>
                 </svg>
             </span>
-            <div class="room-nav-sub absolute w-screen bg-cream-light">
-                <div class="mt-4 md:mt-0 flex flex-col md:flex-row justify-center">
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.economy') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/rose") }}">{{ trans('navbar.room.rose') }}</a>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/lily") }}">{{ trans('navbar.room.lily') }}</a>
-                    </div>
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.luxury') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/sunflower") }}">{{ trans('navbar.room.sunflower') }}</a>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/orchid") }}">{{ trans('navbar.room.orchid') }}</a>
-                    </div>
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.vip') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/plum") }}">{{ trans('navbar.room.plum') }}</a>
-                    </div>
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.duplex') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/frangipani") }}">{{ trans('navbar.room.frangipani') }}</a>
-                    </div>
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.villa') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/villa") }}">{{ trans('navbar.room.island') }}</a>
-                    </div>
+            <div class="md:hidden bg-cream-light w-full my-4 py-4 px-6">
+                <div class="subnav-trigger flex items-center border-b border-brown-dark pb-1 mb-1" data-opens-subnav="flower">
+                    @include('svgs.buildings.flower', ['classes' => 'text-green-main h-5 mr-4'])
+                    <p class="type-a1 flex-1 text-green-main uppercase">The Flower Villa</p>
+                    <p class="type-a1 text-green-main">&rarr;</p>
                 </div>
-                <div class="py-8 flex justify-center items-center">
-                    <a href="{{ localUrl('/rooms') }}"
-                       class="text-link text-green-main no-underline hover:text-hover-green">{{ trans('navbar.view-rooms') }} &rarr;</a>
+                <div class="subnav-trigger flex items-center border-b border-brown-dark pb-1 mb-1" data-opens-subnav="tree">
+                    @include('svgs.buildings.tree', ['classes' => 'text-green-main h-5 mr-4'])
+                    <p class="type-a1 flex-1 text-green-main uppercase">The Tree Villa</p>
+                    <p class="type-a1 text-green-main">&rarr;</p>
                 </div>
-            </div>
+                <div class="subnav-trigger flex items-center border-b border-brown-dark pb-1 mb-1" data-opens-subnav="aqua">
+                    @include('svgs.buildings.aqua', ['classes' => 'text-green-main h-5 mr-4'])
+                    <p class="type-a1 flex-1 text-green-main uppercase">The Aqua Villa</p>
+                    <p class="type-a1 text-green-main">&rarr;</p>
+                </div>
+                <div class="mt-20 text-center">
+                    <a href="/buildings" class="type-a1 text-green-main hover:text-green-mid">Visit Buildings Page &rarr;</a>
+                </div>
 
-        </div>
+            </div>
         <div class="nav-link-box bookings-link-box flex items-center my-2 md:my-0">
             <a class="flex items-center nav-link text-gold"
                tabindex="4"
@@ -96,4 +77,8 @@
                  class="fill-current"><path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
         </span>
     </div>
+    <x-rooms-mobile-nav></x-rooms-mobile-nav>
+    <x-rooms-nav-panel></x-rooms-nav-panel>
+
 </div>
+

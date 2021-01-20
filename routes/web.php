@@ -11,6 +11,8 @@
 |
 */
 
+Route::view('test-nav', 'front.test-nav');
+
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect']], function() {
     Route::get('/', 'PagesController@home');
 

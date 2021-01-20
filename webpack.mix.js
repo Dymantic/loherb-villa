@@ -16,7 +16,7 @@ require("laravel-mix-purgecss");
 mix.js("resources/js/app.js", "public/js")
     .less("resources/less/app.less", "public/css")
     .options({
-        postCss: [tailwindcss("./tailwind.js")]
+        postCss: [tailwindcss("./tailwind.config.js")]
     })
     .purgeCss({
         globs: [path.join(__dirname, "node_modules/flickity/**/*.js")],

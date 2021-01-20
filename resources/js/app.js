@@ -22,21 +22,24 @@ import ContactForm from './components/ContactForm';
 Vue.component('booking-form', BookingForm);
 Vue.component('contact-form', ContactForm);
 
+import {Navbar} from "./Navbar";
+
+
 const app = new Vue({
     el: '#app'
 });
 
-const nav_trigger = document.querySelector('#nav-trigger');
+window.addEventListener('DOMContentLoaded', () => {
+    window.navbar = new Navbar();
+    window.navbar.init();
+
+    [...document.querySelectorAll('a')].filter(a => a.href == window.location.toString()).forEach(a => a.classList.add('active'));
+})
+
 const main_nav = document.querySelector('.main-nav');
 
-nav_trigger.addEventListener('click', () => {
-    if(main_nav.classList.contains('expose')) {
-        document.body.classList.remove('nav-open');
-        return main_nav.classList.remove('expose');
-    }
-    document.body.classList.add('nav-open');
-    main_nav.classList.add('expose')
-}, false);
+
+
 
 window.addEventListener('scroll', throttle(() => {
     if(window.scrollY > 25) {
@@ -45,9 +48,7 @@ window.addEventListener('scroll', throttle(() => {
     main_nav.classList.remove("scrolled");
 }, 150));
 
-window.addEventListener('DOMContentLoaded', () => {
-   [...document.querySelectorAll('a')].filter(a => a.href == window.location.toString()).forEach(a => a.classList.add('active'));
-});
+
 
 if(document.querySelector('[data-banner-jump]')) {
     document.querySelector('[data-banner-jump]').addEventListener('click',e => {
