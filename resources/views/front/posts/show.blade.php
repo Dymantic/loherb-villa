@@ -1,13 +1,13 @@
 @extends('front.base')
 
 @section('title')
-    {{ $post['title'] }}
+    {{ $post['title'] }} - LOHERB
 @endsection
 
 @section('head')
     @include('front.partials.ogmeta', [
         'ogImage' => $post['title_image_banner'] ?? '',
-        'ogTitle' => $post['title'],
+        'ogTitle' => $post['title'] . ' - LOHERB',
         'ogDescription' => $post['description']
     ])
 @endsection
