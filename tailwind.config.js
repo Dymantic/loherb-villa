@@ -21,6 +21,16 @@ module.exports = {
 
             'warning': '#cc1f1a',
         },
+        spacing: {
+            '5/6': '83.33%',
+        },
+        minHeight: {
+          '50w': '50vw',
+          '120w': '120vw',
+        },
+        fontSize: {
+          '4xl': '2.125rem',
+        },
         fontFamily: {
             display: [
                 'atrament-web',
@@ -71,6 +81,7 @@ module.exports = {
         },
         inset: {
             '20': '5rem',
+            '50': '50%',
         }
     },
   },

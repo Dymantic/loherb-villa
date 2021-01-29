@@ -1,4 +1,4 @@
-<div class="w-full px-8 fixed top-20 hidden md:block rooms-nav-panel opacity-0 transition-opacity">
+<div class="w-full px-8 fixed top-20 left-0 rooms-nav-panel opacity-0 transition-opacity hidden">
     <div class="shadow-lg bg-cream-light py-6 relative">
         <div class="grid grid-cols-3 divide-brown-dark divide-x-2">
             @foreach($buildings() as $building_name => $building)

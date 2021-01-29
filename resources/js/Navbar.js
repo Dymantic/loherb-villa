@@ -19,7 +19,7 @@ export class Navbar {
     }
 
     init() {
-        this.els.main_trigger.addEventListener('click', () => this.toggleMobileNave());
+        this.els.main_trigger.addEventListener('click', () => this.toggleMobileNav());
 
         this.els.mobile_building_triggers.forEach(trigger => {
             trigger.addEventListener('click', () => this.showMobileBuildingPanel(trigger.getAttribute('data-opens-subnav')));
@@ -62,19 +62,24 @@ export class Navbar {
         return this.els.rooms_panel.classList.contains('opacity-0');
     }
 
+
     showMainRoomsPanel() {
         this.els.rooms_panel.classList.remove('opacity-0');
+        this.els.rooms_panel.classList.remove('hidden');
     }
 
     hideMainRoomsPanel() {
         this.els.rooms_panel.classList.add('opacity-0');
+        this.els.rooms_panel.classList.add('hidden');
     }
 
     toggleMainRoomsPanel() {
         this.els.rooms_panel.classList.toggle('opacity-0');
+        this.els.rooms_panel.classList.toggle('hidden');
     }
 
-    toggleMobileNave() {
+    toggleMobileNav() {
+        this.hideMobileBuildings();
         this.els.body.classList.toggle('nav-open');
         this.els.main.classList.toggle('expose');
     }

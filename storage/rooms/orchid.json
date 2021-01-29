@@ -32,7 +32,6 @@
     },
     "services": [],
     "images": [
-        [
             {
                 "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_1.jpg",
                 "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_1.jpg",
@@ -73,7 +72,6 @@
                 "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_8.jpg",
                 "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_8.jpg"
             }
-        ]
     ],
     "banner_image": "/images/room-banners/orchid.jpg"
 }

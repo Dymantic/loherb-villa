@@ -32,7 +32,6 @@
     },
     "services": [],
     "images": [
-        [
             {
                 "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_1.jpg",
                 "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_1.jpg",
@@ -73,7 +72,6 @@
                 "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_11.jpg",
                 "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_11.jpg"
             }
-        ]
     ],
     "banner_image": "/images/room-banners/villa.jpg"
 }

@@ -65,7 +65,7 @@ class Room
             'starting_price' => $this->startingPrice($locale),
             'prices' => $this->getAttribute('prices', []),
             'services' => [],
-            'images' => [],
+            'images' => $this->getAttribute('images', []),
             'banner_image' => [],
         ];
     }

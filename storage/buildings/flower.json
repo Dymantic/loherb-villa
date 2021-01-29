@@ -1,0 +1,17 @@
+{
+    "key": "flower",
+    "name": {
+        "en": "The Flower Building",
+        "zh": "The Flower Building"
+    },
+    "description": {
+        "en": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
+        "zh": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
+    },
+    "room_counts": {
+        "en": ["3 Double Rooms", "4 Quad Rooms"],
+        "zh": ["3 Double Rooms", "4 Quad Rooms"]
+    },
+    "banner_large": "/images/room-banners/lily.jpg",
+    "banner_small": "/images/room-banners/lily.jpg"
+}

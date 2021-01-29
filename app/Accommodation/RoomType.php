@@ -6,28 +6,36 @@ namespace App\Accommodation;
 
 class RoomType
 {
+
+    const ECONOMY_DOUBLE = '1';
+    const LUXURY_DOUBLE = '2';
+    const PREMIUM_DOUBLE = '3';
+    const DUPLEX_DOUBLE = '4';
+    const ECONOMY_QUAD = '5';
+    const LUXURY_QUAD = '6';
+    const ISLAND_QUAD = '7';
+    const STARGAZING_QUAD = '8';
+
     const LIST = [
         'economy-double'  => 1,
         'luxury-double'   => 2,
-        'duplex-double'   => 3,
-        'island-quad'     => 4,
-        'double'          => 5,
-        'premium-double'  => 6,
-        'economy-quad'    => 7,
-        'luxury-quad'     => 8,
-        'stargazing-quad' => 9,
+        'premium-double'  => 3,
+        'duplex-double'   => 4,
+        'economy-quad'    => 5,
+        'luxury-quad'     => 6,
+        'island-quad'     => 7,
+        'stargazing-quad' => 8,
     ];
 
     const NAMES = [
         1 => 'economy-double',
         2 => 'luxury-double',
-        3 => 'duplex-double',
-        4 => 'island-quad',
-        5 => 'double',
-        6 => 'premium-double',
-        7 => 'economy-quad',
-        8 => 'luxury-quad',
-        9 => 'stargazing-quad',
+        3 => 'premium-double',
+        4 => 'duplex-double',
+        5 => 'economy-quad',
+        6 => 'luxury-quad',
+        7 => 'island-quad',
+        8 => 'stargazing-quad',
     ];
 
     public static function of(string $slug): int

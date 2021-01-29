@@ -17,10 +17,10 @@ return [
     ],
     'buildings' => [
         'flower' => 'Flower Building',
-        'tree' => 'Tree Building',
+        'tree' => 'The Tree Villa',
         'aqua' => 'Aqua Building',
     ],
-    'starting-price' => "Starting from NT$:price",
+    'starting-price' => "From NT$:price",
 
     'index' => [
         'heading'    => 'Something for Everyone',

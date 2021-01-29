@@ -10,7 +10,7 @@ class RoomsRepository {
 
     private Collection $rooms;
 
-    public function __construct(private string $basepath)
+    public function __construct()
     {
         $this->rooms = collect(Storage::disk('rooms')->files())
             ->filter(fn ($file) => Str::endsWith($file, ".json"))

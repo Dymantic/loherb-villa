@@ -32,7 +32,6 @@
     },
     "services": [],
     "images": [
-        [
             {
                 "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_2.jpg",
                 "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_2.jpg",
@@ -68,7 +67,6 @@
                 "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_8.jpg",
                 "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_8.jpg"
             }
-        ]
     ],
     "banner_image": "/images/room-banners/sunflower.jpg"
 }

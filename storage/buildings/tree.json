@@ -1,0 +1,17 @@
+{
+    "key": "tree",
+    "name": {
+        "en": "The Tree Building",
+        "zh": "The Tree Building"
+    },
+    "description": {
+        "en": "Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla.",
+        "zh": "Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla."
+    },
+    "room_counts": {
+        "en": ["1 Double Room", "3 Quad Rooms"],
+        "zh": ["1 Double Room", "3 Quad Rooms"]
+    },
+    "banner_large": "/images/room-banners/lily.jpg",
+    "banner_small": "/images/room-banners/lily.jpg"
+}

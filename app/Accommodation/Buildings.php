@@ -7,12 +7,13 @@ namespace App\Accommodation;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static inBuilding(string $name)
+ * @method static withSlug($slug): Building
+ * @method static all()
  */
-class Rooms extends Facade
+class Buildings extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'rooms';
+        return 'buildings';
     }
 }

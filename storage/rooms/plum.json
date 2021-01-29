@@ -32,7 +32,6 @@
     },
     "services": [],
     "images": [
-        [
             {
                 "full": "\/images\/room-galleries\/plum\/reg\/plum_gallery_2.jpg",
                 "small": "\/images\/room-galleries\/plum\/mobile\/plum_gallery_2.jpg",
@@ -63,7 +62,6 @@
                 "small": "\/images\/room-galleries\/plum\/mobile\/plum_gallery_7.jpg",
                 "wide": "\/images\/room-galleries\/plum\/wide\/plum_gallery_7.jpg"
             }
-        ]
     ],
     "banner_image": "/images/room-banners/plum.jpg"
 }

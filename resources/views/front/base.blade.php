@@ -34,6 +34,7 @@
     <link rel="preload" href="https://villa.loherb.com.tw/fonts/transat_bold-webfont.woff" as="font">
     @yield('head')
     <meta name="format-detection" content="telephone=no">
+    @stack('headspace')
 </head>
 
 <body class="type-b1 leading-normal {{ $bodyClass ?? '' }}">

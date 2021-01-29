@@ -20,8 +20,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
     Route::get('contact', 'PagesController@contact');
 
-    Route::get('rooms', 'RoomsController@index');
+    Route::get('rooms', 'RoomTypesController@index');
     Route::get('rooms/{room}', 'RoomsController@show');
+
+    Route::get('pricing', 'PricingController@show');
 
     Route::get('journal', 'BlogController@index');
 
@@ -33,6 +35,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 //    Route::redirect('book', 'contact');
 
     Route::get('book', 'PagesController@book');
+
+    Route::get('buildings', 'BuildingsController@index');
+    Route::get('buildings/{slug}', 'BuildingsController@show');
 
 });
 Route::post('contact', 'ContactController@store');

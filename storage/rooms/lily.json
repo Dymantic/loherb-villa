@@ -32,7 +32,6 @@
     },
     "services": [],
     "images": [
-        [
             {
                 "full": "\/images\/room-galleries\/lily\/reg\/lily_gallery_1.jpg",
                 "small": "\/images\/room-galleries\/lily\/mobile\/lily_gallery_1.jpg",
@@ -63,7 +62,6 @@
                 "small": "\/images\/room-galleries\/lily\/mobile\/lily_gallery_6.jpg",
                 "wide": "\/images\/room-galleries\/lily\/wide\/lily_gallery_6.jpg"
             }
-        ]
     ],
     "banner_image": "/images/room-banners/lily.jpg"
 }
