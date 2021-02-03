@@ -7,11 +7,12 @@
                          icon="svgs.logos.simple"
     ></x-page-photo-banner>
 
-    <x-horizontal-scroll-menu :options="$options"></x-horizontal-scroll-menu>
+    <x-horizontal-scroll-menu :jump="true" :options="$options"></x-horizontal-scroll-menu>
 
     <div class="my-20 max-w-5xl mx-auto px-6 lg:px-0">
         @foreach($buildings as $building)
-            <div class="block md:flex justify-between items-center my-20">
+            <div class="block md:flex justify-between items-center my-20 relative">
+                <div id="{{ $building->key() }}" class="absolute -top-20"></div>
                 <div class="w-full md:w-2/3 {{ $loop->odd ? 'order-1' : 'order-2' }}">
                     <img src="{{ $building->bannerLarge() }}"
                          alt="{{ $building->name() }}">

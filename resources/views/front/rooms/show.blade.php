@@ -1,14 +1,14 @@
-@extends('front.base', ['bodyClass' => $room['body_class']])
+@extends('front.base', ['bodyClass' => $room['slug'] . '-room'])
 
 @section('title')
-    {{ trans($room['name']) }}
+    {{ $room['name'] }} - LOHERB VILLA
 @endsection
 
 @section('head')
     @include('front.partials.ogmeta', [
         'ogImage' => url('/images/room-banners/' . $room_key . '.jpg'),
-        'ogTitle' => trans(trans($room['name'])),
-        'ogDescription' => trans('rooms.' . $room_key . '.preview.description')
+        'ogTitle' => $room['name'] . ' - LOHERB VILLA',
+        'ogDescription' => $room['description'],
     ])
 @endsection
 
@@ -16,13 +16,13 @@
     <div class="banner-height room-banner flex justify-center items-center">
         <p class="font-sans text-3xl bg-opaque py-4 px-8 text-green-main">{{ trans($room['name']) }}</p>
     </div>
-    @component('front.components.info-section', ['title' => trans($room['text_heading'])])
-        <p class="my-8 body-text text-green-main text-center">{{ trans($room['text_content']) }}</p>
+    @component('front.components.info-section', ['title' => $room['heading']])
+        <p class="my-8 body-text text-green-main text-center">{{ $room['description'] }}</p>
     @endcomponent
     <div class="p-0 lg:p-20 room-gallery large-slider">
         <div data-flickity='{"imagesLoaded": true, "autoPlay": 5000}'
              class="w-full mx-auto slide-show">
-            @foreach($room['gallery_images'] as $image)
+            @foreach($room['images'] as $image)
                 <picture class="w-full block mx-auto">
                     <source srcset="{{ $image['small'] }}"
                             media="(max-width: 576px)">
@@ -55,19 +55,19 @@
 
         <div class="text-green-main my-8">
             <p class="mb-8 text-green-main text-center font-heading">{{ trans('rooms.show.additional_header') }}</p>
-            <div class="flex justify-between max-w-xxs mx-auto w-full">
+            <div class="flex justify-between max-w-xs mx-auto w-full">
                 <p>{{ trans('rooms.show.times.check_in.label') }}</p>
                 <p>{{ trans('rooms.show.times.check_in.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-xxs mx-auto w-full">
+            <div class="flex justify-between max-w-xs mx-auto w-full">
                 <p>{{ trans('rooms.show.times.check_out.label') }}</p>
                 <p>{{ trans('rooms.show.times.check_out.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-xxs mx-auto w-full">
+            <div class="flex justify-between max-w-xs mx-auto w-full">
                 <p>{{ trans('rooms.show.times.breakfast.label') }}</p>
                 <p>{{ trans('rooms.show.times.breakfast.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-xxs mx-auto w-full">
+            <div class="flex justify-between max-w-xs mx-auto w-full">
                 <p>{{ trans('rooms.show.times.tea.label') }}</p>
                 <p>{{ trans('rooms.show.times.tea.value') }}</p>
             </div>
@@ -86,15 +86,12 @@
             <ul class="list-reset font-heading text-green-main max-w-sm mx-auto w-full border border-green-mid">
                 <li class="flex justify-between items-center border-b border-green-mid">
                     <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
-                    <span class="w-1/2 text-center">{{ $room['prices']['weekday'] }}</span>
+                    <span class="w-1/2 text-center">{{ $room['prices']['weekdays'] }}</span>
                 </li>
-                <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekends') }}</span>
-                    <span class="w-1/2 text-center">{{ $room['prices']['weekends'] }}</span>
-                </li>
+
                 <li class="flex justify-between items-center border-b border-green-mid">
                     <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.holidays') }}</span>
-                    <span class="w-1/2 text-center">{{ $room['prices']['holidays'] }}</span>
+                    <span class="w-1/2 text-center">{{ $room['prices']['weekends'] }}</span>
                 </li>
                 <li class="flex justify-between items-center">
                     <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.chinese_new_year') }}</span>
@@ -137,5 +134,5 @@
 @endsection
 
 @section('bodyscripts')
-    @include('front.partials.room-jsonld', ['occupancy' => $room['occupancy'], 'image' => $room['main_image']])
+    @include('front.partials.room-jsonld', ['occupancy' => $room['occupancy'], 'image' => $room['banner_image']])
 @endsection

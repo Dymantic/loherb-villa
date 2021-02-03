@@ -52,4 +52,9 @@ class RoomType
 
         return trans("rooms.types.{$key}", [], $locale);
     }
+
+    public static function slugFor(int $type_code): string
+    {
+        return self::NAMES[$type_code] ?? '';
+    }
 }

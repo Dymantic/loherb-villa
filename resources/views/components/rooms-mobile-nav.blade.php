@@ -10,9 +10,18 @@
         </div>
         @foreach($building['types'] as $room_type => $rooms)
             <div class="pl-16 mb-4">
-                <p class="type-a1 text-brown-dark mb-2 uppercase">{{ $room_type }}</p>
+                <p class="type-a1 text-brown-dark mb-2 uppercase">
+                    <a href="/rooms#{{ $room_type }}" class="hover:text-gold">
+                        {{ trans("rooms.types.{$room_type}") }}
+                    </a>
+                </p>
                 @foreach($rooms as $room)
-                    <p class="text-green-main type-b7">{{ $room->name() }}</p>
+                    <p class="text-green-main type-b7">
+                        <a href="/rooms/{{ $room->slug() }}" class="hover:text-gold">
+                            {{ $room->name() }}
+                        </a>
+
+                    </p>
                 @endforeach
             </div>
 

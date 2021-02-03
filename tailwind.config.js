@@ -24,6 +24,7 @@ module.exports = {
         spacing: {
             '5/6': '83.33%',
         },
+
         minHeight: {
           '50w': '50vw',
           '120w': '120vw',

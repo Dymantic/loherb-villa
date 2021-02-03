@@ -15,7 +15,7 @@ class BuildingsController extends Controller
         $options = $buildings
                            ->map(
                                fn (Building $building) => [
-                                   'url' => $building->url(), 'option' => $building->name()
+                                   'url' => $building->key(), 'option' => $building->name()
                                ])
                            ->values()->all();
 

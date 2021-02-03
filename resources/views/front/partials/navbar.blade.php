@@ -13,7 +13,7 @@
                class="flex items-center nav-link text-white"
                href="{{ localUrl('/about') }}">{{ trans('navbar.about') }}</a>
         </div>
-        <div class="flex items-start md:items-center rooms-nav focus:outline-none"
+        <div class="flex items-start md:items-center rooms-nav focus:outline-none cursor-pointer"
              tabindex="3">
             <span class="text-white rooms-panel-trigger">
                 <span class="nav-link-box"><span class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</span></span>

@@ -27,8 +27,9 @@ class RoomsNavPanel extends Component
             ->groupBy(fn (Room $room) => $room->buildingName())
             ->mapWithKeys(function($building_rooms, $building_name) {
                 return [$building_name => [
-                    'types' => $building_rooms->groupBy(fn (Room $room) => $room->typeName()),
+                    'types' => $building_rooms->groupBy(fn (Room $room) => $room->typeSlug()),
                     'building_icon' => $building_rooms->first()->building(),
+//                    'slug' => $building_rooms->first()->
                 ]];
             });
     }

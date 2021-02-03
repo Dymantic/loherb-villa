@@ -115,5 +115,14 @@ class Pricing
         return $lookup[$key];
     }
 
+    public static function pricingForType(int $room_type): array
+    {
+        return [
+            'weekdays' => static::WEEKDAYS[$room_type],
+            'weekends' => static::WEEKENDS[$room_type],
+            'chinese_new_year' => static::CHINESE_NEW_YEAR[$room_type],
+        ];
+    }
+
 
 }

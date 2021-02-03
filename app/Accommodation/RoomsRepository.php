@@ -2,6 +2,7 @@
 
 namespace App\Accommodation;
 
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -26,6 +27,10 @@ class RoomsRepository {
     public function find(string $slug): Room
     {
         $room = $this->rooms->first(fn (Room $room) => $room->slug() === $slug);
+
+        if(!$room) {
+            throw new ModelNotFoundException('room does not exist');
+        }
 
         return $room;
     }

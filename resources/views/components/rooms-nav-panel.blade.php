@@ -1,16 +1,22 @@
 <div class="w-full px-8 fixed top-20 left-0 rooms-nav-panel opacity-0 transition-opacity hidden">
-    <div class="shadow-lg bg-cream-light py-6 relative">
+    <div class="shadow-lg bg-cream-light py-6 relative z-50">
         <div class="grid grid-cols-3 divide-brown-dark divide-x-2">
             @foreach($buildings() as $building_name => $building)
                 <div class="flex flex-col items-center">
                     @include("svgs.buildings.{$building['building_icon']}", ['classes' => 'h-6 text-green-main'])
-                    <p class="type-a1 text-green-main uppercase">{{ $building_name }}</p>
+                    <p class="type-a1 text-green-main uppercase">
+                        <a class="hover:text-gold" href="/buildings/{{$building['building_icon']}}">{{ $building_name }}</a>
+                    </p>
                     <div class="w-40 max-w-full border-b-2 border-brown-dark my-4"></div>
                     @foreach($building['types'] as $room_type => $rooms)
                         <div class="mb-4">
-                            <p class="type-a1 text-brown-dark mb-2 uppercase text-center">{{ $room_type }}</p>
+                            <p class="type-a1 text-brown-dark mb-2 uppercase text-center">
+                                <a class="hover:text-gold" href="/rooms#{{$room_type}}">{{ trans("rooms.types.{$room_type}") }}</a>
+                            </p>
                             @foreach($rooms as $room)
-                                <p class="text-green-main type-b7 text-center">{{ $room->name() }}</p>
+                                <p class="text-green-main type-b7 text-center">
+                                    <a href="/rooms/{{ $room->slug() }}">{{ $room->name() }}</a>
+                                </p>
                             @endforeach
                         </div>
 

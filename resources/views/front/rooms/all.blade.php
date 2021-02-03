@@ -9,8 +9,8 @@
 
     <div class="max-w-5xl px-6 lg:px-0 mx-auto">
         @foreach($roomTypes as $type => $rooms)
-            <div class="my-20">
-                <p class="type-h0 text-green-main">{{ $type }}</p>
+            <div class="my-20" id="{{$type}}">
+                <p class="type-h0 text-green-main">{{ trans("rooms.types.{$type}") }}</p>
                 <div class="large-slider max-w-5xl mx-auto">
                     <div data-flickity='{"imagesLoaded": "true"}'>
                         @foreach($rooms as $room)

@@ -7,7 +7,7 @@ use Illuminate\View\Component;
 class HorizontalScrollMenu extends Component
 {
 
-    public function __construct(public array $options)
+    public function __construct(public array $options, public bool $jump = false)
     {}
 
 
