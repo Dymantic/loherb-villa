@@ -7,7 +7,7 @@ use Illuminate\View\Component;
 class BuildingRoomCard extends Component
 {
 
-    public function __construct(public array $room, public string $side = 'right')
+    public function __construct(public array $room, public string $side = 'right', public bool $showType = true, public bool $showBuilding = false)
     {}
 
 

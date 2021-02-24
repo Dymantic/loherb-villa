@@ -13,7 +13,7 @@
 @endsection
 
 @section('content')
-    <div class="banner-height room-banner flex justify-center items-center">
+    <div class="banner-height room-banner flex justify-center items-center" style="background-image: url({{ $room['banner_image'] }});">
         <p class="font-sans text-3xl bg-opaque py-4 px-8 text-green-main">{{ trans($room['name']) }}</p>
     </div>
     @component('front.components.info-section', ['title' => $room['heading']])

@@ -33,6 +33,13 @@ class Room
         return trans("rooms.buildings.{$key}", [], $locale);
     }
 
+    public function buildingIcon(): string
+    {
+        $key = $this->building();
+
+        return sprintf("svgs.buildings.%s", $key);
+    }
+
     public function typeCode(): int
     {
         return $this->attributes['type'] ?? 0;
@@ -50,7 +57,7 @@ class Room
 
     public function startingPrice($locale = 'en'): string
     {
-        $lowest = $this->getAttribute('prices', ["weekdays" => 0])['weekdays'];
+        $lowest = $this->prices()['weekdays'];
 
         return trans("rooms.starting-price", ['price' => $lowest], $locale);
     }
@@ -64,9 +71,9 @@ class Room
     {
         return collect($this->getAttribute('services', []))
             ->map(
-                fn ($code) => Services::LIST[$code] ?? null
+                fn($code) => Services::LIST[$code] ?? null
             )
-            ->reject(fn ($i) => $i === null)
+            ->reject(fn($i) => $i === null)
             ->values()->all();
     }
 
@@ -76,7 +83,9 @@ class Room
             'name'           => $this->attributes['name'][$locale] ?? '',
             'slug'           => $this->slug(),
             'type'           => $this->typeName($locale),
+            'type_slug'      => $this->typeSlug(),
             'building'       => $this->buildingName($locale),
+            'building_icon'  => $this->buildingIcon(),
             'heading'        => $this->getTranslation('heading', $locale),
             'intro'          => $this->getTranslation('intro', $locale),
             'description'    => $this->getTranslation('description', $locale),

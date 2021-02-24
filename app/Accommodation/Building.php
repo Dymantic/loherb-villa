@@ -51,6 +51,11 @@ class Building
         return $this->attributes['banner_large'] ?? '';
     }
 
+    public function titleImage(): string
+    {
+        return $this->attributes['title_image'] ?? '';
+    }
+
     public function icon(): string
     {
         return sprintf("svgs.buildings.%s", $this->key());
@@ -68,17 +73,18 @@ class Building
         return $this->rooms
             ->sortBy(fn(Room $room) => $room->typeCode())
             ->map(
-                fn(Room $room) => ['option' => $room->typeName($locale), 'url' => Str::slug($room->typeName($locale))]
+                fn(Room $room) => ['option' => $room->typeName($locale), 'url' => $room->typeSlug()]
             )->unique()->values()->all();
     }
 
-    public function presentedRooms(): array
+    public function presentedRooms(): Collection
     {
         return $this->rooms
             ->sortBy(fn(Room $room) => $room->typeCode())
             ->map(
                 fn(Room $room) => $room->presentForLang(app()->getLocale())
-            )->values()->all();
+            )
+            ->groupBy(fn($room) => $room['type_slug']);
     }
 
 }

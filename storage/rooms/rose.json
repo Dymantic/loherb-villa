@@ -12,11 +12,11 @@
         "holidays_weekends": "",
         "chinese_new_year": ""
     },
-    "square_feet": 10,
-    "sleeps": 5,
+    "square_feet": 23,
+    "sleeps": 2,
     "view": {
-        "en": "",
-        "zh": ""
+        "en": "Garden View",
+        "zh": "Garden View"
     },
     "heading": {
         "en": "Love is in the air",
@@ -30,7 +30,7 @@
         "en": "The Rose Room features light delicate decor to ignite a feeling of romance and whimsy. This comfortable room has its own balcony, hot tub, home movie theater and a king size bed facing magnificent views.",
         "zh": "天使薔薇精緻雙人房以純白粉色妝點，形塑出浪漫唯美氛圍，尤其是超大雙人床配上玫瑰花牆背板，成為戀人們最難忘的回憶。"
     },
-    "services": [],
+    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
     "images": [
             {
                 "full": "\/images\/room-galleries\/rose\/reg\/rose_gallery_1.jpg",

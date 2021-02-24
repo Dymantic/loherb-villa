@@ -5,13 +5,14 @@
         "zh": "The Flower Building"
     },
     "description": {
-        "en": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
+        "en": "The Flower Villa is the original building that was designed on Loherb’s principles of space and environment along with modern luxuries.",
         "zh": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
     },
     "room_counts": {
         "en": ["3 Double Rooms", "4 Quad Rooms"],
         "zh": ["3 Double Rooms", "4 Quad Rooms"]
     },
-    "banner_large": "/images/room-banners/lily.jpg",
-    "banner_small": "/images/room-banners/lily.jpg"
+    "banner_large": "/images/lorem/banners/test_8.jpg",
+    "banner_small": "/images/lorem/banners/test_8.jpg",
+    "title_image": "/images/lorem/standard/test_8.jpg"
 }

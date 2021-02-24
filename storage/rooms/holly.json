@@ -5,63 +5,48 @@
         "zh": ""
     },
     "building": "tree",
-    "type": 7,
+    "type": 5,
     "prices": {
         "weekdays": "",
         "summer_vacation": "",
         "holidays_weekends": "",
         "chinese_new_year": ""
     },
-    "square_feet": 10,
-    "sleeps": 5,
+    "square_feet": 31,
+    "sleeps": 4,
     "view": {
-        "en": "",
-        "zh": ""
+        "en": "Garden View",
+        "zh": "Garden View"
     },
     "heading": {
         "en": "",
         "zh": ""
     },
     "intro": {
-        "en": "",
+        "en": "Two couples or a family will enjoy this gracious, natural room.",
         "zh": ""
     },
     "description": {
-        "en": "",
+        "en": "Up to 4 people will enjoy the simple and natural elegance of this room and its facilities. This room space is large, comfortable and relaxing with a wonderful bathroom space and tub plus a balcony.",
         "zh": ""
     },
-    "services": [],
+    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
     "images": [
         {
-            "full": "\/images\/room-galleries\/lily\/reg\/lily_gallery_1.jpg",
-            "small": "\/images\/room-galleries\/lily\/mobile\/lily_gallery_1.jpg",
-            "wide": "\/images\/room-galleries\/lily\/wide\/lily_gallery_1.jpg"
+            "full": "\/images\/lorem\/banners\/test_7.jpg",
+            "small": "/images/lorem/4_3/test_7.jpg",
+            "wide": "/images/lorem/banners/test_7.jpg"
         },
         {
-            "full": "\/images\/room-galleries\/lily\/reg\/lily_gallery_2.jpg",
-            "small": "\/images\/room-galleries\/lily\/mobile\/lily_gallery_2.jpg",
-            "wide": "\/images\/room-galleries\/lily\/wide\/lily_gallery_2.jpg"
+            "full": "\/images\/lorem\/banners\/test_4.jpg",
+            "small": "/images/lorem/4_3/test_4.jpg",
+            "wide": "/images/lorem/banners/test_4.jpg"
         },
         {
-            "full": "\/images\/room-galleries\/lily\/reg\/lily_gallery_3.jpg",
-            "small": "\/images\/room-galleries\/lily\/mobile\/lily_gallery_3.jpg",
-            "wide": "\/images\/room-galleries\/lily\/wide\/lily_gallery_3.jpg"
-        },
-        {
-            "full": "\/images\/room-galleries\/lily\/reg\/lily_gallery_4.jpg",
-            "small": "\/images\/room-galleries\/lily\/mobile\/lily_gallery_4.jpg",
-            "wide": "\/images\/room-galleries\/lily\/wide\/lily_gallery_4.jpg"
-        },
-        {
-            "full": "\/images\/room-galleries\/lily\/reg\/lily_gallery_5.jpg",
-            "small": "\/images\/room-galleries\/lily\/mobile\/lily_gallery_5.jpg",
-            "wide": "\/images\/room-galleries\/lily\/wide\/lily_gallery_5.jpg"
-        },
-        {
-            "full": "\/images\/room-galleries\/lily\/reg\/lily_gallery_6.jpg",
-            "small": "\/images\/room-galleries\/lily\/mobile\/lily_gallery_6.jpg",
-            "wide": "\/images\/room-galleries\/lily\/wide\/lily_gallery_6.jpg"
+            "full": "\/images\/lorem\/banners\/test_3.jpg",
+            "small": "/images/lorem/4_3/test_3.jpg",
+            "wide": "/images/lorem/banners/test_3.jpg"
         }
     ],
-    "banner_image": "/images/room-banners/lily.jpg"
+    "banner_image": "/images/lorem/banners/test_6.jpg"
 }

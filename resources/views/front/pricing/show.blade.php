@@ -2,9 +2,9 @@
 
 @section('content')
     <x-page-photo-banner
-        title="Prices"
-        text="Different types rooms are available at Villa Loherb to suit the all the needs and occasions for your perfect getaway."
-        img-large="/images/room-banners/sunflower.jpg"
+        title="{{ trans('accommodation.prices.banner_title') }}"
+        text="{{ trans('accommodation.prices.banner_text') }}"
+        img-large="/images/lorem/banners/test_9.jpg"
     ></x-page-photo-banner>
 
     <div class="my-12">

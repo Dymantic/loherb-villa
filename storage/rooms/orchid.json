@@ -12,11 +12,11 @@
         "holidays_weekends": "",
         "chinese_new_year": ""
     },
-    "square_feet": 10,
-    "sleeps": 5,
+    "square_feet": 31,
+    "sleeps": 2,
     "view": {
-        "en": "",
-        "zh": ""
+        "en": "Farmland View",
+        "zh": "Farmland View"
     },
     "heading": {
         "en": "A view to relax to",
@@ -30,7 +30,7 @@
         "en": "This spacious room overlooks the Dongshan River Park Wetlands through wall-to-wall windows or from your balcony giving you a relaxing, tranquil stay. This room comes with a separated shower and hot tub, home movie theater and king size bed with more than enough room to add another bed.",
         "zh": "蝴蝶蘭豪華雙人房有乾濕分離浴室、家庭劇院、超大型雙人床、寬闊露台設施。以典雅沈穩的裝修款待深富內涵的您，讓人低調奢華縱情享受。"
     },
-    "services": [],
+    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
     "images": [
             {
                 "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_1.jpg",
