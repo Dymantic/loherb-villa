@@ -12,7 +12,8 @@
     <div class="max-w-5xl mx-auto px-4">
         @php $itx = 0 @endphp
         @foreach($building->presentedRooms() as $type => $rooms)
-            <div id="{{$type}}">
+            <div>
+                <div class="anchor-point" id="{{$type}}"></div>
                 @foreach($rooms as $room)
                     <x-building-room-card :room="$room" side="{{ $itx % 2 ? 'left' : 'right' }}"></x-building-room-card>
                     @php $itx++ @endphp

@@ -10,6 +10,7 @@
     <div class="max-w-5xl px-6 lg:px-0 mx-auto">
         @foreach($roomTypes as $type => $rooms)
             <div class="my-20" id="{{$type}}">
+                <div id="{{$type}}" class="anchor-point"></div>
                 <p class="type-h0 text-green-main">{{ trans("rooms.types.{$type}") }}</p>
                 @if(count($rooms) > 1)
                 <div class="slide-show no-arrows-small dark arrows-wide max-w-5xl mx-auto">
