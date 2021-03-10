@@ -11,7 +11,7 @@
         @foreach($building['types'] as $room_type => $rooms)
             <div class="pl-16 mb-4">
                 <p class="type-a1 text-brown-dark mb-2 uppercase">
-                    <a href="/rooms#{{ $room_type }}" class="hover:text-gold">
+                    <a href="{{ $building['building_slug'] }}#{{ $room_type }}" class="hover:text-gold">
                         {{ trans("rooms.types.{$room_type}") }}
                     </a>
                 </p>
