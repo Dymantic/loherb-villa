@@ -11,7 +11,7 @@
                     @foreach($building['types'] as $room_type => $rooms)
                         <div class="mb-4">
                             <p class="type-a1 text-brown-dark uppercase text-center">
-                                <a class="hover:text-gold" href="/rooms#{{$room_type}}">{{ trans("rooms.types.{$room_type}") }}</a>
+                                <a class="hover:text-gold" href="{{ $building['building_slug'] }}#{{$room_type}}">{{ trans("rooms.types.{$room_type}") }}</a>
                             </p>
                             @foreach($rooms as $room)
                                 <p class="text-green-main type-b7 text-center">
@@ -26,8 +26,11 @@
             @endforeach
 
         </div>
-        <div class="text-center">
-            <x-arrow-link link-to="/buildings">Visit Buildings Page</x-arrow-link>
+        <div class="text-center mt-6">
+            <div class="mb-3">
+                <x-arrow-link link-to="/buildings">Visit Villas Page</x-arrow-link>
+            </div>
+            <a class="inline-button btn-green-ghost" href="/rooms">See All Rooms</a>
         </div>
         <button class="rooms-panel-trigger absolute top-0 right-0 m-3 text-gray-400 hover:text-green-main">
             <svg viewBox="0 0 100 100" class="stroke-current h-8">

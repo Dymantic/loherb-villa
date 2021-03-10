@@ -13,9 +13,15 @@
 @endsection
 
 @section('content')
-    <div class="banner-height room-banner flex justify-center items-center" style="background-image: url({{ $room['banner_image'] }});">
-        <p class="font-sans text-3xl bg-opaque py-4 px-8 text-green-main">{{ trans($room['name']) }}</p>
-    </div>
+    <x-page-photo-banner title="{{ $room['name'] }}"
+{{--                         text="{{ $building->description() }}"--}}
+                         img-large="{{ $room['banner_image'] }}"
+{{--                         icon="{{ $building->icon() }}"--}}
+        :room-info="$room"
+    ></x-page-photo-banner>
+{{--    <div class="banner-height room-banner flex justify-center items-center" style="background-image: url({{ $room['banner_image'] }});">--}}
+{{--        <p class="font-sans text-3xl bg-opaque py-4 px-8 text-green-main">{{ trans($room['name']) }}</p>--}}
+{{--    </div>--}}
     @component('front.components.info-section', ['title' => $room['heading']])
         <p class="my-8 body-text text-green-main text-center">{{ $room['description'] }}</p>
     @endcomponent

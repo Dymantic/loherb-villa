@@ -3,11 +3,11 @@
         <div class="p-6">
             <button class="subnav-close type-a1 text-green-main">&larr;</button>
         </div>
-        <div class="flex px-4 items-center mb-6">
+        <a href="{{ $building['building_slug'] }}" class="flex px-4 items-center mb-6">
             @include('svgs.buildings.' . $building['building_icon'], ['classes' => 'text-green-main h-8 mr-3'])
             <p class="type-a1 text-green-main uppercase">{{ $building_name }}</p>
 
-        </div>
+        </a>
         @foreach($building['types'] as $room_type => $rooms)
             <div class="pl-16 mb-4">
                 <p class="type-a1 text-brown-dark mb-2 uppercase">
@@ -26,5 +26,8 @@
             </div>
 
         @endforeach
+        <div class="mt-8 flex justify-center">
+            <x-arrow-link link-to="{{ $building['building_slug'] }}">See Rooms</x-arrow-link>
+        </div>
     </div>
 @endforeach

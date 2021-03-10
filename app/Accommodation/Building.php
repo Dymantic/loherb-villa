@@ -26,9 +26,9 @@ class Building
         return $this->attributes['key'] ?? '';
     }
 
-    public function name(): string
+    public function name($locale = 'en'): string
     {
-        return $this->attributes['name'][app()->getLocale()] ?? '';
+        return $this->attributes['name'][$locale] ?? '';
     }
 
     public function description(): string

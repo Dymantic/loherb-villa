@@ -29,7 +29,7 @@ class RoomsNavPanel extends Component
                 return [$building_name => [
                     'types' => $building_rooms->groupBy(fn (Room $room) => $room->typeSlug()),
                     'building_icon' => $building_rooms->first()->building(),
-//                    'slug' => $building_rooms->first()->
+                    'building_slug' => "/buildings/{$building_rooms->first()->building()}",
                 ]];
             });
     }

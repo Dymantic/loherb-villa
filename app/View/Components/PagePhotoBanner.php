@@ -7,7 +7,14 @@ use Illuminate\View\Component;
 class PagePhotoBanner extends Component
 {
 
-    public function __construct(public string $imgLarge, public string $title = '', public string $icon = '', public string $text = '', public string $imgSmall = '' )
+    public function __construct(
+        public string $imgLarge,
+        public string $title = '',
+        public string $icon = '',
+        public string $text = '',
+        public string $imgSmall = '',
+        public array $roomInfo = [],
+    )
     {}
 
     /**

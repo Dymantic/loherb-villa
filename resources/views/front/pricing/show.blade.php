@@ -19,17 +19,17 @@
                 <table class="w-full border-collapse border border-green-main my-12 type-h1">
                     <thead>
                     <tr class="bg-green-main text-cream-light">
-                        <th class="p-2 border border-green-main">Room</th>
-                        <th class="p-2 border border-green-main">Sleeps</th>
-                        <th class="p-2 border border-green-main">Price</th>
+                        <th class="p-2">Room</th>
+                        <th class="p-2">Sleeps</th>
+                        <th class="p-2">Price</th>
                     </tr>
                     </thead>
                     <tbody>
                     @foreach($time['rooms'] as $room)
-                        <tr class="text-green-main">
-                            <td class="w-2/5 p-2 text-center border border-green-main">{{ $room['name'] }}</td>
-                            <td class="w-1/5 p-2 text-center border border-green-main">{{ $room['guests'] }}</td>
-                            <td class="w-2/5 p-2 text-center border border-green-main">{{ $room['price'] }}</td>
+                        <tr class="text-green-main hover:bg-green-soft">
+                            <td class="w-2/5 p-2 text-center">{{ $room['name'] }}</td>
+                            <td class="w-1/5 p-2 text-center">{{ $room['guests'] }}</td>
+                            <td class="w-2/5 p-2 text-center">{{ $room['price'] }}</td>
                         </tr>
                     @endforeach
                     </tbody>
@@ -38,17 +38,17 @@
                 <table class="w-full border-collapse border border-green-main my-12 type-h1">
                     <thead>
                     <tr class="bg-green-main text-cream-light">
-                        <th class="p-2 border border-green-main">Entire Villa</th>
-                        <th class="p-2 border border-green-main">Rooms/Guests</th>
-                        <th class="p-2 border border-green-main">Price</th>
+                        <th class="p-2">Entire Villa</th>
+                        <th class="p-2">Rooms/Guests</th>
+                        <th class="p-2">Price</th>
                     </tr>
                     </thead>
                     <tbody>
                     @foreach($time['buildings'] as $building)
-                        <tr class="text-green-main">
-                            <td class="w-2/5 p-2 text-center border border-green-main">{{ $building['name'] }}</td>
-                            <td class="w-1/5 p-2 text-center border border-green-main">{{ $building['rooms'] }}/{{ $building['guests'] }}</td>
-                            <td class="w-2/5 p-2 text-center border border-green-main">{{ $building['price'] }}</td>
+                        <tr class="text-green-main hover:bg-green-soft">
+                            <td class="w-2/5 p-2 text-center">{{ $building['name'] }}</td>
+                            <td class="w-1/5 p-2 text-center">{{ $building['rooms'] }}/{{ $building['guests'] }}</td>
+                            <td class="w-2/5 p-2 text-center">{{ $building['price'] }}</td>
                         </tr>
                     @endforeach
                     </tbody>

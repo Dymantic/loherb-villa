@@ -30,7 +30,7 @@ class Room
     {
         $key = $this->building();
 
-        return trans("rooms.buildings.{$key}", [], $locale);
+        return Buildings::withSlug($key)->name($locale);
     }
 
     public function buildingIcon(): string

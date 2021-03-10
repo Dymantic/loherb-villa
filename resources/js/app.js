@@ -34,6 +34,25 @@ window.addEventListener('DOMContentLoaded', () => {
     window.navbar.init();
 
     [...document.querySelectorAll('a')].filter(a => a.href == window.location.toString()).forEach(a => a.classList.add('active'));
+
+    function removeArrow(ev) {
+        const target = ev ? ev.target : null;
+        const arrows = [...document.querySelectorAll('.horizontal-scroll-arrow-indicator')];
+        arrows.forEach(a => a.classList.add('hidden'));
+        if(target) {
+            target.removeEventListener('scroll', removeArrow);
+        }
+    }
+
+    [...document.querySelectorAll('.horizontal-scroll-menu')]
+        .forEach(menu => {
+            const sw = menu.scrollWidth;
+            const cw = menu.clientWidth;
+            if(sw <= cw) {
+                return removeArrow();
+            }
+            menu.addEventListener('scroll', removeArrow)
+        })
 })
 
 const main_nav = document.querySelector('.main-nav');

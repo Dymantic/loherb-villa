@@ -20,7 +20,7 @@ return [
     ],
 
     'prices' => [
-        'banner_title' => 'Prices',
+        'banner_title' => 'Price List',
         'banner_text' => 'Please review our room prices so you can make your stay at Loherb Villa the best for you. Entire Villas can also be booked for large groups.',
     ],
 
