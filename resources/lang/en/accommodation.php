@@ -3,7 +3,7 @@
 return [
     "entire_villa" => [
         'heading' => 'Book an Entire Villa?',
-        'text' => 'The villa Curabitur blandit tempus porttitor. Curabitur blandit tempus porttitor.',
+        'text' => 'Booking an entire Villa is a great way to accommodate large parties. Enjoy the privacy and luxury of an entire Loherb Villa to yourselves.',
     ],
 
     'buildings' => [

@@ -20,8 +20,8 @@
                 <div class="text-green-main w-full md:w-1/3 {{ $loop->odd ? 'order-2 md:pl-12' : 'order-1 md:pr-12' }} pt-8 md:pt-0">
                     @include($building->icon(), ['classes' => 'h-8 mb-1'])
                     <p class="type-h2">{{ $building->name() }}</p>
-                    <p class="type-b1 my-3">{{ $building->description() }}</p>
-                    <div class="border-t border-green-main mb-3 pt-3 flex items-center">
+                    <p class="type-b1 my-1 md:my-3">{{ $building->description() }}</p>
+                    <div class="md:border-t border-green-main mb-3 md:pt-3 flex items-center">
                         @include('svgs.icons.building_rooms', ['classes' => 'h-5 mr-2'])
                         <p class="type-b7 pt-2">{{ $building->roomCounts() }}</p>
                     </div>

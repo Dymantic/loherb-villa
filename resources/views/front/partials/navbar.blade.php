@@ -42,7 +42,7 @@
                     <p class="type-a1 text-green-main">&rarr;</p>
                 </div>
                 <div class="mt-20 text-center">
-                    <a href="/buildings" class="type-a1 text-green-main hover:text-green-mid">Visit Buildings Page &rarr;</a>
+                    <a href="/buildings" class="type-a1 text-green-main hover:text-green-mid">Visit Villas Page &rarr;</a>
                     <div class="text-center mt-3">
                         <a href="/rooms"
                            class="inline-button btn-green-ghost">See All Rooms</a>
