@@ -3,7 +3,7 @@
         <HotelDatePicker @checkInChanged="onCheckInChange"
                          @checkOutChanged="onCheckOutChange"
                          :i18n='localized'
-                         class="max-w-sm"></HotelDatePicker>
+                         class="max-w-lg"></HotelDatePicker>
         <a @click.prevent="goToBookings"
            href=""
            class="no-underline inline-button mt-8 md:mt-0 mr-auto ml-auto md:ml-12 md:mr-0 btn-green">{{ button_text

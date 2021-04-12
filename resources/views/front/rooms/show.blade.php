@@ -14,7 +14,7 @@
 
 @section('content')
     <div class="banner-height room-banner flex justify-center items-center">
-        <p class="font-sans text-3xl bg-opaque py-4 px-8 text-green-main">{{ trans($room['name']) }}</p>
+        <p class="type-a1 text-3xl bg-opaque py-4 px-8 text-green-main">{{ trans($room['name']) }}</p>
     </div>
     @component('front.components.info-section', ['title' => trans($room['text_heading'])])
         <p class="my-8 body-text text-green-main text-center">{{ trans($room['text_content']) }}</p>
@@ -38,9 +38,9 @@
     </div>
 
     <section class="reg-section-space">
-        <p class="heading-text text-center text-green-main mb-12">{{ trans('rooms.show.info_heading') }}</p>
+        <p class="type-h1 text-center text-green-main mb-12">{{ trans('rooms.show.info_heading') }}</p>
 
-        <div class="max-w-xl mx-auto mb-20 flex flex-wrap">
+        <div class="max-w-3xl mx-auto mb-20 flex flex-wrap">
             @foreach($room['services'] as $service)
                 <div class="w-full md:w-1/2">
                     <div class="w-48 max-w-full mx-auto flex items-center text-green-main my-1">
@@ -54,20 +54,20 @@
         </div>
 
         <div class="text-green-main my-8">
-            <p class="mb-8 text-green-main text-center font-heading">{{ trans('rooms.show.additional_header') }}</p>
-            <div class="flex justify-between max-w-xxs mx-auto w-full">
+            <p class="mb-8 text-green-main text-center type-h1">{{ trans('rooms.show.additional_header') }}</p>
+            <div class="flex justify-between max-w-sm mx-auto w-full">
                 <p>{{ trans('rooms.show.times.check_in.label') }}</p>
                 <p>{{ trans('rooms.show.times.check_in.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-xxs mx-auto w-full">
+            <div class="flex justify-between max-w-sm mx-auto w-full">
                 <p>{{ trans('rooms.show.times.check_out.label') }}</p>
                 <p>{{ trans('rooms.show.times.check_out.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-xxs mx-auto w-full">
+            <div class="flex justify-between max-w-sm mx-auto w-full">
                 <p>{{ trans('rooms.show.times.breakfast.label') }}</p>
                 <p>{{ trans('rooms.show.times.breakfast.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-xxs mx-auto w-full">
+            <div class="flex justify-between max-w-sm mx-auto w-full">
                 <p>{{ trans('rooms.show.times.tea.label') }}</p>
                 <p>{{ trans('rooms.show.times.tea.value') }}</p>
             </div>
@@ -83,7 +83,7 @@
     @component('front.components.info-section', ['title' => trans('rooms.show.price_heading')])
         <p class="text-center reviews-text italic text-green-main mt-8">{{ trans('rooms.show.price_disclaimer') }}</p>
         <div class="w-full mt-20">
-            <ul class="list-reset font-heading text-green-main max-w-sm mx-auto w-full border border-green-mid">
+            <ul class="list-reset type-h1 text-green-main max-w-sm mx-auto w-full border border-green-mid">
                 <li class="flex justify-between items-center border-b border-green-mid">
                     <span class="font-black w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
                     <span class="w-1/2 text-center">{{ $room['prices']['weekday'] }}</span>
