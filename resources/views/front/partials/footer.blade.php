@@ -4,9 +4,9 @@
              alt="Loherb Villa logo"
              width="40px">
     </div>
-    <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between">
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between">
         <div class="flex flex-col items-center w-full md:w-48 loherb-group mt-12 md:mt-0">
-            <p class="text-xl font-medium type-h1 text-white uppercase mb-2 tracking-wide">{{ trans('footer.sites.heading') }}</p>
+            <p class="text-xl font-medium type-a1 text-white uppercase mb-2 tracking-wide">{{ trans('footer.sites.heading') }}</p>
 
             <a href="https://estate.loherb.com.tw"
                class="text-white hover:text-gold type-a1 tracking-wide uppercase no-underline text-base">{{ trans('footer.sites.estate') }}</a>
@@ -19,7 +19,7 @@
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
             <div>
-                <p class="text-xl font-medium text-center type-h1 uppercase tracking-wide text-white mb-4">{{ trans('footer.social.heading') }}</p>
+                <p class="text-xl font-medium text-center type-a1 uppercase tracking-wide text-white mb-4">{{ trans('footer.social.heading') }}</p>
                 <div class="flex justify-center">
                     {{--<a class="text-white hover:text-gold mx-4"--}}
                        {{--href="">@include('svgs.social.twitter')</a>--}}
@@ -37,12 +37,12 @@
             </div>
 
             <p class="text-center mt-12 mb-12 md:mb-0">
-                <a class="font-sans tracking-wide uppercase no-underline text-gold hover:underline"
+                <a class="type-a1 tracking-wide uppercase no-underline text-gold hover:underline"
                    href="{{ localUrl('/book') }}">{{ trans('footer.links.book') }}</a>
             </p>
         </div>
         <div class="flex flex-col items-center w-full md:w-48">
-            <p class="text-xl font-medium type-h1 text-white tracking-wide uppercase mb-2">{{ trans('footer.contact_heading') }}</p>
+            <p class="text-xl font-medium type-a1 text-white tracking-wide uppercase mb-2">{{ trans('footer.contact_heading') }}</p>
                 <a class="type-a1 tracking-wide no-underline text-white text-base mb-2"
                    href="mailto:service@loherb.com.tw">service@loherb.com.tw</a>
                 <a class="type-a1 tracking-wide uppercase no-underline text-white text-base mb-2"

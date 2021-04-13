@@ -13,7 +13,7 @@ window.HolyScroller = HolyScroller;
 require('./bootstrap');
 import "flickity-imagesloaded";
 import 'lazysizes';
-window.Vue = require('vue');
+import Vue from "vue";
 
 
 import BookingForm from './components/BookingForm';

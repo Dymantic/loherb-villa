@@ -24,7 +24,7 @@
                 <div class="mb-12">
                     @foreach($posts as $post)
                         <p class="px-4">
-                            <a class="heading-text text-green-main no-underline hover:underline"                                href="{{ localUrl('/journal/' . $post->slug) }}">{{ $post->title }}</a>
+                            <a class="type-h1 text-green-main no-underline hover:underline"                                href="{{ localUrl('/journal/' . $post->slug) }}">{{ $post->title }}</a>
                         </p>
                     @endforeach()
                 </div>

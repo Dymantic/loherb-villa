@@ -10,7 +10,7 @@
                 <div class="max-w-lg mx-auto">
                     <div class="form-group my-3"
                          :class="{'has-error': form.errors.name}">
-                        <label class="type-h1 text-sm text-brown-dark"
+                        <label class="type-b7 text-brown-dark"
                                for="name">{{ trans.name }}</label>
                         <span class="text-xs text-red"
                               v-show="formErrors.name">{{ formErrors.name }}</span>
@@ -23,7 +23,7 @@
                     </div>
                     <div class="form-group my-3"
                          :class="{'has-error': formErrors.phone}">
-                        <label class="type-h1 text-sm text-brown-dark"
+                        <label class="type-b7 text-brown-dark"
                                for="phone">{{ trans.phone }}</label>
                         <span class="text-xs text-red"
                               v-show="formErrors.phone">{{ formErrors.phone }}</span>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="form-group my-3"
                          :class="{'has-error': formErrors.email}">
-                        <label class="type-h1 text-sm text-brown-dark"
+                        <label class="type-b7 text-brown-dark"
                                for="email">{{ trans.email }}</label>
                         <span class="text-xs text-red"
                               v-show="formErrors.email">{{ formErrors.email }}</span>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="form-group my-3"
                          :class="{'has-error': formErrors.message_body}">
-                        <label class="type-h1 text-sm text-brown-dark"
+                        <label class="type-b7 text-brown-dark"
                                for="message_body">{{ trans.message_body }}</label>
                         <span class="text-xs text-red"
                               v-show="formErrors.message_body">{{ formErrors.message_body }}</span>

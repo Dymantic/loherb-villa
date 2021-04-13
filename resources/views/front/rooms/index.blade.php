@@ -14,10 +14,10 @@
 
 @section('content')
     @component('front.components.info-section', ['title' => trans('rooms.index.heading')])
-        <p class="my-8 body-text text-green-main text-center">{{ trans('rooms.index.subheading') }}</p>
+        <p class="my-8 text-green-main text-center">{{ trans('rooms.index.subheading') }}</p>
     @endcomponent
     <div class="px-4 pt-12">
-        <p class="heading-text mb-4 text-green-main text-center">{{ trans('rooms.index.types.economy') }}</p>
+        <p class="type-h1 mb-4 text-green-main text-center">{{ trans('rooms.index.types.economy') }}</p>
         @include('front.rooms.preview', [
             'room' => trans('rooms.rose.preview'),
             'links_to' => localUrl('/rooms/rose'),
@@ -35,7 +35,7 @@
         <div class="max-w-md mx-auto border-b border-green-mid mt-16"></div>
     </div>
     <div class="px-4 pt-12">
-        <p class="heading-text mb-4 text-green-main text-center">{{ trans('rooms.index.types.luxury') }}</p>
+        <p class="type-h1 mb-4 text-green-main text-center">{{ trans('rooms.index.types.luxury') }}</p>
         @include('front.rooms.preview', [
             'room' => trans('rooms.sunflower.preview'),
             'links_to' => localUrl('/rooms/sunflower'),
@@ -53,7 +53,7 @@
         <div class="max-w-md mx-auto border-b border-green-mid mt-16"></div>
     </div>
     <div class="px-4 pt-12">
-        <p class="heading-text mb-4 text-green-main text-center">{{ trans('rooms.index.types.vip') }}</p>
+        <p class="type-h1 mb-4 text-green-main text-center">{{ trans('rooms.index.types.vip') }}</p>
         @include('front.rooms.preview', [
             'room' => trans('rooms.plum.preview'),
             'links_to' => localUrl('/rooms/plum'),
@@ -65,7 +65,7 @@
         <div class="max-w-md mx-auto border-b border-green-mid mt-16"></div>
     </div>
     <div class="px-4 pt-12">
-        <p class="heading-text mb-4 text-green-main text-center">{{ trans('rooms.index.types.duplex') }}</p>
+        <p class="type-h1 mb-4 text-green-main text-center">{{ trans('rooms.index.types.duplex') }}</p>
         @include('front.rooms.preview', [
             'room' => trans('rooms.frangipani.preview'),
             'links_to' => localUrl('/rooms/frangipani'),
@@ -76,7 +76,7 @@
         <div class="max-w-md mx-auto border-b border-green-mid mt-16"></div>
     </div>
     <div class="px-4 pt-12">
-        <p class="heading-text mb-4 text-green-main text-center">{{ trans('rooms.index.types.villa') }}</p>
+        <p class="type-h1 mb-4 text-green-main text-center">{{ trans('rooms.index.types.villa') }}</p>
         @include('front.rooms.preview', [
             'room' => trans('rooms.villa.preview'),
             'links_to' => localUrl('/rooms/villa'),

@@ -1,38 +1,35 @@
 {
-    "private": true,
-    "scripts": {
-        "dev": "npm run development",
-        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch": "npm run development -- --watch",
-        "watch-poll": "npm run watch -- --watch-poll",
-        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-    },
-    "devDependencies": {
-        "axios": "^0.18",
-        "cross-env": "^5.1",
-        "laravel-mix": "^5.0",
-        "less": "^3.8.1",
-        "less-loader": "^4.1.0",
-        "lodash": "^4.17.5",
-        "vue": "^2.6.12"
-    },
-    "dependencies": {
-        "@dymantic/modal": "^0.1.0",
-        "@dymantic/vue-forms": "^1.1.0",
-        "autoprefixer": "^10.2.1",
-        "flickity": "^2.1.2",
-        "flickity-imagesloaded": "^2.0.0",
-        "imagemin-pngquant": "5.0.1",
-        "jump.js": "^1.0.2",
-        "laravel-mix-purgecss": "^4.1.0",
-        "lazysizes": "^5.2.0",
-        "lodash.throttle": "^4.1.1",
-        "postcss": "^8.2.4",
-        "tailwindcss": "^2.0.2",
-        "vue-hotel-datepicker": "^2.2.10",
-        "vue-loader": "^15.9.5",
-        "vue-template-compiler": "^2.6.12"
-    }
+        "private": true,
+        "scripts": {
+                "development": "mix",
+                "watch": "mix watch",
+                "watch-poll": "mix watch -- --watch-options-poll=1000",
+                "hot": "mix watch --hot",
+                "production": "mix --production"
+        },
+        "devDependencies": {
+                "axios": "^0.18",
+                "cross-env": "^5.1",
+                "less": "^3.8.1",
+                "less-loader": "^8.1.0",
+                "lodash": "^4.17.5",
+                "vue": "^2.6.12"
+        },
+        "dependencies": {
+                "@dymantic/modal": "^0.1.0",
+                "@dymantic/vue-forms": "^1.1.0",
+                "autoprefixer": "^10.2.5",
+                "flickity": "^2.1.2",
+                "flickity-imagesloaded": "^2.0.0",
+                "imagemin-pngquant": "5.0.1",
+                "jump.js": "^1.0.2",
+                "laravel-mix": "^6.0.0-beta.17",
+                "lazysizes": "^5.2.0",
+                "lodash.throttle": "^4.1.1",
+                "postcss": "^8.2.10",
+                "tailwindcss": "^2.1.1",
+                "vue-hotel-datepicker": "^2.2.10",
+                "vue-loader": "^15.9.5",
+                "vue-template-compiler": "^2.6.12"
+        }
 }

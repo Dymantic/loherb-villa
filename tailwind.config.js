@@ -1,11 +1,22 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
-    purge: [],
+    purge: [
+        "./resources/**/*.html",
+        "./resources/**/*.vue",
+        "./resources/**/*.blade.php",
+    ],
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
             colors: {
+                'black': '#22292f',
+                'purple': '#5d2b46',
+                'purple-soft': '#902343',
+                'hover-purple': '#902343',
+                'navy': '#22323f',
+                'off-white': '#f7f4f2',
+                'pinky-grey': '#eceaed',
                 'green-main': '#084137',
                 'hover-green': '#346c62',
                 'green-soft': '#daede7',
@@ -32,6 +43,7 @@ module.exports = {
             },
             fontSize: {
                 '4xl': '2.125rem',
+                '5xl': '3rem',
             },
             fontFamily: {
                 display: [

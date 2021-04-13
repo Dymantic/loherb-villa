@@ -10,7 +10,7 @@
     </div>
 </div>
 <div class="px-4 py-12 sharing-container">
-    <p class="heading-text mb-4 text-green-main text-center">{{ trans('journal.show.share_prompt') }}</p>
+    <p class="type-h1 mb-4 text-green-main text-center">{{ trans('journal.show.share_prompt') }}</p>
     <div class="flex justify-center items-center">
         <a href="https://twitter.com/home?status={{ urlencode($post['title'] . ' ' . Request::url()) }}"
            class="no-underline text-green-main hover:text-green-mid mx-4">

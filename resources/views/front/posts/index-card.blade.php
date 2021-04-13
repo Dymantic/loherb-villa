@@ -2,7 +2,7 @@
     <div>
         <a href="{{ localUrl('/journal/' . $post['slug']) }}" class="block relative" style="padding-bottom: 75%">
             <img data-src="{{ $post['title_image_thumb'] }}"
-                 alt="{{ $post['title'] }}" class="w-full h-full object-cover absolute pin lazyload">
+                 alt="{{ $post['title'] }}" class="w-full h-full object-cover absolute inset-0 lazyload">
         </a>
         <div class="p-4">
             <p class="type-h1 text-green-main">{{ $post['title'] }}</p>
