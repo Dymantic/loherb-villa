@@ -9,14 +9,14 @@
         background-size: contain;
         border-radius: 0;
         background-repeat: no-repeat;
-        opacity: .5;
+        opacity: 0.5;
 
         .flickity-button-icon {
             display: none;
         }
 
         &:hover {
-            opacity: .8;
+            opacity: 0.8;
         }
     }
 
@@ -52,14 +52,14 @@
 
         .flickity-page-dots {
             .dot {
-            @apply bg-green-main;
+                @apply bg-green-main;
             }
         }
     }
 
     .flickity-page-dots {
         .dot {
-        @apply bg-white;
+            @apply bg-white;
         }
     }
 
@@ -72,15 +72,13 @@
     &.arrows-wide {
         @media screen and (min-width: 80rem) {
             .flickity-prev-next-button.next {
-                right: -150px
+                right: -150px;
             }
 
             .flickity-prev-next-button.previous {
                 left: -150px;
             }
         }
-
-
     }
 
     &.no-arrows-small {
@@ -90,7 +88,7 @@
             }
 
             .flickity-prev-next-button.previous {
-            @apply hidden;
+                @apply hidden;
             }
         }
     }
@@ -98,21 +96,14 @@
 
 .large-slider {
     .flickity-viewport {
-        min-height: calc(100vw * .75);
+        min-height: calc(100vw * 0.75);
 
         @media screen and (min-width: 577px) and (max-width: 991px) {
-            min-height: calc(100vw * .57);
+            min-height: calc(100vw * 0.57);
         }
 
         @media screen and (min-width: 992px) {
-            min-height: calc((100vw - 10rem) * .57);
+            min-height: calc((100vw - 10rem) * 0.57);
         }
     }
-<<<<<<< HEAD
 }
-
-
-=======
-  }
-}
->>>>>>> master
