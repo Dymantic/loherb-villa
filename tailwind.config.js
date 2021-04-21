@@ -47,9 +47,9 @@ module.exports = {
             },
             fontFamily: {
                 display: [
+                    'Noto Sans TC',
                     'atrament-web',
                     'system-ui',
-                    'source-han-sans-traditional',
                     'BlinkMacSystemFont',
                     '-apple-system',
                     'Segoe UI',
@@ -63,9 +63,9 @@ module.exports = {
                     'sans-serif',
                 ],
                 'sans': [
+                    'Noto Sans TC',
                     'transat-bold',
                     'system-ui',
-                    'source-han-sans-traditional',
                     'BlinkMacSystemFont',
                     '-apple-system',
                     'Segoe UI',
@@ -79,10 +79,10 @@ module.exports = {
                     'sans-serif',
                 ],
                 serif: [
+                    'Noto Serif TC',
                     'adobe-caslon-pro',
                     'Constantia',
                     'Lucida',
-                    'source-han-serif-tc',
                     'Lucida Bright',
                     'Lucidabright',
                     'Lucida Serif',
