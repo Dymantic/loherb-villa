@@ -83,7 +83,6 @@
                 <path d="M 10 10 L 90 90 M 90 10 L 10 90" stroke-width="4"></path>
             </svg>
         </span>
-<<<<<<< HEAD
 
     </button>
 
@@ -92,7 +91,3 @@
 
 </div>
 
-=======
-    </div>
-</div>
->>>>>>> master

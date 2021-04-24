@@ -8,7 +8,7 @@
     ></x-page-photo-banner>
 
     <div class="my-12">
-        <p class="text-center type-b3">{{ trans('accommodation.all_prices_nt') }}</p>
+        <p class="text-center type-b7">{{ trans('accommodation.all_prices_nt') }}</p>
     </div>
 
     <div class="my-20 max-w-5xl mx-auto px-6">

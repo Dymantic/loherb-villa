@@ -44,6 +44,7 @@ module.exports = {
             fontSize: {
                 '4xl': '2.125rem',
                 '5xl': '3rem',
+                '6xl': '4rem',
             },
             fontFamily: {
                 display: [
@@ -79,7 +80,7 @@ module.exports = {
                     'sans-serif',
                 ],
                 serif: [
-                    'adobe-caslon-pro',
+                    'bodoni-urw',
                     'Constantia',
                     'Lucida',
                     'source-han-serif-tc',
