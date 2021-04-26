@@ -10,9 +10,15 @@
         'ogTitle' => trans('bookings.title'),
         'ogDescription' => trans('bookings.description')
     ])
+
+    <style>
+        #lang_currency_switchers {
+            display: none;
+        }
+    </style>
 @endsection
 
 @section('content')
-    <iframe src="https://hotels.cloudbeds.com/{{ $iframe_lang ?? 'en' }}/reservation/T247pq#checkin={{ $checkIn }}&checkout={{ $checkOut }}" class="w-screen min-h-screen mt-12 md:mt-0"
-            frameborder="0"></iframe>
+    <iframe src="https://hotels.cloudbeds.com/{{ $iframe_lang ?? 'en' }}/reservation/T247pq#checkin={{ $checkIn }}&checkout={{ $checkOut }}" class="w-screen min-h-screen"
+            frameborder="0" id="mybookings-frame"></iframe>
 @endsection

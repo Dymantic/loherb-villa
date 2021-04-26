@@ -19,7 +19,10 @@
         window.removeEventListener('click', loadFBChat);
         window.removeEventListener('mouseover', loadFBChat);
     }
+
     window.addEventListener('scroll', loadFBChat);
     window.addEventListener('click', loadFBChat);
     window.addEventListener('mouseover', loadFBChat);
+
+
 </script>

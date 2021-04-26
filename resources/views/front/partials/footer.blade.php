@@ -1,6 +1,6 @@
 <footer class="px-8 pt-12 footer">
     <div class="text-center mb-8">
-        <img src="/images/logos/loherb_logo_simple.svg"
+        <img src="/images/logos/loherb_logo_simple.svg" class="mx-auto"
              alt="Loherb Villa logo"
              width="40px">
     </div>
