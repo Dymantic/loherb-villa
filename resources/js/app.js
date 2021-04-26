@@ -24,12 +24,15 @@ Vue.component('contact-form', ContactForm);
 
 import {Navbar} from "./Navbar";
 
+import Usher from "./Usher";
+
 
 const app = new Vue({
     el: '#app'
 });
 
 window.addEventListener('DOMContentLoaded', () => {
+    window.usher = new Usher();
     window.navbar = new Navbar();
     window.navbar.init();
 

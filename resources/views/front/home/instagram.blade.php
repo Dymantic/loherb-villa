@@ -4,7 +4,7 @@
         @foreach($instagrams->take(8)->chunk(4) as $row)
             <div class="max-w-4xl mx-auto flex-wrap md:flex-no-wrap justify-center w-full flex">
                 @foreach($row as $instagram)
-                    <div class="instagram-image-box">
+                    <div class="instagram-image-box" data-usher data-usher-delay="{{ ($loop->index * ($loop->parent->index + 1)) / 3 }}">
                             <img class="lazyload" data-src="{{ $instagram['url'] }}"
                                  alt="from instagram">
                     </div>

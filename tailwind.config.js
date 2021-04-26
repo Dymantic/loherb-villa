@@ -5,7 +5,9 @@ module.exports = {
         "./resources/**/*.html",
         "./resources/**/*.vue",
         "./resources/**/*.blade.php",
+        "./resources/js/Usher.js",
     ],
+    mode: 'jit',
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
