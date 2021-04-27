@@ -44,6 +44,8 @@ module.exports = {
                 '120w': '120vw',
             },
             fontSize: {
+                "lg" : '1.25rem',
+                '3xl': '3rem',
                 '4xl': '2.125rem',
                 '5xl': '3rem',
                 '6xl': '4rem',

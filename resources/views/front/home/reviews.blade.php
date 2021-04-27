@@ -4,7 +4,7 @@
         @foreach($reviews as $review)
                 <div class="w-full text-green-main">
                     @if($review['title'])
-                        <p class="type-h1 mb-4 hidden md:block">{{ $review['title'] }}</p>
+                        <p class="type-b2 mb-4 hidden md:block">{{ $review['title'] }}</p>
                     @endif
                         <p class="mb-4 md:hidden text-center">“{{ $review['brief'] ?? '' }}”</p>
                     <p class="mb-4 hidden md:block">

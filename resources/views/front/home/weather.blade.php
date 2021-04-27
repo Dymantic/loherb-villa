@@ -8,7 +8,7 @@
                     <sup class="font-serif text-lg">&deg;C</sup>
                 </div>
                 <p class="text-center type-b7">{{ trans('weather.' . $day['condition']) }}</p>
-                <p class="text-center type-h1 mt-2">{{ $day['day_name_short'] }}</p>
+                <p class="text-center type-b2 mt-2">{{ $day['day_name_short'] }}</p>
             </div>
         @endforeach
     </div>

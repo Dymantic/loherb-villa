@@ -14,7 +14,7 @@ return [
         'read_more' => 'Read More'
     ],
     'getaway' => [
-        'heading' => 'Everything you need for the perfect getaway',
+        'heading' => 'The perfect getaway',
         'content' => 'We have all your needs thought out to make your stay pleasant and hassle-free. At Loherb Villa you will find adequate parking, our famous on-site restaurant, free bicycle rental to explore the surroundings, as well as hot tubs, wifi and home entertainment systems in all of the rooms.'
     ],
     'night-view' => [
