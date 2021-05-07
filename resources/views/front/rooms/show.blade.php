@@ -49,7 +49,7 @@
         <div class="max-w-3xl mx-auto mb-20 flex flex-wrap">
             @foreach($room['services'] as $service)
                 <div class="w-full md:w-1/2">
-                    <div class="w-48 max-w-full mx-auto flex items-center text-green-main my-1">
+                    <div class="w-64 max-w-full mx-auto flex items-center text-green-main my-1">
                     <span>
                     @include("svgs.services.{$service}")
                     </span>

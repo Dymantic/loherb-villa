@@ -4,12 +4,12 @@
         @if($icon !== '')
             @include($icon, ['classes' => 'h-12 md:mb-3'])
         @endif
-        <p class="type-h0 leading-normal">{{ $title }}</p>
+        <p class="type-h0 leading-normal fadeUpOnLoad">{{ $title }}</p>
         @if($text)
-            <p class="type-b1 max-w-md my-3 hidden md:block">{{ $text }}</p>
+            <p class="type-b1 max-w-md my-3 hidden md:block fadeUpAfterLoad">{{ $text }}</p>
         @endif
         @if(count($roomInfo))
-            <div class="flex items-center">
+            <div class="flex items-center fadeUpAfterLoad">
                 @include($roomInfo['building_icon'], ['classes' => 'h-8 mr-2'])
                 <p class="type-b2">{{ $roomInfo['building'] }}</p>
                 <p class="mx-1 type-b2">.</p>

@@ -24,29 +24,45 @@
     },
     "intro": {
         "en": "Two couples or a family will enjoy this gracious, natural room.",
-        "zh": ""
+        "zh": "特色星紋木皮，搭配植物裝飾，沒有過多華麗裝飾性物件，透過單純色彩的描繪，營造出極簡自然舒適的氛圍。"
     },
     "description": {
         "en": "Up to 4 people will enjoy the simple and natural elegance of this room and its facilities. This room space is large, comfortable and relaxing with a wonderful bathroom space and tub plus a balcony.",
-        "zh": ""
+        "zh": "位於2F的客房，房間擁有私人陽台。特色星紋木皮，搭配植物裝飾，以單純的空間，描繪營造出極簡自然舒適氛圍。"
     },
     "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
     "images": [
         {
-            "full": "\/images\/lorem\/banners\/test_7.jpg",
-            "small": "/images/lorem/4_3/test_7.jpg",
-            "wide": "/images/lorem/banners/test_7.jpg"
+            "full": "/images/room-galleries/holly/reg/image_3.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_3.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_3.jpg"
         },
         {
-            "full": "\/images\/lorem\/banners\/test_4.jpg",
-            "small": "/images/lorem/4_3/test_4.jpg",
-            "wide": "/images/lorem/banners/test_4.jpg"
+            "full": "/images/room-galleries/holly/reg/image_1.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_1.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_1.jpg"
         },
         {
-            "full": "\/images\/lorem\/banners\/test_3.jpg",
-            "small": "/images/lorem/4_3/test_3.jpg",
-            "wide": "/images/lorem/banners/test_3.jpg"
+            "full": "/images/room-galleries/holly/reg/image_2.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_2.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_2.jpg"
+        },
+
+        {
+            "full": "/images/room-galleries/holly/reg/image_4.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_4.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_4.jpg"
+        },
+        {
+            "full": "/images/room-galleries/holly/reg/image_5.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_5.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_5.jpg"
+        },
+        {
+            "full": "/images/room-galleries/holly/reg/image_6.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_6.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_6.jpg"
         }
     ],
-    "banner_image": "/images/lorem/banners/test_6.jpg"
+    "banner_image": "/images/room-banners/holly.jpg"
 }

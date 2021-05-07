@@ -17,7 +17,7 @@
              tabindex="3">
             <span class="text-white rooms-panel-trigger">
                 <span class="nav-link-box"><span class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</span></span>
-                <svg class="fill-current align-middle inline"
+                <svg class="fill-current align-middle inline -ml-4"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 24 24"
                      width="20"
@@ -42,9 +42,9 @@
                     <p class="type-a1 text-green-main">&rarr;</p>
                 </div>
                 <div class="mt-20 text-center">
-                    <a href="/buildings" class="type-a1 text-green-main hover:text-green-mid">Visit Villas Page &rarr;</a>
+                    <a href="{{ localUrl('/buildings') }}" class="type-a1 text-green-main hover:text-green-mid">Visit Villas Page &rarr;</a>
                     <div class="text-center mt-3">
-                        <a href="/rooms"
+                        <a href="{{ localUrl('/rooms') }}"
                            class="inline-button btn-green-ghost">See All Rooms</a>
                     </div>
                 </div>

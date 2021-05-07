@@ -4,7 +4,8 @@
     <x-page-photo-banner
         title="{{ trans('accommodation.all_rooms.banner_title') }}"
         text="{{ trans('accommodation.all_rooms.banner_text') }}"
-        img-large="/images/room-banners/plum.jpg"
+        img-large="/images/page-banners/room_overview_banner.jpg"
+        img-small="/images/page-banners/room_overview_banner_mobile.jpg"
     ></x-page-photo-banner>
 
     <div class="max-w-5xl px-6 lg:px-0 mx-auto">

@@ -4,7 +4,8 @@
     <x-page-photo-banner
         title="{{ trans('accommodation.prices.banner_title') }}"
         text="{{ trans('accommodation.prices.banner_text') }}"
-        img-large="/images/lorem/banners/test_9.jpg"
+        img-large="/images/page-banners/pricelist_banner.jpg"
+        img-small="/images/page-banners/pricelist_banner_mobile.jpg"
     ></x-page-photo-banner>
 
     <div class="my-12">
@@ -16,7 +17,7 @@
             <div class="my-20">
                 <p class="type-h0 text-green-main text-center">{{ $time['title'] }}</p>
 
-                <table class="w-full border-collapse  border-green-main my-12 type-h1">
+                <table class="w-full border-collapse  border-green-main my-12 type-b1" data-usher>
                     <thead>
                     <tr class="bg-green-main text-cream-light">
                         <th class="p-2">Room</th>
@@ -35,7 +36,7 @@
                     </tbody>
                 </table>
 
-                <table class="w-full border-collapse  border-green-main my-12 type-h1">
+                <table class="w-full border-collapse  border-green-main my-12 type-b1" data-usher>
                     <thead>
                     <tr class="bg-green-main text-cream-light">
                         <th class="p-2">Entire Villa</th>

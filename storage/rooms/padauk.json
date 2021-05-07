@@ -24,29 +24,59 @@
     },
     "intro": {
         "en": "Size and stature make this room a firm favourite for families of up to six people.",
-        "zh": ""
+        "zh": "富有東方優雅韻味的虎皮木紋，襯以文藝典雅尊貴飾品，打造古樸且現代的特色居所。"
     },
     "description": {
         "en": "This noble and elegantly designed room is both spacious and cozy with timber furnishings, a large private balcony and plenty of space for up to 6 people to live harmoniously and lavishly.",
-        "zh": ""
+        "zh": "位於2F的客房，房間擁有私人大陽台。富有東方優雅韻味的虎皮木紋，襯以文藝典雅尊貴飾品，打造古樸且現代的特色居所。"
     },
     "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
     "images": [
         {
-            "full": "\/images\/lorem\/banners\/test_8.jpg",
-            "small": "/images/lorem/4_3/test_8.jpg",
-            "wide": "/images/lorem/banners/test_8.jpg"
+            "full": "/images/room-galleries/padouk/reg/image_1.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_1.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_1.jpg"
         },
         {
-            "full": "\/images\/lorem\/banners\/test_4.jpg",
-            "small": "/images/lorem/4_3/test_4.jpg",
-            "wide": "/images/lorem/banners/test_4.jpg"
+            "full": "/images/room-galleries/padouk/reg/image_2.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_2.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_2.jpg"
         },
         {
-            "full": "\/images\/lorem\/banners\/test_3.jpg",
-            "small": "/images/lorem/4_3/test_3.jpg",
-            "wide": "/images/lorem/banners/test_3.jpg"
+            "full": "/images/room-galleries/padouk/reg/image_3.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_3.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_3.jpg"
+        },
+        {
+            "full": "/images/room-galleries/padouk/reg/image_4.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_4.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_4.jpg"
+        },
+        {
+            "full": "/images/room-galleries/padouk/reg/image_5.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_5.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_5.jpg"
+        },
+        {
+            "full": "/images/room-galleries/padouk/reg/image_6.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_6.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_6.jpg"
+        },
+        {
+            "full": "/images/room-galleries/padouk/reg/image_7.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_7.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_7.jpg"
+        },
+        {
+            "full": "/images/room-galleries/padouk/reg/image_8.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_8.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_8.jpg"
+        },
+        {
+            "full": "/images/room-galleries/padouk/reg/image_9.jpg",
+            "small": "/images/room-galleries/padouk/mobile/image_9.jpg",
+            "wide": "/images/room-galleries/padouk/wide/image_9.jpg"
         }
     ],
-    "banner_image": "/images/lorem/banners/test_9.jpg"
+    "banner_image": "/images/room-banners/padouk.jpg"
 }

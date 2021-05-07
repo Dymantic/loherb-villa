@@ -11,7 +11,7 @@ class BuildingsController extends Controller
 
     public function index()
     {
-        $buildings = Buildings::all();
+        $buildings = Buildings::all()->reverse();
         $options = $buildings
                            ->map(
                                fn (Building $building) => [

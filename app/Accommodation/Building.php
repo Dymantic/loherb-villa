@@ -48,7 +48,7 @@ class Building
 
     public function bannerSmall(): string
     {
-        return $this->attributes['banner_large'] ?? '';
+        return $this->attributes['banner_small'] ?? '';
     }
 
     public function titleImage(): string

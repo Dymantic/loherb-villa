@@ -24,29 +24,64 @@
     },
     "intro": {
         "en": "Class and space make this room unique and a pleasure to stay in. Large families or two couples will love it.",
-        "zh": ""
+        "zh": "沉穩高雅的深色木紋，搭配低調奢華的藝術收藏，盡顯出低調奢華藝術精品氣息。"
     },
     "description": {
         "en": "The views alone will make you feel infinitely happier and relaxed in this very spacious and well laid out room. It sleeps up to 6 people with an optional unobtrusive stowaway double bed hiding in the wall. A beautiful private balcony rounds off what will be a very comfortable stay.",
-        "zh": ""
+        "zh": "位於2F的客房，房間擁有私人大陽台。以大面落地帷幕自然採光，映照出深色木紋釉黑的沉穩高雅。搭配低調奢華的藝術收藏，盡顯藝術精品氣息。"
     },
     "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
     "images": [
         {
-            "full": "\/images\/lorem\/banners\/test_6.jpg",
-            "small": "/images/lorem/4_3/test_6.jpg",
-            "wide": "/images/lorem/banners/test_6.jpg"
+            "full": "/images/room-galleries/cryptomera/reg/image_5.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_5.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_5.jpg"
         },
         {
-            "full": "\/images\/lorem\/banners\/test_4.jpg",
-            "small": "/images/lorem/4_3/test_4.jpg",
-            "wide": "/images/lorem/banners/test_4.jpg"
+            "full": "/images/room-galleries/cryptomera/reg/image_2.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_2.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_2.jpg"
         },
         {
-            "full": "\/images\/lorem\/banners\/test_3.jpg",
-            "small": "/images/lorem/4_3/test_3.jpg",
-            "wide": "/images/lorem/banners/test_3.jpg"
+            "full": "/images/room-galleries/cryptomera/reg/image_3.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_3.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_3.jpg"
+        },
+        {
+            "full": "/images/room-galleries/cryptomera/reg/image_4.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_4.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_4.jpg"
+        },
+        {
+            "full": "/images/room-galleries/cryptomera/reg/image_6.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_6.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_6.jpg"
+        },
+        {
+            "full": "/images/room-galleries/cryptomera/reg/image_7.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_7.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_7.jpg"
+        },
+        {
+            "full": "/images/room-galleries/cryptomera/reg/image_8.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_8.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_8.jpg"
+        },
+        {
+            "full": "/images/room-galleries/cryptomera/reg/image_9.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_9.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_9.jpg"
+        },
+        {
+            "full": "/images/room-galleries/cryptomera/reg/image_10.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_10.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_10.jpg"
+        },
+        {
+            "full": "/images/room-galleries/cryptomera/reg/image_1.jpg",
+            "small": "/images/room-galleries/cryptomera/mobile/image_1.jpg",
+            "wide": "/images/room-galleries/cryptomera/wide/image_1.jpg"
         }
     ],
-    "banner_image": "/images/lorem/banners/test_4.jpg"
+    "banner_image": "/images/room-banners/cryptomeria.jpg"
 }

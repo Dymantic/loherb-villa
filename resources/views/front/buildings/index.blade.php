@@ -3,7 +3,8 @@
 @section('content')
     <x-page-photo-banner title="{{ trans('accommodation.buildings.overview.title') }}"
                          text="{{ trans('accommodation.buildings.overview.introduction') }}"
-                         img-large="/images/buildings_banner_16_9.jpg"
+                         img-large="/images/page-banners/building_overview_banner.jpg"
+                         img-small="/images/page-banners/building_overview_banner_mobile.jpg"
                          icon="svgs.logos.simple"
     ></x-page-photo-banner>
 
@@ -17,7 +18,7 @@
                     <img src="{{ $building->titleImage() }}"
                          alt="{{ $building->name() }}">
                 </div>
-                <div class="text-green-main w-full md:w-1/3 {{ $loop->odd ? 'order-2 md:pl-12' : 'order-1 md:pr-12' }} pt-8 md:pt-0">
+                <div class="text-green-main w-full md:w-1/3 {{ $loop->odd ? 'order-2 md:pl-12' : 'order-1 md:pr-12' }} pt-8 md:pt-0" data-usher>
                     @include($building->icon(), ['classes' => 'h-8 mb-1'])
                     <p class="type-h2">{{ $building->name() }}</p>
                     <p class="type-b1 my-1 md:my-3">{{ $building->description() }}</p>

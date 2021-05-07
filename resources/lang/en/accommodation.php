@@ -4,6 +4,7 @@ return [
     "entire_villa" => [
         'heading' => 'Book an Entire Villa?',
         'text' => 'Booking an entire Villa is a great way to accommodate large parties. Enjoy the privacy and luxury of an entire Loherb Villa to yourselves.',
+        'button' => 'View Prices'
     ],
 
     'buildings' => [

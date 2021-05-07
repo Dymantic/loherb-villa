@@ -55,7 +55,22 @@ window.addEventListener('DOMContentLoaded', () => {
                 return removeArrow();
             }
             menu.addEventListener('scroll', removeArrow)
+        });
+
+    const jump_targets = [...document.querySelectorAll('[data-jump]')];
+    jump_targets.forEach(target => {
+        target.addEventListener('click', ev => {
+            ev.preventDefault();
+            const destination = document.getElementById(target.getAttribute('data-jump-target'));
+            jump(destination, {offset: -100});
         })
+    })
+    if(document.querySelector('[data-banner-jump]')) {
+        document.querySelector('[data-banner-jump]').addEventListener('click',e => {
+            e.preventDefault();
+            jump('.post-banner', {offset: -48});
+        })
+    }
 })
 
 const main_nav = document.querySelector('.main-nav');
@@ -78,3 +93,5 @@ if(document.querySelector('[data-banner-jump]')) {
         jump('.post-banner', {offset: -48});
     })
 }
+
+

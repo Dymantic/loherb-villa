@@ -6,13 +6,13 @@
     },
     "description": {
         "en": "The Aqua Villa is a secluded bungalow nestled amongst trees and nature with plenty of space to give a large family or group a sense of privacy and a true getaway experience.",
-        "zh": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue."
+        "zh": "日光綠築A館是以水為主軸打造，是被水環繞的獨立小島別墅，最適合不想被打擾的小團體。"
     },
     "room_counts": {
         "en": ["1 Quad Room"],
         "zh": ["1 Quad Room"]
     },
-    "banner_large": "/images/lorem/banners/test_9.jpg",
-    "banner_small": "/images/lorem/banners/test_9.jpg",
-    "title_image": "/images/lorem/standard/test_9.jpg"
+    "banner_large": "/images/page-banners/aqua_building.jpg",
+    "banner_small": "/images/page-banners/aqua_building_mobile.jpg",
+    "title_image": "/images/aqua_building.jpg"
 }

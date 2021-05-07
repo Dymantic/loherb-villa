@@ -4,6 +4,7 @@
     <x-page-photo-banner title="{{ $building->name() }}"
                          text="{{ $building->description() }}"
                          img-large="{{ $building->bannerLarge() }}"
+                         img-small="{{ $building->bannerSmall() }}"
                          icon="{{ $building->icon() }}"
     ></x-page-photo-banner>
 

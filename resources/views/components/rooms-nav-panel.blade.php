@@ -15,7 +15,7 @@
                             </p>
                             @foreach($rooms as $room)
                                 <p class="text-green-main type-b7 text-center">
-                                    <a href="/rooms/{{ $room->slug() }}">{{ $room->name() }}</a>
+                                    <a href="/rooms/{{ $room->slug() }}">{{ $room->name(app()->getLocale()) }}</a>
                                 </p>
                             @endforeach
                         </div>
@@ -28,9 +28,9 @@
         </div>
         <div class="text-center mt-6">
             <div class="mb-3">
-                <x-arrow-link link-to="/buildings">Visit Villas Page</x-arrow-link>
+                <x-arrow-link link-to="{{ localUrl('/buildings') }}">{{ trans('navbar.buildings_page') }}</x-arrow-link>
             </div>
-            <a class="inline-button btn-green-ghost" href="/rooms">See All Rooms</a>
+            <a class="inline-button btn-green-ghost" href="{{ localUrl('/rooms') }}">{{ trans('navbar.see_all_rooms') }}</a>
         </div>
         <button class="rooms-panel-trigger absolute top-0 right-0 m-3 text-gray-400 hover:text-green-main">
             <svg viewBox="0 0 100 100" class="stroke-current h-8">

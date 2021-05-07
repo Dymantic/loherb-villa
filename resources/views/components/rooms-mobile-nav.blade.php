@@ -18,7 +18,7 @@
                 @foreach($rooms as $room)
                     <p class="text-green-main type-b7">
                         <a href="/rooms/{{ $room->slug() }}" class="hover:text-gold">
-                            {{ $room->name() }}
+                            {{ $room->name(app()->getLocale()) }}
                         </a>
 
                     </p>
@@ -27,7 +27,7 @@
 
         @endforeach
         <div class="mt-8 flex justify-center">
-            <x-arrow-link link-to="{{ $building['building_slug'] }}">See Rooms</x-arrow-link>
+            <x-arrow-link link-to="{{ $building['building_slug'] }}">{{ trans('navbar.see_rooms') }}</x-arrow-link>
         </div>
     </div>
 @endforeach
