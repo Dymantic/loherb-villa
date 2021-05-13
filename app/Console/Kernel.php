@@ -24,8 +24,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-         $schedule->command('simple-weather:forecast')
-                  ->cron('0 */12 * * *');
+//         $schedule->command('simple-weather:forecast')
+//                  ->cron('0 */12 * * *');
+
+        $schedule->command('simple-weather:forecast')
+                 ->dailyAt('11:00');
 
         $schedule->command('instagram-feed:refresh')
                  ->dailyAt('02:00');
