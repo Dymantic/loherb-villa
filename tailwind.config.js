@@ -48,7 +48,8 @@ module.exports = {
                 '3xl': '3rem',
                 '4xl': '2.125rem',
                 '5xl': '3rem',
-                '6xl': '4rem',
+                '6xl': '3.5rem',
+                '7xl': '4rem',
             },
             fontFamily: {
                 display: [
@@ -84,6 +85,7 @@ module.exports = {
                     'sans-serif',
                 ],
                 serif: [
+                    'Noto Serif TC',
                     'bodoni-urw',
                     'Constantia',
                     'Lucida',

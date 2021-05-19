@@ -25,7 +25,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/mza6wie.css">
     @else
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;800&family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
     @endif
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="preload" href="https://villa.loherb.com.tw/fonts/transat_bold-webfont.woff" as="font">

@@ -27,7 +27,7 @@
 
         </div>
         <div class="text-center mt-6">
-            <div class="mb-3">
+            <div class="mb-6">
                 <x-arrow-link link-to="{{ localUrl('/buildings') }}">{{ trans('navbar.buildings_page') }}</x-arrow-link>
             </div>
             <a class="inline-button btn-green-ghost" href="{{ localUrl('/rooms') }}">{{ trans('navbar.see_all_rooms') }}</a>

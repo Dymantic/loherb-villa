@@ -1,8 +1,8 @@
 @extends('front.base')
 
 @section('content')
-    <x-page-photo-banner title="{{ $building->name() }}"
-                         text="{{ $building->description() }}"
+    <x-page-photo-banner title="{{ $building->name(app()->getLocale()) }}"
+                         text="{{ $building->description(app()->getLocale()) }}"
                          img-large="{{ $building->bannerLarge() }}"
                          img-small="{{ $building->bannerSmall() }}"
                          icon="{{ $building->icon() }}"

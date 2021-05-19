@@ -20,9 +20,9 @@
                 <table class="w-full border-collapse  border-green-main my-12 type-b1" data-usher>
                     <thead>
                     <tr class="bg-green-main text-cream-light">
-                        <th class="p-2">Room</th>
-                        <th class="p-2">Sleeps</th>
-                        <th class="p-2">Price</th>
+                        <th class="p-2">{{ trans('accommodation.prices.table.room') }}</th>
+                        <th class="p-2">{{ trans('accommodation.prices.table.sleeps') }}</th>
+                        <th class="p-2">{{ trans('accommodation.prices.table.price') }}</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -39,9 +39,9 @@
                 <table class="w-full border-collapse  border-green-main my-12 type-b1" data-usher>
                     <thead>
                     <tr class="bg-green-main text-cream-light">
-                        <th class="p-2">Entire Villa</th>
-                        <th class="p-2">Rooms/Guests</th>
-                        <th class="p-2">Price</th>
+                        <th class="p-2">{{ trans('accommodation.prices.table.building') }}</th>
+                        <th class="p-2">{{ trans('accommodation.prices.table.rooms_guests') }}</th>
+                        <th class="p-2">{{ trans('accommodation.prices.table.price') }}</th>
                     </tr>
                     </thead>
                     <tbody>

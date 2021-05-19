@@ -2,36 +2,58 @@
 
 return [
     "entire_villa" => [
-        'heading' => 'Book an Entire Villa?',
-        'text' => 'Booking an entire Villa is a great way to accommodate large parties. Enjoy the privacy and luxury of an entire Loherb Villa to yourselves.',
-        'button' => 'View Prices'
+        'heading' => '預約包棟',
+        'text' => '包棟住宿是最享受的度假方式，可以無拘無束的擁有私密聚會空間。   ',
+        'button' => '查訊價格'
     ],
 
     'buildings' => [
-        'overview' => [
-            'title' => 'Loherb Villas',
-            'introduction' => '日光園區有三個館型，F館、T館、 A館，各有獨具特色的氛圍及室內裝潢。'
+        'seo' => [
+            'title' => '日光綠築',
+            'description' => '日光綠築園區佔地寬廣，有三棟住宿館別。分別以花水木為主題打造，各具特色風格。',
         ],
+
+        'overview' => [
+            'title' => '日光綠築',
+            'introduction' => '日光園區有三個館型，F館、T館、 A館，各有獨具特色的氛圍及室內裝潢。',
+
+        ],
+        'see_rooms_button' => '探索房間',
     ],
 
     'price_times' => [
-        'weekdays'         => 'Weekdays',
-        'weekends'         => 'Weekends & Holidays',
-        'chinese_new_year' => 'Chinese New Year',
+        'weekdays' => '平日',
+        'weekends' => '假日',
+        'chinese_new_year' => '過年',
     ],
 
     'prices' => [
-        'banner_title' => 'Price List',
-        'banner_text' => 'Please review our room prices so you can make your stay at Loherb Villa the best for you. Entire Villas can also be booked for large groups.',
+        'seo' => [
+            'title' => '日光綠築價格列表',
+            'description' => '日光綠築價格列。預定房間或包棟住宿。',
+        ],
+        'banner_title' => '房價列表',
+        'banner_text' => '日光綠築價格列。預定房間或包棟住宿。',
+        'weekdays' => '平日',
+        'holidays' => '假日',
+        'chinese_new_year' => '過年',
+
+        'table' => [
+            'room' => 'Rooms',
+            'building' => 'Entire Villa',
+            'sleeps' => 'Sleeps',
+            'price' => 'Price',
+            'rooms_guests' => 'Rooms/Guests',
+        ]
     ],
 
     'all_rooms' => [
-        'banner_title' => 'Loherb Villa Rooms',
+        'banner_title' => '日光房型',
         'banner_text' => '日光綠築以五星級飯店規格， 替各式的族群，提供豐富多元氛圍的房型。',
     ],
 
-    'all_prices_nt' => 'All prices are in New Taiwan Dollars (NT$)',
-    'pricing_contact' => 'Please don\'t hesitate to contact us if you have any questions or special requirements',
+    'all_prices_nt' => '均以台幣計價',
+    'pricing_contact' => '如有特殊需求，歡迎隨時與我們聯繫。',
 
 
 

@@ -14,7 +14,7 @@ class Pricing
         RoomType::ECONOMY_QUAD    => 5800,
         RoomType::LUXURY_QUAD     => 5800,
         RoomType::ISLAND_QUAD     => 6800,
-        RoomType::STARGAZING_QUAD => 7600,
+//        RoomType::STARGAZING_QUAD => 7600,
 
         Building::AQUA   => 7800,
         Building::FLOWER => 37200,
@@ -29,7 +29,7 @@ class Pricing
         RoomType::ECONOMY_QUAD    => 6800,
         RoomType::LUXURY_QUAD     => 6800,
         RoomType::ISLAND_QUAD     => 7800,
-        RoomType::STARGAZING_QUAD => 8600,
+//        RoomType::STARGAZING_QUAD => 8600,
 
         Building::AQUA   => 7800,
         Building::FLOWER => 37200,
@@ -44,7 +44,7 @@ class Pricing
         RoomType::ECONOMY_QUAD    => 6800,
         RoomType::LUXURY_QUAD     => 6800,
         RoomType::ISLAND_QUAD     => 7800,
-        RoomType::STARGAZING_QUAD => 8600,
+//        RoomType::STARGAZING_QUAD => 8600,
 
         Building::AQUA   => 7800,
         Building::FLOWER => 37200,
@@ -59,14 +59,14 @@ class Pricing
         RoomType::ECONOMY_QUAD    => [1, 4],
         RoomType::LUXURY_QUAD     => [1, 4],
         RoomType::ISLAND_QUAD     => [1, 4],
-        RoomType::STARGAZING_QUAD => [1, 4],
+//        RoomType::STARGAZING_QUAD => [1, 4],
 
         Building::AQUA   => [1, 4],
         Building::FLOWER => [6, 12],
         Building::TREE   => [4, 12],
     ];
 
-    const ROOMS = [1, 2, 3, 4, 5, 6, 7, 8];
+    const ROOMS = [1, 2, 3, 4, 5, 6, 7];
 
     const BUILDINGS = ['aqua', 'tree', 'flower'];
 
@@ -97,7 +97,7 @@ class Pricing
     public static function getBuildingData($building, $locale, $priceIndex): array
     {
         return [
-            'name'   => Buildings::withSlug($building)->name(),
+            'name'   => Buildings::withSlug($building)->name($locale),
             'rooms'  => static::ACCOMMODATES[$building][0],
             'guests' => static::ACCOMMODATES[$building][1],
             'price'  => static::WEEKDAYS[$building],

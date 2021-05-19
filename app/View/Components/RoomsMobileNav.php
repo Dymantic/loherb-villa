@@ -25,7 +25,7 @@ class RoomsMobileNav extends Component
     public function buildings()
     {
         return $this->rooms
-            ->groupBy(fn (Room $room) => $room->buildingName())
+            ->groupBy(fn (Room $room) => $room->buildingName(app()->getLocale()))
             ->mapWithKeys(function($building_rooms, $building_name) {
                 return [$building_name => [
                     'types' => $building_rooms->groupBy(fn (Room $room) => $room->typeSlug()),

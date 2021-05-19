@@ -1,8 +1,8 @@
 {
     "key": "aqua",
     "name": {
-        "en": "The Aqua Villa",
-        "zh": "The Aqua Villa"
+        "en": "Aqua Villa",
+        "zh": "A館"
     },
     "description": {
         "en": "The Aqua Villa is a secluded bungalow nestled amongst trees and nature with plenty of space to give a large family or group a sense of privacy and a true getaway experience.",
@@ -10,7 +10,7 @@
     },
     "room_counts": {
         "en": ["1 Quad Room"],
-        "zh": ["1 Quad Room"]
+        "zh": ["1 四人房"]
     },
     "banner_large": "/images/page-banners/aqua_building.jpg",
     "banner_small": "/images/page-banners/aqua_building_mobile.jpg",

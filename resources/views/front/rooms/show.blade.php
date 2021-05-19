@@ -59,51 +59,56 @@
             @endforeach
         </div>
 
+        <p class="type-h1 text-center text-green-main mb-12 mt-20">{{ trans('rooms.show.price_heading') }}</p>
+        <p class="text-center reviews-text italic text-green-main mt-8">{{ trans('rooms.show.price_disclaimer') }}</p>
+
+        <table class="mt-20 max-w-3xl mx-auto w-full border-collapse  border-green-main type-b1">
+            <thead>
+            <tr class="bg-green-main text-cream-light">
+                <th class="p-2">Time</th>
+                <th class="p-2">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="text-green-main hover:bg-green-softest">
+                <td class="w-1/2 p-2 pt-4 text-center">{{ trans('rooms.show.price_times.weekdays') }}</td>
+                <td class="w-1/2 p-2 pt-4 text-center">{{ $room['prices']['weekdays'] }}</td>
+            </tr>
+            <tr class="text-green-main hover:bg-green-softest">
+                <td class="w-1/2 p-2 text-center">{{ trans('rooms.show.price_times.holidays') }}</td>
+                <td class="w-1/2 p-2 text-center">{{ $room['prices']['weekends'] }}</td>
+            </tr>
+            <tr class="text-green-main hover:bg-green-softest">
+                <td class="w-1/2 p-2 text-center">{{ trans('rooms.show.price_times.chinese_new_year') }}</td>
+                <td class="w-1/2 p-2 text-center">{{ $room['prices']['chinese_new_year'] }}</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </section>
+    @component('front.components.info-section', ['title' => trans('rooms.show.additional_header')])
         <div class="text-green-main my-8">
-            <p class="mb-8 text-green-main text-center type-h1">{{ trans('rooms.show.additional_header') }}</p>
-            <div class="flex justify-between max-w-sm mx-auto w-full">
+            <div class="flex justify-between max-w-sm w-64 mx-auto w-full">
                 <p>{{ trans('rooms.show.times.check_in.label') }}</p>
                 <p>{{ trans('rooms.show.times.check_in.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-sm mx-auto w-full">
+            <div class="flex justify-between max-w-sm w-64 mx-auto w-full">
                 <p>{{ trans('rooms.show.times.check_out.label') }}</p>
                 <p>{{ trans('rooms.show.times.check_out.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-sm mx-auto w-full">
+            <div class="flex justify-between max-w-sm w-64 mx-auto w-full">
                 <p>{{ trans('rooms.show.times.breakfast.label') }}</p>
                 <p>{{ trans('rooms.show.times.breakfast.value') }}</p>
             </div>
-            <div class="flex justify-between max-w-sm mx-auto w-full">
+            <div class="flex justify-between max-w-sm w-64 mx-auto w-full">
                 <p>{{ trans('rooms.show.times.tea.label') }}</p>
                 <p>{{ trans('rooms.show.times.tea.value') }}</p>
             </div>
         </div>
         <div class="flex flex-col items-center">
             @foreach(trans('rooms.show.warnings') as $warning)
-            <p class="mb-0 text-center px-8 text-green-main">{{ $warning }}</p>
+                <p class="mb-0 text-center px-8 text-green-main">{{ $warning }}</p>
             @endforeach
-        </div>
-
-
-    </section>
-    @component('front.components.info-section', ['title' => trans('rooms.show.price_heading')])
-        <p class="text-center reviews-text italic text-green-main mt-8">{{ trans('rooms.show.price_disclaimer') }}</p>
-        <div class="w-full mt-20">
-            <ul class="list-reset type-b1 text-green-main max-w-sm mx-auto w-full border border-green-mid">
-                <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.weekdays') }}</span>
-                    <span class="w-1/2 text-center">{{ $room['prices']['weekdays'] }}</span>
-                </li>
-
-                <li class="flex justify-between items-center border-b border-green-mid">
-                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.holidays') }}</span>
-                    <span class="w-1/2 text-center">{{ $room['prices']['weekends'] }}</span>
-                </li>
-                <li class="flex justify-between items-center">
-                    <span class="w-1/2 text-center border-r py-2 border-green-mid">{{ trans('rooms.show.price_times.chinese_new_year') }}</span>
-                    <span class="w-1/2 text-center">{{ $room['prices']['chinese_new_year'] }}</span>
-                </li>
-            </ul>
         </div>
 
     @endcomponent

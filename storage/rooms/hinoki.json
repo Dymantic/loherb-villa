@@ -2,10 +2,14 @@
     "slug": "hinoki",
     "name": {
         "en": "Hinoki",
-        "zh": ""
+        "zh": "松羅檜"
     },
     "building": "tree",
     "type": 2,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
     "prices": {
         "weekdays": "",
         "summer_vacation": "",
@@ -13,10 +17,13 @@
         "chinese_new_year": ""
     },
     "square_feet": 31,
-    "sleeps": 2,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
     "view": {
         "en": "Garden View",
-        "zh": "Garden View"
+        "zh": "花園景"
     },
     "heading": {
         "en": "",
@@ -30,7 +37,7 @@
         "en": "Hinoki is an indigenous Taiwanese tree that has a subtle sweet scent that has been used on the decor in this elegant, stately room. Perfect for couples or a small family, with a spacious patio running two sides of the room, offering excellent views of the natural surroundings.",
         "zh": "位於2F的客房，房間擁有雙陽台。以水泥盆景搭配檜木香氛，讓人身心靈自然放鬆，品味原始自然氣息。"
     },
-    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
     "images": [
 
         {

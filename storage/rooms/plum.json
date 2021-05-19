@@ -6,6 +6,10 @@
     },
     "building": "flower",
     "type": 2,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
     "prices": {
         "weekdays": "",
         "summer_vacation": "",
@@ -13,10 +17,13 @@
         "chinese_new_year": ""
     },
     "square_feet": 36,
-    "sleeps": 2,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
     "view": {
         "en": "Garden View",
-        "zh": "Garden View"
+        "zh": "花園景"
     },
     "heading": {
         "en": "Reach for the stars",
@@ -30,7 +37,7 @@
         "en": "The Plum Room has its own unique energy. With more than enough space for a family, it’s the couples that will really appreciate this room. With subtle romantic undertones, like the touches of red decor or the elegant bathtub that looks out wall-to-wall windows, as well private access to the skyroof, this room will ignite an enchanting stay.",
         "zh": "一剪梅頂級雙人房有私人空中花園，以星辰為鑑留下彼此的精心時刻。房間中還有搖籃椅、沙發、超大型雙人床，別富優美深層意境。"
     },
-    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+    "services": [1,2,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,22],
     "images": [
             {
                 "full": "\/images\/room-galleries\/plum\/reg\/plum_gallery_2.jpg",

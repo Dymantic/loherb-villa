@@ -1,8 +1,8 @@
 {
     "key": "tree",
     "name": {
-        "en": "The Tree Villa",
-        "zh": "The Tree Vila"
+        "en": "Tree Villa",
+        "zh": "T館"
     },
     "description": {
         "en": "The Tree Villa encapsulates modern, refined beauty integrated perfectly with its beautiful natural environment with all the comforts one would wish for to relax.",
@@ -10,7 +10,7 @@
     },
     "room_counts": {
         "en": ["1 Double Room", "3 Quad Rooms"],
-        "zh": ["1 Double Room", "3 Quad Rooms"]
+        "zh": ["1 雙人房", "3 四人房"]
     },
     "banner_large": "/images/page-banners/Building_Tree_banner.jpg",
     "banner_small": "/images/page-banners/Building_Tree_banner_mobile.jpg",

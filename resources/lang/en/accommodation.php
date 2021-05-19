@@ -8,10 +8,16 @@ return [
     ],
 
     'buildings' => [
+        'seo' => [
+            'title' => 'Loherb’s Villas',
+            'description' => 'Loherb Villa is made up of three Villa buildings each with their own unique architectural style and interior design.',
+        ],
         'overview' => [
             'title' => 'Loherb Villas',
-            'introduction' => 'Loherb Villa is made up of three Villa buildings each with their own unique architectural style and interior design.'
+            'introduction' => 'Loherb Villa is made up of three Villa buildings each with their own unique architectural style and interior design.',
+
         ],
+        'see_rooms_button' => 'See Rooms',
     ],
 
     'price_times' => [
@@ -21,8 +27,23 @@ return [
     ],
 
     'prices' => [
+        'seo' => [
+            'title' => 'Loherb Villa Price List',
+            'description' => 'Loherb Villa Price List. Book a room or an entire Villa.',
+        ],
+
         'banner_title' => 'Price List',
         'banner_text' => 'Please review our room prices so you can make your stay at Loherb Villa the best for you. Entire Villas can also be booked for large groups.',
+        'weekdays' => 'Weekdays',
+        'holidays' => 'Weekends & Holidays',
+        'chinese_new_year' => 'Chinese New Year',
+        'table' => [
+            'room' => 'Rooms',
+            'building' => 'Entire Villa',
+            'sleeps' => 'Sleeps',
+            'price' => 'Price',
+            'rooms_guests' => 'Rooms/Guests',
+        ]
     ],
 
     'all_rooms' => [

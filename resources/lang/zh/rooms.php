@@ -5,22 +5,22 @@ return [
     'description' => '日光綠築的房間適合兩人輕旅行也適合全家人攜伴同行. 在日光綠築每個房間都有自己獨特的主題裝飾以及美不勝收的風景.',
 
     'types'      => [
-        'economy-double' => 'Economy Double',
-        'luxury-double' => 'Luxury Double',
-        'duplex-double' => 'Duplex Double',
-        'island-quad' => 'Island Quad',
+        'economy-double' => '精緻雙人',
+        'luxury-double' => '豪華雙人',
+        'duplex-double' => '閣樓雙人',
+        'island-quad' => '小島四人',
         'double' => 'Double',
-        'premium-double' => 'Premium Double',
-        'economy-quad' => 'Economy Quad',
-        'luxury-quad' => 'Luxury Quad',
+        'premium-double' => '尊爵雙人',
+        'economy-quad' => '精緻四人',
+        'luxury-quad' => '豪華四人',
         'stargazing-quad' => 'Stargazing Quad',
     ],
     'buildings' => [
-        'flower' => 'Flower Building',
-        'tree' => 'The Tree Villa',
-        'aqua' => 'Aqua Building',
+        'flower' => 'F館',
+        'tree' => 'T館',
+        'aqua' => 'A館',
     ],
-    'starting-price' => "From NT$:price",
+    'starting-price' => "NT$:price 起",
 
     'index' => [
         'heading'    => '貼心打造專屬你的回憶與旅宿空間',

@@ -6,6 +6,10 @@
     },
     "building": "flower",
     "type": 4,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
     "prices": {
         "weekdays": "2800",
         "summer_vacation": "3800",
@@ -13,10 +17,13 @@
         "chinese_new_year": "5800"
     },
     "square_feet": 36,
-    "sleeps": 2,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
     "view": {
         "en": "Farmland View",
-        "zh": "Farmland View"
+        "zh": "田園景"
     },
     "heading": {
         "en": "The Jewel in the Crown",
@@ -30,7 +37,7 @@
         "en": "This double-storey room towers above the rest, offering fantastic views and an unforgettable experience. With a stylish lounge area on the first floor and a  luxurious bedroom and hot tub combo on the top floor which is the pinnacle of the Loherb Villa. Private access to the Skyroof is included.",
         "zh": "雞蛋花樓中樓雙人房，下層有小型吧台可以簡單烹飪聚會，樓上有起居室。房間位於至高點，雙面採光玻璃帷幕，最能感受遼闊視野。"
     },
-    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,22],
     "images": [
             {
                 "full": "\/images\/room-galleries\/frangipani\/reg\/frangipani_gallery_2.jpg",

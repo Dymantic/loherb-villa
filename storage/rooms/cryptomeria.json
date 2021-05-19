@@ -2,10 +2,14 @@
     "slug": "cryptomeria",
     "name": {
         "en": "Cryptomeria",
-        "zh": ""
+        "zh": "紫光檀"
     },
     "building": "tree",
     "type": 3,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
     "prices": {
         "weekdays": "",
         "summer_vacation": "",
@@ -13,10 +17,13 @@
         "chinese_new_year": ""
     },
     "square_feet": 43,
-    "sleeps": 2,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
     "view": {
         "en": "River View",
-        "zh": "River View"
+        "zh": "河水景"
     },
     "heading": {
         "en": "",
@@ -30,7 +37,7 @@
         "en": "The views alone will make you feel infinitely happier and relaxed in this very spacious and well laid out room. It sleeps up to 6 people with an optional unobtrusive stowaway double bed hiding in the wall. A beautiful private balcony rounds off what will be a very comfortable stay.",
         "zh": "位於2F的客房，房間擁有私人大陽台。以大面落地帷幕自然採光，映照出深色木紋釉黑的沉穩高雅。搭配低調奢華的藝術收藏，盡顯藝術精品氣息。"
     },
-    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
     "images": [
         {
             "full": "/images/room-galleries/cryptomera/reg/image_5.jpg",

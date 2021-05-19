@@ -6,6 +6,10 @@
     },
     "building": "aqua",
     "type": 7,
+    "floor": {
+        "en": "1st floor",
+        "zh": "一樓"
+    },
     "prices": {
         "weekdays": "6,800",
         "summer_vacation": "7,800",
@@ -13,10 +17,13 @@
         "chinese_new_year": "12,000"
     },
     "square_feet": 43,
-    "sleeps": 4,
+    "sleeps": {
+        "en": "Sleeps 4",
+        "zh": "四人房"
+    },
     "view": {
         "en": "Garden View",
-        "zh": "Garden View"
+        "zh": "花園景"
     },
     "heading": {
         "en": "Your own piece of paradise",
@@ -30,7 +37,7 @@
         "en": "The Villa Island is its own unique experience. Separated from the main building you will feel as though you are in your own little paradise. This room is perfect for families or large parties, including its very own sky roof, home theater system, KTV equipment and a large hot tub. This is your true private getaway solution.",
         "zh": "位在日光綠築園區的水芙蓉小島四人房，獨立於主棟建築外，有更高的私密性。 提供KTV、家庭劇院設施， 還有雙人泡澡大浴缸，最適合家庭及朋友歡慶聚會。"
     },
-    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+    "services": [1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,21,22],
     "images": [
             {
                 "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_1.jpg",

@@ -16,22 +16,27 @@
             @endif
             <p class="type-b8 text-green-main mt-2">{{ $roomAttribute('intro') }}</p>
             <p class="type-b3 text-green-main leading-tight my-3">{{ $roomAttribute('starting_price') }}</p>
-            <div class="flex type-b7 text-green-main mt-3 border-b border-green-main pb-3">
-                <div class="flex items-center mr-4">
-                    @include('svgs.icons.room_size', ['classes' => 'h-5 mr-1'])
+            <div class="flex justify-between type-b7 text-green-main mt-3 border-b border-green-main pb-3">
+                <div class="flex flex-col items-center mr-4">
+                    @include('svgs.icons.room_size', ['classes' => 'h-5 mb-1'])
                     <span>{{ $roomAttribute('size') }}m²</span>
                 </div>
-                <div class="flex items-center mr-4">
-                    @include('svgs.icons.bed', ['classes' => 'h-5 mr-1'])
-                    <span>Sleeps {{ $roomAttribute('sleeps') }}</span>
+                <div class="flex flex-col items-center mr-4">
+                    @include('svgs.icons.floor', ['classes' => 'h-5 mb-1'])
+                    <span>{{ $roomAttribute('floor') }}</span>
                 </div>
-                <div class="flex items-center mr-4">
-                    @include('svgs.icons.view', ['classes' => 'h-5 mr-1'])
+                <div class="flex flex-col items-center mr-4">
+                    @include('svgs.icons.bed', ['classes' => 'h-5 mb-1'])
+                    <span>{{ $roomAttribute('sleeps') }}</span>
+                </div>
+                <div class="flex flex-col items-center mr-4">
+                    @include('svgs.icons.view', ['classes' => 'h-5 mb-1'])
                     <span>{{ $roomAttribute('view') }}</span>
                 </div>
+
             </div>
             <div class="flex justify-end pt-2">
-                <x-arrow-link link-to="/rooms/{{ $roomAttribute('slug') }}">View Room</x-arrow-link>
+                <x-arrow-link link-to="/rooms/{{ $roomAttribute('slug') }}">{{ trans('rooms.index.buttons.show') }}</x-arrow-link>
             </div>
         </div>
     </div>

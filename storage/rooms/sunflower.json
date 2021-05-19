@@ -6,6 +6,10 @@
     },
     "building": "flower",
     "type": 2,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
     "prices": {
         "weekdays": "",
         "summer_vacation": "",
@@ -13,10 +17,13 @@
         "chinese_new_year": ""
     },
     "square_feet": 31,
-    "sleeps": 2,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
     "view": {
         "en": "Farmland View",
-        "zh": "Farmland View"
+        "zh": "田園景"
     },
     "heading": {
         "en": "Feel closer to nature",
@@ -30,7 +37,7 @@
         "en": "This bright, friendly room will let you wake up feeling refreshed and relaxed. It has light yellow decor and mountain view will evaporate all your troubles. This room comes with  a separated shower and hot tub, home movie theater and king size bed facing the mountains in the near distance.",
         "zh": "向日葵豪華雙人房以全視野落地帷幕引入溫暖陽光，搭配暖色系裝潢，讓來渡假的旅人好好充電補充能量，重新找回生活熱情。"
     },
-    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
     "images": [
             {
                 "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_2.jpg",

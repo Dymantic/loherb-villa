@@ -2,10 +2,14 @@
     "slug": "holly",
     "name": {
         "en": "Holly",
-        "zh": ""
+        "zh": "秤星樹"
     },
     "building": "tree",
     "type": 5,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
     "prices": {
         "weekdays": "",
         "summer_vacation": "",
@@ -13,10 +17,13 @@
         "chinese_new_year": ""
     },
     "square_feet": 31,
-    "sleeps": 4,
+    "sleeps": {
+        "en": "Sleeps 4",
+        "zh": "四人房"
+    },
     "view": {
         "en": "Garden View",
-        "zh": "Garden View"
+        "zh": "花園景"
     },
     "heading": {
         "en": "",
@@ -30,7 +37,7 @@
         "en": "Up to 4 people will enjoy the simple and natural elegance of this room and its facilities. This room space is large, comfortable and relaxing with a wonderful bathroom space and tub plus a balcony.",
         "zh": "位於2F的客房，房間擁有私人陽台。特色星紋木皮，搭配植物裝飾，以單純的空間，描繪營造出極簡自然舒適氛圍。"
     },
-    "services": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
     "images": [
         {
             "full": "/images/room-galleries/holly/reg/image_3.jpg",

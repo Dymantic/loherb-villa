@@ -91,7 +91,8 @@ class Room
             'description'    => $this->getTranslation('description', $locale),
             'view'           => $this->getTranslation('view', $locale),
             'size'           => $this->getAttribute('square_feet'),
-            'sleeps'         => $this->getAttribute('sleeps'),
+            'sleeps'         => $this->getTranslation('sleeps', $locale),
+            'floor'          => $this->getTranslation('floor', $locale),
             'occupancy'      => [
                 'min'      => 1,
                 'max'      => 4,

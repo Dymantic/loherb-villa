@@ -17,7 +17,7 @@
              tabindex="3">
             <span class="text-white rooms-panel-trigger">
                 <span class="nav-link-box"><span class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</span></span>
-                <svg class="fill-current align-middle inline -ml-4"
+                <svg class="fill-current align-middle inline -ml-4 hidden md:inline"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 24 24"
                      width="20"
@@ -26,26 +26,26 @@
                 </svg>
             </span>
             <div class="md:hidden bg-cream-light w-full my-4 py-4 px-6">
-                <div class="subnav-trigger flex items-center border-b border-brown-dark pb-1 mb-1" data-opens-subnav="flower">
+                <div class="subnav-trigger flex items-center border-b border-brown-dark mb-3 pt-2 pb-3" data-opens-subnav="flower">
                     @include('svgs.buildings.flower', ['classes' => 'text-green-main h-5 mr-4'])
-                    <p class="type-a1 flex-1 text-green-main uppercase">The Flower Villa</p>
+                    <p class="type-a1 flex-1 text-green-main uppercase">{{ trans('rooms.buildings.flower') }}</p>
                     <p class="type-a1 text-green-main">&rarr;</p>
                 </div>
-                <div class="subnav-trigger flex items-center border-b border-brown-dark pb-1 mb-1" data-opens-subnav="tree">
+                <div class="subnav-trigger flex items-center border-b border-brown-dark mb-3 pt-2 pb-3" data-opens-subnav="tree">
                     @include('svgs.buildings.tree', ['classes' => 'text-green-main h-5 mr-4'])
-                    <p class="type-a1 flex-1 text-green-main uppercase">The Tree Villa</p>
+                    <p class="type-a1 flex-1 text-green-main uppercase">{{ trans('rooms.buildings.tree') }}</p>
                     <p class="type-a1 text-green-main">&rarr;</p>
                 </div>
-                <div class="subnav-trigger flex items-center border-b border-brown-dark pb-1 mb-1" data-opens-subnav="aqua">
+                <div class="subnav-trigger flex items-center border-b border-brown-dark mb-3 pt-2 pb-3" data-opens-subnav="aqua">
                     @include('svgs.buildings.aqua', ['classes' => 'text-green-main h-5 mr-4'])
-                    <p class="type-a1 flex-1 text-green-main uppercase">The Aqua Villa</p>
+                    <p class="type-a1 flex-1 text-green-main uppercase">{{ trans('rooms.buildings.aqua') }}</p>
                     <p class="type-a1 text-green-main">&rarr;</p>
                 </div>
                 <div class="mt-20 text-center">
-                    <a href="{{ localUrl('/buildings') }}" class="type-a1 text-green-main hover:text-green-mid">Visit Villas Page &rarr;</a>
-                    <div class="text-center mt-3">
+                    <a href="{{ localUrl('/buildings') }}" class="type-a1 text-green-main hover:text-green-mid">{{ trans('navbar.buildings_page') }} &rarr;</a>
+                    <div class="text-center mt-6">
                         <a href="{{ localUrl('/rooms') }}"
-                           class="inline-button btn-green-ghost">See All Rooms</a>
+                           class="inline-button btn-green-ghost">{{ trans('navbar.see_rooms') }}</a>
                     </div>
                 </div>
 
