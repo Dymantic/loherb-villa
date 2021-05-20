@@ -64,7 +64,9 @@ return [
             'line_four'       => ['label' => 'Quilts', 'value' => '$100'],
             'condition'       => '*over 2 years old/includes bed, breakfast & tea',
             'condition_two'   => '',
-            'condition_three' => ''
+            'condition_three' => '',
+            'time'            => 'Time',
+            'price'           => 'Price'
         ],
         'warnings'          => [
             'Contact us in advance for check-in after 20:00',

@@ -41,11 +41,11 @@ return [
         'vacation' => '假日',
 
         'table' => [
-            'room' => 'Rooms',
-            'building' => 'Entire Villa',
-            'sleeps' => 'Sleeps',
-            'price' => 'Price',
-            'rooms_guests' => 'Rooms/Guests',
+            'room' => '房型',
+            'building' => '包棟',
+            'sleeps' => '容納人數',
+            'price' => '定價',
+            'rooms_guests' => '房數/可容納人數',
         ]
     ],
 

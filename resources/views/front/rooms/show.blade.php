@@ -65,8 +65,8 @@
         <table class="mt-20 max-w-3xl mx-auto w-full border-collapse  border-green-main type-b1">
             <thead>
             <tr class="bg-green-main text-cream-light">
-                <th class="p-2">Time</th>
-                <th class="p-2">Price</th>
+                <th class="p-2">{{ trans('rooms.show.pricing.time') }}</th>
+                <th class="p-2">{{ trans('rooms.show.pricing.price') }}</th>
             </tr>
             </thead>
             <tbody>

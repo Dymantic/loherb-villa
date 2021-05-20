@@ -70,7 +70,9 @@ return [
             'line_four'       => ['label' => '棉被', 'value' => '$100'],
             'condition'       => '*2歲以上需加人/含床及早餐下午茶',
             'condition_two'   => '暑期指7月8月平日期間',
-            'condition_three' => '假日包含週末星期六'
+            'condition_three' => '假日包含週末星期六',
+            'time' => '時間',
+            'price' => '定價'
         ],
         'warnings'          => [
             '超過20:00入住務必事先聯繫',
