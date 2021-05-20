@@ -18,19 +18,23 @@
             <p class="type-b3 text-green-main leading-tight my-3">{{ $roomAttribute('starting_price') }}</p>
             <div class="flex justify-between type-b7 text-green-main mt-3 border-b border-green-main pb-3">
                 <div class="flex flex-col items-center mr-4">
-                    @include('svgs.icons.room_size', ['classes' => 'h-5 mb-1'])
+                    <img src="/images/icons/room_size.svg" class="h-5 mb-1 block"
+                         alt="room size icon">
                     <span>{{ $roomAttribute('size') }}m²</span>
                 </div>
                 <div class="flex flex-col items-center mr-4">
-                    @include('svgs.icons.floor', ['classes' => 'h-5 mb-1'])
+                    <img src="/images/icons/floor.svg" class="h-5 mb-1 block"
+                         alt="room size icon">
                     <span>{{ $roomAttribute('floor') }}</span>
                 </div>
                 <div class="flex flex-col items-center mr-4">
-                    @include('svgs.icons.bed', ['classes' => 'h-5 mb-1'])
+                    <img src="/images/icons/bed.svg" class="h-5 mb-1 block"
+                         alt="room size icon">
                     <span>{{ $roomAttribute('sleeps') }}</span>
                 </div>
                 <div class="flex flex-col items-center mr-4">
-                    @include('svgs.icons.view', ['classes' => 'h-5 mb-1'])
+                    <img src="/images/icons/view.svg" class="h-5 mb-1 block"
+                         alt="room size icon">
                     <span>{{ $roomAttribute('view') }}</span>
                 </div>
 
