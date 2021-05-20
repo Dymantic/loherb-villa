@@ -7,7 +7,6 @@
             version          : 'v3.2'
         });
     };
-
     function loadFBChat() {
         (function(d, s, id){
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -16,7 +15,6 @@
             js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-
         window.removeEventListener('scroll', loadFBChat);
         window.removeEventListener('click', loadFBChat);
         window.removeEventListener('mouseover', loadFBChat);

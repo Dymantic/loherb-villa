@@ -1,0 +1,84 @@
+{
+    "slug": "orchid",
+    "name": {
+        "en": "Orchid Room",
+        "zh": "蝴蝶蘭"
+    },
+    "building": "flower",
+    "type": 2,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 31,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
+    "view": {
+        "en": "Farmland View",
+        "zh": "田園景"
+    },
+    "heading": {
+        "en": "A view to relax to",
+        "zh": "低調奢華的優雅起居"
+    },
+    "intro": {
+        "en": "Couples and families will love the peacefulness of this room.",
+        "zh": "典雅沈穩深富意境的裝修，專屬別具內涵的您。"
+    },
+    "description": {
+        "en": "This spacious room overlooks the Dongshan River Park Wetlands through wall-to-wall windows or from your balcony giving you a relaxing, tranquil stay. This room comes with a separated shower and hot tub, home movie theater and king size bed with more than enough room to add another bed.",
+        "zh": "蝴蝶蘭豪華雙人房有乾濕分離浴室、家庭劇院、超大型雙人床、寬闊露台設施。以典雅沈穩的裝修款待深富內涵的您，讓人低調奢華縱情享受。"
+    },
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
+    "images": [
+            {
+                "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_1.jpg",
+                "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_1.jpg",
+                "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_1.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_2.jpg",
+                "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_2.jpg",
+                "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_2.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_3.jpg",
+                "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_3.jpg",
+                "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_3.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_4.jpg",
+                "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_4.jpg",
+                "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_4.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_5.jpg",
+                "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_5.jpg",
+                "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_5.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_6.jpg",
+                "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_6.jpg",
+                "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_6.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_7.jpg",
+                "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_7.jpg",
+                "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_7.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/orchid\/reg\/orchid_gallery_8.jpg",
+                "small": "\/images\/room-galleries\/orchid\/mobile\/orchid_gallery_8.jpg",
+                "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_8.jpg"
+            }
+    ],
+    "banner_image": "/images/room-banners/orchid.jpg"
+}

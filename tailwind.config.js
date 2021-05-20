@@ -5,7 +5,9 @@ module.exports = {
         "./resources/**/*.html",
         "./resources/**/*.vue",
         "./resources/**/*.blade.php",
+        "./resources/js/Usher.js",
     ],
+    mode: 'jit',
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
@@ -42,8 +44,12 @@ module.exports = {
                 '120w': '120vw',
             },
             fontSize: {
+                "lg" : '1.25rem',
+                '3xl': '3rem',
                 '4xl': '2.125rem',
                 '5xl': '3rem',
+                '6xl': '3.5rem',
+                '7xl': '4rem',
             },
             fontFamily: {
                 display: [
@@ -80,7 +86,7 @@ module.exports = {
                 ],
                 serif: [
                     'Noto Serif TC',
-                    'adobe-caslon-pro',
+                    'bodoni-urw',
                     'Constantia',
                     'Lucida',
                     'Lucida Bright',

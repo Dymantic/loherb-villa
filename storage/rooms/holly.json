@@ -1,0 +1,75 @@
+{
+    "slug": "holly",
+    "name": {
+        "en": "Holly",
+        "zh": "秤星樹"
+    },
+    "building": "tree",
+    "type": 5,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 31,
+    "sleeps": {
+        "en": "Sleeps 4",
+        "zh": "四人房"
+    },
+    "view": {
+        "en": "Garden View",
+        "zh": "花園景"
+    },
+    "heading": {
+        "en": "",
+        "zh": ""
+    },
+    "intro": {
+        "en": "Two couples or a family will enjoy this gracious, natural room.",
+        "zh": "特色星紋木皮，搭配植物裝飾，沒有過多華麗裝飾性物件，透過單純色彩的描繪，營造出極簡自然舒適的氛圍。"
+    },
+    "description": {
+        "en": "Up to 4 people will enjoy the simple and natural elegance of this room and its facilities. This room space is large, comfortable and relaxing with a wonderful bathroom space and tub plus a balcony.",
+        "zh": "位於2F的客房，房間擁有私人陽台。特色星紋木皮，搭配植物裝飾，以單純的空間，描繪營造出極簡自然舒適氛圍。"
+    },
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
+    "images": [
+        {
+            "full": "/images/room-galleries/holly/reg/image_3.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_3.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_3.jpg"
+        },
+        {
+            "full": "/images/room-galleries/holly/reg/image_1.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_1.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_1.jpg"
+        },
+        {
+            "full": "/images/room-galleries/holly/reg/image_2.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_2.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_2.jpg"
+        },
+
+        {
+            "full": "/images/room-galleries/holly/reg/image_4.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_4.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_4.jpg"
+        },
+        {
+            "full": "/images/room-galleries/holly/reg/image_5.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_5.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_5.jpg"
+        },
+        {
+            "full": "/images/room-galleries/holly/reg/image_6.jpg",
+            "small": "/images/room-galleries/holly/mobile/image_6.jpg",
+            "wide": "/images/room-galleries/holly/wide/image_6.jpg"
+        }
+    ],
+    "banner_image": "/images/room-banners/holly.jpg"
+}

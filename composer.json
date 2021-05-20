@@ -5,7 +5,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^8.0",
         "dymantic/laravel-instagram-feed": "^2.0",
         "dymantic/laravel-static": "^0.2",
         "dymantic/multilingual-posts": "^0.9.5",

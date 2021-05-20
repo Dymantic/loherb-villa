@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Accommodation\Rooms;
 use Illuminate\Http\Request;
 
 class RoomsController extends Controller
@@ -13,7 +14,10 @@ class RoomsController extends Controller
 
     public function show($room)
     {
-        return view('front.rooms.show', ['room' => data("rooms.{$room}"), 'room_key' => $room] );
+        return view('front.rooms.show', [
+            'room' => Rooms::find($room)->presentForLang(app()->getLocale()),
+            'room_key' => $room
+        ]);
     }
 
 }

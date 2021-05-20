@@ -1,4 +1,4 @@
-<div class="fixed top-0 left-0 w-full flex justify-between items-center h-12 px-4 main-nav bg-green-main hover:bg-green-main main-nav font-medium">
+<div class="fixed top-0 left-0 w-full flex justify-between items-center h-12 px-4 main-nav bg-green-main hover:bg-green-main main-nav">
     <div>
         <a href="{{ localUrl("/") }}"
            tabindex="1"
@@ -13,12 +13,11 @@
                class="flex items-center nav-link text-white"
                href="{{ localUrl('/about') }}">{{ trans('navbar.about') }}</a>
         </div>
-        <div class="flex items-start md:items-center rooms-nav"
+        <div class="flex items-start md:items-center rooms-nav focus:outline-none cursor-pointer"
              tabindex="3">
-            <span class="text-white">
-                <span class="nav-link-box"><a href="{{ localUrl('/rooms') }}"
-                                              class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</a></span>
-                <svg class="fill-current align-middle hidden md:inline"
+            <span class="text-white rooms-panel-trigger">
+                <span class="nav-link-box"><span class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</span></span>
+                <svg class="fill-current align-middle inline -ml-4 hidden md:inline"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 24 24"
                      width="20"
@@ -26,45 +25,31 @@
                     <path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/>
                 </svg>
             </span>
-            <div class="room-nav-sub absolute w-screen bg-cream-light">
-                <div class="mt-4 md:mt-0 flex flex-col md:flex-row justify-center">
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.economy') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/rose") }}">{{ trans('navbar.room.rose') }}</a>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/lily") }}">{{ trans('navbar.room.lily') }}</a>
-                    </div>
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.luxury') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/sunflower") }}">{{ trans('navbar.room.sunflower') }}</a>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/orchid") }}">{{ trans('navbar.room.orchid') }}</a>
-                    </div>
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.vip') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/plum") }}">{{ trans('navbar.room.plum') }}</a>
-                    </div>
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 border-r border-brown-light my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.duplex') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/frangipani") }}">{{ trans('navbar.room.frangipani') }}</a>
-                    </div>
-                    <div class="md:w-48 pl-4 md:pl-0 mx-0 my-0 md:my-4 flex justify-start md:items-center flex-col text-green-main">
-                        <p class="uppercase mb-3 border-b border-brown-light tracking-wide hidden md:block">{{ trans('navbar.room.villa') }}</p>
-                        <a class="nav-link font-heading text-sm hover:underline text-green-main  my-1"
-                           href="{{ localUrl("/rooms/villa") }}">{{ trans('navbar.room.island') }}</a>
+            <div class="md:hidden bg-cream-light w-full my-4 py-4 px-6">
+                <div class="subnav-trigger flex items-center border-b border-brown-dark mb-3 pt-2 pb-3" data-opens-subnav="flower">
+                    @include('svgs.buildings.flower', ['classes' => 'text-green-main h-5 mr-4'])
+                    <p class="type-a1 flex-1 text-green-main uppercase">{{ trans('rooms.buildings.flower') }}</p>
+                    <p class="type-a1 text-green-main">&rarr;</p>
+                </div>
+                <div class="subnav-trigger flex items-center border-b border-brown-dark mb-3 pt-2 pb-3" data-opens-subnav="tree">
+                    @include('svgs.buildings.tree', ['classes' => 'text-green-main h-5 mr-4'])
+                    <p class="type-a1 flex-1 text-green-main uppercase">{{ trans('rooms.buildings.tree') }}</p>
+                    <p class="type-a1 text-green-main">&rarr;</p>
+                </div>
+                <div class="subnav-trigger flex items-center border-b border-brown-dark mb-3 pt-2 pb-3" data-opens-subnav="aqua">
+                    @include('svgs.buildings.aqua', ['classes' => 'text-green-main h-5 mr-4'])
+                    <p class="type-a1 flex-1 text-green-main uppercase">{{ trans('rooms.buildings.aqua') }}</p>
+                    <p class="type-a1 text-green-main">&rarr;</p>
+                </div>
+                <div class="mt-20 text-center">
+                    <a href="{{ localUrl('/buildings') }}" class="type-a1 text-green-main hover:text-green-mid">{{ trans('navbar.buildings_page') }} &rarr;</a>
+                    <div class="text-center mt-6">
+                        <a href="{{ localUrl('/rooms') }}"
+                           class="inline-button btn-green-ghost">{{ trans('navbar.see_rooms') }}</a>
                     </div>
                 </div>
-                <div class="py-8 flex justify-center items-center">
-                    <a href="{{ localUrl('/rooms') }}"
-                       class="text-link text-green-main no-underline hover:text-hover-green">{{ trans('navbar.view-rooms') }} &rarr;</a>
-                </div>
-            </div>
 
-        </div>
+            </div>
         <div class="nav-link-box bookings-link-box flex items-center my-2 md:my-0">
             <a class="flex items-center nav-link text-gold"
                tabindex="4"
@@ -86,14 +71,23 @@
                href="{{ transUrl(Request::path()) }}">{{ trans('navbar.lang') }}</a>
         </div>
     </nav>
-    <div class="md:hidden"
+    <button class="md:hidden focus:outline-none"
          id="nav-trigger">
         <span class="text-gold flex">
             <svg xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 24 24"
                  width="24"
                  height="24"
-                 class="fill-current"><path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+                 class="fill-current nav-trigger-open"><path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+            <svg viewBox="0 0 100 100" class="stroke-current h-6 nav-trigger-close">
+                <path d="M 10 10 L 90 90 M 90 10 L 10 90" stroke-width="4"></path>
+            </svg>
         </span>
-    </div>
+
+    </button>
+
+    <x-rooms-mobile-nav></x-rooms-mobile-nav>
+    <x-rooms-nav-panel></x-rooms-nav-panel>
+
 </div>
+

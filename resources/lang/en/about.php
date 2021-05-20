@@ -5,12 +5,13 @@ return [
     'description' => 'The story of how Loherb Villa became such a special place.',
 
     'banner' => [
-        'text' => 'Loherb is all about healthy living.'
+        'title' => 'The Loherb Story',
+        'text' => 'Since its conception Loherb has always been about healthy living. From the natural environment we surround ourselves in, to the food we put on our table.'
     ],
 
     'section_one' => [
         'heading' => 'The Loherb Story',
-        'content' => 'Loherb is all about healthy living. From the air we breath, to the environment we live in, to the things we eat - it all matters and we have a strong belief that it should be embraced regularly. The Loherb Group aspires to this philosophy in all of the products and services we offer. 
+        'content' => 'Loherb is all about healthy living. From the air we breath, to the environment we live in, to the things we eat - it all matters and we have a strong belief that it should be embraced regularly. The Loherb Group aspires to this philosophy in all of the products and services we offer.
 
 In 2013 Loherb Bio was introduced to provide healthy, nutritious foods to improve one’s body and digestion. But this was just the beginning. In 2015 the Loherb Villa built. A majestic, eco-friendly building constructed amongst the natural landscape and farmlands of Yilan County. This coincided with the advent of the outstanding Loherb Cuisine, an elegant restaurant adjoined to the Villa which satisfies our guests as well as hosts formal events.'
     ],

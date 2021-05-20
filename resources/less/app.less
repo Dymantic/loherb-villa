@@ -1,8 +1,19 @@
 @font-face {
     font-family: "transat-bold";
-    src: url(../fonts/transat_bold-webfont.woff), url(../fonts/transat_bold-webfont.woff2);
+    src: url(../fonts/transat_bold-webfont.woff),
+        url(../fonts/transat_bold-webfont.woff2);
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "transat-bold";
+    src: url(../fonts/transat_standard-webfont.woff),
+        url(../fonts/transat_standard-webfont.woff2),
+        url(../fonts/transat_standard-webfont.ttf);
+    font-style: normal;
+    font-weight: 400;
     font-display: swap;
 }
 
@@ -10,44 +21,58 @@
 
 @import (less) "~flickity/dist/flickity.css";
 
-@import "./type.less";
-@import "./buttons-links.less";
-@import "layout-helpers";
-@import "navbar";
-@import "flickity";
+@layer utilities {
+    @import "type";
+    @import "./buttons-links.less";
+    @import "layout-helpers";
+    @import "navbar";
+    @import "flickity";
 
-@import "pages/home";
-@import "pages/rooms";
-@import "pages/about";
-@import "pages/journal";
+    @import "pages/home";
+    @import "pages/rooms";
+    @import "pages/about";
+    @import "pages/journal";
 
-@import "partials/footer";
+    @import "partials/footer";
+    @import "usher";
+    @import "animations";
+}
+
+@layer base {
+    sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+    sup { top: -0.3em; vertical-align: super;}
+    sub { bottom: -0.25em; vertical-align: sub;}
+}
+
+
 
 @tailwind utilities;
 
-body.nav-open {
-    overflow-y: hidden;
+@layer utilities {
+    body.nav-open {
+        overflow-y: hidden;
+    }
+
+    svg {
+        fill: currentColor;
+    }
+
+    .footer {
+        background: url(../images/villa_footer_pattern.jpg);
+        background-size: 8px auto;
+    }
+
+    picture {
+        font-size: 0;
+    }
+
+    #mybookings-frame {
+    @apply mt-12 md:mt-0;
+    }
+
+    html:lang(zh) #mybookings-frame {
+    @apply mt-0 md:-mt-12;
+    }
 }
 
-svg {
-    fill: currentColor;
-}
 
-.footer {
-    background: url(../images/villa_footer_pattern.jpg);
-    background-size: 8px auto;
-}
-
-picture {
-    font-size: 0;
-}
-
-
-
-#mybookings-frame {
-@apply  mt-12 md:mt-0;
-}
-
-html:lang(zh) #mybookings-frame {
-@apply  mt-0 md:-mt-12;
-}

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col md:flex-row px-4 justify-center items-center font-heading text-dark-cream">
+    <div class="flex flex-col md:flex-row px-4 justify-center items-center type-b1 leading-none text-dark-cream">
         <HotelDatePicker @checkInChanged="onCheckInChange"
                          @checkOutChanged="onCheckOutChange"
                          :i18n='localized'

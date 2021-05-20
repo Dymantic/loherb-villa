@@ -1,13 +1,33 @@
 <?php
 
 return [
-    'title' => '日光綠築的房間',
+    'title'       => '日光綠築的房間',
     'description' => '日光綠築的房間適合兩人輕旅行也適合全家人攜伴同行. 在日光綠築每個房間都有自己獨特的主題裝飾以及美不勝收的風景.',
+
+    'types'          => [
+        'economy-double'  => '精緻雙人',
+        'luxury-double'   => '豪華雙人',
+        'duplex-double'   => '閣樓雙人',
+        'island-quad'     => '小島四人',
+        'double'          => 'Double',
+        'premium-double'  => '尊爵雙人',
+        'economy-quad'    => '精緻四人',
+        'luxury-quad'     => '豪華四人',
+        'stargazing-quad' => '觀星四人',
+        'garden-double'   => '花園雙人',
+        'casual-double'   => '庭園雙人',
+    ],
+    'buildings'      => [
+        'flower' => 'F館',
+        'tree'   => 'T館',
+        'aqua'   => 'A館',
+    ],
+    'starting-price' => "NT$:price 起",
 
     'index' => [
         'heading'    => '貼心打造專屬你的回憶與旅宿空間',
         'subheading' => '每間都有獨特花卉主題，搭配家庭劇院投影，讓您留下難忘回憶。',
-        'buttons' => [
+        'buttons'    => [
             'show' => '探索房型',
             'book' => '預約旅程'
         ],
@@ -15,43 +35,44 @@ return [
             'economy' => '精緻雙人',
             'luxury'  => '豪華雙人',
             'vip'     => '尊爵雙人',
-            'duplex'     => '閣樓雙人',
+            'duplex'  => '閣樓雙人',
             'villa'   => '小島四人'
         ]
     ],
     'show'  => [
         'info_heading'      => '房間設施',
-        'times' => [
-            'check_in' => ['label' => '入住時間', 'value' => '15:00 ~ 20:00'],
+        'times'             => [
+            'check_in'  => ['label' => '入住時間', 'value' => '15:00 ~ 20:00'],
             'check_out' => ['label' => '退房時間', 'value' => '08:00 ~ 11:00'],
             'breakfast' => ['label' => '早餐時間', 'value' => '08:00 ~ 10:00'],
-            'tea' => ['label' => '午茶時間', 'value' => '12:00 ~ 17:00']
+            'tea'       => ['label' => '午茶時間', 'value' => '12:00 ~ 17:00']
         ],
         'check_times'       => [
-            'in' => '入住時間 15:00 ~ 20:00',
+            'in'  => '入住時間 15:00 ~ 20:00',
             'out' => '退房時間 08:00 ~ 11:00',
         ],
-        'breakfast_time' => '早餐時間 08:00 ~ 10:00',
-        'tea_time' => '午茶時間 14:00 ~ 17:00',
-        'price_heading'    => '價格',
-        'price_disclaimer' => '均以台幣計價',
-        'price_times'      => [
+        'breakfast_time'    => '早餐時間 08:00 ~ 10:00',
+        'tea_time'          => '午茶時間 14:00 ~ 17:00',
+        'price_heading'     => '價格',
+        'price_disclaimer'  => '均以台幣計價',
+        'price_times'       => [
             'weekdays'         => '平日',
             'weekends'         => '暑期',
             'holidays'         => '假日',
+            'vacation'         => '假日',
             'chinese_new_year' => '過年',
             'add_person'       => '增加１人入住'
         ],
-        'pricing' => [
-            'line_one' => ['label' => '加１人*', 'value' => '$1,000'],
-            'line_two' => ['label' => '加１床', 'value' => '$500'],
-            'line_three' => ['label' => '嬰兒床', 'value' => '$300'],
-            'line_four' => ['label' => '棉被', 'value' => '$100'],
-            'condition' => '*2歲以上需加人/含床及早餐下午茶',
-            'condition_two' => '暑期指7月8月平日期間',
+        'pricing'           => [
+            'line_one'        => ['label' => '加１人*', 'value' => '$1,000'],
+            'line_two'        => ['label' => '加１床', 'value' => '$500'],
+            'line_three'      => ['label' => '嬰兒床', 'value' => '$300'],
+            'line_four'       => ['label' => '棉被', 'value' => '$100'],
+            'condition'       => '*2歲以上需加人/含床及早餐下午茶',
+            'condition_two'   => '暑期指7月8月平日期間',
             'condition_three' => '假日包含週末星期六'
         ],
-        'warnings' => [
+        'warnings'          => [
             '超過20:00入住務必事先聯繫',
             '室內禁菸 & 非法藥品 & 寵物入內',
             '22:00後請降低音量',

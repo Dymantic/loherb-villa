@@ -24,21 +24,14 @@
     @if(app()->getLocale() === 'en')
         <link rel="stylesheet" href="https://use.typekit.net/mza6wie.css">
     @else
-        <script>
-            (function(d) {
-                var config = {
-                        kitId: `bla2lwu`,
-                        scriptTimeout: 3000,
-                        async: true
-                    },
-                    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-            })(document);
-        </script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;800&family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
     @endif
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="preload" href="https://villa.loherb.com.tw/fonts/transat_bold-webfont.woff" as="font">
     @yield('head')
     <meta name="format-detection" content="telephone=no">
+    @stack('headspace')
 </head>
 
 <body class="type-b1 leading-normal {{ $bodyClass ?? '' }}">
@@ -50,12 +43,16 @@
     @include('front.partials.footer')
     @include('front.partials.navbar')
 </div>
+@production
 <div class="fb-customerchat"
      page_id="{{ config('facebook.page_id') }}" theme_color="#084137">
 </div>
+@endproduction
 @yield('bodyscripts')
 <script src="{{ mix("js/app.js") }}"></script>
+@production
 @include('front.partials.facebook-sdk')
+@endproduction
 <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', '{{ config('services.google.analytics') }}', 'auto'); ga('send', 'pageview')

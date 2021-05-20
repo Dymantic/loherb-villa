@@ -75,7 +75,7 @@
             <div v-if="successful"
                  class="w-80 max-w-full">
                 <div class="py-3 bg-green-main">
-                    <p class="text-center font-heading text-white">{{ trans.modal.ok.heading }}</p>
+                    <p class="text-center type-h1 text-white">{{ trans.modal.ok.heading }}</p>
                 </div>
                 <p class="p-4 text-center">{{ trans.modal.ok.content }}</p>
                 <button @click="clearModal"
@@ -85,7 +85,7 @@
             <div v-else
                  class="w-80 max-w-full">
                 <div class="py-3 bg-warning">
-                    <p class="text-center font-heading text-white">{{ trans.modal.fail.heading }}</p>
+                    <p class="text-center type-h1 text-white">{{ trans.modal.fail.heading }}</p>
                 </div>
                 <p class="p-4 text-center">{{ trans.modal.fail.content }}</p>
                 <button @click="clearModal"

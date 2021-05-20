@@ -1,0 +1,69 @@
+{
+    "slug": "rose",
+    "name": {
+        "en": "Rose Room",
+        "zh": "天使薔薇"
+    },
+    "building": "flower",
+    "type": 1,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 23,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
+    "view": {
+        "en": "Garden View",
+        "zh": "花園景"
+    },
+    "heading": {
+        "en": "Love is in the air",
+        "zh": "浪漫情懷粉色空間"
+    },
+    "intro": {
+        "en": "Perfect for couples looking for that romantic getaway.",
+        "zh": "用玫瑰妝點，為你我留下片刻永恆的浪漫時刻。"
+    },
+    "description": {
+        "en": "The Rose Room features light delicate decor to ignite a feeling of romance and whimsy. This comfortable room has its own balcony, hot tub, home movie theater and a king size bed facing magnificent views.",
+        "zh": "天使薔薇精緻雙人房以純白粉色妝點，形塑出浪漫唯美氛圍，尤其是超大雙人床配上玫瑰花牆背板，成為戀人們最難忘的回憶。"
+    },
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
+    "images": [
+            {
+                "full": "\/images\/room-galleries\/rose\/reg\/rose_gallery_1.jpg",
+                "small": "\/images\/room-galleries\/rose\/mobile\/rose_gallery_1.jpg",
+                "wide": "\/images\/room-galleries\/rose\/wide\/rose_gallery_1.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/rose\/reg\/rose_gallery_2.jpg",
+                "small": "\/images\/room-galleries\/rose\/mobile\/rose_gallery_2.jpg",
+                "wide": "\/images\/room-galleries\/rose\/wide\/rose_gallery_2.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/rose\/reg\/rose_gallery_3.jpg",
+                "small": "\/images\/room-galleries\/rose\/mobile\/rose_gallery_3.jpg",
+                "wide": "\/images\/room-galleries\/rose\/wide\/rose_gallery_3.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/rose\/reg\/rose_gallery_4.jpg",
+                "small": "\/images\/room-galleries\/rose\/mobile\/rose_gallery_4.jpg",
+                "wide": "\/images\/room-galleries\/rose\/wide\/rose_gallery_4.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/rose\/reg\/rose_gallery_5.jpg",
+                "small": "\/images\/room-galleries\/rose\/mobile\/rose_gallery_5.jpg",
+                "wide": "\/images\/room-galleries\/rose\/wide\/rose_gallery_5.jpg"
+            }
+    ],
+    "banner_image": "/images/room-banners/rose.jpg"
+}

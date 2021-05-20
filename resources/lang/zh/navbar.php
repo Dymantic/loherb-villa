@@ -25,7 +25,11 @@ return [
         'frangipani' => '雞蛋花',
         'island' => '水芙蓉',
 
-    ]
+    ],
+
+    'see_rooms'      => '探索房間',
+    'see_all_rooms'  => '所有房型',
+    'buildings_page' => '日光館別',
 
 
 ];

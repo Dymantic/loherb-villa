@@ -1,35 +1,35 @@
 {
-    "private": true,
-    "scripts": {
-        "development": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "production": "mix --production"
-    },
-    "devDependencies": {
-        "axios": "^0.18",
-        "cross-env": "^5.1",
-        "less": "^3.8.1",
-        "less-loader": "^8.1.0",
-        "lodash": "^4.17.5",
-        "vue": "^2.6.12"
-    },
-    "dependencies": {
-        "@dymantic/modal": "^0.1.0",
-        "@dymantic/vue-forms": "^1.1.0",
-        "autoprefixer": "^10.2.5",
-        "flickity": "^2.1.2",
-        "flickity-imagesloaded": "^2.0.0",
-        "imagemin-pngquant": "5.0.1",
-        "jump.js": "^1.0.2",
-        "laravel-mix": "^6.0.0-beta.17",
-        "lazysizes": "^5.2.0",
-        "lodash.throttle": "^4.1.1",
-        "postcss": "^8.2.10",
-        "tailwindcss": "^2.1.1",
-        "vue-hotel-datepicker": "^2.2.10",
-        "vue-loader": "^15.9.5",
-        "vue-template-compiler": "^2.6.12"
-    }
+        "private": true,
+        "scripts": {
+                "development": "TAILWIND_MODE=build mix",
+                "watch": "mix watch",
+                "watch-poll": "mix watch -- --watch-options-poll=1000",
+                "hot": "mix watch --hot",
+                "production": "mix --production"
+        },
+        "devDependencies": {
+                "axios": "^0.18",
+                "cross-env": "^5.1",
+                "less": "^3.8.1",
+                "less-loader": "^8.1.0",
+                "lodash": "^4.17.5",
+                "vue": "^2.6.12"
+        },
+        "dependencies": {
+                "@dymantic/modal": "^0.1.0",
+                "@dymantic/vue-forms": "^1.1.0",
+                "autoprefixer": "^10.2.5",
+                "flickity": "^2.1.2",
+                "flickity-imagesloaded": "^2.0.0",
+                "imagemin-pngquant": "5.0.1",
+                "jump.js": "^1.0.2",
+                "laravel-mix": "^6.0.0-beta.17",
+                "lazysizes": "^5.2.0",
+                "lodash.throttle": "^4.1.1",
+                "postcss": "^8.2.10",
+                "tailwindcss": "^2.1.1",
+                "vue-hotel-datepicker": "^2.2.10",
+                "vue-loader": "^15.9.5",
+                "vue-template-compiler": "^2.6.12"
+        }
 }

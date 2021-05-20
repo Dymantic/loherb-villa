@@ -1,57 +1,72 @@
 <?php
 
 return [
-    'title' => 'Rooms at Villa Loherb',
+    'title'       => 'Rooms at Villa Loherb',
     'description' => 'A selection of quality, luxurious double and duplex rooms suited to couples and families. Each room with their own distinct decor and magnificent view.',
+
+    'types'          => [
+        'economy-double'  => 'Economy Double',
+        'luxury-double'   => 'Luxury Double',
+        'duplex-double'   => 'Duplex Double',
+        'island-quad'     => 'Island Quad',
+        'double'          => 'Double',
+        'premium-double'  => 'Premium Double',
+        'economy-quad'    => 'Economy Quad',
+        'luxury-quad'     => 'Luxury Quad',
+        'stargazing-quad' => 'Stargazing Quad',
+        'garden-double'   => 'Garden Double',
+        'casual-double'   => 'Casual Double',
+    ],
+    'buildings'      => [
+        'flower' => 'Flower Villa',
+        'tree'   => 'Tree Villa',
+        'aqua'   => 'Aqua Villa',
+    ],
+    'starting-price' => "From NT$:price",
 
     'index' => [
         'heading'    => 'Something for Everyone',
         'subheading' => 'Each room has been carefully decorated and furnished to give a unique experience that will invoke feelings of splendour and satisfaction.',
-        'buttons' => [
+        'buttons'    => [
             'show' => 'View Room',
             'book' => 'Book now'
         ],
-        'types'      => [
-            'economy' => 'Economy Double',
-            'luxury'  => 'Luxury Double',
-            'vip'     => 'Premium Rooms',
-            'duplex'     => 'Duplex Rooms',
-            'villa'   => 'Villa'
-        ]
+
     ],
     'show'  => [
         'info_heading'      => 'Room Information',
-        'times' => [
-            'check_in' => ['label' => 'Check In', 'value' => '15:00 ~ 20:00'],
+        'times'             => [
+            'check_in'  => ['label' => 'Check In', 'value' => '15:00 ~ 20:00'],
             'check_out' => ['label' => 'Check Out', 'value' => '08:00 ~ 11:00'],
             'breakfast' => ['label' => 'Breakfast', 'value' => '08:00 ~ 10:00'],
-            'tea' => ['label' => 'Tea time', 'value' => '12:00 ~ 17:00']
+            'tea'       => ['label' => 'Tea time', 'value' => '12:00 ~ 17:00']
         ],
         'check_times'       => [
-            'in' => 'Check In: 15:00 ~ 20:00',
+            'in'  => 'Check In: 15:00 ~ 20:00',
             'out' => 'Check Out: 08:00 ~ 11:00',
         ],
-        'breakfast_time' => 'Breakfast: 08:00 - 10:00',
-        'tea_time' => 'Teatime: 12:00 - 17:00',
-        'price_heading'    => 'Prices',
-        'price_disclaimer' => 'All prices are in New Taiwan Dollars (NTD)',
-        'price_times'      => [
+        'breakfast_time'    => 'Breakfast: 08:00 - 10:00',
+        'tea_time'          => 'Teatime: 12:00 - 17:00',
+        'price_heading'     => 'Prices',
+        'price_disclaimer'  => 'All prices are in New Taiwan Dollars (NTD)',
+        'price_times'       => [
             'weekdays'         => 'Weekdays',
             'weekends'         => 'Summer Vacation',
             'holidays'         => 'Holidays & Weekends',
+            'vacation'         => 'Summer Vacation',
             'chinese_new_year' => 'Chinese New Year',
             'add_person'       => 'Additional Person'
         ],
-        'pricing' => [
-            'line_one' => ['label' => 'Extra person*', 'value' => '$1,000'],
-            'line_two' => ['label' => 'Extra Bed', 'value' => '$500'],
-            'line_three' => ['label' => 'Crib', 'value' => '$300'],
-            'line_four' => ['label' => 'Quilts', 'value' => '$100'],
-            'condition' => '*over 2 years old/includes bed, breakfast & tea',
-            'condition_two' => '',
+        'pricing'           => [
+            'line_one'        => ['label' => 'Extra person*', 'value' => '$1,000'],
+            'line_two'        => ['label' => 'Extra Bed', 'value' => '$500'],
+            'line_three'      => ['label' => 'Crib', 'value' => '$300'],
+            'line_four'       => ['label' => 'Quilts', 'value' => '$100'],
+            'condition'       => '*over 2 years old/includes bed, breakfast & tea',
+            'condition_two'   => '',
             'condition_three' => ''
         ],
-        'warnings' => [
+        'warnings'          => [
             'Contact us in advance for check-in after 20:00',
             'No indoor smoking, no illegal drugs, no pets.',
             'Reduce noise after 22:00',

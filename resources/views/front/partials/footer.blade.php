@@ -57,7 +57,7 @@
 
         </div>
     </div>
-    <p class="px-4 text-center mt-20 font-heading text-sm text-white pb-2">
+    <p class="px-4 text-center mt-20 font-sans text-sm text-white pb-2">
         &copy;All rights reserved {{ \Illuminate\Support\Carbon::now()->year }}. Brilliantly built by <a href="https://dymanticdesign.com" target="_blank" rel="nofollow noopener" class="hover:text-gold text-white no-underline">Dymantic Design</a>
     </p>
 </footer>

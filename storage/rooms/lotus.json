@@ -1,0 +1,84 @@
+{
+    "slug": "villa",
+    "name": {
+        "en": "Lotus Villa",
+        "zh": "水芙蓉"
+    },
+    "building": "aqua",
+    "type": 7,
+    "floor": {
+        "en": "1st floor",
+        "zh": "一樓"
+    },
+    "prices": {
+        "weekdays": "6,800",
+        "summer_vacation": "7,800",
+        "holidays_weekends": "8,800",
+        "chinese_new_year": "12,000"
+    },
+    "square_feet": 43,
+    "sleeps": {
+        "en": "Sleeps 4",
+        "zh": "四人房"
+    },
+    "view": {
+        "en": "Garden View",
+        "zh": "花園景"
+    },
+    "heading": {
+        "en": "Your own piece of paradise",
+        "zh": "您專屬的小島天堂"
+    },
+    "intro": {
+        "en": "This detached cottage is a must for those looking for more space and privacy for their stay.",
+        "zh": "獨立小島空間，享受私密歡樂時刻。"
+    },
+    "description": {
+        "en": "The Villa Island is its own unique experience. Separated from the main building you will feel as though you are in your own little paradise. This room is perfect for families or large parties, including its very own sky roof, home theater system, KTV equipment and a large hot tub. This is your true private getaway solution.",
+        "zh": "位在日光綠築園區的水芙蓉小島四人房，獨立於主棟建築外，有更高的私密性。 提供KTV、家庭劇院設施， 還有雙人泡澡大浴缸，最適合家庭及朋友歡慶聚會。"
+    },
+    "services": [1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,21,22],
+    "images": [
+            {
+                "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_1.jpg",
+                "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_1.jpg",
+                "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_1.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_2.jpg",
+                "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_2.jpg",
+                "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_2.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_4.jpg",
+                "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_4.jpg",
+                "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_4.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_5.jpg",
+                "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_5.jpg",
+                "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_5.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_8.jpg",
+                "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_8.jpg",
+                "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_8.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_9.jpg",
+                "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_9.jpg",
+                "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_9.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_10.jpg",
+                "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_10.jpg",
+                "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_10.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/villa\/reg\/villa_gallery_11.jpg",
+                "small": "\/images\/room-galleries\/villa\/mobile\/villa_gallery_11.jpg",
+                "wide": "\/images\/room-galleries\/villa\/wide\/villa_gallery_11.jpg"
+            }
+    ],
+    "banner_image": "/images/room-banners/villa.jpg"
+}

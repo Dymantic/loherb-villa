@@ -22,21 +22,61 @@ import ContactForm from './components/ContactForm';
 Vue.component('booking-form', BookingForm);
 Vue.component('contact-form', ContactForm);
 
+import {Navbar} from "./Navbar";
+
+import Usher from "./Usher";
+
+
 const app = new Vue({
     el: '#app'
 });
 
-const nav_trigger = document.querySelector('#nav-trigger');
+window.addEventListener('DOMContentLoaded', () => {
+    window.usher = new Usher();
+    window.navbar = new Navbar();
+    window.navbar.init();
+
+    [...document.querySelectorAll('a')].filter(a => a.href == window.location.toString()).forEach(a => a.classList.add('active'));
+
+    function removeArrow(ev) {
+        const target = ev ? ev.target : null;
+        const arrows = [...document.querySelectorAll('.horizontal-scroll-arrow-indicator')];
+        arrows.forEach(a => a.classList.add('hidden'));
+        if(target) {
+            target.removeEventListener('scroll', removeArrow);
+        }
+    }
+
+    [...document.querySelectorAll('.horizontal-scroll-menu')]
+        .forEach(menu => {
+            const sw = menu.scrollWidth;
+            const cw = menu.clientWidth;
+            if(sw <= cw) {
+                return removeArrow();
+            }
+            menu.addEventListener('scroll', removeArrow)
+        });
+
+    const jump_targets = [...document.querySelectorAll('[data-jump]')];
+    jump_targets.forEach(target => {
+        target.addEventListener('click', ev => {
+            ev.preventDefault();
+            const destination = document.getElementById(target.getAttribute('data-jump-target'));
+            jump(destination, {offset: -100});
+        })
+    })
+    if(document.querySelector('[data-banner-jump]')) {
+        document.querySelector('[data-banner-jump]').addEventListener('click',e => {
+            e.preventDefault();
+            jump('.post-banner', {offset: -48});
+        })
+    }
+})
+
 const main_nav = document.querySelector('.main-nav');
 
-nav_trigger.addEventListener('click', () => {
-    if(main_nav.classList.contains('expose')) {
-        document.body.classList.remove('nav-open');
-        return main_nav.classList.remove('expose');
-    }
-    document.body.classList.add('nav-open');
-    main_nav.classList.add('expose')
-}, false);
+
+
 
 window.addEventListener('scroll', throttle(() => {
     if(window.scrollY > 25) {
@@ -45,9 +85,7 @@ window.addEventListener('scroll', throttle(() => {
     main_nav.classList.remove("scrolled");
 }, 150));
 
-window.addEventListener('DOMContentLoaded', () => {
-   [...document.querySelectorAll('a')].filter(a => a.href == window.location.toString()).forEach(a => a.classList.add('active'));
-});
+
 
 if(document.querySelector('[data-banner-jump]')) {
     document.querySelector('[data-banner-jump]').addEventListener('click',e => {
@@ -55,3 +93,5 @@ if(document.querySelector('[data-banner-jump]')) {
         jump('.post-banner', {offset: -48});
     })
 }
+
+

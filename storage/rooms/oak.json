@@ -1,0 +1,80 @@
+{
+    "slug": "oak",
+    "name": {
+        "en": "Oak",
+        "zh": "白橡木"
+    },
+    "building": "tree",
+    "type": 9,
+    "floor": {
+        "en": "1st floor",
+        "zh": "一樓"
+    },
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 43,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
+    "view": {
+        "en": "Garden View",
+        "zh": "花園景"
+    },
+    "heading": {
+        "en": "",
+        "zh": ""
+    },
+    "intro": {
+        "en": "This spacious room will make you feel like you’ve found a new home. Perfect for couples and families.",
+        "zh": "北歐橡木的溫潤搭配上富有設計感的傢俱，打造出現代溫潤北歐風。"
+    },
+    "description": {
+        "en": "The first impression when entering the Oak room is the immense amount of space you will have to make yourself at home and relax. Perfect for couples or a family with multiple sleeping options, everyone will feel at ease. The room and includes a desk, seating area and balcony.",
+        "zh": "客房位於1F，擁有私密迴廊陽台，配上大面落地帷幕，落羽松林光景直入眼簾，同自然共享一片天地。溫潤白橡木空間融合雙面落地窗，搭配高腳吧台懶人躺椅，形塑多端景設計質感。"
+    },
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
+    "images": [
+        {
+            "full": "/images/room-galleries/oak/reg/image_6.jpg",
+            "small": "/images/room-galleries/oak/mobile/image_6.jpg",
+            "wide": "/images/room-galleries/oak/wide/image_6.jpg"
+        },
+        {
+            "full": "/images/room-galleries/oak/reg/image_3.jpg",
+            "small": "/images/room-galleries/oak/mobile/image_3.jpg",
+            "wide": "/images/room-galleries/oak/wide/image_3.jpg"
+        },
+        {
+            "full": "/images/room-galleries/oak/reg/image_4.jpg",
+            "small": "/images/room-galleries/oak/mobile/image_4.jpg",
+            "wide": "/images/room-galleries/oak/wide/image_4.jpg"
+        },
+        {
+            "full": "/images/room-galleries/oak/reg/image_5.jpg",
+            "small": "/images/room-galleries/oak/mobile/image_5.jpg",
+            "wide": "/images/room-galleries/oak/wide/image_5.jpg"
+        },
+
+        {
+            "full": "/images/room-galleries/oak/reg/image_7.jpg",
+            "small": "/images/room-galleries/oak/mobile/image_7.jpg",
+            "wide": "/images/room-galleries/oak/wide/image_7.jpg"
+        },
+        {
+            "full": "/images/room-galleries/oak/reg/image_1.jpg",
+            "small": "/images/room-galleries/oak/mobile/image_1.jpg",
+            "wide": "/images/room-galleries/oak/wide/image_1.jpg"
+        },
+        {
+            "full": "/images/room-galleries/oak/reg/image_2.jpg",
+            "small": "/images/room-galleries/oak/mobile/image_2.jpg",
+            "wide": "/images/room-galleries/oak/wide/image_2.jpg"
+        }
+    ],
+    "banner_image": "/images/room-banners/oak.jpg"
+}

@@ -3,9 +3,12 @@
     <div class="max-w-3xl mx-auto flex mt-12">
         @foreach($weather['days'] as $day)
             <div class="flex-1 {{ $day['is_today'] ? 'text-black' : 'text-green-mid hidden md:block' }}">
-                <p class="text-center"><span class="text-5xl">{{ $day['temp'] }}</span><sup class="align-text-top">&deg;C</sup></p>
-                <p class="text-center type-b4">{{ trans('weather.' . $day['condition']) }}</p>
-                <p class="text-center mt-8 type-h1">{{ $day['day_name_short'] }}</p>
+                <div class="text-center">
+                    <span class="type-h0">{{ $day['temp'] }}</span>
+                    <sup class="font-serif text-lg">&deg;C</sup>
+                </div>
+                <p class="text-center type-b7">{{ trans('weather.' . $day['condition']) }}</p>
+                <p class="text-center type-b2 mt-2">{{ $day['day_name_short'] }}</p>
             </div>
         @endforeach
     </div>

@@ -1,0 +1,79 @@
+{
+    "slug": "sunflower",
+    "name": {
+        "en": "Sunflower Room",
+        "zh": "向日葵"
+    },
+    "building": "flower",
+    "type": 2,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 31,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
+    "view": {
+        "en": "Farmland View",
+        "zh": "田園景"
+    },
+    "heading": {
+        "en": "Feel closer to nature",
+        "zh": "日光喚醒的應許之地"
+    },
+    "intro": {
+        "en": "Whether a couple or a family you will love the warmth and comfort of this room.",
+        "zh": "感受陽光灑入房中的清晨，用日光餘溫點燃生活熱情。"
+    },
+    "description": {
+        "en": "This bright, friendly room will let you wake up feeling refreshed and relaxed. It has light yellow decor and mountain view will evaporate all your troubles. This room comes with  a separated shower and hot tub, home movie theater and king size bed facing the mountains in the near distance.",
+        "zh": "向日葵豪華雙人房以全視野落地帷幕引入溫暖陽光，搭配暖色系裝潢，讓來渡假的旅人好好充電補充能量，重新找回生活熱情。"
+    },
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
+    "images": [
+            {
+                "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_2.jpg",
+                "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_2.jpg",
+                "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_2.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_3.jpg",
+                "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_3.jpg",
+                "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_3.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_4.jpg",
+                "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_4.jpg",
+                "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_4.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_5.jpg",
+                "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_5.jpg",
+                "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_5.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_6.jpg",
+                "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_6.jpg",
+                "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_6.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_7.jpg",
+                "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_7.jpg",
+                "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_7.jpg"
+            },
+            {
+                "full": "\/images\/room-galleries\/sunflower\/reg\/sunflower_gallery_8.jpg",
+                "small": "\/images\/room-galleries\/sunflower\/mobile\/sunflower_gallery_8.jpg",
+                "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_8.jpg"
+            }
+    ],
+    "banner_image": "/images/room-banners/sunflower.jpg"
+}

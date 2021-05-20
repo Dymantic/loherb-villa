@@ -9,9 +9,13 @@
 }
 
 .home-banner {
-  background-image: url('./../../images/banner_image.jpg');
+  background-image: url('./../../images/new_home_banner.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
+
+    @media screen and (max-width: 577px) {
+        background-image: url('./../../images/new_home_mobile.jpg');
+    }
 }
 
 .testimonial-section {

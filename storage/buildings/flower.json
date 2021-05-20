@@ -1,0 +1,18 @@
+{
+    "key": "flower",
+    "name": {
+        "en": "Flower Villa",
+        "zh": "F館"
+    },
+    "description": {
+        "en": "The Flower Villa is the original building that was designed on Loherb’s principles of space and environment along with modern luxuries.",
+        "zh": "日光綠築F館是以花為主軸打造，各具特色的花卉主題，將恰到好處的繽紛與設計呈現給你。"
+    },
+    "room_counts": {
+        "en": ["3 Double Rooms", "4 Quad Rooms"],
+        "zh": ["3 雙人房", "4 四人房"]
+    },
+    "banner_large": "/images/page-banners/Building_Flower_banner.jpg",
+    "banner_small": "/images/page-banners/Building_Flower_banner_mobile.jpg",
+    "title_image": "/images/flower_building.jpg"
+}

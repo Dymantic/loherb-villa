@@ -1,0 +1,80 @@
+{
+    "slug": "hinoki",
+    "name": {
+        "en": "Hinoki",
+        "zh": "松羅檜"
+    },
+    "building": "tree",
+    "type": 2,
+    "floor": {
+        "en": "2nd floor",
+        "zh": "二樓"
+    },
+    "prices": {
+        "weekdays": "",
+        "summer_vacation": "",
+        "holidays_weekends": "",
+        "chinese_new_year": ""
+    },
+    "square_feet": 31,
+    "sleeps": {
+        "en": "Sleeps 2",
+        "zh": "雙人房"
+    },
+    "view": {
+        "en": "Garden View",
+        "zh": "花園景"
+    },
+    "heading": {
+        "en": "",
+        "zh": ""
+    },
+    "intro": {
+        "en": "This room offers exquisite excellence and refinement, ideal for couples or small families.",
+        "zh": "以水泥盆景與檜木，裝點出置身森林的原始自然氣息。"
+    },
+    "description": {
+        "en": "Hinoki is an indigenous Taiwanese tree that has a subtle sweet scent that has been used on the decor in this elegant, stately room. Perfect for couples or a small family, with a spacious patio running two sides of the room, offering excellent views of the natural surroundings.",
+        "zh": "位於2F的客房，房間擁有雙陽台。以水泥盆景搭配檜木香氛，讓人身心靈自然放鬆，品味原始自然氣息。"
+    },
+    "services": [1,2,4,5,6,8,9,10,12,13,14,15,16,17,18,19,21,22],
+    "images": [
+
+        {
+            "full": "/images/room-galleries/hinoki/reg/image_2.jpg",
+            "small": "/images/room-galleries/hinoki/mobile/image_2.jpg",
+            "wide": "/images/room-galleries/hinoki/wide/image_2.jpg"
+        },
+        {
+            "full": "/images/room-galleries/hinoki/reg/image_3.jpg",
+            "small": "/images/room-galleries/hinoki/mobile/image_3.jpg",
+            "wide": "/images/room-galleries/hinoki/wide/image_3.jpg"
+        },
+        {
+            "full": "/images/room-galleries/hinoki/reg/image_4.jpg",
+            "small": "/images/room-galleries/hinoki/mobile/image_4.jpg",
+            "wide": "/images/room-galleries/hinoki/wide/image_4.jpg"
+        },
+        {
+            "full": "/images/room-galleries/hinoki/reg/image_5.jpg",
+            "small": "/images/room-galleries/hinoki/mobile/image_5.jpg",
+            "wide": "/images/room-galleries/hinoki/wide/image_5.jpg"
+        },
+        {
+            "full": "/images/room-galleries/hinoki/reg/image_6.jpg",
+            "small": "/images/room-galleries/hinoki/mobile/image_6.jpg",
+            "wide": "/images/room-galleries/hinoki/wide/image_6.jpg"
+        },
+        {
+            "full": "/images/room-galleries/hinoki/reg/image_7.jpg",
+            "small": "/images/room-galleries/hinoki/mobile/image_7.jpg",
+            "wide": "/images/room-galleries/hinoki/wide/image_7.jpg"
+        },
+        {
+            "full": "/images/room-galleries/hinoki/reg/image_1.jpg",
+            "small": "/images/room-galleries/hinoki/mobile/image_1.jpg",
+            "wide": "/images/room-galleries/hinoki/wide/image_1.jpg"
+        }
+    ],
+    "banner_image": "/images/room-banners/hinoki.jpg"
+}
