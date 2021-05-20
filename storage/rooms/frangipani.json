@@ -7,8 +7,8 @@
     "building": "flower",
     "type": 4,
     "floor": {
-        "en": "2nd floor",
-        "zh": "二樓"
+        "en": "3rd floor",
+        "zh": "三樓"
     },
     "prices": {
         "weekdays": "2800",
