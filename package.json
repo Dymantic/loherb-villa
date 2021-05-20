@@ -24,7 +24,7 @@
                 "imagemin-pngquant": "5.0.1",
                 "jump.js": "^1.0.2",
                 "laravel-mix": "^6.0.0-beta.17",
-                "lazysizes": "^5.2.0",
+                "lazysizes": "^5.2.1",
                 "lodash.throttle": "^4.1.1",
                 "postcss": "^8.2.10",
                 "tailwindcss": "^2.1.1",
