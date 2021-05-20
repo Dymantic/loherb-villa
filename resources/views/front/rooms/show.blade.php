@@ -79,6 +79,10 @@
                 <td class="w-1/2 p-2 text-center">{{ $room['prices']['weekends'] }}</td>
             </tr>
             <tr class="text-green-main hover:bg-green-softest">
+                <td class="w-1/2 p-2 text-center">{{ trans('rooms.show.price_times.vacation') }}</td>
+                <td class="w-1/2 p-2 text-center">{{ $room['prices']['vacation'] }}</td>
+            </tr>
+            <tr class="text-green-main hover:bg-green-softest">
                 <td class="w-1/2 p-2 text-center">{{ trans('rooms.show.price_times.chinese_new_year') }}</td>
                 <td class="w-1/2 p-2 text-center">{{ $room['prices']['chinese_new_year'] }}</td>
             </tr>

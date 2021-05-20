@@ -25,6 +25,7 @@ return [
         'weekdays' => '平日',
         'weekends' => '假日',
         'chinese_new_year' => '過年',
+        'vacation' => '假日',
     ],
 
     'prices' => [
@@ -37,6 +38,7 @@ return [
         'weekdays' => '平日',
         'holidays' => '假日',
         'chinese_new_year' => '過年',
+        'vacation' => '假日',
 
         'table' => [
             'room' => 'Rooms',

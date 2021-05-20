@@ -15,6 +15,8 @@ class RoomType
     const LUXURY_QUAD = '6';
     const ISLAND_QUAD = '7';
     const STARGAZING_QUAD = '8';
+    const GARDEN_DOUBLE = '9';
+    const CASUAL_DOUBLE = '10';
 
     const LIST = [
         'economy-double'  => 1,
@@ -25,6 +27,8 @@ class RoomType
         'luxury-quad'     => 6,
         'island-quad'     => 7,
         'stargazing-quad' => 8,
+        'garden-double' => 9,
+        'casual-double' => 10,
     ];
 
     const NAMES = [
@@ -36,6 +40,8 @@ class RoomType
         6 => 'luxury-quad',
         7 => 'island-quad',
         8 => 'stargazing-quad',
+        9 => 'garden-double',
+        10 => 'casual-double',
     ];
 
     public static function of(string $slug): int
