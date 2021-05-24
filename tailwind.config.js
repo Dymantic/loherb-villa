@@ -25,6 +25,7 @@ module.exports = {
                 'green-softest': '#f4f9f7',
                 'green-mid': '#abd5c7',
                 'ivory': '#FDFDFA',
+                'trans-ivory': 'rgba(253,253,253,0)',
                 'cream-dark': '#d7c7ba',
                 'cream-light': '#fef4f2',
                 'brown-dark': '#917661',

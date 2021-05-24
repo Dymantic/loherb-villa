@@ -14,7 +14,7 @@ class Pricing
         RoomType::ECONOMY_QUAD    => 5800,
         RoomType::LUXURY_QUAD     => 5800,
         RoomType::ISLAND_QUAD     => 6800,
-        RoomType::CASUAL_DOUBLE   => 3800,
+        RoomType::CASUAL_DOUBLE   => 4200,
         RoomType::GARDEN_DOUBLE   => 5200,
 //        RoomType::STARGAZING_QUAD => 7600,
 
@@ -31,7 +31,7 @@ class Pricing
         RoomType::ECONOMY_QUAD    => 6600,
         RoomType::LUXURY_QUAD     => 7800,
         RoomType::ISLAND_QUAD     => 7800,
-        RoomType::CASUAL_DOUBLE   => 4300,
+        RoomType::CASUAL_DOUBLE   => 4600,
         RoomType::GARDEN_DOUBLE   => 5800,
 //        RoomType::STARGAZING_QUAD => 8600,
 
@@ -48,7 +48,7 @@ class Pricing
         RoomType::ECONOMY_QUAD    => 7600,
         RoomType::LUXURY_QUAD     => 8800,
         RoomType::ISLAND_QUAD     => 8800,
-        RoomType::CASUAL_DOUBLE   => 4800,
+        RoomType::CASUAL_DOUBLE   => 5200,
         RoomType::GARDEN_DOUBLE   => 6600,
 //        RoomType::STARGAZING_QUAD => 9200,
 

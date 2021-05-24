@@ -9,7 +9,7 @@
             <p class="type-b1 max-w-md my-3 hidden md:block fadeUpAfterLoad">{{ $text }}</p>
         @endif
         @if(count($roomInfo))
-            <div class="flex flex-col md:flex-row items-center fadeUpAfterLoad mt-3">
+            <div class="flex flex-col md:flex-row md:items-center fadeUpAfterLoad mt-3">
                 <div class="flex items-center">
                     @include($roomInfo['building_icon'], ['classes' => 'h-8 mr-2'])
                     <p class="type-b2">{{ $roomInfo['building'] }}</p>
@@ -17,6 +17,8 @@
 
                 <p class="mx-1 type-b2 hidden md:block">.</p>
                 <p class="type-b2">{{ $roomInfo['type'] }}</p>
+                <p class="mx-1 type-b2 hidden md:block">.</p>
+                <p class="type-b2">{{ $roomInfo['floor'] }}</p>
             </div>
 
         @endif
@@ -25,11 +27,12 @@
         <style>
             #page-photo-banner {
                 background-image: linear-gradient(to right, rgba(0, 0, 0, .6) 10%, transparent 50%, transparent), url({{ $imgLarge }});
+                background-position-x: center;
             }
 
             @media screen and (max-width: 650px) {
                 #page-photo-banner {
-                    background-image: linear-gradient(to top, rgba(0, 0, 0, .6) 10%, transparent 50%, transparent), url({{ $imgSmall ? $imgSmall : $imgLarge }})
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, .6) 10%, transparent 50%, transparent), url({{ $imgSmall ? $imgSmall : $imgLarge }});
                 }
             }
         </style>

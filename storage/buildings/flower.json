@@ -9,8 +9,8 @@
         "zh": "日光綠築F館是以花為主軸打造，各具特色的花卉主題，將恰到好處的繽紛與設計呈現給你。"
     },
     "room_counts": {
-        "en": ["3 Double Rooms", "4 Quad Rooms"],
-        "zh": ["3 雙人房", "4 四人房"]
+        "en": ["6 Double Rooms"],
+        "zh": ["6 雙人房"]
     },
     "banner_large": "/images/page-banners/Building_Flower_banner.jpg",
     "banner_small": "/images/page-banners/Building_Flower_banner_mobile.jpg",

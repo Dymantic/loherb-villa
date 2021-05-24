@@ -10,7 +10,9 @@
                 <p class="type-b2 text-brown-dark mb-3">{{ $roomAttribute('type') }}</p>
             @elseif($showBuilding)
                 <div class="flex items-center mb-3">
-                    @include($roomAttribute('building_icon'), ['classes' => 'h-5 mr-1 text-brown-dark'])
+                    <img src="{{ $roomAttribute('building_img') }}"
+                         alt="icon for {{ $roomAttribute('building') }}" class="block h-5">
+{{--                    @include($roomAttribute('building_icon'), ['classes' => 'h-5 mr-1 text-brown-dark'])--}}
                     <p class="type-b2 text-brown-dark">{{ $roomAttribute('building') }}</p>
                 </div>
             @endif

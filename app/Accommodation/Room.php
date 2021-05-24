@@ -85,6 +85,7 @@ class Room
             'type'           => $this->typeName($locale),
             'type_slug'      => $this->typeSlug(),
             'building'       => $this->buildingName($locale),
+            'building_img'   => "/images/icons/{$this->building()}_villa.svg",
             'building_icon'  => $this->buildingIcon(),
             'heading'        => $this->getTranslation('heading', $locale),
             'intro'          => $this->getTranslation('intro', $locale),
