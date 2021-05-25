@@ -12,7 +12,7 @@
         "en": ["1 Quad Room"],
         "zh": ["1 四人房"]
     },
-    "banner_large": "/images/page-banners/aqua_building.jpg",
-    "banner_small": "/images/page-banners/aqua_building_mobile.jpg",
-    "title_image": "/images/aqua_building.jpg"
+    "banner_large": "/images/page-banners/aqua_building_ext.jpg",
+    "banner_small": "/images/page-banners/aqua_building_ext_mobile.jpg",
+    "title_image": "/images/aqua_building_exterior.jpg"
 }
