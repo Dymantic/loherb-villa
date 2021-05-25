@@ -80,5 +80,8 @@
             "wide": "/images/room-galleries/maple/wide/image_8.jpg"
         }
     ],
-    "banner_image": "/images/room-banners/maple.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/maple.jpg",
+        "small": "/images/room-banners/mobile/maple.jpg"
+    }
 }

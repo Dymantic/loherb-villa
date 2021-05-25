@@ -95,5 +95,8 @@
                 "wide": "\/images\/room-galleries\/frangipani\/wide\/frangipani_gallery_12.jpg"
             }
     ],
-    "banner_image": "/images/room-banners/frangipani.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/frangipani.jpg",
+        "small": "/images/room-banners/frangipani.jpg"
+    }
 }

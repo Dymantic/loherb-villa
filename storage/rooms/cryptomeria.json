@@ -90,5 +90,8 @@
             "wide": "/images/room-galleries/cryptomera/wide/image_1.jpg"
         }
     ],
-    "banner_image": "/images/room-banners/cryptomeria.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/cryptomeria.jpg",
+        "small": "/images/room-banners/mobile/cryptomeria.jpg"
+    }
 }

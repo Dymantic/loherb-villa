@@ -76,5 +76,8 @@
             "wide": "/images/room-galleries/hinoki/wide/image_1.jpg"
         }
     ],
-    "banner_image": "/images/room-banners/hinoki.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/hinoki.jpg",
+        "small": "/images/room-banners/mobile/hinoki.jpg"
+    }
 }

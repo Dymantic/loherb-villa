@@ -70,5 +70,8 @@
                 "wide": "\/images\/room-galleries\/lily\/wide\/lily_gallery_6.jpg"
             }
     ],
-    "banner_image": "/images/room-banners/lily.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/lily.jpg",
+        "small": "/images/room-banners/lily.jpg"
+    }
 }

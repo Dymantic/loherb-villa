@@ -6,7 +6,7 @@
             @include('svgs.logos.simple')
         </a>
     </div>
-    <nav class="flex justify-end items-stretch type-a1 h-full md:h-12 overflow-y-auto nav-list bg-green-main md:bg-transparent pb-20">
+    <nav class="flex justify-end items-stretch type-a1 h-full md:h-12 overflow-y-auto nav-list bg-green-main md:bg-transparent pb-20 md:pb-0">
 
         <div class="nav-link-box flex items-center my-2 md:my-0">
             <a tabindex="2"

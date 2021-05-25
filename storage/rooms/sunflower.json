@@ -75,5 +75,8 @@
                 "wide": "\/images\/room-galleries\/sunflower\/wide\/sunflower_gallery_8.jpg"
             }
     ],
-    "banner_image": "/images/room-banners/sunflower.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/sunflower.jpg",
+        "small": "/images/room-banners/sunflower.jpg"
+    }
 }

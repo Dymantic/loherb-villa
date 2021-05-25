@@ -71,5 +71,8 @@
             "wide": "/images/room-galleries/holly/wide/image_6.jpg"
         }
     ],
-    "banner_image": "/images/room-banners/holly.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/holly.jpg",
+        "small": "/images/room-banners/mobile/holly.jpg"
+    }
 }

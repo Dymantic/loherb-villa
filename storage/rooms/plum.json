@@ -70,5 +70,8 @@
                 "wide": "\/images\/room-galleries\/plum\/wide\/plum_gallery_7.jpg"
             }
     ],
-    "banner_image": "/images/room-banners/plum.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/plum.jpg",
+        "small": "/images/room-banners/plum.jpg"
+    }
 }

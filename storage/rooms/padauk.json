@@ -85,5 +85,8 @@
             "wide": "/images/room-galleries/padouk/wide/image_9.jpg"
         }
     ],
-    "banner_image": "/images/room-banners/padouk.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/padouk.jpg",
+        "small": "/images/room-banners/mobile/paduak.jpg"
+    }
 }

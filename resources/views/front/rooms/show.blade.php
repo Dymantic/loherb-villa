@@ -15,7 +15,8 @@
 @section('content')
     <x-page-photo-banner title="{{ $room['name'] }}"
 {{--                         text="{{ $building->description() }}"--}}
-                         img-large="{{ $room['banner_image'] }}"
+                         img-large="{{ $room['banner_image_large'] }}"
+                         img-small="{{ $room['banner_image_small'] }}"
 {{--                         icon="{{ $building->icon() }}"--}}
         :room-info="$room"
     ></x-page-photo-banner>
@@ -149,5 +150,5 @@
 @endsection
 
 @section('bodyscripts')
-    @include('front.partials.room-jsonld', ['occupancy' => $room['occupancy'], 'image' => $room['banner_image']])
+    @include('front.partials.room-jsonld', ['occupancy' => $room['occupancy'], 'image' => $room['banner_image_large']])
 @endsection

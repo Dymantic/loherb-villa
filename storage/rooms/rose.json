@@ -65,5 +65,8 @@
                 "wide": "\/images\/room-galleries\/rose\/wide\/rose_gallery_5.jpg"
             }
     ],
-    "banner_image": "/images/room-banners/rose.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/rose.jpg",
+        "small": "/images/room-banners/rose.jpg"
+    }
 }

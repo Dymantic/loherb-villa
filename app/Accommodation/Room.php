@@ -104,7 +104,8 @@ class Room
             'prices'         => $this->prices(),
             'services'       => $this->services(),
             'images'         => $this->getAttribute('images', []),
-            'banner_image'   => $this->getAttribute('banner_image', ''),
+            'banner_image_large'   => $this->attributes['banner_image']['large'] ?? '',
+            'banner_image_small'   => $this->attributes['banner_image']['small'] ?? '',
         ];
     }
 

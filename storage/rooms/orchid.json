@@ -80,5 +80,8 @@
                 "wide": "\/images\/room-galleries\/orchid\/wide\/orchid_gallery_8.jpg"
             }
     ],
-    "banner_image": "/images/room-banners/orchid.jpg"
+    "banner_image": {
+        "large":  "/images/room-banners/orchid.jpg",
+        "small": "/images/room-banners/orchid.jpg"
+    }
 }
