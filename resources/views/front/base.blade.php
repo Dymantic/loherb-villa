@@ -16,11 +16,6 @@
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="theme-color" content="#084137">
 
-    @if(app()->getLocale() === 'zh')
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC&display=swap" rel="stylesheet">
-    @endif
-
     @if(app()->getLocale() === 'en')
         <link rel="stylesheet" href="https://use.typekit.net/mza6wie.css">
     @else
