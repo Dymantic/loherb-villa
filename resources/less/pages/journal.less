@@ -6,14 +6,30 @@
         grid-template-columns: 1fr;
     }
 
-    @media screen and (min-width: 577px) and (max-width: 900px) {
-        grid-template-columns: 1fr 1fr;
-    }
+    //@media screen and (min-width: 577px) and (max-width: 900px) {
+    //    grid-template-columns: 1fr 1fr;
+    //}
 }
 
 .journal-entry img {
     display: block;
-    margin: 2rem auto;
+    margin: 3rem auto;
+}
+
+.journal-entry h1 {
+    @apply type-h1;
+}
+
+.journal-entry h2 {
+@apply type-h2;
+}
+
+.journal-entry h3 {
+@apply font-bold;
+}
+
+.journal-entry h4 {
+@apply font-bold;
 }
 
 .journal-entry figcaption {
@@ -45,7 +61,7 @@
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
-    margin: 2rem auto;
+    margin: 3rem auto;
 }
 
 .aspect-16-9 iframe {

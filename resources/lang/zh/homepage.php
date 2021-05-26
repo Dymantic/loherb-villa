@@ -42,7 +42,7 @@ return [
         'link' => '日光私廚'
     ],
     'instagram' => [
-        'heading' => 'Instagram的最新消息',
+        'heading' => 'Instagram<br class="md:hidden">的最新消息',
         'link' => '追蹤我們'
     ]
 ];

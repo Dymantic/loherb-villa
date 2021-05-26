@@ -23,7 +23,7 @@ class Pricing
         Building::TREE   => 31800,
     ];
 
-    const WEEKENDS = [
+    const SUMMER_VACATION = [
         RoomType::ECONOMY_DOUBLE  => 4300,
         RoomType::LUXURY_DOUBLE   => 5200,
         RoomType::PREMIUM_DOUBLE  => 5800,
@@ -40,7 +40,7 @@ class Pricing
         Building::TREE   => 35800,
     ];
 
-    const SUMMER_VACATION = [
+    const WEEKENDS = [
         RoomType::ECONOMY_DOUBLE  => 4800,
         RoomType::LUXURY_DOUBLE   => 5800,
         RoomType::PREMIUM_DOUBLE  => 6600,
@@ -98,7 +98,7 @@ class Pricing
 
     public static function forView($locale = 'en'): array
     {
-        return collect(['weekdays', 'weekends', 'vacation', 'chinese_new_year'])
+        return collect(['weekdays', 'vacation', 'weekends', 'chinese_new_year'])
             ->map(fn($time) => [
                 'title'     => trans('accommodation.price_times.' . $time, [], $locale),
                 'rooms'     => collect(static::ROOMS)

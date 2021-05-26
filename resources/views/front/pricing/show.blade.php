@@ -20,17 +20,17 @@
                 <table class="w-full border-collapse  border-green-main my-12 type-b1" data-usher>
                     <thead>
                     <tr class="bg-green-main text-cream-light">
-                        <th class="p-2">{{ trans('accommodation.prices.table.room') }}</th>
-                        <th class="p-2">{{ trans('accommodation.prices.table.sleeps') }}</th>
-                        <th class="p-2">{{ trans('accommodation.prices.table.price') }}</th>
+                        <th class="p-2 text-left pl-4">{{ trans('accommodation.prices.table.room') }}</th>
+                        <th class="p-2 text-center">{{ trans('accommodation.prices.table.sleeps') }}</th>
+                        <th class="p-2 text-right pr-4">{{ trans('accommodation.prices.table.price') }}</th>
                     </tr>
                     </thead>
                     <tbody>
                     @foreach($time['rooms'] as $room)
                         <tr class="text-green-main hover:bg-green-softest">
-                            <td class="w-2/5 p-2 text-center">{{ $room['name'] }}</td>
-                            <td class="w-1/5 p-2 text-center">{{ $room['guests'] }}</td>
-                            <td class="w-2/5 p-2 text-center">{{ $room['price'] }}</td>
+                            <td class="w-1/3 p-2 text-left pl-4">{{ $room['name'] }}</td>
+                            <td class="w-1/3 p-2 text-center">{{ $room['guests'] }}</td>
+                            <td class="w-1/3 p-2 text-right pr-4">{{ $room['price'] }}</td>
                         </tr>
                     @endforeach
                     </tbody>
@@ -39,17 +39,17 @@
                 <table class="w-full border-collapse  border-green-main my-12 type-b1" data-usher>
                     <thead>
                     <tr class="bg-green-main text-cream-light">
-                        <th class="p-2">{{ trans('accommodation.prices.table.building') }}</th>
-                        <th class="p-2">{{ trans('accommodation.prices.table.rooms_guests') }}</th>
-                        <th class="p-2">{{ trans('accommodation.prices.table.price') }}</th>
+                        <th class="p-2 text-left pl-4">{{ trans('accommodation.prices.table.building') }}</th>
+                        <th class="p-2 text-center">{{ trans('accommodation.prices.table.rooms_guests') }}</th>
+                        <th class="p-2 text-right pr-4">{{ trans('accommodation.prices.table.price') }}</th>
                     </tr>
                     </thead>
                     <tbody>
                     @foreach($time['buildings'] as $building)
                         <tr class="text-green-main hover:bg-green-softest">
-                            <td class="w-2/5 p-2 text-center">{{ $building['name'] }}</td>
-                            <td class="w-1/5 p-2 text-center">{{ $building['rooms'] }}/{{ $building['guests'] }}</td>
-                            <td class="w-2/5 p-2 text-center">{{ $building['price'] }}</td>
+                            <td class="w-1/5 text-left p-2 pl-4">{{ $building['name'] }}</td>
+                            <td class="w-3/5 p-2 text-center">{{ $building['rooms'] }}/{{ $building['guests'] }}</td>
+                            <td class="w-1/5 p-2 text-right pr-4">{{ $building['price'] }}</td>
                         </tr>
                     @endforeach
                     </tbody>

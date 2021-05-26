@@ -57,9 +57,9 @@ return [
         'price_disclaimer'  => '均以台幣計價',
         'price_times'       => [
             'weekdays'         => '平日',
-            'weekends'         => '暑期',
+            'weekends'         => '假日',
             'holidays'         => '假日',
-            'vacation'         => '假日',
+            'vacation'         => '暑期',
             'chinese_new_year' => '過年',
             'add_person'       => '增加１人入住'
         ],

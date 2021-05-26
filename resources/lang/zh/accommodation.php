@@ -38,14 +38,14 @@ return [
         'weekdays' => '平日',
         'holidays' => '假日',
         'chinese_new_year' => '過年',
-        'vacation' => '假日',
+        'vacation' => '暑期',
 
         'table' => [
             'room' => '房型',
             'building' => '包棟',
             'sleeps' => '容納人數',
             'price' => '定價',
-            'rooms_guests' => '房數/可容納人數',
+            'rooms_guests' => '房數/容納人數',
         ]
     ],
 

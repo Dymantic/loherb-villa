@@ -4,7 +4,7 @@
     }
 
     .flickity-prev-next-button {
-        height: 100px;
+        height: 50px;
         width: 50px;
         background-size: contain;
         border-radius: 0;
@@ -25,6 +25,10 @@
             background-size: 25%;
             background-position: center;
         }
+
+        @media screen and (max-width: 52rem) {
+            top: 95%;
+        }
     }
 
     .flickity-page-dots .dot {
@@ -33,12 +37,23 @@
         }
     }
 
+
+
     .flickity-prev-next-button.next {
         background-image: url(./../images/utils/right_arrow.svg);
+        right: -65px;
+
+        @media screen and (max-width: 52rem) {
+                right: 10px;
+        }
     }
 
     .flickity-prev-next-button.previous {
         background-image: url(./../images/utils/left_arrow.svg);
+        left: -65px;
+        @media screen and (max-width: 52rem) {
+            left: 10px;
+        }
     }
 
     &.dark {
@@ -73,10 +88,12 @@
         @media screen and (min-width: 80rem) {
             .flickity-prev-next-button.next {
                 right: -150px;
+                height: 100px;
             }
 
             .flickity-prev-next-button.previous {
                 left: -150px;
+                height: 100px;
             }
         }
     }

@@ -45,7 +45,7 @@
                     <a href="{{ localUrl('/buildings') }}" class="type-a1 text-green-main hover:text-green-mid">{{ trans('navbar.buildings_page') }} &rarr;</a>
                     <div class="text-center mt-6">
                         <a href="{{ localUrl('/rooms') }}"
-                           class="inline-button btn-green-ghost">{{ trans('navbar.see_rooms') }}</a>
+                           class="inline-button btn-green-ghost">{{ trans('navbar.see_all_rooms') }}</a>
                     </div>
                 </div>
 
