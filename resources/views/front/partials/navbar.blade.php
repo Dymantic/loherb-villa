@@ -6,18 +6,18 @@
             @include('svgs.logos.simple')
         </a>
     </div>
-    <nav class="flex justify-end items-stretch type-a1 h-full md:h-12 overflow-y-auto nav-list bg-green-main md:bg-transparent pb-20 md:pb-0">
+    <nav class="flex justify-end items-stretch type-a1 h-full lg:h-12 overflow-y-auto nav-list bg-green-main lg:bg-transparent pb-20 lg:pb-0">
 
-        <div class="nav-link-box flex items-center my-2 md:my-0">
+        <div class="nav-link-box flex items-center my-2 lg:my-0">
             <a tabindex="2"
                class="flex items-center nav-link text-white"
                href="{{ localUrl('/about') }}">{{ trans('navbar.about') }}</a>
         </div>
-        <div class="flex items-start md:items-center rooms-nav focus:outline-none cursor-pointer"
+        <div class="flex items-start lg:items-center rooms-nav focus:outline-none cursor-pointer"
              tabindex="3">
             <span class="text-white rooms-panel-trigger">
                 <span class="nav-link-box"><span class="nav-link rooms-link text-white mr-0">{{ trans('navbar.rooms') }}</span></span>
-                <svg class="fill-current align-middle inline -ml-4 hidden md:inline"
+                <svg class="fill-current align-middle inline -ml-4 hidden lg:inline"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 24 24"
                      width="20"
@@ -25,7 +25,7 @@
                     <path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/>
                 </svg>
             </span>
-            <div class="md:hidden bg-cream-light w-full my-4 py-4 px-6">
+            <div class="lg:hidden bg-cream-light w-full my-4 py-4 px-6">
                 <div class="subnav-trigger flex items-center border-b border-brown-dark mb-3 pt-2 pb-3" data-opens-subnav="flower">
                     @include('svgs.buildings.flower', ['classes' => 'text-green-main h-5 mr-4'])
                     <p class="type-a1 flex-1 text-green-main uppercase">{{ trans('rooms.buildings.flower') }}</p>
@@ -51,28 +51,28 @@
 
             </div>
         </div>
-        <div class="nav-link-box bookings-link-box flex items-center my-2 md:my-0">
+        <div class="nav-link-box bookings-link-box flex items-center my-2 lg:my-0">
             <a class="flex items-center nav-link text-gold"
                tabindex="4"
                href="{{ localUrl('/book') }}">{{ trans('navbar.bookings') }}</a>
         </div>
-        <div class="nav-link-box flex items-center my-2 md:my-0">
+        <div class="nav-link-box flex items-center my-2 lg:my-0">
             <a class="flex items-center nav-link text-white"
                tabindex="5"
                href="{{ localUrl('/journal') }}">{{ trans('navbar.journal') }}</a>
         </div>
-        <div class="nav-link-box flex items-center my-2 md:my-0">
+        <div class="nav-link-box flex items-center my-2 lg:my-0">
             <a class="flex items-center nav-link text-white"
                tabindex="5"
                href="{{ localUrl('/contact') }}">{{ trans('navbar.contact') }}</a>
         </div>
-        <div class="nav-link-box flex items-center my-2 md:my-0">
+        <div class="nav-link-box flex items-center my-2 lg:my-0">
             <a class="flex items-center nav-link text-white"
                tabindex="6"
                href="{{ transUrl(Request::path()) }}">{{ trans('navbar.lang') }}</a>
         </div>
     </nav>
-    <button class="md:hidden focus:outline-none"
+    <button class="lg:hidden focus:outline-none"
          id="nav-trigger">
         <span class="text-gold flex">
             <svg xmlns="http://www.w3.org/2000/svg"
