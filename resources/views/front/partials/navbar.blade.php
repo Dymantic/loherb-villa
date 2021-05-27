@@ -25,7 +25,7 @@
                     <path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/>
                 </svg>
             </span>
-            <div class="lg:hidden bg-cream-light w-full my-4 py-4 px-6">
+            <div class="lg:hidden bg-ivory w-full my-4 py-4 px-6 pb-8">
                 <div class="subnav-trigger flex items-center border-b border-brown-dark mb-3 pt-2 pb-3" data-opens-subnav="flower">
                     @include('svgs.buildings.flower', ['classes' => 'text-green-main h-5 mr-4'])
                     <p class="type-a1 flex-1 text-green-main uppercase">{{ trans('rooms.buildings.flower') }}</p>
