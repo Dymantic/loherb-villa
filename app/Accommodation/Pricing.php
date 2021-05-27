@@ -12,7 +12,7 @@ class Pricing
         RoomType::PREMIUM_DOUBLE  => 5200,
         RoomType::DUPLEX_DOUBLE   => 4600,
         RoomType::ECONOMY_QUAD    => 5800,
-        RoomType::LUXURY_QUAD     => 5800,
+        RoomType::LUXURY_QUAD     => 6800,
         RoomType::ISLAND_QUAD     => 6800,
         RoomType::CASUAL_DOUBLE   => 4200,
         RoomType::GARDEN_DOUBLE   => 5200,
