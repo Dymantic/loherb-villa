@@ -1,5 +1,5 @@
 @foreach($buildings() as $building_name => $building)
-    <div class="nav-sub-list fixed bg-cream-light {{ $building['building_icon'] }} md:hidden h-full overflow-y-auto pb-20">
+    <div class="nav-sub-list fixed bg-cream-light {{ $building['building_icon'] }} lg:hidden h-full overflow-y-auto pb-20">
         <div class="p-6">
             <button class="subnav-close type-a1 text-green-main">&larr;</button>
         </div>
