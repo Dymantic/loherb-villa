@@ -25,7 +25,7 @@ return [
         'weekdays' => '平日',
         'weekends' => '假日',
         'chinese_new_year' => '過年',
-        'vacation' => '假日',
+        'vacation' => '暑期',
     ],
 
     'prices' => [
