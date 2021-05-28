@@ -1,6 +1,6 @@
-<div class="max-w-sm mx-auto p-4 mb-8 flex justify-between">
+<div class="max-w-md mx-auto p-4 mb-8 flex justify-between">
     @if($prev_page)
-        <a href="{{ $prev_page }}" class="text-link text-green-main hover:text-hover-green">
+        <a href="{{ $prev_page }}" class="text-link text-green-main hover:text-hover-green whitespace-nowrap">
             <span class="arrow">&larr;</span>
             {{ trans('journal.index.previous-page') }}
         </a>
@@ -12,7 +12,7 @@
     @endif
 
     @if($next_page)
-        <a href="{{ $next_page }}" class="text-link text-green-main hover:text-hover-green">
+        <a href="{{ $next_page }}" class="text-link text-green-main hover:text-hover-green whitespace-nowrap">
             {{ trans('journal.index.next-page') }}
             <span class="arrow">→</span>
         </a>
