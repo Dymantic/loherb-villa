@@ -4,7 +4,7 @@ return [
     "entire_villa" => [
         'heading' => '預約包棟',
         'text' => '包棟住宿是最享受的度假方式，可以無拘無束的擁有私密聚會空間。   ',
-        'button' => '查訊價格'
+        'button' => '查詢價格'
     ],
 
     'buildings' => [

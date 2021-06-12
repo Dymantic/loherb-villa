@@ -17,7 +17,6 @@
                          text="{{ trans('accommodation.buildings.overview.introduction') }}"
                          img-large="/images/page-banners/building_overview_banner.jpg"
                          img-small="/images/page-banners/building_overview_banner_mobile.jpg"
-                         icon="svgs.logos.simple"
     ></x-page-photo-banner>
 
     <x-horizontal-scroll-menu :jump="true" :options="$options"></x-horizontal-scroll-menu>
